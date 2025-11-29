@@ -33,11 +33,12 @@
 
 | Bileşen | Durum | Platform | Derleme |
 |---------|-------|----------|---------|
-| Server (game) | ✅ Aktif | FreeBSD 13.1+ | Makefile + clang++ |
-| Server (db) | ✅ Aktif | FreeBSD 13.1+ | Makefile + clang++ |
+| Server (game) | ✅ Aktif | FreeBSD 13.1+ / Ubuntu | Makefile + clang++ |
+| Server (db) | ✅ Aktif | FreeBSD 13.1+ / Ubuntu | Makefile + clang++ |
 | Client | ✅ Aktif | Windows | VS 2022 (.sln) |
-| CI/CD | ❌ Yok | - | - |
-| CMake | ❌ Yok | - | - |
+| CI/CD | ✅ Hazır | GitHub Actions | build.yml + deploy.yml |
+| Monitoring | ✅ Hazır | Linux | monitor.sh |
+| gr2togltf | ✅ Kod Hazır | Windows | CMake |
 
 ---
 
@@ -185,14 +186,16 @@
 
 ### CI/CD Deploy
 
-- [ ] **4.4** `.github/workflows/deploy.yml`
+- [x] **4.4** `.github/workflows/deploy.yml` ✅ 29.11.2025
   - Artifact download
   - VPS'e SCP/rsync
   - Rollback mekanizması
+  - Health check
 
-- [ ] **4.5** Monitoring ekle
-  - Server health check
+- [x] **4.5** Monitoring ekle ✅ 29.11.2025
+  - Server health check (scripts/monitor.sh)
   - Otomatik restart
+  - Discord/Slack bildirim desteği
 
 ---
 
@@ -269,10 +272,10 @@ Anka2Project-main/
 
 | Faz | Başlangıç | Bitiş | Durum |
 |-----|-----------|-------|-------|
-| Faz 1: CI/CD | 29.11.2025 | - | 🟢 Devam Ediyor |
-| Faz 2: Linux Port | 29.11.2025 | - | 🟢 Devam Ediyor |
-| Faz 3: Granny→glTF | - | - | ⏳ Beklemede |
-| Faz 4: Deploy | - | - | ⏳ Beklemede |
+| Faz 1: CI/CD | 29.11.2025 | 29.11.2025 | ✅ Tamamlandı |
+| Faz 2: Linux Port | 29.11.2025 | 29.11.2025 | ✅ Tamamlandı |
+| Faz 3: Granny→glTF | 29.11.2025 | - | 🟢 Kod Hazır |
+| Faz 4: Deploy | 29.11.2025 | 29.11.2025 | ✅ Tamamlandı |
 
 ---
 
