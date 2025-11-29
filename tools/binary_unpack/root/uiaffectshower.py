@@ -1,0 +1,950 @@
+if __USE_DYNAMIC_MODULE__:
+	import pyapi
+
+app = __import__(pyapi.GetModuleName("app"))
+chr = __import__(pyapi.GetModuleName("chr"))
+player = __import__(pyapi.GetModuleName("player"))
+net = __import__(pyapi.GetModuleName("net"))
+
+import ui
+import localeInfo
+import item
+import skill
+import uiToolTip
+import math
+import wndMgr
+import collections
+
+if app.ENABLE_MULTI_FARM_BLOCK:
+	import uiCommon
+	import constInfo
+
+	class MultiFarmImage(ui.ExpandedImageBox):
+		def __del__(self):
+			ui.ExpandedImageBox.__del__(self)
+
+		def Destroy(self):
+			self.multiFarmStatus = 0
+			self.players = []
+
+		def __init__(self):
+			ui.ExpandedImageBox.__init__(self)
+
+			self.toolTip = uiToolTip.ItemToolTip()
+			self.toolTip.Hide()
+
+			self.Destroy()
+
+		def SetMultiFarmInfo(self, multiFarmStatus):
+			self.multiFarmStatus = multiFarmStatus
+
+			self.toolTip.ClearToolTip()
+			self.toolTip.AppendTextLine("|cffF1E6C0" + localeInfo.MULTI_FARM_TITLE)
+			self.toolTip.AppendSpace(5)
+
+			if multiFarmStatus:
+				self.LoadImage("icon/affect/farm_on.png")
+				self.SetScale(0.7, 0.7)
+				self.toolTip.AppendTextLine(localeInfo.MULTI_FARM_TEXT_CAN_FARM)
+				self.toolTip.AppendSpace(5)
+				self.toolTip.AppendTextLine("|cffF1E6C0" + player.GetName())
+			else:
+				self.LoadImage("icon/affect/farm_off.png")
+				self.SetScale(0.7, 0.7)
+				self.toolTip.AppendTextLine(localeInfo.MULTI_FARM_TEXT_CANT_FARM)
+
+		def OnMouseOverIn(self):
+			self.toolTip.ShowToolTip()
+
+		def OnMouseOverOut(self):
+			self.toolTip.HideToolTip()
+
+if app.ENABLE_GROWTH_PET_SYSTEM:
+	class GrowthPetImage(ui.ExpandedImageBox):
+
+		def __init__(self):
+			ui.ExpandedImageBox.__init__(self)
+
+			self.toolTipText = None
+			self.description = None
+
+		def __del__(self):
+			ui.ExpandedImageBox.__del__(self)
+
+		def SetToolTipText(self, text, x = 0, y = -19):
+			if not self.toolTipText:
+				textLine = ui.TextLine()
+				textLine.SetParent(self)
+				textLine.SetSize(0, 0)
+				textLine.SetOutline()
+				textLine.Hide()
+				self.toolTipText = textLine
+
+			self.toolTipText.SetText(text)
+			w, h = self.toolTipText.GetTextSize()
+			if hasattr(localeInfo, 'IsARABIC') and localeInfo.IsARABIC():
+				self.toolTipText.SetPosition(w+20, y)
+			else:
+				self.toolTipText.SetPosition(max(0, x + self.GetWidth()/2 - w/2), y)
+
+		def SetDescription(self, description):
+			self.description = description
+
+		def OnMouseOverIn(self):
+			if self.toolTipText:
+				self.toolTipText.Show()
+
+		def OnMouseOverOut(self):
+			if self.toolTipText:
+				self.toolTipText.Hide()
+
+class LovePointImage(ui.ExpandedImageBox):
+
+	FILE_PATH = "d:/ymir work/ui/pattern/LovePoint/"
+	FILE_DICT = {
+		0 : FILE_PATH + "01.dds",
+		1 : FILE_PATH + "02.dds",
+		2 : FILE_PATH + "02.dds",
+		3 : FILE_PATH + "03.dds",
+		4 : FILE_PATH + "04.dds",
+		5 : FILE_PATH + "05.dds",
+	}
+
+	def __init__(self):
+		ui.ExpandedImageBox.__init__(self)
+
+		self.loverName = ""
+		self.lovePoint = 0
+
+		self.toolTip = uiToolTip.ToolTip(100)
+		self.toolTip.HideToolTip()
+
+	def __del__(self):
+		ui.ExpandedImageBox.__del__(self)
+
+	def SetLoverInfo(self, name, lovePoint):
+		self.loverName = name
+		self.lovePoint = lovePoint
+		self.__Refresh()
+
+	def OnUpdateLovePoint(self, lovePoint):
+		self.lovePoint = lovePoint
+		self.__Refresh()
+
+	def __Refresh(self):
+		self.lovePoint = max(0, self.lovePoint)
+		self.lovePoint = min(100, self.lovePoint)
+
+		if 0 == self.lovePoint:
+			loveGrade = 0
+		else:
+			loveGrade = self.lovePoint / 25 + 1
+		fileName = self.FILE_DICT.get(loveGrade, self.FILE_PATH+"00.dds")
+
+		try:
+			self.LoadImage(fileName)
+		except:
+			import dbg
+			dbg.TraceError("LovePointImage.SetLoverInfo(lovePoint=%d) - LoadError %s" % (self.lovePoint, fileName))
+
+		self.SetScale(0.7, 0.7)
+
+		self.toolTip.ClearToolTip()
+		self.toolTip.SetTitle(self.loverName)
+		self.toolTip.AppendTextLine(localeInfo.AFF_LOVE_POINT % (self.lovePoint))
+		self.toolTip.ResizeToolTip()
+
+	def OnMouseOverIn(self):
+		self.SetScale(0.8,0.8)
+		self.toolTip.ShowToolTip()
+
+	def OnMouseOverOut(self):
+		self.SetScale(0.7,0.7)
+		self.toolTip.HideToolTip()
+
+class HorseImage(ui.ExpandedImageBox):
+
+	FILE_PATH = "d:/ymir work/ui/pattern/HorseState/"
+
+	FILE_DICT = {
+		00 : FILE_PATH+"00.dds",
+		01 : FILE_PATH+"00.dds",
+		02 : FILE_PATH+"00.dds",
+		03 : FILE_PATH+"00.dds",
+		10 : FILE_PATH+"10.dds",
+		11 : FILE_PATH+"11.dds",
+		12 : FILE_PATH+"12.dds",
+		13 : FILE_PATH+"13.dds",
+		20 : FILE_PATH+"20.dds",
+		21 : FILE_PATH+"21.dds",
+		22 : FILE_PATH+"22.dds",
+		23 : FILE_PATH+"23.dds",
+		30 : FILE_PATH+"30.dds",
+		31 : FILE_PATH+"31.dds",
+		32 : FILE_PATH+"32.dds",
+		33 : FILE_PATH+"33.dds",
+	}
+
+	def __init__(self):
+		ui.ExpandedImageBox.__init__(self)
+
+		self.toolTip = uiToolTip.ToolTip(100)
+		self.toolTip.HideToolTip()
+
+	def __GetHorseGrade(self, level):
+		if 0 == level:
+			return 0
+
+		return (level-1)/10 + 1
+
+	def SetState(self, level, health, battery):
+		self.toolTip.ClearToolTip()
+
+		if level>0:
+
+			try:
+				grade = self.__GetHorseGrade(level)
+				self.__AppendText(localeInfo.LEVEL_LIST[grade])
+			except IndexError:
+				print "HorseImage.SetState(level=%d, health=%d, battery=%d) - Unknown Index" % (level, health, battery)
+				return
+
+			try:
+				healthName=localeInfo.HEALTH_LIST[health]
+				if len(healthName)>0:
+					self.__AppendText(healthName)
+			except IndexError:
+				print "HorseImage.SetState(level=%d, health=%d, battery=%d) - Unknown Index" % (level, health, battery)
+				return
+
+			if health>0:
+				if battery==0:
+					self.__AppendText(localeInfo.NEEFD_REST)
+
+			try:
+				fileName=self.FILE_DICT[health*10+battery]
+			except KeyError:
+				print "HorseImage.SetState(level=%d, health=%d, battery=%d) - KeyError" % (level, health, battery)
+
+			try:
+				self.LoadImage(fileName)
+			except:
+				print "HorseImage.SetState(level=%d, health=%d, battery=%d) - LoadError %s" % (level, health, battery, fileName)
+
+		self.SetScale(0.7, 0.7)
+
+	def __AppendText(self, text):
+		self.toolTip.AppendTextLine(text)
+		self.toolTip.ResizeToolTip()
+
+	def OnMouseOverIn(self):
+		self.SetScale(0.8,0.8)
+		self.toolTip.ShowToolTip()
+
+	def OnMouseOverOut(self):
+		self.SetScale(0.7,0.7)
+		self.toolTip.HideToolTip()
+
+class AutoPotionImage(ui.ExpandedImageBox):
+
+	FILE_PATH_HP = "d:/ymir work/ui/pattern/auto_hpgauge/"
+	FILE_PATH_SP = "d:/ymir work/ui/pattern/auto_spgauge/"
+
+	def __init__(self):
+		ui.ExpandedImageBox.__init__(self)
+
+		self.loverName = ""
+		self.lovePoint = 0
+		self.potionType = player.AUTO_POTION_TYPE_HP
+		self.filePath = ""
+
+		self.toolTip = uiToolTip.ToolTip(100)
+		self.toolTip.HideToolTip()
+
+	def __del__(self):
+		ui.ExpandedImageBox.__del__(self)
+
+	def SetPotionType(self, type):
+		self.potionType = type
+
+		if player.AUTO_POTION_TYPE_HP == type:
+			self.filePath = self.FILE_PATH_HP
+		elif player.AUTO_POTION_TYPE_SP == type:
+			self.filePath = self.FILE_PATH_SP
+
+	def OnUpdateAutoPotionImage(self):
+		self.__Refresh()
+
+	def __Refresh(self):
+		print "__Refresh"
+
+		isActivated, currentAmount, totalAmount, slotIndex = player.GetAutoPotionInfo(self.potionType)
+
+		amountPercent = (float(currentAmount) / totalAmount) * 100.0
+		grade = math.ceil(amountPercent / 20)
+
+		if 5.0 > amountPercent:
+			grade = 0
+
+		if 80.0 < amountPercent:
+			grade = 4
+			if 90.0 < amountPercent:
+				grade = 5
+
+		fmt = self.filePath + "%.2d.dds"
+		fileName = fmt % grade
+
+		print self.potionType, amountPercent, fileName
+
+		try:
+			self.LoadImage(fileName)
+		except:
+			import dbg
+			dbg.TraceError("AutoPotionImage.__Refresh(potionType=%d) - LoadError %s" % (self.potionType, fileName))
+
+		self.SetScale(0.7, 0.7)
+
+		self.toolTip.ClearToolTip()
+
+		if player.AUTO_POTION_TYPE_HP == type:
+			self.toolTip.SetTitle(localeInfo.TOOLTIP_AUTO_POTION_HP)
+		else:
+			self.toolTip.SetTitle(localeInfo.TOOLTIP_AUTO_POTION_SP)
+
+		self.toolTip.AppendTextLine(localeInfo.TOOLTIP_AUTO_POTION_REST	% (amountPercent))
+		self.toolTip.ResizeToolTip()
+
+	def OnMouseOverIn(self):
+		self.SetScale(0.8,0.8)
+		self.toolTip.ShowToolTip()
+
+	def OnMouseOverOut(self):
+		self.SetScale(0.7,0.7)
+		self.toolTip.HideToolTip()
+
+class AffectImage(ui.ExpandedImageBox):
+	def __init__(self):
+		ui.ExpandedImageBox.__init__(self)
+
+		self.toolTip = uiToolTip.ToolTip()
+		self.toolTip.HideToolTip()
+
+		self.isSkillAffect = TRUE
+		self.description = None
+		self.endTime = 0
+		self.affect = None
+		self.isClocked = TRUE
+
+	def SetAffect(self, affect):
+		self.affect = affect
+
+	def GetAffect(self):
+		return self.affect
+
+	def SetToolTipText(self, text, x = 0, y = -19):
+		self.toolTip.ClearToolTip()
+		self.toolTip.AppendSpace(-5)
+		self.toolTip.AppendDescription(text, 35)
+
+	def SetDescription(self, description):
+		self.description = description
+		self.__UpdateDescription2()
+
+	def SetDuration(self, duration):
+		self.endTime = 0
+		if duration > 0:
+			self.endTime = app.GetGlobalTimeStamp() + duration
+			leftTime = localeInfo.RTSecondToDHMS(self.endTime - app.GetGlobalTimeStamp())
+			self.toolTip.AppendTextLine("(%s : %s)" % (localeInfo.LEFT_TIME, leftTime))
+			self.toolTip.ResizeToolTip()
+
+	def UpdateAutoPotionDescription(self):
+		potionType = player.AUTO_POTION_TYPE_HP if self.affect == chr.NEW_AFFECT_AUTO_HP_RECOVERY\
+			else player.AUTO_POTION_TYPE_SP
+		isActivated, currentAmount, totalAmount, slotIndex = player.GetAutoPotionInfo(potionType)
+
+		try:
+			amountPercent = (float(currentAmount) / totalAmount) * 100.0
+		except:
+			amountPercent = 100.0
+
+		self.toolTip.childrenList[-1].SetText(self.description % amountPercent)
+
+	def SetClock(self, isClocked):
+		self.isClocked = isClocked
+		self.SetDescription(self.description)
+
+	def UpdateDescription(self):
+		if not self.isClocked:
+			return
+
+		if not self.description:
+			return
+
+		if self.endTime > 0:
+			leftTime = localeInfo.RTSecondToDHMS(self.endTime - app.GetGlobalTimeStamp())
+			self.toolTip.childrenList[-1].SetText("(%s : %s)" % (localeInfo.LEFT_TIME, leftTime))
+
+	def __UpdateDescription2(self):
+		if not self.description:
+			return
+
+		toolTip = self.description
+		self.SetToolTipText(toolTip, 0, 40)
+
+	def SetSkillAffectFlag(self, flag):
+		self.isSkillAffect = flag
+
+	def IsSkillAffect(self):
+		return self.isSkillAffect
+
+	def OnMouseOverIn(self):
+		self.SetScale(0.8,0.8)
+		self.toolTip.ShowToolTip()
+
+	def OnMouseOverOut(self):
+		self.SetScale(0.7,0.7)
+		self.toolTip.HideToolTip()
+
+class AffectShower(ui.Window):
+
+	MALL_DESC_IDX_START = 1000
+
+	if app.ENABLE_RENEWAL_AFFECT:
+		WATER_DESC_IDX_START = 1100
+		DEW_DESC_IDX_START = 1300
+		DRAGON_GOD_DESC_IDX_START = 1500
+		DEW_EX_DESC_IDX_START = 1700
+
+	if str(wndMgr.GetScreenWidth()) >= "1920":
+		IMAGE_STEP = 31
+		IMAGE_STEP_Y = 10
+	elif str(wndMgr.GetScreenWidth()) >= "1366" and str(wndMgr.GetScreenWidth()) < "1920":
+		IMAGE_STEP = 27
+		IMAGE_STEP_Y = 5
+	else:
+		IMAGE_STEP = 25
+		IMAGE_STEP_Y = 1
+
+	AFFECT_MAX_NUM = 32
+
+	INFINITE_AFFECT_DURATION = 0x1FFFFFFF
+	RENEWAL_AFFECT_ICON = "icon/affect/"
+
+	AFFECT_DATA_DICT =	{
+			chr.AFFECT_POISON : (localeInfo.SKILL_TOXICDIE, "d:/ymir work/ui/skill/common/affect/poison.sub"),
+			chr.AFFECT_SLOW : (localeInfo.SKILL_SLOW, "d:/ymir work/ui/skill/common/affect/slow.sub"),
+			chr.AFFECT_STUN : (localeInfo.SKILL_STUN, "d:/ymir work/ui/skill/common/affect/stun.sub"),
+
+			chr.AFFECT_ATT_SPEED_POTION : (localeInfo.SKILL_INC_ATKSPD, RENEWAL_AFFECT_ICON + "affect_13.png"),
+			chr.AFFECT_MOV_SPEED_POTION : (localeInfo.SKILL_INC_MOVSPD, RENEWAL_AFFECT_ICON + "affect_14.png"),
+			chr.AFFECT_FISH_MIND : (localeInfo.SKILL_FISHMIND, RENEWAL_AFFECT_ICON + "affect_6.png"),
+
+			chr.AFFECT_JEONGWI : (localeInfo.SKILL_JEONGWI, "d:/ymir work/ui/skill/warrior/jeongwi_03.sub",),
+			chr.AFFECT_GEOMGYEONG : (localeInfo.SKILL_GEOMGYEONG, "d:/ymir work/ui/skill/warrior/geomgyeong_03.sub",),
+			chr.AFFECT_CHEONGEUN : (localeInfo.SKILL_CHEONGEUN, "d:/ymir work/ui/skill/warrior/cheongeun_03.sub",),
+			chr.AFFECT_GYEONGGONG : (localeInfo.SKILL_GYEONGGONG, "d:/ymir work/ui/skill/assassin/gyeonggong_03.sub",),
+			chr.AFFECT_EUNHYEONG : (localeInfo.SKILL_EUNHYEONG, "d:/ymir work/ui/skill/assassin/eunhyeong_03.sub",),
+			chr.AFFECT_GWIGEOM : (localeInfo.SKILL_GWIGEOM, "d:/ymir work/ui/skill/sura/gwigeom_03.sub",),
+			chr.AFFECT_GONGPO : (localeInfo.SKILL_GONGPO, "d:/ymir work/ui/skill/sura/gongpo_03.sub",),
+			chr.AFFECT_JUMAGAP : (localeInfo.SKILL_JUMAGAP, "d:/ymir work/ui/skill/sura/jumagap_03.sub"),
+			chr.AFFECT_HOSIN : (localeInfo.SKILL_HOSIN, "d:/ymir work/ui/skill/shaman/hosin_03.sub",),
+			chr.AFFECT_BOHO : (localeInfo.SKILL_BOHO, "d:/ymir work/ui/skill/shaman/boho_03.sub",),
+			chr.AFFECT_KWAESOK : (localeInfo.SKILL_KWAESOK, "d:/ymir work/ui/skill/shaman/kwaesok_03.sub",),
+			chr.AFFECT_HEUKSIN : (localeInfo.SKILL_HEUKSIN, "d:/ymir work/ui/skill/sura/heuksin_03.sub",),
+			chr.AFFECT_MUYEONG : (localeInfo.SKILL_MUYEONG, "d:/ymir work/ui/skill/sura/muyeong_03.sub",),
+			chr.AFFECT_GICHEON : (localeInfo.SKILL_GICHEON, "d:/ymir work/ui/skill/shaman/gicheon_03.sub",),
+			chr.AFFECT_JEUNGRYEOK : (localeInfo.SKILL_JEUNGRYEOK, "d:/ymir work/ui/skill/shaman/jeungryeok_03.sub",),
+			chr.AFFECT_PABEOP : (localeInfo.SKILL_PABEOP, "d:/ymir work/ui/skill/sura/pabeop_03.sub",),
+			chr.AFFECT_FALLEN_CHEONGEUN : (localeInfo.SKILL_CHEONGEUN, "d:/ymir work/ui/skill/warrior/cheongeun_03.sub",),
+			28 : (localeInfo.SKILL_FIRE, "d:/ymir work/ui/skill/sura/hwayeom_03.sub",),
+			chr.AFFECT_CHINA_FIREWORK : (localeInfo.SKILL_POWERFUL_STRIKE, "d:/ymir work/ui/skill/common/affect/powerfulstrike.sub",),
+
+			chr.NEW_AFFECT_EXP_BONUS : (localeInfo.TOOLTIP_MALL_EXPBONUS_STATIC, RENEWAL_AFFECT_ICON + "affect_1.png"),
+
+			chr.NEW_AFFECT_ITEM_BONUS : (localeInfo.TOOLTIP_MALL_ITEMBONUS_STATIC, RENEWAL_AFFECT_ICON + "affect_2.png"),
+			chr.NEW_AFFECT_SAFEBOX : (localeInfo.TOOLTIP_MALL_SAFEBOX, RENEWAL_AFFECT_ICON + "affect_8.png"),
+			chr.NEW_AFFECT_AUTOLOOT : (localeInfo.TOOLTIP_MALL_AUTOLOOT, RENEWAL_AFFECT_ICON + "affect_5.png"),
+			chr.NEW_AFFECT_FISH_MIND : (localeInfo.TOOLTIP_MALL_FISH_MIND, RENEWAL_AFFECT_ICON + "affect_4.png"),
+			chr.NEW_AFFECT_MARRIAGE_FAST : (localeInfo.TOOLTIP_MALL_MARRIAGE_FAST, RENEWAL_AFFECT_ICON + "affect_9.png"),
+			chr.NEW_AFFECT_GOLD_BONUS : (localeInfo.TOOLTIP_MALL_GOLDBONUS_STATIC, RENEWAL_AFFECT_ICON + "affect_3.png"),
+
+			chr.NEW_AFFECT_NO_DEATH_PENALTY : (localeInfo.TOOLTIP_APPLY_NO_DEATH_PENALTY, RENEWAL_AFFECT_ICON + "affect_35.png"),
+			chr.NEW_AFFECT_SKILL_BOOK_BONUS : (localeInfo.TOOLTIP_APPLY_SKILL_BOOK_BONUS, RENEWAL_AFFECT_ICON + "affect_34.png"),
+			chr.NEW_AFFECT_SKILL_BOOK_NO_DELAY : (localeInfo.TOOLTIP_APPLY_SKILL_BOOK_NO_DELAY, RENEWAL_AFFECT_ICON + "affect_33.png"),
+
+			chr.NEW_AFFECT_AUTO_HP_RECOVERY : (localeInfo.TOOLTIP_AUTO_POTION_REST, RENEWAL_AFFECT_ICON + "affect_37.png"),
+			chr.NEW_AFFECT_AUTO_SP_RECOVERY : (localeInfo.TOOLTIP_AUTO_POTION_REST, RENEWAL_AFFECT_ICON + "affect_38.png"),
+
+			MALL_DESC_IDX_START+player.POINT_MALL_EXPBONUS : (localeInfo.TOOLTIP_MALL_EXPBONUS, RENEWAL_AFFECT_ICON + "affect_1.png"),
+			MALL_DESC_IDX_START+player.POINT_MALL_ITEMBONUS : (localeInfo.TOOLTIP_MALL_ITEMBONUS, RENEWAL_AFFECT_ICON + "affect_2.png"),
+			MALL_DESC_IDX_START+player.POINT_MALL_GOLDBONUS : (localeInfo.TOOLTIP_MALL_GOLDBONUS, RENEWAL_AFFECT_ICON + "affect_3.png"),
+			MALL_DESC_IDX_START+player.POINT_MAX_HP_PCT : (localeInfo.TOOLTIP_MAX_HP_PCT, RENEWAL_AFFECT_ICON + "affect_22.png"),
+			MALL_DESC_IDX_START+player.POINT_ATT_BONUS : (localeInfo.TOOLTIP_MALL_ATTBONUS_STATIC, RENEWAL_AFFECT_ICON + "affect_23.png"),
+			MALL_DESC_IDX_START+player.POINT_MALL_DEFBONUS : (localeInfo.TOOLTIP_MALL_DEFBONUS_STATIC, RENEWAL_AFFECT_ICON + "affect_25.png"),
+			MALL_DESC_IDX_START+player.POINT_MAX_SP_PCT : (localeInfo.TOOLTIP_MAX_SP_PCT, RENEWAL_AFFECT_ICON + "affect_24.png"),
+			MALL_DESC_IDX_START+player.POINT_CRITICAL_PCT : (localeInfo.TOOLTIP_APPLY_CRITICAL_PCT, RENEWAL_AFFECT_ICON + "affect_26.png"),
+			MALL_DESC_IDX_START+player.POINT_PENETRATE_PCT : (localeInfo.TOOLTIP_APPLY_PENETRATE_PCT, RENEWAL_AFFECT_ICON + "affect_27.png"),
+	}
+
+	if app.ENABLE_RENEWAL_AFFECT:
+		AFFECT_DATA_DICT[WATER_DESC_IDX_START+player.POINT_PENETRATE_PCT] = (localeInfo.TOOLTIP_APPLY_PENETRATE_PCT, RENEWAL_AFFECT_ICON + "affect_40.png")
+		AFFECT_DATA_DICT[WATER_DESC_IDX_START+player.POINT_CRITICAL_PCT] = (localeInfo.TOOLTIP_APPLY_CRITICAL_PCT, RENEWAL_AFFECT_ICON + "affect_41.png")
+		AFFECT_DATA_DICT[WATER_DESC_IDX_START+player.ATT_BONUS] = (localeInfo.TOOLTIP_ATT_GRADE, RENEWAL_AFFECT_ICON + "affect_44.png")
+		AFFECT_DATA_DICT[WATER_DESC_IDX_START+player.DEF_BONUS] = (localeInfo.TOOLTIP_DEF_GRADE, RENEWAL_AFFECT_ICON + "affect_45.png")
+		AFFECT_DATA_DICT[WATER_DESC_IDX_START+player.RESIST_MAGIC] = (localeInfo.TOOLTIP_MAGIC_DEF_GRADE, RENEWAL_AFFECT_ICON + "affect_46.png")
+		AFFECT_DATA_DICT[WATER_DESC_IDX_START+player.ATT_SPEED] = (localeInfo.TOOLTIP_ATT_SPEED, RENEWAL_AFFECT_ICON + "affect_47.png")
+
+		AFFECT_DATA_DICT[DEW_DESC_IDX_START+player.POINT_CRITICAL_PCT] = (localeInfo.TOOLTIP_APPLY_CRITICAL_PCT, RENEWAL_AFFECT_ICON + "affect_15.png")
+		AFFECT_DATA_DICT[DEW_DESC_IDX_START+player.POINT_PENETRATE_PCT] = (localeInfo.TOOLTIP_APPLY_PENETRATE_PCT, RENEWAL_AFFECT_ICON + "affect_16.png")
+		AFFECT_DATA_DICT[DEW_DESC_IDX_START+player.ATT_SPEED] = (localeInfo.TOOLTIP_ATT_SPEED, RENEWAL_AFFECT_ICON + "affect_17.png")
+		AFFECT_DATA_DICT[DEW_DESC_IDX_START+player.RESIST_MAGIC] = (localeInfo.TOOLTIP_RESIST_MAGIC, RENEWAL_AFFECT_ICON + "affect_18.png")
+		AFFECT_DATA_DICT[DEW_DESC_IDX_START+player.ATT_BONUS] = (localeInfo.TOOLTIP_ATT_GRADE, RENEWAL_AFFECT_ICON + "affect_19.png")
+		AFFECT_DATA_DICT[DEW_DESC_IDX_START+player.DEF_BONUS] = (localeInfo.TOOLTIP_DEF_GRADE, RENEWAL_AFFECT_ICON + "affect_20.png")
+
+		AFFECT_DATA_DICT[DRAGON_GOD_DESC_IDX_START+player.POINT_MAX_HP_PCT] = (localeInfo.TOOLTIP_MAX_HP_PCT, RENEWAL_AFFECT_ICON + "affect_22_p.png")
+		AFFECT_DATA_DICT[DRAGON_GOD_DESC_IDX_START+player.POINT_ATT_BONUS] = (localeInfo.TOOLTIP_MALL_ATTBONUS_STATIC, RENEWAL_AFFECT_ICON + "affect_23_p.png")
+		AFFECT_DATA_DICT[DRAGON_GOD_DESC_IDX_START+player.POINT_MALL_DEFBONUS] = (localeInfo.TOOLTIP_MALL_DEFBONUS_STATIC, RENEWAL_AFFECT_ICON + "affect_25_p.png")
+		AFFECT_DATA_DICT[DRAGON_GOD_DESC_IDX_START+player.POINT_MAX_SP_PCT] = (localeInfo.TOOLTIP_MAX_SP_PCT, RENEWAL_AFFECT_ICON + "affect_24_p.png")
+		AFFECT_DATA_DICT[DRAGON_GOD_DESC_IDX_START+player.POINT_CRITICAL_PCT] = (localeInfo.TOOLTIP_APPLY_CRITICAL_PCT, RENEWAL_AFFECT_ICON + "affect_26_p.png")
+		AFFECT_DATA_DICT[DRAGON_GOD_DESC_IDX_START+player.POINT_PENETRATE_PCT] = (localeInfo.TOOLTIP_APPLY_PENETRATE_PCT, RENEWAL_AFFECT_ICON + "affect_27_p.png")
+
+		AFFECT_DATA_DICT[DEW_EX_DESC_IDX_START+player.POINT_CRITICAL_PCT] = (localeInfo.TOOLTIP_APPLY_CRITICAL_PCT, RENEWAL_AFFECT_ICON + "affect_15_p.png")
+		AFFECT_DATA_DICT[DEW_EX_DESC_IDX_START+player.POINT_PENETRATE_PCT] = (localeInfo.TOOLTIP_APPLY_PENETRATE_PCT, RENEWAL_AFFECT_ICON + "affect_16_p.png")
+		AFFECT_DATA_DICT[DEW_EX_DESC_IDX_START+player.ATT_SPEED] = (localeInfo.TOOLTIP_ATT_SPEED, RENEWAL_AFFECT_ICON + "affect_17_p.png")
+		AFFECT_DATA_DICT[DEW_EX_DESC_IDX_START+player.RESIST_MAGIC] = (localeInfo.TOOLTIP_RESIST_MAGIC, RENEWAL_AFFECT_ICON + "affect_18_p.png")
+		AFFECT_DATA_DICT[DEW_EX_DESC_IDX_START+player.ATT_BONUS] = (localeInfo.TOOLTIP_ATT_GRADE, RENEWAL_AFFECT_ICON + "affect_19_p.png")
+		AFFECT_DATA_DICT[DEW_EX_DESC_IDX_START+player.DEF_BONUS] = (localeInfo.TOOLTIP_DEF_GRADE, RENEWAL_AFFECT_ICON + "affect_20_p.png")
+
+	if app.ENABLE_MULTI_FARM_BLOCK:
+		AFFECT_DATA_DICT[chr.NEW_AFFECT_MULTI_FARM] = (localeInfo.MULTI_FARM_PREMIUM_EFFECT, RENEWAL_AFFECT_ICON + "premium_farm.png")
+
+	if app.ENABLE_RENEWAL_PREMIUM_SYSTEM:
+		AFFECT_DATA_DICT[chr.NEW_AFFECT_PREMIUM_ACCOUNT] = (localeInfo.TOOLTIP_NEW_AFFECT_PREMIUM_ACCOUNT, RENEWAL_AFFECT_ICON + "premium.png")
+
+	if app.ENABLE_RENEWAL_OFFLINESHOP:
+		AFFECT_DATA_DICT[chr.NEW_AFFECT_DECORATION] = (localeInfo.OFFLINESHOP_AFFECT_DECORATION, RENEWAL_AFFECT_ICON + "shop_deco.png")
+
+	if app.ENABLE_AUTOMATIC_PICK_UP_SYSTEM:
+		AFFECT_DATA_DICT[chr.NEW_AFFECT_AUTO_PICK_UP] = (localeInfo.TOOLTIP_NEW_AFFECT_AUTO_PICK_UP, RENEWAL_AFFECT_ICON + "premium_pickup.png")
+
+	if app.__AUTO_HUNT__:
+		AFFECT_DATA_DICT[chr.NEW_AFFECT_AUTO_HUNT] =  (localeInfo.NEW_AFFECT_AUTO_HUNT, RENEWAL_AFFECT_ICON + "auto_hunt.tga")
+
+	def __init__(self):
+		ui.Window.__init__(self)
+
+		self.serverPlayTime = 0
+		self.clientPlayTime = 0
+
+		self.lastUpdateTime = 0
+		self.affectImageDict = {}
+		self.horseImage = None
+		self.lovePointImage = None
+
+		if app.ENABLE_MULTI_FARM_BLOCK:
+			self.multiFarmBlockDialog = None
+			self.farmStatusImage = None
+
+		if app.ENABLE_GROWTH_PET_SYSTEM:
+			self.petSkillaffectImageDict = {}
+
+		self.autoPotionImageHP = AutoPotionImage()
+		self.autoPotionImageSP = AutoPotionImage()
+		self.SetPosition(10, 10)
+		self.Show()
+
+	def ClearAllAffects(self):
+		self.horseImage = None
+		self.lovePointImage = None
+
+		if app.ENABLE_MULTI_FARM_BLOCK:
+			self.multiFarmBlockDialog = None
+			self.farmStatusImage = None
+
+		self.affectImageDict = {}
+		self.__ArrangeImageList()
+
+	def ClearAffects(self):
+		self.living_affectImageDict={}
+		for key, image in self.affectImageDict.items():
+			if not image.IsSkillAffect():
+				self.living_affectImageDict[key] = image
+		self.affectImageDict = self.living_affectImageDict
+		self.__ArrangeImageList()
+
+	def BINARY_NEW_AddAffect(self, type, pointIdx, value, duration):
+		if app.ENABLE_RENEWAL_PREMIUM_SYSTEM:
+			if type < 500 and not type == chr.NEW_AFFECT_PREMIUM_ACCOUNT:
+				return
+		else:
+			if type < 500:
+				return
+
+		if type == chr.NEW_AFFECT_MALL:
+			affect = self.MALL_DESC_IDX_START + pointIdx
+		elif app.ENABLE_RENEWAL_AFFECT and type == chr.NEW_AFFECT_EXP_BONUS_EURO_FREE:
+			affect = self.WATER_DESC_IDX_START + pointIdx
+		elif app.ENABLE_RENEWAL_AFFECT and type == chr.NEW_AFFECT_BLEND:
+			affect = self.DEW_DESC_IDX_START + pointIdx
+		elif app.ENABLE_RENEWAL_AFFECT and type == chr.NEW_AFFECT_MALL_PLUS:
+			affect = self.DRAGON_GOD_DESC_IDX_START + pointIdx
+		elif app.ENABLE_RENEWAL_AFFECT and type == chr.NEW_AFFECT_BLEND_PLUS:
+			affect = self.DEW_EX_DESC_IDX_START + pointIdx
+		else:
+			affect = type
+
+		if self.affectImageDict.has_key(affect):
+			return
+
+		if not self.AFFECT_DATA_DICT.has_key(affect):
+			return
+
+		if affect == chr.NEW_AFFECT_NO_DEATH_PENALTY or\
+		   affect == chr.NEW_AFFECT_SKILL_BOOK_BONUS or\
+		   affect == chr.NEW_AFFECT_AUTO_SP_RECOVERY or\
+		   affect == chr.NEW_AFFECT_AUTO_HP_RECOVERY or\
+		   affect == chr.NEW_AFFECT_SKILL_BOOK_NO_DELAY:
+			duration = 0
+
+		affectData = self.AFFECT_DATA_DICT[affect]
+		description = affectData[0]
+		filename = affectData[1]
+
+		if pointIdx == player.POINT_MALL_ITEMBONUS or\
+		   pointIdx == player.POINT_MALL_GOLDBONUS:
+			value = 1 + float(value) / 100.0
+
+		trashValue = 123
+		if trashValue == 1:
+			try:
+				image = None
+
+				if affect == chr.NEW_AFFECT_AUTO_SP_RECOVERY:
+					image.SetPotionType(player.AUTO_POTION_TYPE_SP)
+					image = self.autoPotionImageSP
+				else:
+					image.SetPotionType(player.AUTO_POTION_TYPE_HP)
+					image = self.autoPotionImageHP
+
+				image.SetParent(self)
+				image.Show()
+				image.OnUpdateAutoPotionImage()
+
+				self.affectImageDict[affect] = image
+				self.__ArrangeImageList()
+
+			except Exception, e:
+				print "except Aff auto potion affect ", e
+				pass
+
+		else:
+			if affect != chr.NEW_AFFECT_AUTO_SP_RECOVERY and affect != chr.NEW_AFFECT_AUTO_HP_RECOVERY:
+				# description bir string veya fonksiyon olabilir
+				if isinstance(description, str) or isinstance(description, unicode):
+					# Eðer description bir string ise, format string olarak kullan
+					try:
+						# Format placeholder kontrolü (%d, %s, %f, %%, vb.)
+						if '%' in description:
+							# Placeholder sayýsýný kontrol et
+							placeholder_count = description.count('%') - description.count('%%')
+							if placeholder_count > 0:
+								description = description % float(value)
+							else:
+								# Placeholder yoksa, value'yu ekle
+								description = description + " " + str(float(value))
+						else:
+							# Format placeholder yoksa, value'yu ekle
+							description = description + " " + str(float(value))
+					except (TypeError, ValueError):
+						# Format hatasý olursa, sadece string'i kullan
+						description = str(description)
+				else:
+					# Eðer description bir fonksiyon ise çaðýr
+					description = description(float(value))
+
+			try:
+				print "Add affect %s" % affect
+				image = AffectImage()
+				image.SetParent(self)
+				image.LoadImage(filename)
+				image.SetDescription(description)
+				image.SetDuration(duration)
+				image.SetAffect(affect)
+				if affect == chr.NEW_AFFECT_EXP_BONUS_EURO_FREE or affect == chr.NEW_AFFECT_EXP_BONUS_EURO_FREE_UNDER_15 or\
+					self.INFINITE_AFFECT_DURATION < duration:
+					image.SetClock(FALSE)
+					image.UpdateDescription()
+				elif affect == chr.NEW_AFFECT_AUTO_SP_RECOVERY or affect == chr.NEW_AFFECT_AUTO_HP_RECOVERY:
+					image.UpdateAutoPotionDescription()
+				else:
+					image.UpdateDescription()
+
+				image.SetScale(0.7, 0.7)
+				image.SetSkillAffectFlag(FALSE)
+				image.Show()
+				self.affectImageDict[affect] = image
+				self.__ArrangeImageList()
+			except Exception, e:
+				print "except Aff affect ", e
+				pass
+
+	def BINARY_NEW_RemoveAffect(self, type, pointIdx):
+		if type == chr.NEW_AFFECT_MALL:
+			affect = self.MALL_DESC_IDX_START + pointIdx
+		elif app.ENABLE_RENEWAL_AFFECT and type == chr.NEW_AFFECT_EXP_BONUS_EURO_FREE:
+			affect = self.WATER_DESC_IDX_START + pointIdx
+		elif app.ENABLE_RENEWAL_AFFECT and type == chr.NEW_AFFECT_BLEND:
+			affect = self.DEW_DESC_IDX_START + pointIdx
+		elif app.ENABLE_RENEWAL_AFFECT and type == chr.NEW_AFFECT_MALL_PLUS:
+			affect = self.DRAGON_GOD_DESC_IDX_START + pointIdx
+		elif app.ENABLE_RENEWAL_AFFECT and type == chr.NEW_AFFECT_BLEND_PLUS:
+			affect = self.DEW_EX_DESC_IDX_START + pointIdx
+		else:
+			affect = type
+
+		self.__RemoveAffect(affect)
+		self.__ArrangeImageList()
+
+	def SetAffect(self, affect):
+		self.__AppendAffect(affect)
+		self.__ArrangeImageList()
+
+	def ResetAffect(self, affect):
+		self.__RemoveAffect(affect)
+		self.__ArrangeImageList()
+
+	def SetLoverInfo(self, name, lovePoint):
+		image = LovePointImage()
+		image.SetParent(self)
+		image.SetLoverInfo(name, lovePoint)
+		self.lovePointImage = image
+		self.__ArrangeImageList()
+
+	def ShowLoverState(self):
+		if self.lovePointImage:
+			self.lovePointImage.Show()
+			self.__ArrangeImageList()
+
+	def HideLoverState(self):
+		if self.lovePointImage:
+			self.lovePointImage.Hide()
+			self.__ArrangeImageList()
+
+	def ClearLoverState(self):
+		self.lovePointImage = None
+		self.__ArrangeImageList()
+
+	def OnUpdateLovePoint(self, lovePoint):
+		if self.lovePointImage:
+			self.lovePointImage.OnUpdateLovePoint(lovePoint)
+
+	def SetHorseState(self, level, health, battery):
+		if level==0:
+			self.horseImage=None
+		else:
+			image = HorseImage()
+			image.SetParent(self)
+			image.SetState(level, health, battery)
+			image.Show()
+
+			self.horseImage=image
+			self.__ArrangeImageList()
+
+	def SetPlayTime(self, playTime):
+		self.serverPlayTime = playTime
+		self.clientPlayTime = app.GetTime()
+
+	def __AppendAffect(self, affect):
+		if self.affectImageDict.has_key(affect):
+			return
+
+		try:
+			affectData = self.AFFECT_DATA_DICT[affect]
+		except KeyError:
+			return
+
+		name = affectData[0]
+		filename = affectData[1]
+
+		skillIndex = player.AffectIndexToSkillIndex(affect)
+		if 0 != skillIndex:
+			name = skill.GetSkillName(skillIndex)
+
+		image = AffectImage()
+		image.SetParent(self)
+		image.SetSkillAffectFlag(TRUE)
+
+		try:
+			image.LoadImage(filename)
+		except:
+			pass
+
+		image.SetToolTipText(name, 0, 40)
+		image.SetScale(0.7, 0.7)
+		image.Show()
+		self.affectImageDict[affect] = image
+
+	def __RemoveAffect(self, affect):
+		if not self.affectImageDict.has_key(affect):
+			return
+
+		del self.affectImageDict[affect]
+
+		self.__ArrangeImageList()
+
+	def __ArrangeImageList(self):
+		self.SetSize(15 * self.IMAGE_STEP, self.IMAGE_STEP_Y + 26 * 4)
+
+		xPos = 0
+		i = 0
+
+		if str(wndMgr.GetScreenWidth()) >= "1920":
+			numberOnRow = 14
+		elif str(wndMgr.GetScreenWidth()) >= "1366" and str(wndMgr.GetScreenWidth()) < "1920":
+			numberOnRow = 10
+		else:
+			numberOnRow = 7
+
+		if self.lovePointImage:
+			if self.lovePointImage.IsShow():
+				self.lovePointImage.SetPosition(xPos, 0)
+				xPos += self.IMAGE_STEP
+				i = i + 1
+
+		if app.ENABLE_MULTI_FARM_BLOCK:
+			if self.farmStatusImage:
+				if self.farmStatusImage.IsShow():
+					self.farmStatusImage.SetPosition(xPos, 0)
+					xPos += self.IMAGE_STEP
+					i = i + 1
+
+		if app.ENABLE_GROWTH_PET_SYSTEM:
+			tempDict = {}
+			for value in self.petSkillaffectImageDict.values():
+				tempDict[value[0]] = value[1]
+
+			for value in range(1, 4):
+				if tempDict.has_key(value):
+					tempDict[value].SetPosition(xPos, 0)
+					xPos += self.IMAGE_STEP
+
+		if self.horseImage:
+			self.horseImage.SetPosition(xPos, 0)
+			xPos += self.IMAGE_STEP
+			i = i + 1
+
+		newDict = collections.OrderedDict(sorted(self.affectImageDict.items()))
+
+		for image in newDict.values():
+			if i >= numberOnRow and i < numberOnRow * 2:
+				image.SetPosition(xPos - (numberOnRow * self.IMAGE_STEP), self.IMAGE_STEP_Y + 26)
+				xPos += self.IMAGE_STEP
+				i = i + 1
+			elif i >= numberOnRow * 2 and i < numberOnRow * 3:
+				image.SetPosition(xPos - ((numberOnRow * 2) * self.IMAGE_STEP), self.IMAGE_STEP_Y + 52)
+				xPos += self.IMAGE_STEP
+				i = i + 1
+			elif i >= numberOnRow * 3 and i < numberOnRow * 4:
+				image.SetPosition(xPos - ((numberOnRow * 3) * self.IMAGE_STEP), self.IMAGE_STEP_Y + 52 + 26)
+				xPos += self.IMAGE_STEP
+				i = i + 1
+			elif i >= numberOnRow * 4:
+				image.SetPosition(xPos - ((numberOnRow * 4) * self.IMAGE_STEP), self.IMAGE_STEP_Y + 52 + 26 + 26)
+				xPos += self.IMAGE_STEP
+				i = i + 1
+			else:
+				image.SetPosition(xPos, 0)
+				xPos += self.IMAGE_STEP
+				i = i + 1
+
+	if app.ENABLE_MULTI_FARM_BLOCK:
+		def __OnClickMultiFarm(self, emptyArg):
+			multiFarmBlockDialog = uiCommon.QuestionDialog("thin")
+
+			if self.farmStatusImage.multiFarmStatus:
+				multiFarmBlockDialog.SetText(localeInfo.MULTI_FARM_DEACTIVE_TEXT)
+			else:
+				multiFarmBlockDialog.SetText(localeInfo.MULTI_FARM_ACTIVE_TEXT)
+
+			multiFarmBlockDialog.SetAcceptEvent(lambda arg = TRUE: self.OnCloseMultiFarm(arg))
+			multiFarmBlockDialog.SetCancelEvent(lambda arg = FALSE: self.OnCloseMultiFarm(arg))
+			multiFarmBlockDialog.Open()
+			self.multiFarmBlockDialog = multiFarmBlockDialog
+
+		def OnCloseMultiFarm(self, answer):
+			if not self.multiFarmBlockDialog:
+				return
+
+			if answer:
+				net.SendChatPacket("/multi_farm")
+
+			self.multiFarmBlockDialog.Close()
+			self.multiFarmBlockDialog = None
+
+		def SetMultiFarmPlayer(self, playerName):
+			if self.farmStatusImage:
+				self.farmStatusImage.players.append(playerName)
+
+		def SetMultiFarmInfo(self, farmStatus):
+			image = MultiFarmImage()
+			image.SetParent(self)
+			image.SetMultiFarmInfo(farmStatus)
+			image.SetEvent(ui.__mem_func__(self.__OnClickMultiFarm), "mouse_click")
+			image.Show()
+			self.farmStatusImage = image
+			self.__ArrangeImageList()
+
+	if app.ENABLE_GROWTH_PET_SYSTEM:
+		def SetPetSkillAffect(self, index, affect):
+
+			if self.__AppendPetSkillAffect(index, affect):
+				self.__ArrangeImageList()
+
+		def ClearPetSkillAffect(self):
+			self.petSkillaffectImageDict.clear()
+			self.__ArrangeImageList()
+
+		def __AppendPetSkillAffect(self, index, affect):
+
+			if self.petSkillaffectImageDict.has_key(affect):
+				return FALSE
+
+			filename = skill.GetPetSkillIconPath(affect)
+			if "" == filename:
+				return FALSE
+
+			(pet_skill_name, pet_skill_desc, pet_skill_use_type, pet_skill_cool_time) = skill.GetPetSkillInfo(affect)
+
+			image = GrowthPetImage()
+			image.SetParent(self)
+
+			try:
+				image.LoadImage(filename)
+			except:
+				print "LoadImage Except nn"
+				return FALSE
+
+			image.SetToolTipText(pet_skill_name, 0, 40)
+			image.SetDescription(pet_skill_desc)
+			image.SetScale(0.7, 0.7)
+			image.Show()
+
+			self.petSkillaffectImageDict[affect] = [index, image]
+
+			return TRUE
+
+	def OnUpdate(self):
+		try:
+			if app.GetGlobalTime() - self.lastUpdateTime > 500:
+				self.lastUpdateTime = app.GetGlobalTime()
+
+				for image in self.affectImageDict.values():
+					if image.GetAffect() == chr.NEW_AFFECT_AUTO_HP_RECOVERY or image.GetAffect() == chr.NEW_AFFECT_AUTO_SP_RECOVERY:
+						image.UpdateAutoPotionDescription()
+						continue
+
+					if not image.IsSkillAffect():
+						image.UpdateDescription()
+		except Exception, e:
+			print "AffectShower::OnUpdate error : ", e

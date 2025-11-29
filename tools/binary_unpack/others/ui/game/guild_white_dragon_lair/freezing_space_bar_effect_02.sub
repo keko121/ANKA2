@@ -1,0 +1,7 @@
+title subImage
+version 1.0
+image "spacebar_effect.dds"
+left 256
+top 0
+right 512
+bottom 256

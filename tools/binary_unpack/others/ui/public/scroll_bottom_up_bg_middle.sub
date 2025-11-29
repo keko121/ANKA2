@@ -1,0 +1,7 @@
+title subImage
+version 1.0
+image "scales_01.dds"
+left 16
+top 53
+right 32
+bottom 80

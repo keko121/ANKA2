@@ -1,0 +1,5 @@
+<ScriptFile>
+	<CreateEterPackXml Input="../binary_unpack/npc_pet:d:/ymir work/npc_pet/" ArchivePath="../../Client/pack/npc_pet" XmlPath="xml/npc_pet_create.xml">
+		<Ignore Pattern="[a-zA-z0-9]+.xml" />
+	</CreateEterPackXml>
+</ScriptFile>

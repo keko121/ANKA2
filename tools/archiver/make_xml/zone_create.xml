@@ -1,0 +1,5 @@
+<ScriptFile>
+	<CreateEterPackXml Input="../binary_unpack/zone:d:/ymir work/zone/" ArchivePath="../../Client/pack/zone" XmlPath="xml/zone_create.xml">
+		<Ignore Pattern="[a-zA-z0-9]+.xml" />
+	</CreateEterPackXml>
+</ScriptFile>

@@ -1,0 +1,7 @@
+#if you want to show all map write all or write mapname
+#important hair need item value3 in proto
+#mobvnum-mapname-race-weapon-armor-hair-acce-aura-mount
+
+20406	metin2_map_a1	1	2509	20829	351	86004	0	0
+20406	metin2_map_b1	2	469	12079	351	86014	0	0
+20406	metin2_map_c1	4	469	12019	351	85004	49006	0

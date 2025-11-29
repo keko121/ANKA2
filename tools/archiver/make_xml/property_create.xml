@@ -1,0 +1,5 @@
+<ScriptFile>
+	<CreateEterPackXml Input="../binary_unpack/property/:property/" ArchivePath="../../Client/pack/property" XmlPath="xml/property_create.xml">
+		<Ignore Pattern="[a-zA-z0-9]+.xml" />
+	</CreateEterPackXml>
+</ScriptFile>

@@ -1,0 +1,14 @@
+# Target labels
+ tinygltf-populate
+# Source files and their labels
+D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-subbuild/CMakeFiles/tinygltf-populate
+D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-subbuild/CMakeFiles/dcae02fcbfe25b552dc417ee8d27d900/tinygltf-populate.rule
+D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-subbuild/CMakeFiles/414bf09ec7b497871bc924e42a5b556c/tinygltf-populate-complete.rule
+D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-subbuild/CMakeFiles/dffebd550f32b474b4a5297872c777ba/tinygltf-populate-build.rule
+D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-subbuild/CMakeFiles/dffebd550f32b474b4a5297872c777ba/tinygltf-populate-configure.rule
+D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-subbuild/CMakeFiles/dffebd550f32b474b4a5297872c777ba/tinygltf-populate-download.rule
+D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-subbuild/CMakeFiles/dffebd550f32b474b4a5297872c777ba/tinygltf-populate-install.rule
+D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-subbuild/CMakeFiles/dffebd550f32b474b4a5297872c777ba/tinygltf-populate-mkdir.rule
+D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-subbuild/CMakeFiles/dffebd550f32b474b4a5297872c777ba/tinygltf-populate-patch.rule
+D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-subbuild/CMakeFiles/dffebd550f32b474b4a5297872c777ba/tinygltf-populate-test.rule
+D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-subbuild/CMakeFiles/dffebd550f32b474b4a5297872c777ba/tinygltf-populate-update.rule

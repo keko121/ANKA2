@@ -1,0 +1,95 @@
+
+[BANNER_IMG = d:/ymir work/ui/game/wiki/banner.tga]
+[COLOR=0xffd700;FONT_SIZE=15;Y_PADDING=-10]Conținut:
+
+[Y_PADDING=2;FONT_SIZE=14]*1. General
+[FONT_SIZE=14]*2. Misiuni și Recompense
+
+
+[IMG=d:/ymir work/ui/game/wiki/divider_long.tga; Y=115; CENTER_ALIGN]
+
+
+[COLOR=0xffd700; Y_PADDING=15; CENTER_ALIGN; FONT_SIZE=18]1. General
+
+[Y_PADDING=10;X_PADDING = 55;FONT_SIZE=14]*Panoul pentru Biolog se află pe harta mică.
+[Y_PADDING=2;X_PADDING = 55;FONT_SIZE=14]*Obiectele necesare pentru Biolog se găsesc la magazin.
+[Y_PADDING=2;X_PADDING = 55;FONT_SIZE=14]*Pietrele prețioase necesare se găsesc la magazin.
+[IMG=d:/ymir work/ui/minimap/biolog_open_default.tga; Y=170; X=13]
+
+[COLOR=ef4f00;FONT_SIZE=16;Y_PADDING=5;X_PADDING=10]1.1 Obiecte speciale
+[Y_PADDING=10;X_PADDING = 75;FONT_SIZE=14]*Există 2 obiecte speciale ce te pot ajuta cu misiunile:
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]*Elixirul exploirării îți mărește șansa de reușită.
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]*Esența eternității elimină timpul de așteptare.
+[ITEM=71035; IS_LINK=1; Y=239; X=5]
+[ITEM=31031; IS_LINK=1; Y=239; X=35]
+
+[COLOR=ef4f00;FONT_SIZE=16;Y_PADDING=5;X_PADDING=10]1.2 Misiuni Biolog
+[Y_PADDING=10;X_PADDING = 75;FONT_SIZE=14]*Misiunile încep de la nivelul 30 până la 94. Toate misiunile oferă bonusuri
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]permanente jucătorului care completează misiunea. Nu uita să verifici
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]magazinul pentru obiectele necesare de la fiecare misiune.
+
+
+[IMG=d:/ymir work/ui/game/wiki/divider_long.tga; Y=370; CENTER_ALIGN]
+
+
+[COLOR=0xffd700; Y_PADDING=15; CENTER_ALIGN; FONT_SIZE=18]2. Misiuni și Recompense
+
+[COLOR=ef4f00;FONT_SIZE=15;Y_PADDING=5;X_PADDING=10]Misiune Biolog Lv. 30
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Obiect: 10x Dinte de ork
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Timp de așteptare: 0 Minute
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Recompensă: Viteză de mișcare +10%
+[ITEM=30006; IS_LINK=1; Y=442; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Misiune Biolog Lv. 40
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Obiect: x15 Cartea blestemelor
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Timp de așteptare: 0 Minute
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Recompensă: Viteză de atac +5%
+[ITEM=30047; IS_LINK=1; Y=507; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Misiune Biolog Lv. 50
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Obiect: x15 Suvenirul demonului
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Timp de așteptare: 5 Minute
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Recompensă: Apărare +60
+[ITEM=30015; IS_LINK=1; Y=573; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Misiune Biolog Lv. 60
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Obiect: x20 Glob de gheață
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Timp de așteptare: 10 Minute
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Recompensă: Valoarea atacului +50
+[ITEM=30050; IS_LINK=1; Y=640; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Misiune Biolog Lv. 70
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Obiect: x25 Creangă zelkova
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Timp de așteptare: 15 Minute
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Recompensă: Viteză de mișcare +10% | Rezistență la pagubă medie +10%
+[ITEM=30165; IS_LINK=1; Y=705; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Misiune Biolog Lv. 80
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Obiect: x30 Tabla lui Tugyi
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Timp de așteptare: 20 Minute
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Recompensă: Viteză de atac +6% | Valoarea atacului +10%
+[ITEM=30166; IS_LINK=1; Y=770; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Misiune Biolog Lv. 85
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Obiect: x40 Ramură roșie
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Timp de așteptare: 25 Minute
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Recompensă: 10% Damage reduction from other players
+[ITEM=30167; IS_LINK=1; Y=838; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Misiune Biolog Lv. 90
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Obiect: x50 Însemnele liderilor
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Timp de așteptare: 30 Minute
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Recompensă: +8% more damage toward other players
+[ITEM=30168; IS_LINK=1; Y=902; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Misiune Biolog Lv. 92
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Obiect: x10 Bijuterie rea voință
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Timp de așteptare: 35 Minute
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Recompensă: Select one: Max. HP +1200 | +120 Defence | +50 Attack Value
+[ITEM=30251; IS_LINK=1; Y=970; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Misiune Biolog Lv. 94
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Obiect: x20 Bijuterie înțelepciune
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Timp de așteptare: 40 Minute
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Recompensă: Select one: Max. HP +1500 | +140 Defence | +60 Attack Value
+[ITEM=30252; IS_LINK=1; Y=1035; X=10]

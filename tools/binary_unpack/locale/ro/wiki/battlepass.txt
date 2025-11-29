@@ -1,0 +1,18 @@
+
+[BANNER_IMG = d:/ymir work/ui/game/wiki/banner.tga]
+
+[Y_PADDING=10;X_PADDING = 105;FONT_SIZE=14]*Panoul pentru Battle-Pass se află sub harta mică.
+[Y_PADDING=2;X_PADDING = 105;FONT_SIZE=14]*Există 2 tipuri de Battle-Pass: Normal și Premium.
+[Y_PADDING=2;X_PADDING = 105;FONT_SIZE=14]*Fiecare misiune are recompense diferite.
+[IMG=d:/ymir work/ui/battle_pass_normal.tga; Y=50; X=13]
+
+[COLOR=ef4f00;FONT_SIZE=16;Y_PADDING=5;X_PADDING=10]1. Battle-Pass Normal
+[Y_PADDING=10;X_PADDING = 75;FONT_SIZE=14]*Pentru a activa Battle-Pass Normal, nu ai nevoie de permis.
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]*Battle-Pass Normal este activ în fiecare lună.
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]*Recompensa finală se schimbă în fiecare lună.
+
+[COLOR=ef4f00;FONT_SIZE=16;Y_PADDING=5;X_PADDING=10]2. Battle-Pass Premium
+[Y_PADDING=10;X_PADDING = 75;FONT_SIZE=14]*Pentru a activa Battle-Pass Premium, ai nevoie de un permis.
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]*Acest permis este obținut din joc sau item shop.
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]*Recompensa finală este complet diferită față de Battle-Pass Normal.
+[ITEM=93100; IS_LINK=1; Y=185; X=25]

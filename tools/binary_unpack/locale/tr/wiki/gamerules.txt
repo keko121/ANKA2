@@ -1,0 +1,115 @@
+
+[BANNER_IMG = d:/ymir work/ui/game/wiki/banner.tga]
+[CENTER_ALIGN;FONT_SIZE=30]Oyun Kurallarý
+
+
+
+[CENTER_ALIGN;FONT_SIZE=16;COLOR=58ADFF]1. Satýþ/Alýþ/Deneme
+
+[FONT_SIZE=14]1. Sanal eþyalarý gerçek para karþýlýðýnda ($, £, €, Paysafe, PayPal, Bitcoin vb.)
+[FONT_SIZE=14]    satmak, satýn almak ve/veya takas etmek yasaktýr.
+[FONT_SIZE=14]2. Ayrýca bir hesabý yang karþýlýðýnda satmak da yasaktýr.
+
+
+
+[CENTER_ALIGN;FONT_SIZE=16;COLOR=58ADFF]2. Hakaret Dili & Zehirli Davranýþ
+
+[FONT_SIZE=14]1. Hakaret içeren dil, yalan yere haber yayma, nefret, kýþkýrtýcýlýk, ýrkçýlýk 
+[FONT_SIZE=14]    veya sözlü taciz yasaktýr ve duruma göre cezalandýrýlacaktýr.
+
+
+
+[CENTER_ALIGN;FONT_SIZE=16;COLOR=58ADFF]3. Özel/Gerçek hayat bilgileri
+
+[FONT_SIZE=14]1. Ekip Üyelerinin veya oyuncularýn özel/gerçek hayat bilgilerini ifþa etmek 
+[FONT_SIZE=14]    veya karalamak kesinlikle yasaktýr.
+
+
+
+[CENTER_ALIGN;FONT_SIZE=16;COLOR=58ADFF]4. Hatalar & Sistem Atlatma
+
+[FONT_SIZE=14]1. Karþýlaþýlan bir hata derhal yetkiliye özel mesaj yazarak bildirilmelidir.
+[FONT_SIZE=14]    Oyunun akýþýný etkileyen her türlü hata kullanýmý/suistimali cezalandýrýlacaktýr.
+[FONT_SIZE=14]    Avantaj saðlamak için bir sistemi atlatmanýn her türlüsü cezalandýrýlacaktýr.
+
+
+
+[CENTER_ALIGN;FONT_SIZE=16;COLOR=58ADFF]5. Üçüncü Taraf Uygulamalar
+
+[FONT_SIZE=14]1. Üçüncü Taraf Uygulamalar (Hileler, Botlar, Yasal Olmayan Yazýlýmlar) 
+[FONT_SIZE=14]    sunucumuza ait olmayan programlar veya dosyalardýr.
+[FONT_SIZE=14]    Bu tür þeylerden yararlanmak veya kullanmak cezalandýrýlacaktýr.
+[FONT_SIZE=14]2. Makrolar, bilgisayar baþýnda aktif olarak oturan oyunculara karþý 
+[FONT_SIZE=14]    avantaj saðlamadýðýnýz sürece kullanýlabilir.
+[FONT_SIZE=14]    (Kabul edilemez bulduðumuz þekilde makro kullananlarý cezalandýrma hakkýný saklý tutarýz.)
+
+
+
+[CENTER_ALIGN;FONT_SIZE=16;COLOR=58ADFF]6. Üçüncü Taraf Reklamcýlýk
+
+[FONT_SIZE=14]1. Diðer sunucularýn reklamýnýn yapýlmasýna hiçbir þekilde izin verilmez ve cezalandýrýlýr.
+
+
+
+[CENTER_ALIGN;FONT_SIZE=16;COLOR=58ADFF]7. Hesap Güvenliði
+
+[FONT_SIZE=14]1. Herkes, kendi hesaplarý ve oyun içi eþyalarýndan sorumludur.
+[FONT_SIZE=14]    Bu nedenle, bir kullanýcý eþyalarýný veya hesabýný ortaðýna/arkadaþýna
+[FONT_SIZE=14]    güvenerek kaybederse, ekip üyeleri bununla ilgili hiçbir þekilde yardým
+[FONT_SIZE=14]    garantisi veremez.
+
+
+
+[CENTER_ALIGN;FONT_SIZE=16;COLOR=58ADFF]8. Kullanýcý Þikayeti
+
+[FONT_SIZE=14]1. Bir kullanýcýyý ekran görüntüsü veya video ile þikayet etmek istiyorsanýz,
+[FONT_SIZE=14]    sunucu adý (Servername) ve sunucu saati (Servertime) videonun veya
+[FONT_SIZE=14]    görüntünün tamamýnda görünür olmalýdýr.
+[FONT_SIZE=14]    Aksi takdirde bunu bir delil olarak kullanamayýz.
+
+
+
+[CENTER_ALIGN;FONT_SIZE=16;COLOR=58ADFF]9. Yetkili Talimatlarý
+
+[FONT_SIZE=14]1. Yetkililerin verdiði talimatlar mutlaka yerine getirilmelidir. Yetkili
+[FONT_SIZE=14]    talimatlarýna uymamak, size ceza puaný veya ceza getirebilir.
+[FONT_SIZE=14]    Ayrýca, her yetkili ve oyuncuya saygýyla davranýlmalýdýr.
+
+
+
+[CENTER_ALIGN;FONT_SIZE=16;COLOR=58ADFF]10. Tanýtým Ortaklarý
+
+[FONT_SIZE=14]1. Tanýtým ortaklarýnýn canlý yayýnlarýný kasýtlý olarak olumsuz etkilemek
+[FONT_SIZE=14]    ve yayýncýnýn sunucuyu aktif þekilde tanýtmalarýný engellemek yasaktýr.
+[FONT_SIZE=14]2. Bu kural, tanýtým ortaklarýnýn sýnýrsýz özgürlüðe veya öldürülmemeye
+[FONT_SIZE=14]    hakký sahip olduklarý anlamýna gelmez.
+[FONT_SIZE=14]3. Bu kural yalnýzca, oyuncunun yayýncýyý canlý yayýnda takip ettiði ve
+[FONT_SIZE=14]    aktif tanýtýmý engellediði açýkça kanýtlanabildiðinde geçerlidir.
+
+
+
+[CENTER_ALIGN;FONT_SIZE=16;COLOR=58ADFF]11. Uygunsuz Kullanýcý Ýsimleri
+
+[FONT_SIZE=14]1. Uygunsuz karakter isimleri, binek ve evcil hayvan isimleri,
+[FONT_SIZE=14]    dükkan isimleri ile lonca isimleri kesinlikle yasaktýr!
+
+
+
+[CENTER_ALIGN;FONT_SIZE=16;COLOR=58ADFF]12. VPN/Proxy Kullanýmý
+
+[FONT_SIZE=14]1. Diðer oyunculara karþý avantaj elde etmek amacýyla VPN veya proxy
+[FONT_SIZE=14]    kullanýmý yasaktýr!
+
+
+
+[CENTER_ALIGN;FONT_SIZE=16;COLOR=58ADFF]13. Kurallarda Deðiþiklik Hakký
+
+[FONT_SIZE=14]1. Ekibin, kurallarý herhangi bir duyuru yapmadan deðiþtirme veya
+[FONT_SIZE=14]    geniþletme hakký saklýdýr.
+
+
+
+[CENTER_ALIGN;FONT_SIZE=16;COLOR=58ADFF]14. Çoklu-Farm Engeli
+
+[FONT_SIZE=14]1. Sanal makineler (VM) veya ikinci bilgisayar kullanarak Çoklu-Farm
+[FONT_SIZE=14]    engelini atlatmak yasaktýr.

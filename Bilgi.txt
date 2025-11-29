@@ -1,0 +1,63 @@
+# ============================================================
+# PROJE KURULUM VE YAPILANDIRMA REHBERÝ
+# ============================================================
+
+# ============================================================
+# ÖNEMLÝ NOTLAR
+# ============================================================
+# 
+# 1. FoxFS'nin düzgün çalýþmasý için .rar dosyasýndaki formatý takip edin.
+#    Dosya yapýsýný ve dizin organizasyonunu deðiþtirmeyin.
+#    FoxFS, belirli bir dosya yapýsý bekler ve format deðiþiklikleri 
+#    sistemin çalýþmamasýna neden olabilir.
+#
+
+# ============================================================
+# VIRTUALBOX VDI BAÐLANTI BÝLGÝLERÝ
+# ============================================================
+# VirtualBox sanal makinesine baðlanmak için kullanýlacak bilgiler:
+# 
+# Kullanýcý Adý: root
+# Þifre:        dev
+#
+# Not: Bu bilgiler FreeBSD sanal makinesine SSH veya konsol üzerinden
+#      baðlanmak için kullanýlýr.
+
+VDI Kullanýcý Adý: root
+VDI Þifresi:      dev
+
+# ============================================================
+# MYSQL VERÝTABANI BAÐLANTI BÝLGÝLERÝ
+# ============================================================
+# MySQL veritabaný sunucusuna baðlanmak için kullanýlacak bilgiler:
+# 
+# Kullanýcý Adý: root
+# Þifre:        123
+#
+# Not: Bu bilgiler veritabaný yönetimi, sorgu çalýþtýrma ve 
+#      yedekleme iþlemleri için kullanýlýr.
+#      Üretim ortamýnda güvenli bir þifre kullanmanýz önerilir.
+
+MySQL Kullanýcý Adý: root
+MySQL Þifresi:      123
+
+# ============================================================
+# YÖNETÝCÝ (ADMIN) GÝRÝÞ BÝLGÝLERÝ
+# ============================================================
+# Yönetici (account) hesap giriþ için kullanýlacak bilgiler:
+# 
+# Kullanýcý Adý: bestpro
+# Þifre:        123
+#
+# Not: Bu bilgiler oyun sunucusu yönetim paneli, oyuncu yönetimi,
+#      sunucu ayarlarý ve diðer yönetim iþlemleri için kullanýlýr.
+#      Ýlk kurulumdan sonra þifreyi deðiþtirmeniz güvenlik açýsýndan önerilir.
+
+Admin Kullanýcý Adý: bestpro
+Admin Þifresi:      123
+
+# ============================================================
+# GÜVENLÝK UYARISI
+# ============================================================
+# 
+# >>  ÖNEMLÝ: Bu dosya varsayýlan þifreleri içermektedir.

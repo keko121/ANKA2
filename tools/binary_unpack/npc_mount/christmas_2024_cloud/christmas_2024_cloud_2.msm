@@ -1,0 +1,69 @@
+ScriptType            RaceDataScript
+
+BaseModelFileName     "D:\Ymir Work\npc_mount\christmas_2024_cloud\christmas_2024_cloud.GR2"
+
+Group ShapeData
+{
+    PathName 		 ""
+    ShapeDataCount 		 1
+	Group ShapeData00
+	{
+		ShapeIndex			0
+
+		Model				"D:\Ymir Work\npc_mount\christmas_2024_cloud\christmas_2024_cloud.gr2"
+		SourceSkin			"D:\Ymir Work\npc_mount\christmas_2024_cloud\christmas_2024_cloud.dds"
+		TargetSkin			"D:\Ymir Work\npc_mount\christmas_2024_cloud\christmas_2024_cloud_2.dds"
+	}
+}
+Group AttachingData
+{
+    AttachingDataCount       3
+    
+    Group AttachingData00
+    {
+        AttachingDataType    1
+        
+        isAttaching          1
+        AttachingModelIndex  0
+        AttachingBoneName    "root"
+        
+        CollisionType        1
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           76.000000
+            Position         0.000000 -14.000000 20.000000
+        }
+    }
+    
+    Group AttachingData01
+    {
+        AttachingDataType    1
+        
+        isAttaching          1
+        AttachingModelIndex  0
+        AttachingBoneName    "root"
+        
+        CollisionType        3
+        
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           84.000000
+            Position         0.000000 -14.000000 20.000000
+        }
+    }
+    Group AttachingData02
+    {
+        AttachingDataType    2
+        
+        isAttaching          1
+        AttachingModelIndex  0
+        AttachingBoneName    "effect"
+        
+        EffectScriptName     "D:\Ymir Work\effect\monster2\christmas_2024_cloud_02.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+        EffectRotation       0.000000 0.000000 0.000000
+    }
+}

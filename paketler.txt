@@ -1,0 +1,76 @@
+# ============================================================
+# FreeBSD Sistem Paket Güncelleme Komutlarý
+# ============================================================
+# Bu komutlar sistem paketlerini ve portlarý güncellemek için kullanýlýr.
+# Önce paket listesini güncelleyin, ardýndan port snapshots'ý çekin.
+
+pkg update
+portsnap fetch extract
+portsnap fetch update
+
+# ============================================================
+# Kurulacak Gerekli Paketler
+# ============================================================
+# Aþaðýdaki paketler projenin derlenmesi ve çalýþmasý için gereklidir.
+# Bu paketleri kurmak için: pkg install <paket_adý>
+# Örnek: pkg install boost-all cryptopp ccache
+
+boost-all          # Boost C++ kütüphaneleri (tüm modüller)
+cryptopp           # Crypto++ þifreleme kütüphanesi
+ccache             # Derleme önbelleði (hýzlandýrma için)
+llvm-devel         # LLVM derleyici geliþtirme araçlarý
+gmake              # GNU Make (derleme aracý)
+devil              # OpenIL/DevIL görüntü iþleme kütüphanesi
+lzo2               # LZO sýkýþtýrma kütüphanesi
+mysql56-server     # MySQL 5.6 veritabaný sunucusu
+mysql56-client     # MySQL 5.6 istemci araçlarý
+python27           # Python 2.7 programlama dili
+openssl            # OpenSSL þifreleme ve SSL/TLS kütüphanesi
+makedepend         # Baðýmlýlýk analizi aracý
+subversion         # SVN versiyon kontrol sistemi
+binutils           # Ýkili dosya araçlarý (ar, nm, objdump vb.)
+
+# ============================================================
+# MSL Kütüphanesi Kurulum Talimatlarý
+# ============================================================
+# msl.tar.gz dosyasýný kurmak için aþaðýdaki adýmlarý izleyin:
+# 1. /usr/local/include/ dizinine gidin
+# 2. msl.tar.gz dosyasýný bu dizine çýkarýn
+# 
+# Komut örneði:
+# cd /usr/local/include/
+# tar -xzf msl.tar.gz
+
+/*------------------------*\
+
+msl.tar.gz dosyasýný kurmak için /usr/local/include/ dizinine gidin ve 
+orada msl.tar.gz dosyasýný çýkarýn.
+
+\*------------------------*/
+
+# ============================================================
+# FreeBSD Root Þifresi Sýfýrlama Talimatlarý
+# ============================================================
+# Eðer root þifresini unuttuysanýz, aþaðýdaki adýmlarý izleyin:
+# 
+# 1. Sistemi yeniden baþlatýn
+# 2. Boot menüsünde "single user mode" (tek kullanýcý modu) seçeneðini seçin (genellikle 2 numaralý seçenek)
+# 3. Aþaðýdaki komutlarý sýrasýyla çalýþtýrýn:
+
+reboot
+select boot single (2)
+--
+mount -u -a -o rw    # Dosya sistemlerini okuma-yazma modunda baðla
+fsck -y              # Dosya sistemi kontrolü yap (otomatik onar)
+mount -u /           # Root dosya sistemini güncelle
+mount -a -t ufs      # Tüm UFS dosya sistemlerini baðla
+passwd               # Root þifresini deðiþtir
+mount -u -a -o rw    # Tekrar okuma-yazma modunda baðla
+passwd               # Þifreyi tekrar onayla (gerekirse)
+--
+reboot               # Sistemi normal modda yeniden baþlat
+
+# Not: Bu iþlemler sýrasýnda sistem tek kullanýcý modunda çalýþýr.
+# Þifre deðiþikliðinden sonra mutlaka sistemi yeniden baþlatýn.
+
+\*------------------------*/

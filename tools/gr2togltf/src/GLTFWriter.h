@@ -5,6 +5,7 @@
 
 #include "Types.h"
 #include <string>
+#include <memory>
 
 namespace gr2togltf {
 

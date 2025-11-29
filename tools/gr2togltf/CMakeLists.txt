@@ -23,14 +23,14 @@ endif()
 # ============================================================================
 # Granny SDK
 # ============================================================================
-set(GRANNY_SDK_DIR "${CMAKE_SOURCE_DIR}/../../Source/Binary/extern" CACHE PATH "Granny SDK path")
+set(GRANNY_SDK_DIR "${CMAKE_SOURCE_DIR}/../../gr2" CACHE PATH "Granny SDK path")
 
 if(NOT EXISTS "${GRANNY_SDK_DIR}/include/granny.h")
     message(FATAL_ERROR "Granny SDK bulunamadı: ${GRANNY_SDK_DIR}/include/granny.h")
 endif()
 
 include_directories(${GRANNY_SDK_DIR}/include)
-link_directories(${GRANNY_SDK_DIR}/library)
+link_directories(${GRANNY_SDK_DIR}/lib/win32)
 
 # ============================================================================
 # tinygltf (header-only JSON/glTF library)

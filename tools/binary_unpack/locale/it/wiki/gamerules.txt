@@ -1,0 +1,108 @@
+
+[BANNER_IMG = d:/ymir work/ui/game/wiki/banner.tga]
+[CENTER_ALIGN;FONT_SIZE=30]Game Rules
+
+
+
+[CENTER_ALIGN;FONT_SIZE=16;COLOR=58ADFF]1. Selling/Buying/Trying
+
+[FONT_SIZE=14]1. It's not allowed to sell or buy and/or trading of virtual goods for real money 
+[FONT_SIZE=14]    ($, £, €, Paysafe, PayPal, Bitcoins etc.), Items on other servers/games.
+[FONT_SIZE=14]2. Also it's not allowed to sell an account for yang.
+
+
+
+[CENTER_ALIGN;FONT_SIZE=16;COLOR=58ADFF]2. Offensive Language & Toxic Behavior
+
+[FONT_SIZE=14]1. Offensive language, spreading lies, hate, riot and racism or verbal abuse is forbidden 
+[FONT_SIZE=14]    and will be punished - depending on the case.
+
+
+
+[CENTER_ALIGN;FONT_SIZE=16;COLOR=58ADFF]3. Private/Real-life information
+
+[FONT_SIZE=14]1. Defamation or leaking private/real-life information of Team Members or 
+[FONT_SIZE=14]    players is strictly forbidden.
+
+
+
+[CENTER_ALIGN;FONT_SIZE=16;COLOR=58ADFF]4. Bugs & System Circumvention
+
+[FONT_SIZE=14]1. An encountered bug must be reported immediately by writing a private message to a staff.
+[FONT_SIZE=14]    Any type of bug use/abuse which affects the flow of the game will be punished
+[FONT_SIZE=14]    Any kind of circumvention of a system to gain an advantage will be punished.
+
+
+
+[CENTER_ALIGN;FONT_SIZE=16;COLOR=58ADFF]5. Third Party Applications
+
+[FONT_SIZE=14]1. Third Party Applications (Hacks, Bots, Illegal Softwares) are programs or 
+[FONT_SIZE=14]    files that aren't part of our server.
+[FONT_SIZE=14]    Taking advantage or using such things will be punished. All players should play fair
+[FONT_SIZE=14]2. Macros can be used as long as you don't get an advantage over players who 
+[FONT_SIZE=14]    are actively sitting in front of the computer.
+[FONT_SIZE=14]    (We reserve the right to punish people who use macros in a way we cannot tolerate.)
+
+
+
+[CENTER_ALIGN;FONT_SIZE=16;COLOR=58ADFF]6. Third Party Advertising
+
+[FONT_SIZE=14]1. Advertising other servers is not allowed in any way and will be punished.
+
+
+
+[CENTER_ALIGN;FONT_SIZE=16;COLOR=58ADFF]7. Account Security
+
+[FONT_SIZE=14]1. Everyone should be responsible for his accounts and in-game items.
+[FONT_SIZE=14]    This is why the team members can't guarantee to help in any way if a user loses 
+[FONT_SIZE=14]    something because he trusted his partner/friend.
+
+
+
+[CENTER_ALIGN;FONT_SIZE=16;COLOR=58ADFF]8. User Report
+
+[FONT_SIZE=14]1. If you want to report a User with the help of a screenshot or video, the Servername + 
+[FONT_SIZE=14]    Servertime needs to be visible all the time. .
+[FONT_SIZE=14]    Otherwise we are not able to use it as evidence
+
+
+
+[CENTER_ALIGN;FONT_SIZE=16;COLOR=58ADFF]9. Instruction of Staff Members
+
+[FONT_SIZE=14]1. The instructions of the Staff Members must be followed. Disobeying a Staff Members 
+[FONT_SIZE=14]    instructions might get you punished.
+[FONT_SIZE=14]    In addition, each Staff Member and player must be treated with respect.
+
+
+
+[CENTER_ALIGN;FONT_SIZE=16;COLOR=58ADFF]10. Promotion Partners
+
+[FONT_SIZE=14]1. It is forbidden to deliberately influence a Promotion partner's livestream negatively 
+[FONT_SIZE=14]    and prevent the streamer from actively promoting the server.
+[FONT_SIZE=14]2. This rule are not mean that promotion partners have complete freedom and kill protection.
+[FONT_SIZE=14]3. This rule only applies if it can be clearly proven that the player follows the streamer 
+[FONT_SIZE=14]    in his stream and prevents him from actively promoting.
+
+
+
+[CENTER_ALIGN;FONT_SIZE=16;COLOR=58ADFF]11. Inappropriate User Names
+
+[FONT_SIZE=14]1. Inappropriate Nick Names, Mount & Pet Names, Shop Names and Guild Names arent allowed!
+
+
+
+[CENTER_ALIGN;FONT_SIZE=16;COLOR=58ADFF]12. Vpn/proxy usage
+
+[FONT_SIZE=14]1. The usage of a vpn/proxy to get an advantage to other players is not allowed!
+
+
+
+[CENTER_ALIGN;FONT_SIZE=16;COLOR=58ADFF]13. Change reservation
+
+[FONT_SIZE=14]1. The team reserves the right to change or expand the rules without publicly announcing it.
+
+
+
+[CENTER_ALIGN;FONT_SIZE=16;COLOR=58ADFF]14. Multi-Farm Block
+
+[FONT_SIZE=14]1. The use of virtual machines or second PC's to bypass the multi-farm block is not allowed.

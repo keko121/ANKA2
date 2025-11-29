@@ -1,0 +1,27 @@
+﻿  adhoc.cpp
+  test.cpp
+  bench1.cpp
+  bench2.cpp
+  bench3.cpp
+  datatest.cpp
+  dlltest.cpp
+  fipsalgt.cpp
+  regtest1.cpp
+  regtest2.cpp
+  regtest3.cpp
+  regtest4.cpp
+  validat0.cpp
+  validat1.cpp
+  validat2.cpp
+  validat3.cpp
+  validat4.cpp
+  validat5.cpp
+  validat6.cpp
+  validat7.cpp
+  Kod Üretiliyor...
+  Derleniyor...
+  validat8.cpp
+  validat9.cpp
+  validat10.cpp
+  Kod Üretiliyor...
+  cryptest.vcxproj -> C:\M2Project_1.2\Source\Binary\extern\include\cryptopp\Win32\Output\Debug\cryptest.exe

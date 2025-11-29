@@ -1,0 +1,5 @@
+<ScriptFile>
+	<CreateEterPackXml Input="../binary_unpack/npc_mount:d:/ymir work/npc_mount/" ArchivePath="../../Client/pack/npc_mount" XmlPath="xml/npc_mount_create.xml">
+		<Ignore Pattern="[a-zA-z0-9]+.xml" />
+	</CreateEterPackXml>
+</ScriptFile>

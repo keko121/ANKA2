@@ -1,0 +1,4 @@
+<ScriptFile>
+	<CreateEterPack ArchivePath="../../Client/pack/npc2" BuildKeyfile="false" >
+	</CreateEterPack>
+</ScriptFile>

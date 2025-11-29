@@ -1,0 +1,30 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\npc\plechito_shadow\plechi_shadow_npc6_1\destroy.GR2"
+MotionDuration           4.666667
+
+Group MotionEventData
+{
+    MotionEventDataCount     2
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.130342
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Object68"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/effect/plechito/npc/shadow/pillar_eff_destroy.mse"
+        EffectPosition       0.000000 0.000000 450.000000
+    }
+    Group Event01
+    {
+        MotionEventType      2
+        StartingTime         0.130342
+        
+        DuringTime           0.100000
+        Power                70
+        AffectingRange       300
+    }
+}

@@ -1,0 +1,7 @@
+^C:\M2PROJECT_1.2\SOURCE\BINARY\EXTERN\INCLUDE\CRYPTOPP\ADHOC.CPP.PROTO
+if not exist adhoc.cpp copy "C:\M2Project_1.2\Source\Binary\extern\include\cryptopp\adhoc.cpp.proto" adhoc.cpp
+        echo: >> adhoc.cpp.copied
+^C:\M2PROJECT_1.2\SOURCE\BINARY\EXTERN\INCLUDE\CRYPTOPP\RDRAND.ASM
+ml.exe /c /nologo /D_M_X86 /W3 /Cx /Zi /safeseh /Fo"Win32\cryptlib\Debug\rdrand-x86.obj" "C:\M2Project_1.2\Source\Binary\extern\include\cryptopp\rdrand.asm"
+^C:\M2PROJECT_1.2\SOURCE\BINARY\EXTERN\INCLUDE\CRYPTOPP\RDSEED.ASM
+ml.exe /c /nologo /D_M_X86 /W3 /Cx /Zi /safeseh /Fo"Win32\cryptlib\Debug\rdseed-x86.obj" "C:\M2Project_1.2\Source\Binary\extern\include\cryptopp\rdseed.asm"

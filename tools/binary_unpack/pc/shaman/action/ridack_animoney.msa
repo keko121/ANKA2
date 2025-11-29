@@ -1,0 +1,22 @@
+ScriptType               MotionData
+
+MotionFileName           "D:/ymir work/pc/shaman/action/ridack_animoney.gr2"
+MotionDuration           1.666667
+Accumulation           0.00	0.00	0.00
+
+Group MotionEventData
+{
+    MotionEventDataCount     1
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.278358
+        
+        IndependentFlag      0
+        AttachingEnable      0
+        AttachingBoneName    "Bip01"
+        FollowingEnable      0
+        EffectFileName       "d:/ymir work/pc/warrior/action/ridack_animoney.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+}

@@ -1,0 +1,346 @@
+1	Rucsacul Negustorului ambulant are un lacat?
+2	Pe Taramul Gigantilor poti gasi Globul Transformarii?
+3	Gasesti Blana de lup la Lupul Alpha Albastru Blestemat?
+4	Gasesti Blana de Yeti la Yeti?
+5	Gasesti Glob de Gheata doar pe Muntele Sohan?
+6	Lacrima Zeitei o gasesti doar in cufere?
+7	Nivelul trei la Piatra Grabei iti ofera 30 viteza de miscare?
+8	Perlele ofera bonus de INT?
+9	Exista o armura incepand cu nivelul 12?
+10	In Templul Hwang exista Zacamant de Jad?
+11	Exista 22 de poduri in Valea Seungryong?
+12	Exista opt clase in Metin2?
+13	Exista Placaj in Metin2?
+14	Exista un obiect numit 'Bijuterie'?
+15	Exista o abilitate numita 'Vraja Lipitorii'?
+16	Exista bonus de Vindecare?
+17	Exista artificii Koreene?
+18	Exista Cartea Misiunii nivel mediu?
+19	Exista Zacamant de Cuart?
+20	Exista o harta speciala pentru bataliile de antrenament?
+21	Există o pasăre pe umărul drept al Teleporterului?
+22	Exista Armura de Lemn?
+23	Exista Phoenix de Foc?
+24	Exista Profesor de Scrima?
+25	Exista Orci?
+26	Exista pescari in harta 2?
+27	Exista intotdeauna doar cate un singur Grajdar in fiecare Regat?
+28	Poti avea animale de companie in Metin2?
+29	Exista caini in Metin2?
+30	Exista in fiecare Regat acelasi numar de Pescari?
+31	Exista Placinta de Orez in Metin2?
+32	Exista Piata in harta 2?
+33	Exista Seva Plantei in Metin2?
+34	Animalele blestemate există doar în zona breslei?
+35	Bera ataca din propria initiativa?
+36	Beran-Setaou si-a ucis sora?
+37	Inventarul are 90 de locuri?
+38	Sageata de Bambus are valoarea atacului de 10?
+39	Arahanul Brutal este de nivel 53?
+40	Câinele Sălbatic Flamând are nivel 1?
+41	Magazionerul poarta o esarfa albastra?
+42	Fierarul poarta un sort?
+43	Ingerul cu Coasa are nivel de Boss?
+44	Orcul Elite General poarta un lant cu sase capete?
+45	Femeia Batrana are o sora?
+46	Exista forum pentru Metin2?
+47	Mirine are ochii negri?
+48	Ingerul cu Coasa locuieste in Turnul Demonilor?
+49	Exista un spirit Sura in Grota 2 numit Akuma?
+50	Este Bahar-Taraji cel mai tânăr dintre frații divini?
+51	Bahar-Taraji este zeița cumpătării?
+52	Este Baljit-Elvedin cel mai mare dintre fratii divini?
+53	Este Baljit-Elvedin zeul cumpatarii?
+54	Monstrul Hae-Tae este boss?
+55	Luptatorul Intunecat Mandru este nivelul 54?
+56	Mistrețul Blestemat Roșu poate fi găsit în șapte regiuni diferite?
+57	Clopotul de Cupru poate fi echipat de la nivelul 5?
+58	Armura Hwang Roșie este pentru războinici?
+59	Este lumină în deșert chiar și noaptea?
+60	Este Soon un soarece de biblioteca?
+61	Fierarul poate distruge armele in timp ce le imbunatateste?
+62	Testoasa Gigant apare in Harta 2?
+63	Poti mina diamante?
+64	Te poti casatori in Metin2?
+65	Poti dansa in Metin2?
+66	Poti fi GM la varsta de 16 ani?
+67	Poti folosi chatul 'Striga' de la nivel 15?
+68	Poti obtine primul Master la nivelul 17?
+69	Poti avea trei Mastere la nivelul 52?
+70	Daca ai nivel 55, poti obtine ceva de la un Metin nivel 5?
+71	Poti folosi abilitatile calului cu un mount de nivel 9?
+72	Iti poti transforma animalul de companie intr-un animal de casa?
+73	Poți agăța Șosete într-un copac?
+74	Poți să îmbunătățești Piatra Spiritului?
+75	Toti monstrii iti dau Globul Transformarii?
+76	Toate marimile de Licori Verzi pot fi gasite in joc?
+77	Ciupercile Tue pot fi folosite doar de Huahn-So?
+78	GM poate ridica in nivel un jucator?
+79	Exista un cadavru in Valea Seungryong?
+80	Pentru misiunea 'Jurnalul unei Legende' trebuie sa colectezi 16 pagini de carte?
+81	Cureaua Regelui+5 are nevoie de 6 locuri in inventar?
+82	Heuk-Young are înfățișarea unui războinic?
+83	Cheia Rasucita se poate negocia?
+84	Exista 42 de cadavre in Taramul Gigantilor?
+85	Exista un Teleporter in Teritoriul Breslei?
+86	In Tara Gigantilor exista teleporter?
+87	Un jucator cu un rang negativ poate sa consume 4500 puncte de rang cand citeste cu succes o Piatra a Sufletului de la G5 la G6?
+88	Un jucator cu un rang pozitiv poate sa consume 3000 puncte de rang cand citeste cu succes o Piatra a Sufletului de la G5 la G6?
+89	Negustorul de Arme vinde Sageti de Otel?
+90	Podurile din Valea Orcilor isi schimba pozitia?
+91	Pentru divort unilateral este necesar 1kk Yang?
+92	Poti obtine Evantai Pana Cocorului de la lupi?
+93	Este necesara o Rochie de Mireasa pentru casatorie?
+94	Bonusul 'puternic impotriva diavolului' functioneaza pe Yeti Salbatic?
+95	Noua Cozi este nivel 73?
+96	Bakra este un sat in regatul Jinno?
+97	Taurean se regaseste in primul sat?
+98	Trebuie sa ai cel putin nivelul 30 pentru a putea pescui?
+99	Trebuie sa ai cel putin nivelul 30 pentru a te putea casatori?
+100	Poti cumpara un Tarnacop de la Yang-Shin?
+101	Poți folosi Brățara de Perle începând cu nivelul 28?
+102	Toate caracterele peste nivel 40 pot intra in Turnul Demonilor?
+103	Bokjung face parte din regatul Shinsoo?
+104	Valea Serpilor este harta neutra?
+105	In Valea Seungryong exista un boss de nivel 55?
+106	Un caracter de nivel 51 poate obtine Pergament Binecuvantat de la monstri?
+107	In Padurea Fantoma exista un boss de nivel 80?
+108	Poți arunca Armură Oțel Albastru +9?
+109	Armura Dragon este fabricata din Armura de Otel Negru +9?
+110	Poți arunca 1000 Yang?
+111	Imbracaminte Dragon este fabricata din Vesmant Negru +9?
+112	In Metin2 Dragonul Rosu apare in mod normal zi de zi?
+113	Primesti un bonus permanent de 8% mai multe daune impotriva altor jucatori atunci cand termini misiunea 'Cercetarea Biologului'?
+114	Trebuie sa-i aduci lui Chaegirab 30 de Tăblițe ale lui Tugyi pentru misiunea 'Cercetarea Biologului 6'?
+115	Armura Hwang poate fi cumparata in joc?
+116	Armura Otel Albastru este fabricata din Armura de Otel Negru +9?
+117	In Valea Serpilor exista Teleporter?
+118	Pietrele Metin de nivel 75 si 80 se afla pe Taramul Gigantilor?
+119	Intrarea in Taramul Gigantilor se afla in Valea Serpilor?
+120	Poti gasi Lama Semi-Om la Luptatorii Miria?
+121	Taramul Gigantilor are frontiera comuna cu Valea Serpilor?
+122	Ochiul Zburător Deșert are și el un ochi?
+123	Scutul Titan +9 are o apărare mai mare decât un Scut +9 de nivel 61?
+124	Scutul Vulturului +9 are valoarea apararii de 153?
+125	Cerceii de Lemn oferă bonus de PV?
+126	Poți găsi Îndrumător de Esoterică+ la Arahan Întunecat si Încântător Întunecat?
+127	Sabia Nimfa are o viteza de atac mai mare decat Sabia de Batalie?
+128	Poți obține Piatră Însângerată de la Vrăjitoarea Rea de Gheață?
+129	Beran-Setaou este NPC?
+130	Mountul Leu iti creste valoarea atacului cu 200 de puncte?
+131	Te poti teleporta la partenerul tau daca acesta se afla in Temnita Paianjenilor 2?
+132	Huahn-So produce Rouă?
+133	Pentru a obtine Inelul de Logodna trebuie sa infrangi 30 Jin-Hees?
+134	Inelul de Cununie se poate negocia?
+135	Fierarul din Turnul Demonilor cere Yang pentru îmbunătățirea obiectelor?
+136	Poti obtine Piatra Sufletului de la Hae-Tae?
+137	In Metin2 Hae-Tae apare in mod normal zi de zi?
+138	Hae-Tae apare doar in urma unui eveniment specific?
+139	Montrii din Grota Exilului 2 sunt agresivi?
+140	Taurean este NPC?
+141	Iarba Maimutei Puternice o gasesti la Maimuta Lord?
+142	Punctele de rang se deduc in cantitate dubla atunci cand citesti Piatra Sufletului cu rang negativ?
+143	Poti obtine Piatra Sufletului drept recompensa a misiunii 'Cerceteaza Copacii Fantoma'?
+144	Poti primi Piatra Sufletului drept recompensa a misiunii 'Misterul Padurii Fantoma'?
+145	Poti obtine Piatra Spiritului de la Metinul Crimelor din Turnul Demonilor?
+146	Poți obține cărti de abilități de la Pietrele Metin de nivel 75 si 80?
+147	Poti obtine Piatra Spiritului de la Pietrele Metin de nivel 75 si 80?
+148	Poti obtine Piatra Sufletului de la Pietrele Metin mai mici de nivel 40?
+149	Te poti teleporta direct in Turnul Demonilor la nivel 60?
+150	Armură Oțel Albastru +5 crește apărarea cu 184 și reduce viteza de mișcare cu 6?
+151	Gasesti Scoici in Metin2?
+152	Este posibil sa gasesti Permis de Trecere in Grota Exilului?
+153	Poti obtine Sabie Luna Plina de la Jin-Hee?
+154	Războinicul Mental poate folosi abilitatea Aruncarea Fulgerului?
+155	Mistrețul Sălbatic de Luptă crește apărarea cu 500?
+156	Poti obtine Piatra Spiritului +4 de la Metinul Amarului?
+157	Ai nevoie de Uniforma Neagra+ pentru a imbunatati Platosa de Tigru?
+158	'Vrăjește Obiectul' este un obiect ce se poate negocia?
+159	Poti obtine Licoare Albastra (S) in Temnita Paianjenilor?
+160	In Metin2 Purtatorul de Ciuma apare in mod normal zi de zi?
+161	Poți găsi Fiere de Urs în Cufăr Auriu Comori?
+162	Poți extrage Ebonită rafinată din Zăcământ de Jad?
+163	Metinul Diavolului apare doar la evenimente?
+164	Poți obține Brățara de Aur Alb de la Orci?
+165	Trebuie sa invingi toti inamicii din Catacomba Diavolului?
+166	Poate Azrael sa lanseze Lovitură Critică in batalie?
+167	Poti cumpara din Magazinul de Obiecte Colier Suflet Cristal?
+168	Femeia Batrana are alergie la praf?
+169	Negustorul de Arme este indragostit de Vanzatoarea de la Magazinul General?
+170	Magazionerul are Lingouri de Aur?
+171	Uriel este femeie?
+172	Vanzatoarea de la Magazinul General este intr-o relatie cu Negustorul de Armuri?
+173	Pamatuful de praf al Femeii Batrane este facut din Blana de Lup Albastru?
+174	Pe Testoasa Gigant o poti lovi numai cu o Sabie de Doua Maini?
+175	Sabia Vrăjitor poate fi folosită de la nivel 50?
+176	Beran-Setaou l-a omorât pe Bahar-Taraji?
+177	Beran-Setaou poate fi gasit numai intr-o singura harta a jocului?
+178	Licoarea Rosie (L) iti ofera 650 PV?
+179	Elixirul Soarelui (S) contine 2,000,000 PV?
+180	Rezistenta poate fi refacuta folosind Licori Galbene?
+181	Otrava este mortala?
+182	Apa Sim restaureaza imediat 100 PM?
+183	Roua Rosie creste viteza de atac intre 2% si 8%?
+184	Efectul de roua dureaza maxim 20 de minute?
+185	Efectul Sucului de Floare de Piersic dureaza cinci minute?
+186	Roua Albastra creste valoarea atacului?
+187	Chuk-Sal poartă o mască?
+188	La nivelul patru din Catacomba Diavolului poti gasi Fragment de Runa?
+189	Metinul Rasplatei are nivelul 80?
+190	In Templul Dragonului se afla Spiritul Sura?
+191	La sfarșitul nunții, persoanele care s-au căsătorit, primesc Licori Rosii (M)?
+192	Iti poti vedea propria umbra in apropierea unui copac sau a unei cladiri?
+193	De la nivel 84 poti purta Imbracaminte Dragon +6?
+194	Pe Clopotul Antic poti pune maxim doua Pietre ale Spiritului?
+195	Mantia Secretelor atrage monștrii?
+196	Toti mountii din joc pot fi folositi de la nivelul 1?
+197	Poti obtine Perle de la Dragonul Albastru?
+198	Bonusul standard pentru Palaria Suflet Ciobit este 'Daunele sunt absorbite de PM'?
+199	Animalele blestemate apar doar pe teritoriul breslelor?
+200	Daca folosesti Focul Permanent asupra unui oponent, acesta va retine PV?
+201	Misiunea pentru Cal Militar poate fi facuta de la nivelul 45?
+202	Un jucator de nivel 82 poate invita un alt jucator de nivel 53 in grupul sau?
+203	Ninja poate folosi patru Abilitati de Calarie?
+204	Zacamantul de Argint se regaseste doar in primul sat?
+205	Metinul Pung-Ma se regaseste doar in Lungsam?
+206	Poti intra in Templul Dragonului folosind Capete Mumificate?
+207	Poti obtine Cheie Rasucita de la Generalul Huashin?
+208	Pe Muntele Sohan se afla un Boss?
+209	Pantofii Ornati cu Aur pot fi purtati de la nivel 20?
+210	Ajutorul de evenimente poarta manusi?
+211	Baek-Go poarta ochelari?
+212	Piatra Memoriala Mok are forma dreptunghiulara?
+213	Organizatoarea de Nunti poarta o rochie verde?
+214	Seon-Hae are un bat in mana dreapta?
+215	Yang-Shin are trei sageti in tolba sa?
+216	Metinul Razbunarii este albastru?
+217	Metinul Rasplatei este cel mai mare in nivel dintre Pietrele Metin?
+218	Metinul Sufletului se afla in Valea Seungryong?
+219	Poți găsi Zăcământ de Jad în Templul Întunecat?
+220	Poti extrage Minereu de Cuart pe Muntele Sohan?
+221	Beran-Setaou este nivelul 97?
+222	Azrael are nivelul mai mare decat Beran-Setaou?
+223	Vrăjitoarea Rea de Gheață are același nivel ca și Tartaros?
+224	Atacul Fulger este o abilitatea pentru Ninja?
+225	Licoarea Rosie (M) umple 500 PV?
+226	Platoșa Yin Yang poate fi purtată de războinici?
+227	Manusa Regelui Intelept te ajuta sa colectezi puncte duble de rang atunci cand invingi un monstru?
+228	Jurnalul lui Uriel contine 20 de pagini?
+229	Esti condus in Grota Exilului de Chuk-Sal?
+230	Iti trebuie nivelul 75 pentru a intra in Grota Exilului?
+231	Fierarul poarta barba?
+232	In grajd la Grajdar se afla patru cai?
+233	Sosetele violet fac parte din Vesmantul Baronesei?
+234	Om Scorpion Mic poarta arma?
+235	Noua Cozi are noua cozi?
+236	Pe Muntele Sohan exista Minereu Lacrima Cerului?
+237	Conducatorul Intunecat are bonusul de necunostinta?
+238	Monumentul Gum se afla in Turnul Demonilor?
+239	Capul Regelui Focului este in flacari?
+240	Regele Focului poarta sandale?
+241	Hae-Tae este monstru?
+242	Omul Ciumei poarta esarfa?
+243	Maimuta Lord are coada?
+244	Maimuta Lord poarta sceptru?
+245	Capcaunul are un corn in frunte?
+246	Copacul Fantoma Urias are radacini?
+247	Mainile Driadelor sunt rosii?
+248	Luptatorul Miria poarta doua topoare in mainile sale?
+249	Setaou Mistic are nivelul 88?
+250	Beran Setaou este albastru?
+251	Aranyo este sotia lui Soon?
+252	Ariyoung se afla in primul sat?
+253	Baek-Go fabrica licori?
+254	Samuraiul Fantoma este albastru?
+255	Insecta de Gheata are zece picioare?
+256	Pastravul Prajit regenereaza 250 PM?
+257	Hundu-Up poarta o palarie violet?
+258	Nakajima se plimba in jurul hartii?
+259	Costumul Furnică Roșie +9 oferă bonus de apărare de 101?
+260	Harang isi poarta parul prins in coada?
+261	Deokbae are un topor auriu?
+262	Misiunea 'Grajdurile au probleme' incepe la nivelul 49?
+263	Uriel sta cu mainile incrucisate la piept?
+264	Maimuta Lord poate fi gasita in Hasun Dong?
+265	Poți să-ți hrănești calul folosind comanda tastelor Ctrl+B?
+266	Negustorul de Armuri are mustata?
+267	Temnita Maimutei nivel Greu este cunoscuta sub numele de Jungsun Dong?
+268	Mania Zeului Zmeu creste sansa loviturii patrunzatoare?
+269	Aranyo cara un cos cu fructe?
+270	Insecta de Gheata are 6 picioare?
+271	Sunt sase tipuri diferite de monstri in Taramul Gigantilor?
+272	Lama Fier Rosu poate fi folosita doar la nivelul 30?
+273	Kuahlo Dong se afla in desert?
+274	Teleporterul are ceva marcat deasupra capului?
+275	Metinul Luptei este de nivel 15?
+276	Chaegirab poarta ochelari?
+277	Ai nevoie de o piatră prețioasă pentru a îmbunătății armura de lvl 26 la +4?
+278	Poți cumpăra armura de lvl 26 de la NPC?
+279	Câinele ciumei se scarpină după ureche?
+280	Arcașul ciumei sălbatic are două capete?
+281	Există Stânca Chunjo?
+282	Exista Stîncă Yongbi?
+283	Armura de +7 de la lvl 42 are apărare +97?
+284	Armura de +7 de la lvl 42 are apărarea -97?
+285	Vînătorul Setaou de lvl 89 este de nivel 2?
+286	Vântul negru To-Su de lvl 33 este de nivel 2?
+287	Metin2 are lut?
+288	Există 4 ponei la intrarea în grajduri?
+289	Beak-Go poarta ochelari?
+290	Wonda-Rim este nepotul lui Chaegirab?
+291	Chaegirab este unchiul lui Wonda-Rim?
+292	Chaegirab este tatăl lui Wonda-Rim?
+293	Exista un animal zeu în Harta2?
+294	Exista 3 pescari în Harta2?
+295	Echipa jocului vă cere parola și userul?
+296	Poți recunoaște GameMasterul [GM]?
+297	Cetățeanul turmentat se găsește în Harta2?
+298	Este Ochiul unui Paianjen un obiect pentru misiune?
+299	Există 5 Coloranți de Păr în Metin2?
+300	Esența de Mosc este negociabilă?
+301	Aranyo are ceva pe spate?
+302	Aranyo este soția lui Octavio?
+303	Este Aranyo soția lui Soon?
+304	Există scheleți în Metin2?
+305	Există Memoriale în Kuahlo Dong (Temnița păianjenilor)
+306	Există antrenamente pentru luptă în Metin2?
+307	Papucii de piele pot fi purtați de oricine?
+308	Sabia exorcism are viteza de atac de 20%?
+309	Eun-Jung poartă un evantai?
+310	Eun-Jung poartă o armă?
+311	Poți arunca lingou argint și aur pe jos?
+312	Atacul Lamă magnetică este redus în timp ce este upgradata?
+313	Viteza atacului Lamă magnetică crește de fiecare data când e upgradata?
+314	Există Mască Sumbră de Lemn?
+315	Poți găti în Metin2?
+316	Koe-Pung poartă o mască?
+317	Piatra Sufletului Pădurii este un obiect de misiune?
+318	Berserker căpcăun cară o armă în mână sa stângă?
+319	Sexul tău poate fi schimbat la fiecare nivel?
+320	Imha este Zona breslei din Regatul Chunjo?
+321	Imha este Zona breslei din Regatul Shinsoo?
+322	Imha este Zona breslei din Regatul Jinno?
+323	Jungrang este NPC în Metin2?
+324	Yayang este fiica lui Soon?
+325	Interiorul din Jungsun Dong este format din pietre de culoare verde?
+326	Yang este valuta Metin2?
+327	Piatra Sufletului Jinunggyi este necesară pentru misiunea de lvl 30?
+328	Exista obiecte pentru cercetare?
+329	La Seon-Hae se pot face poțiuni?
+330	Există dovleci în Metin2?
+331	Există Șosete în Metin2?
+332	Focul din Sanctuarul Întunecat este roșu?
+333	Maimuța General de lvl 40 este de nivel 4?
+334	Orice clasa poate folosi Sabia?
+335	Nakajima este NPC în Metin2?
+336	Pot monștrii să jefuiască Permisul de trecere?
+337	La Magazinul General 200 Poțiuni Roșii costa 33000 Yang?
+338	Arcul împodobit Lavishly poate fi purtat de Ninjas?
+339	Chuong este în Harta1?
+340	Metinul Necazului de lvl 10 este de nivel 5?
+341	Există Artificii de Crăciun?
+342	Artificiile chinezești măresc viteza de mișcare?
+343	Artificiile chinezești măresc viteza de atac?
+344	Artificiile chinezești măresc șansele de leșin?
+345	Somonul prăjit îți restaurează 350 puncte de viață?
+346	Somonul prăjit îți restaurează 350 puncte Mana?

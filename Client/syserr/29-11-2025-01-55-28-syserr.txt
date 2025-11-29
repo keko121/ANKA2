@@ -1,0 +1,19 @@
+1129 02:47:51426 :: Traceback (most recent call last):
+
+1129 02:47:51426 ::   File "uiEvent.py", line 226, in <lambda>
+
+1129 02:47:51426 ::   File "uiEvent.py", line 334, in HideEventTooltip
+
+1129 02:47:51426 :: AttributeError
+1129 02:47:51426 :: : 
+1129 02:47:51426 :: 'NoneType' object has no attribute 'ClearToolTip'
+1129 02:47:51426 :: 
+
+1129 03:00:24673 :: CRaceManager::RegisterRacePath : RACE[26992] LOAD MSMFILE[d:/ymir work/npc/facility/yonggwangro.msm] ERROR. Will Find Another Path.
+1129 03:00:24673 :: CRaceManager::RegisterRacePath : RACE[26992] LOAD MSMFILE[d:/ymir work/npc_mount/facility/yonggwangro.msm] ERROR. Will Find Another Path.
+1129 03:00:24673 :: CRaceManager::RegisterRacePath : RACE[26992] LOAD MSMFILE[d:/ymir work/npc2/facility/yonggwangro.msm] ERROR. Will Find Another Path.
+1129 03:00:24673 :: CRaceManager::RegisterRacePath : RACE[26992] LOAD MSMFILE[d:/ymir work/npc_pet/facility/yonggwangro.msm] ERROR. Will Find Another Path.
+1129 03:00:24673 :: CRaceManager::RegisterRacePath : RACE[26992] LOAD MSMFILE[d:/ymir work/monster/facility/yonggwangro.msm] ERROR. Will Find Another Path.
+1129 03:00:24673 :: CRaceManager::RegisterRacePath : RACE[26992] LOAD MSMFILE[d:/ymir work/monster2/facility/yonggwangro.msm] ERROR. Will Find Another Path.
+1129 03:31:26456 :: CRaceManager::RegisterRacePath : RACE[33009] LOAD MSMFILE[d:/ymir work/npc2/alchemist/alchemist.msm] ERROR. Will Find Another Path.
+1129 03:31:26456 :: CRaceManager::RegisterRacePath : RACE[33009] LOAD MSMFILE[d:/ymir work/npc_pet/alchemist/alchemist.msm] ERROR. Will Find Another Path.

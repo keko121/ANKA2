@@ -1,0 +1,14 @@
+TextureSet
+
+TextureCount 1
+
+Start Texture001
+    "d:\ymir work\terrainmaps\plechi_env_map\dark.dds"
+    4.000000
+    4.000000
+    0.000000
+    0.000000
+    1
+    0
+    0
+End Texture001

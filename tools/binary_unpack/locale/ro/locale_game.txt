@@ -1,0 +1,2523 @@
+ACCE_ABSORB_CHANCE	Rata absorbtiei: %d%%
+ACCE_ABSORB_COST	Costuri combinatie: %d
+ACCE_ALREADY_REGISTER	Acest obiect a fost deja folosit.
+ACCE_ABSORB_CHANCE2	Rata absorbtiei: %d%% ~ %d%%
+ACCE_DO_YOU_CLEAN	Vrei sa stergi bonusurile de pe aceasta esarfa?
+ACCE_FAILURE_CLEAN	Nici un bonus de sters.
+ACCE_DEL_ABSORDITEM	Absorbi obiectul, distrugandu-l inaces proces?
+ACCE_DEL_SERVEITEM	Esarfa 2 va fi distrusa daca esueaza combinatia.
+ACCE_DEL_SERVEITEM2	Esarfa 2 va fi distrusa daca va esua combinatia.
+ACCE_INITEM	Trage obiectul in fereastra.
+ACCE_MAXGRADE	Acesta a fost deja personalizat.
+ACCE_MAX_DRAINRATE	Max. Rata de Absorbtie
+ACCE_NOTABSORBITEM	Nu poti folosi o bucata de arma sau armura ce a fost deja absorbita.
+ACCE_NOT_SEALITEM	Nu poti folosi niciun obiect personalizat.
+ACCE_NOT_USINGITEM	Nu poti combina un obiect echipat.
+ACCE_NOT_WINDOWOPEN	Nu poti folosi acest obiect daca fereastra folosita la combinatii este deschisa.
+ACCE_POSSIBLE_ACCE	Poti folosi doar Esarfe.
+ACCE_POSSIBLE_ACCEITEM	Poti extrage doar bonusurile din arme si armuri.
+ACCEPT_WARP_FROM_YOUR_FRIEND_REQUEST	Accepti ca %s sa se teleporteze la tine?
+AFF_LOVE_POINT	Punct de dragoste: %d%%
+ALIGNMENT_NAME	Puncte de grad:
+alsoExportToCharset	windows-1250
+ATTACK_ERROR_UNKNOWN	Greseala de atac necunoscuta: %s
+ATTENDANCE_REWARD_QUESTION	Doresti sa colectezi recompensa?
+ATTR_6TH_7TH_ADD_QUESTION1	Nu poti folosi acest obiect in timp ce se adauga un bonus.
+ATTR_6TH_7TH_ADD_QUESTION2	Doresti sa adaugi un bonus?
+ATTR_6TH_7TH_CHANGE_FAIL	Nu poti schimba bonusul.
+ATTR_6TH_7TH_DESC1	a. Trebuie sa adaugi materialele necesare obiectului pentru a adauga al 6lea si al 7lea bonus.
+ATTR_6TH_7TH_DESC2	b. Fiecare marcasita creste rata de succes cu 2%.
+ATTR_6TH_7TH_DESC3	c. Foloseste un aditiv pentru a creste rata de succes si mai mult.
+ATTR_6TH_7TH_DESC4	d. Dureaza 24 de ore pentru a adauga un bonus. In acest timp, NPC va pastra obiectul pe care ar trebui adaugat bonusul. Imediat ce procesul este complet, il poti recupera.
+ATTR_6TH_7TH_POSSIBILITY	Poti adauga un bonus aditional.
+ATTR_6TH_7TH_TOTAL_SUCCESS_PERCENT	Rata de succes: %.1f%%
+AURA_CLEAR_CANNOT_USE_SEALED_ITEM	Nu poti schimba statusul unui obiect personalizat.
+AURA_CLEAR_QUESTION_WHEN_USE	Doresti sa elimini bonusurile absorbite? Nu pot fi restaurate.
+AURA_BOOST_DRAIN_PER	Absorbtie extra +%d%%
+AURA_DRAIN_PER	Rata absorbtie %.1f%%
+AURA_DRAIN_BOOST_PER	Rata absorbtie %.1f%% (+%d%%)
+AURA_EVOLUTION_GOLD	[Aura] Yang insuficient pentru evoluare.
+AURA_IMPOSSIBLE_ABSORBITEM	[Aura] Obiectul transmis nu poate fi utilizat.
+AURA_IMPOSSIBLE_EQUIPITEM	[Aura] Obiectele echipate nu pot fi transmise.
+AURA_IMPOSSIBLE_EVOLUTION_ITEM	[Aura] Nu poate fi evoluat.
+AURA_IMPOSSIBLE_EVOLUTION_ITEMCOUNT	[Aura] Numarul de obiecte nu este suficient pentru evoluare.
+AURA_IMPOSSIBLE_GROWTHITEM	[Aura] Nu poate fi imbunatatit.
+AURA_IMPOSSIBLE_GROWTHITEM2	[Aura] Trebuie sa atasezi materialele.
+AURA_IMPOSSIBLE_REFINEITEM	[Aura] Doar un Costum Aura, Colier, Cercel sau Banderola pot fi folosite.
+AURA_IMPOSSIBLE_REFINEITEM2	[Aura] Doar Costum Aura, Scut, Colier, Cercei si Bratara pot fi folosite.
+AURA_IMPOSSIBLE_SEALITEM	[Aura] Obiectele personalizate nu pot fi transmise.
+AURA_ITEM_NEED_REGISTER	[Aura] Obiectul trebuie inserat.
+AURA_LEVEL_STEP	Nivel %d (Stagiu %d)
+AURA_MAX_LEVEL	[Aura] Costumul Aura a ajuns la nivelul maxim.
+AURA_NOTICE_DEL_ABSORDITEM	[Aura] Obiectul transmis va fi distrus.
+AURA_OPEN_OTHER_WINDOW	Nu poti face asta in timp ce este deschisa o ferestra pentru imbunatatire, evolutie sau transfer de statusuri.
+AURA_POSSIBLE_AURAITEM	[Aura] Doar Costum Aura poate fi folosit.
+AURA_POSSIBLE_AURARESOURCE	Doar Runa Aura de Gheata si Runa Aura de Foc pot fi folosite.
+AURA_POSSIBLE_REGISTER_AURAITEM	[Aura] Costum Aura trebuie inserat mai intai.
+AURA_TITLE_ABSORB	Transmite valorile in Costum Aura.
+AURA_TITLE_EVOLUTION	Evolutie Costum Aura
+AURA_TITLE_GROWTH	Imbunatatire Costum Aura
+AURA_TOOLTIP_EVOLUTION_PER	Șansa: %d%%
+AURA_TOOLTIP_EXP	EXP (%d%% / 100%%)
+AURA_TOOLTIP_LEVEL	Nivel %d (Stagiu %d) (Rata de absorbtie %.1f%%)
+AURA_TOOLTIP_NEED_YANG	%s Yang
+AURA_TOOLTIP_NEXT	Nou
+AURA_TOOLTIP_NOW	Actual
+AURA_TOOLTIP_RESOURCE	Consumabile
+AURA_TOOLTIP_RESOURCE_ITEM	%s * %d
+AUTO_HUNTING_MSG_CANNOT_CHANGE_NON_WEAPON	Nu poti echipa obiectul cand Auto-Atac este activat.
+AUTO_HUNTING_MSG_CANNOT_START_WITHOUT_WEAPON	Nu poti activa Auto-Atac in timp ce acest obiect este echipat.
+AUTO_HUNTING_OPTION_BOSS	Sef
+AUTO_HUNTING_OPTION_KING	Nivelul 5
+AUTO_HUNTING_OPTION_KNIGHT	Nivel 3
+AUTO_HUNTING_OPTION_PAWN	Nivel 1
+AUTO_HUNTING_OPTION_STONE	Piatra Metin
+AUTO_HUNTING_OPTION_S_KNIGHT	Nivel 4
+AUTO_HUNTING_OPTION_S_PAWN	Nivel 2
+AUTO_TOOLTIP_CLEAR	Reseteaza
+AUTO_TOOLTIP_LINE1	Abilitati: Alege abilitatile de lupta si trage-le in locurile libere. (Premium)
+AUTO_TOOLTIP_LINE2	Indiciu: Poti schimba intervalul de activare (in secunde) sub fiecare abilitate.
+AUTO_TOOLTIP_LINE3	Licori: Alege licorile pentru lupta si trage-le in locurile libere. (Premium)
+AUTO_TOOLTIP_LINE4	Indiciu: Licorile de PV si PM se vor activa de indata ce nivelul scade sub valoarea % aratata la fiecare licoare.
+AUTO_TOOLTIP_LINE5	Nota: utilizarea automata a abilitatilor, licorilor si invierii poate fi activata in magazinul de obiecte.
+AUTO_TOOLTIP_LINE6	5. Licorile si obiectele care sunt selectate vor fi consumate automat dupa expirarea beneficiului fara a se afisa durata ramasa.
+AUTO_TOOLTIP_LINE7	6. Folosirea sagetii de langa Atac permite determinarea puterii monstrilor pe care ii ataci (+/- niveluri fata de nivelul tau).
+AUTO_TOOLTIP_LINE8	7. Folosirea sagetii de langa Focus permite determinarea razei de atac a monstrilor.
+AUTO_TOOLTIP_TITLE	Ajutor Atac-Automat
+BATTLE_MAP_NAME_AREA_1	Zona 1
+BATTLE_MAP_NAME_AREA_2	Zona 2
+BATTLE_MAP_NAME_AREA_3	Zona 3
+BATTLE_MAP_NAME_AREA_4	Zona 4
+BATTLE_MAP_NAME_AREA_5	Zona 5
+BATTLE_MAP_NAME_AREA_6	Zona 6
+BATTLE_MAP_NAME_AREA_7	Zona 7
+BATTLE_MAP_NAME_AREA_8	Zona 8
+BATTLE_MAP_NAME_AREA_9	Zona 9
+BATTLE_POINT	Puncte de Lupta
+BATTLE_ROYALE_ALIVE_COUNT	Supravietuitori: %d
+BATTLE_ROYALE_APPLICATION_TITLE	Batalia Roiala
+BATTLE_ROYALE_CANNOT_OPEN_MALL	Nu poti deschide asta aici.
+BATTLE_ROYALE_KILL_COUNT	Adversarii invinsi: %d
+BATTLE_ROYALE_MAINBUTTON_APPLICATION	Participa
+BATTLE_ROYALE_MAINBUTTON_CANCEL	Anuleaza
+BATTLE_ROYALE_MAINBUTTON_EXIT	Paraseste
+BATTLE_ROYALE_MAINBUTTON_STARTABLE	Start
+BATTLE_ROYALE_NOTIFY_APPLICATED	Te-ai inregistrat la Batalia Roiala. Poti intra de indata ce s-au inscris suficienti participanti.
+BATTLE_ROYALE_NOTIFY_ENTRY_CLOSED	Inregistrarea pentru Batalia Roiala a fost inchisa.
+BATTLE_ROYALE_NOTIFY_STARTABLE	Acum poti intra in Batalia Roiala. Apasa pe butonul evenimentului pentru a participa.
+BATTLE_ROYALE_NOTIFY_WINNER	Ai castigat.
+BATTLE_ROYALE_PERSONAL_RANK	Rang Personal: %d
+BATTLE_ROYALE_QUESTION_USE_INFINITE_STAMINA	Doresti sa folosesti Rezistenta Infinita?
+BATTLE_ROYALE_WHO_KILLED	Jucatori care te-au omorat: %s
+BATTLE_ROYALE_WINNER_1	Ai castigat Batalia Roiala!
+BATTLE_ROYALE_WINNER_2	Vei fi teleportat in sat in curand.
+BEAD	Animasfera
+BEAD_TIME_REMAINING_TO_GET	Animasfera incarcata in: %d min.
+BELT_RENEWAL_BANN_SIGN	Nu se poate continua.
+BELT_RENEWAL_INVENTORY_FULL	Nu este destul loc in inventar.
+BNW_COIN	Moneda Profet
+BUY_LIMIT_LEVEL	Limita cumparare: %s
+CANNOT_ATTACK_DEST_IN_SAFE	Inamicul e prea departe.
+CANNOT_ATTACK_SELF_IN_SAFE	Nu pot ataca.
+CANNOT_DOING_PRIVATE_SHOP_OPEN	Nu poti face altceva daca ai deschis un magazin privat.
+CANNOT_EQUIP_IN_EXCHANGE	Nu poti schimba echipamentul cand negociezi.
+CANNOT_EQUIP_IN_SHOP	Nu poti schimba echipamentul cand negociezi.
+CANNOT_FISHING_RIDE_MOUNT	Nu poti pescui in timp ce calaresti.
+CANNOT_FISHING_WHILE_POLY	Nu poti pescui in timp ce esti transformat.
+CANNOT_ILLUSTRATIONPAGE_WARP	Nu poti folosi Card Monstru de teleportare aici.
+CANNOT_MOVE_DRAGON_SOUL_WHILE_ATTACK	Nu poti face asta in timp ce te misti.
+CANNOT_OPEN_PRIVATE_SHOP_IN_SAFE_AREA	Nu poti deschide magazinul intr-un spatiu public.
+CANNOT_POLY_STATUS	Nu poti sa te transformi momentan.
+CANNOT_PVP_MAP_MESSAGE	Nu poti face asta in aceasta zona.
+CANNOT_SHOOT_DEST_IN_SAFE	Inamicul e prea departe.
+CANNOT_SHOOT_EMPTY_ARROW	Am nevoie de o sageata.
+CANNOT_SHOOT_SELF_IN_SAFE	Nu pot face asta.
+CANNOT_SKILL_APPROACH	Sunt sigur ca nu ma pot apropia mai mult de atat.
+CANNOT_SKILL_ATTACK	Nu pot ataca.
+CANNOT_SKILL_BLUE	Nu poti folosi Sufletul Lupului Indigo atunci cand este activ Sufletul Lupului Rosu.
+CANNOT_SKILL_DEST_IN_SAFE	Inamicul e prea departe.
+CANNOT_SKILL_EQUIP_FISHING_ROD	Nu poti pescui fara sa ai echipata o undita.
+CANNOT_SKILL_HAVE_TO_RIDE	Am nevoie de un cal pentru a folosi asta.
+CANNOT_SKILL_NEED_EMPTY_BOTTLE	Nu am nicio sticla goala.
+CANNOT_SKILL_NEED_POISON_BOTTLE	Nu am nicio sticla cu otrava.
+CANNOT_SKILL_NEED_TARGET	Care este tinta?
+CANNOT_SKILL_NOT_ENOUGH_HP	Nu am destule PV!
+CANNOT_SKILL_NOT_ENOUGH_SP	Nu am destule PM!
+CANNOT_SKILL_NOT_HORSE_SKILL	Nu pot folosi asta in timp ce calaresc.
+CANNOT_SKILL_NOT_MATCHABLE_WEAPON	Aceasta abilitate nu o pot folosi la aceasta arma.
+CANNOT_SKILL_NOT_STANDING_HORSE_SKILL	Nu poti folosi aceasta abilitate pe acest mount.
+CANNOT_SKILL_NOT_YET_LEARN	Nu am invatat aceasta abilitate.
+CANNOT_SKILL_ONLY_FOR_ALLIANCE	Are efect doar asupra membrilor grupului.
+CANNOT_SKILL_ONLY_FOR_CORPSE	Are efect doar asupra mortilor.
+CANNOT_SKILL_RED	Nu poti folosi Sufletul Lupului Rosu atunci cand este activ Sufletul Lupului Indigo.
+CANNOT_SKILL_REMOVE_FISHING_ROD	Nu pot folosi aceasta abilitate cu o undita.
+CANNOT_SKILL_SELF_IN_SAFE	De aici nu pot ataca.
+CANNOT_SKILL_USE_SELF	Nu pot folosi asta asupra mea.
+CANNOT_SKILL_WAIT_COOLTIME	Nu pot folosi inca aceasta abilitate.
+CANNOT_UNEQUIP_IN_BATTLE	Trebuie sa stai pe loc pentru a dezechipa obiectul.
+CANNOT_USE	Nu poti folosi asta.
+CANNOT_USE_SUTRA_TO_GOOD_ALIGNMENT	Nu poti folosi Boaba Zen deoarece rangul tau negativ nu poate fi redus mai mult.
+CANNOT_WHISPER_BLOCKED_TARGET	Mai intai trebuie sa eliminat %s din lista de blocare.	SA
+CANNOT_WHISPER_DEST_REFUSE	%s a blocat complet soptitul.	SA
+CANNOT_WHISPER_NOT_LOGON	%s nu e online.	SA
+CANNOT_WHISPER_SELF_REFUSE	Nu poti sopti cuiva ceva daca soptitul e complet blocat.	SNA
+CANNOT_WHISPER_TARGET_BLOCKED_ME	%s te-a blocat.	SA
+CANT_USE_MESSAGE_WHEN_EQUIP	Nu poti folosi asta pe un obiect echipat.
+CATCHKING_EVENT_MESSAGE_CARD_GAIN	Primesti Pachete Rege.
+CATCHKING_EVENT_MESSAGE_CARD_PEICE_GAIN	Primesti Carti Rege.
+CATCHKING_EVENT_MESSAGE_NOT_ENOUGHT_ITEM	Nu ai suficiente obiecte sau bani pentru a juca.
+CATCHKING_EVENT_MESSAGE_NO_MORE_GAIN	Nu mai poti primi Pachete Rege.
+CATEGORY_ARMOR_ARMOR_BODY	Armura
+CATEGORY_ARMOR_ARMOR_GLOVE	Manusi
+CATEGORY_ARMOR_ARMOR_HEAD	Coifuri
+CATEGORY_ARMOR_ARMOR_SHIELD	Scuturi
+CATEGORY_COSTUMES	Costume
+CATEGORY_COSTUMES_AURA	Costume Aura
+CATEGORY_COSTUMES_COSTUME_BODY	Costume
+CATEGORY_COSTUMES_COSTUME_HAIR	Frizuri
+CATEGORY_COSTUMES_COSTUME_WEAPON	Accesorii Arme
+CATEGORY_COSTUMES_ETC	Altele
+CATEGORY_COSTUMES_SASH	Esarfe
+CATEGORY_DRAGON_STONE	Alchimia Piatra Dragon
+CATEGORY_DRAGON_STONE_DEMON	Ametist
+CATEGORY_DRAGON_STONE_DRAGON_DIAMOND	Diamante
+CATEGORY_DRAGON_STONE_DRAGON_GARNET	Granat
+CATEGORY_DRAGON_STONE_DRAGON_JADE	Jad
+CATEGORY_DRAGON_STONE_DRAGON_ONYX	Onyx
+CATEGORY_DRAGON_STONE_DRAGON_RUBY	Rubine
+CATEGORY_DRAGON_STONE_DRAGON_SAPPHIRE	Safir
+CATEGORY_DRAGON_STONE_ETC	Altele
+CATEGORY_EQUIPMENT_ARMOR	Echipament
+CATEGORY_EQUIPMENT_JEWELRY	Bijuterii
+CATEGORY_EQUIPMENT_WEAPON	Arme
+CATEGORY_ETC	Altele
+CATEGORY_ETC_ALL	Toti
+CATEGORY_ETC_ETC	Altele
+CATEGORY_ETC_EVENT	Obiecte Eveniment
+CATEGORY_ETC_GIFTBOX	Cufere | Cutii
+CATEGORY_ETC_MATRIMORY	Mariaj
+CATEGORY_ETC_PARTI	Cartea Arta Razboiului
+CATEGORY_ETC_POLYMORPH	Marmura Transformare
+CATEGORY_ETC_RECIPE	Productie Licori
+CATEGORY_ETC_SEAL	Personalizate
+CATEGORY_FISHING_PICK	Pescuit | Minerit
+CATEGORY_FISHING_PICK_EQUIPMENT_PICK	Tarnacoape
+CATEGORY_FISHING_PICK_ETC	Altele
+CATEGORY_FISHING_PICK_FISHING_POLE	Momeala de Pescuit
+CATEGORY_FISHING_PICK_FOOD	Peste
+CATEGORY_FISHING_PICK_PICK_BOOK	Ghid de Minat
+CATEGORY_FISHING_PICK_STONE	Minereuri
+CATEGORY_JEWELRY_ARMOR_EAR	Cercei
+CATEGORY_JEWELRY_ARMOR_FOOTS	Pantofi
+CATEGORY_JEWELRY_ARMOR_NECK	Coliere
+CATEGORY_JEWELRY_ARMOR_PENDANT	Talisman
+CATEGORY_JEWELRY_ARMOR_WRIST	Bratari
+CATEGORY_JEWELRY_ITEM_BELT	Curele
+CATEGORY_MOUNT_PET	Mounti | Insotitori
+CATEGORY_MOUNT_PET_CHARGED_PET	Insotitori
+CATEGORY_MOUNT_PET_EGG	Oua Insotitori
+CATEGORY_MOUNT_PET_FREE_PET	Insotitori Avansati
+CATEGORY_MOUNT_PET_MOUNT	Mounti
+CATEGORY_POTION	Licori
+CATEGORY_POTION_ABILITY	Consumabile
+CATEGORY_POTION_ETC	Altele
+CATEGORY_POTION_HAIRDYE	Vopsele de Par
+CATEGORY_SKILL	Abilitati
+CATEGORY_SKILL_BOOK_OF_OBLIVION	Cartea Uitarii
+CATEGORY_SKILL_ETC	Altele
+CATEGORY_SKILL_HORSE_SKILL_BOOK	Carte Abilitati Cal
+CATEGORY_SKILL_PAHAE	Respingere | Ajutor
+CATEGORY_SKILL_SKILL_BOOK	Carti Abilitati
+CATEGORY_SORT_LOWEST_ALL_PRICE	Cel mai mic pret total
+CATEGORY_SORT_LOWEST_COUNT	Suma (de la mic la mare)
+CATEGORY_SORT_LOWEST_PER_PRICE	Cel mai mic pret unitar
+CATEGORY_SORT_MAXIMUN_ALL_PRICE	Cel mai mare pret total
+CATEGORY_SORT_MAXIMUN_COUNT	Suma (de la mare la mic)
+CATEGORY_SORT_MAXIMUN_PER_PRICE	Cel mai mare pret unitar
+CATEGORY_SORT_RECENT	Cel mai nou
+CATEGORY_TUNING	Imbunatatiri
+CATEGORY_TUNING_ALCHEMY	Creste Sansele
+CATEGORY_TUNING_ETC	Altele
+CATEGORY_TUNING_RESOURCE	Materiale
+CATEGORY_TUNING_STONE	Pietrele Spiritului
+CATEGORY_UNIQUE	Obiecte Speciale
+CATEGORY_UNIQUE_ABILITY	Consumabile
+CATEGORY_UNIQUE_ETC	Altele
+CATEGORY_WEAPON_WEAPON_ARROW	Sageti
+CATEGORY_WEAPON_WEAPON_BELL	Clopote
+CATEGORY_WEAPON_WEAPON_BOW	Arcuri
+CATEGORY_WEAPON_WEAPON_CLAW	Gheare
+CATEGORY_WEAPON_WEAPON_DAGGER	Cutite
+CATEGORY_WEAPON_WEAPON_FAN	Evantaie
+CATEGORY_WEAPON_WEAPON_MOUNT_SPEAR	Sulite
+CATEGORY_WEAPON_WEAPON_QUIVER	Tolba
+CATEGORY_WEAPON_WEAPON_SWORD	Arme O Mana
+CATEGORY_WEAPON_WEAPON_TWO_HANDED	Arme Doua Maini
+CHANGE_ALREADY_REGISTER	[Transformare] Acest obiect a fost deja trimis.
+CHANGE_LOOK_CHANGE_ITEM	Vrei sa transformi acest obiect?
+CHANGE_LOOK_CHECK_OUT_REGISTER_ITEM	[Transformare] Intai trebuie sa scoti obiectul dorit pentru transformare.
+CHANGE_LOOK_COST	Costuri de transformare: %s Yang
+CHANGE_LOOK_DEL_ITEM	Obiectul absorbit se va sterge.
+CHANGE_LOOK_DO_NOT_CHANGE_LOOK_ITEM	[Transformare] Acest obiect nu poate fi transformat.
+CHANGE_LOOK_DO_NOT_EQUIP_ITEM	[Transformare] Nu poti transforma un obiect in timp ce este echipat.
+CHANGE_LOOK_DO_NOT_REGISTER_ITEM	[Transformare] Nu poti trimite acest obiect.
+CHANGE_LOOK_DO_NOT_SEAL_ITEM	[Transformare] Acest obiect este personaliat.
+CHANGE_LOOK_INSERT_CHANGE_LOOK_ITEM	[Transformare] Trimite obiectul ce doresti sa il transformi.
+CHANGE_LOOK_INSERT_ITEM	[Transformare] Trebuie sa trimiti obiectul mai intai.
+CHANGE_LOOK_NEED_MONEY	Obiecte sau Yang insuficiente.
+CHANGE_LOOK_OPEN_OTHER_WINDOW	[Transformare] Aceasta actiune nu este posibila in timp ce fereastra de Transformare este deschisa.
+CHANGE_LOOK_TITLE	Transformare
+CHANGE_LOOK_TITLE2	Transformare Mount
+CHANGE_PET_PLEASE_APPEND_FIRST	Mai intai trebuie selectat insotitorul.
+CHANGE_TOOLTIP2_LINE1	Adauga obiectul tinta in stanga si materialul in dreapta.
+CHANGE_TOOLTIP2_LINE2	Apasa pe casuta pentru a utiliza Yang sau un Token Transformare si modifica aspectul mountului.
+CHANGE_TOOLTIP2_LINE3	Folosind un Token Transformare schimbi infatisarea mountului fara sa te coste Yang (se va consuma Tokenul).
+CHANGE_TOOLTIP2_LINE4	Daca schimbi aspectul unui mount cu durata de timp, durata va ramane neschimbata.
+CHANGE_TOOLTIP2_LINE5	Daca mountul este permanent, iar materialul are o durata, mountul va mentine aspectul schimbat pe toata durata materialului.
+CHANGE_TOOLTIP_LINE1	Pune in stanga obiectul ce doresti sa il transformi.
+CHANGE_TOOLTIP_LINE2	Pune celalalt obiect in dreapta.
+CHANGE_TOOLTIP_LINE3	Aspectul obiectului din stanga se va schimba.
+CHANGE_TOOLTIP_LINE4	imediat ce confirmi transformarea (V) si platesti Yangul.
+CHANGE_TOOLTIP_LINE5	Acest obiect permite
+CHANGE_TOOLTIP_LINE6	sa transformi un obiect fara a cheltui Yang.
+CHANGE_TOOLTIP_TITLE	Transformare
+CHANNEL	Canal
+CHANNELING_CANNOT_LOGOUT	Nu poti reveni la ecranul de login.
+CHANNEL_EMPTY_SERVER	Niciun server
+CHANNEL_NORMAL	Canal %d
+CHANNEL_NOTIFY_FULL	Acest canal este plin! Alege te rog altul.
+CHANNEL_NOT_FIND_INFO	Nicio informatie gasita via Canal.
+CHANNEL_PVP	Duel liber
+CHANNEL_SELECT_CHANNEL	Alege canalul
+CHANNEL_SELECT_REGION	Selecteaza regiunea.
+CHANNEL_SELECT_SERVER	Alege serverul
+CHANNEL_STATUS_BUSY	Ocupat
+CHANNEL_STATUS_FULL	Plin
+CHANNEL_STATUS_OFFLINE	Necunoscut
+CHANNEL_STATUS_RECOMMENDED	Recomandat
+CHANNEL_STATUS_VACANT	Scazut
+CHANNEL_TEST_SERVER	Testeaza serverul
+CHANNEL_TEST_SERVER_ADDR	Test %s:%d
+CHARACTER_CREATE_MODE	Creaza caracter
+CHARACTER_NAME	Nume
+CHARACTER_SELECT_MODE	Alege caracter
+CHARGE_BEAD_QUESTION	Animasfere necesare: %d. Doresti sa continui?
+CHATTING_SETTING_ADD	Adauga fila.
+CHATTING_SETTING_ADD_MAX	Nu mai poti adauga.
+CHATTING_SETTING_CHANGE_TITLE_NAME	Doresti sa salvezi numele pentru acest chat?
+CHATTING_SETTING_CHANGE_TITLE_NOT	Numele chatului general nu poate fi schimbat.
+CHATTING_SETTING_CLEAR_QUESTION	Resetezi?
+CHATTING_SETTING_DEL	Sterge camp
+CHATTING_SETTING_LANGUAGE_OFF	Nu
+CHATTING_SETTING_LANGUAGE_ON	Da
+CHATTING_SETTING_QUESTION_DESC_1	1. Seteaza un mesaj pentru EXP castigat din uciderea monstrilor sau pierderea EXP.
+CHATTING_SETTING_QUESTION_DESC_2	2. Seteaza un mesaj pentru prada sau Yang-ul obtinut.
+CHATTING_SETTING_RETURN	Reseteaza campuri.
+CHATTING_SETTING_SETTING	Setari
+CHAT_ALL	Toti
+CHAT_BLOCK	Blocheaza
+CHAT_DICE_INFO	Arunca
+CHAT_GUILD	Breasla
+CHAT_INFORMATION	Info
+CHAT_INSULT_STRING	Propozitia contine cuvinte nepermise.
+CHAT_LOG	Arata mesaje vechi [L]
+CHAT_LOG_TITLE	Log Chat
+CHAT_MESSAGE_CLIENT_VERSION_NOT_MATCH	Ai fost deconectat deoarece versiunea clientului tau nu corespunde. Te rugam sa iti actualizezi versiunea si sa te conectezi din nou.
+CHAT_NORMAL	Normal
+CHAT_NOTICE	Server
+CHAT_OPEN_LINK_DANGER	Atentie: Acest link poate contine un virus!
+CHAT_OPEN_LINK	Doresti sa deschizi acest link?
+CHAT_PARTY	Grup
+CHAT_SEND_CHAT	Trimite mesaj
+CHAT_SEND_MEMO	Trimite soapta [Shift+Enter]
+CHAT_SHOUT	Striga
+CHAT_SHOUT_LIMIT	Poti striga doar o data la 15 secunde.
+CHAT_WHISPER	Șoapta
+CREATE_ERROR_GM_NAME	Nu poti folosi ,GM‘ la numele caracterului.
+CREATE_ERROR_INSULT_NAME	Acest nume este invalid.
+CREATE_ERROR_LIMIT_LEVEL	Caracterul tau trebuie sa aiba cel putin nivelul 80.
+CREATE_ERROR_TIME_LIMIT	Poti crea un singur caracter la fiecare 30 de secunde.
+CREATE_ERROR_WRONG_STRING	Numele caracterului este invalid.
+CREATE_EXIST_SAME_NAME	Exista deja un caracter cu acest nume.
+CREATE_FAILURE	Nu poti crea acest caracter.
+CREATE_FULL	Nu mai poti crea alte caractere.
+CREATE_GM_NAME	GM
+CREATE_INPUT_NAME	Introdu numele.
+CREATE_PLUS_STAT	Mai sunt puncte de status disponibile.
+CUBE_ALCHEMY_BANN_SIGN	Nu poti face nimic acum.
+CUBE_CATEGORY_ARMOR	Armuri
+CUBE_CATEGORY_ETC	Accesorii
+CUBE_CATEGORY_NINJA	Ninja
+CUBE_CATEGORY_SHAMAN	Șaman
+CUBE_CATEGORY_SURA	Sura
+CUBE_CATEGORY_OTHERS	Altele
+CUBE_CATEGORY_WARRIOR	Razboinic
+CUBE_CATEGORY_WEAPON	Arme
+CUBE_COPY_ATTR_INFO	Pentru a transfera bonusurile, muta itemul in primul slot.
+CUBE_CATEGORY_ACCESSORY	Bijuterii
+CUBE_CATEGORY_ALCHEMY	Catalizator
+CUBE_CATEGORY_ARMOR	Armura
+CUBE_CATEGORY_ARMOR_GLOVE	Manusi
+CUBE_CATEGORY_BELT	Curele
+CUBE_CATEGORY_ETC	Etc.
+CUBE_CATEGORY_EVENT	Eveniment
+CUBE_CATEGORY_JOB	Clasa
+CUBE_CATEGORY_MAP	Harti Complete
+CUBE_CATEGORY_PET	Insotitor
+CUBE_CATEGORY_SETADD_ARMOR	Creeaza armura set
+CUBE_CATEGORY_SETADD_HELMET	Creeaza coif set
+CUBE_CATEGORY_SETADD_WEAPON	Creeaza arma set
+CUBE_CATEGORY_WEAPON	Arma
+CUBE_CATEGOR_SKILL_BOOK	Cartea de Abilitati
+CUBE_DO_NOT_SAME_ALCHEMY_KINDS	Foloseste un Catalizator corespunzator.
+CUBE_FAIL	Fabricarea a esuat.
+CUBE_LIST_TEXT_ITEM_INFO	%s ( %d%% )
+CUBE_LIST_TEXT_MAKE_QUANTITY	[%d]
+CUBE_MAKE_CONFIRM_QUESTION_1	Cel putin unul dintre obiectele utilizate este extrem de valoros (are mai mult de %d bonusuri).
+CUBE_MAKE_CONFIRM_QUESTION_2	Chiar doresti sa continui?
+CUBE_NOT_ENOUGHT_ALCHEMY_COUNT	Nu ai %s, nu poti fabrica chiar acum.
+CUBE_NOT_ENOUGH_GEM	Nu ai suficient Gaya.
+CUBE_NOT_ENOUGH_GOLD	Yang insuficient pentru fabricare.
+CUBE_NOT_ENOUGH_MATERIAL	Material insuficient pentru craft.
+CUBE_PLEASE_SELECT	Niciun obiect ales.
+CUBE_SELECT_ITEM_FIRST	Mai intai alege un obiect pentru fabricare.
+CUBE_TOOLTIP_PASSIVE_JOB_LEFT_TIME	Timp ramas: {0} - {1} ore
+CUBE_USING_ALCHEMY_INFO	Foloseste %s pentru fabricare (%d buc.)
+CZ_REWARD_QUESTION_COMPLETE	Vrei sa revendici acest loc?
+CZ_REWARD_TOOLTIP_10GAN	Insigna Zodiac
+CZ_REWARD_TOOLTIP_10GAN_COUNT	Numar in inventar
+CZ_REWARD_TOOLTIP_10GAN_NEED_COUNT	Cantitate necesara
+CZ_REWARD_TOOLTIP_12ZI	Insigna Gardian
+CZ_REWARD_TOOLTIP_12ZI_COUNT	Numar in inventar
+CZ_REWARD_TOOLTIP_12ZI_NEED_COUNT	Cantitate necesara
+CZ_REWARD_TOOLTIP_ALL_BOX	Comoara Astrala
+CZ_REWARD_TOOLTIP_CAN_GET_ALL_BOX	Apasa aici pentru a colecta Comoara Astrala drept recompensa.
+CZ_REWARD_TOOLTIP_CAN_GET_GREEN_BOX	Apasa aici pentru a colecta Comoara Aventurine drept recompensa.
+CZ_REWARD_TOOLTIP_CAN_GET_YELLOW_BOX	Apasa aici pentru a colecta Comoara Aureolin drept recompensa.
+CZ_REWARD_TOOLTIP_COMPLETABLE	Colecteaza
+CZ_REWARD_TOOLTIP_GREEN_BOX	Comoara Aventurine
+CZ_REWARD_TOOLTIP_GREEN_BOX_COMP_CNT	Comoari Aventurine Colectate: %d
+CZ_REWARD_TOOLTIP_WEEKLY	Zi
+CZ_REWARD_TOOLTIP_WEEKLY_FRI	Vineri
+CZ_REWARD_TOOLTIP_WEEKLY_MON	Luni
+CZ_REWARD_TOOLTIP_WEEKLY_SAT	Sambata
+CZ_REWARD_TOOLTIP_WEEKLY_SAT_SUN	Sambata/Duminica
+CZ_REWARD_TOOLTIP_WEEKLY_THU	Joi
+CZ_REWARD_TOOLTIP_WEEKLY_TUE	Marti
+CZ_REWARD_TOOLTIP_WEEKLY_WED	Miercuri
+CZ_REWARD_TOOLTIP_YELLOW_BOX	Comoara Aurelion
+CZ_REWARD_TOOLTIP_YELLOW_BOX_COMP_CNT	Comori Aureolin Colectate: %d
+DAY	z
+DETAILS_0	Tare vs Metin
+DETAILS_1	Tare vs Jumatate-Om
+DETAILS_2	Rezist la Jumat.-Om
+DETAILS_3	Tare vs Orci
+DETAILS_4	Tare vs Vampir
+DETAILS_5	Tare vs Monstru
+DETAILS_6	Tare vs Monst Zodiac
+DETAILS_7	Tare vs Animale
+DETAILS_8	Tare vs Mistici
+DETAILS_9	Tare vs Demon
+DETAILS_10	Tare vs Mon. Desert
+DETAILS_11	Tare vs Insecte
+DETAILS_12	Valoarea Atacului
+DETAILS_13	Valoarea Apararii
+DETAILS_14	Paguba Medie
+DETAILS_15	Rezist. Paguba Medie
+DETAILS_16	Paguba Abilitate
+DETAILS_17	Rezistent Paguba Abilitate
+DETAILS_18	Atac Fizic/Magic
+DETAILS_19	Atac Magic
+DETAILS_20	Sansa Lovit. Critica
+DETAILS_21	Lovitura Patrunzat.
+DETAILS_22	Rezist Lovit. Crit.
+DETAILS_23	Rezist Lov. Patrunz.
+DETAILS_24	Rezist. la Fulger
+DETAILS_25	Rezist. la Gheata
+DETAILS_26	Rezist. la Intuneric
+DETAILS_27	Rezist. la Foc
+DETAILS_28	Rezist. la Vant
+DETAILS_29	Rezist. la Pamant
+DETAILS_30	Puterea Fulgerului
+DETAILS_31	Puterea Ghetii
+DETAILS_32	Puterea Intunecata
+DETAILS_33	Puterea Focului
+DETAILS_34	Puterea Vantului
+DETAILS_35	Puterea Pamantului
+DETAILS_36	Tare vs Razboinic
+DETAILS_37	Tare vs Ninja
+DETAILS_38	Tare vs Sura
+DETAILS_39	Tare vs Saman
+DETAILS_40	Tare vs Lycan
+DETAILS_41	Aparare vs Razboinic
+DETAILS_42	Aparare vs Ninja
+DETAILS_43	Aparare vs Sura
+DETAILS_44	Aparare vs Saman
+DETAILS_45	Aparare vs Lycan
+DETAILS_46	Aparare Sabie
+DETAILS_47	Aparare Doua Maini
+DETAILS_48	Aparare Pumnal
+DETAILS_49	Aparare Gheara
+DETAILS_50	Aparare Clopot
+DETAILS_51	Aparare Evantai
+DETAILS_52	Aparare Sageata
+DETAILS_53	Sansa Necunostinta
+DETAILS_54	Sansa de Incetinire
+DETAILS_55	Sansa de Otravire
+DETAILS_56	Rezistenta la Otrava
+DETAILS_57	Atac Sangeros
+DETAILS_58	Rez. Atac Sangeros
+DETAILS_59	Fura PV
+DETAILS_60	Fura PM
+DETAILS_61	Recupereaza PV
+DETAILS_62	Recupereaza PM
+DETAILS_63	Blocheaza Atac
+DETAILS_64	Evita Atac Sageti
+DETAILS_65	Reflecta Atac Fizic
+DETAILS_66	Recup. PV la Ucidere
+DETAILS_67	Recup. PM la Ucidere
+DETAILS_68	Dublu EXP
+DETAILS_69	Dublu Yang
+DETAILS_70	Sansa Drop
+DETAILS_71	Valoarea Atacului
+DETAILS_72	Valoarea Apararii
+DETAILS_73	EXP
+DETAILS_74	Sansa Drop
+DETAILS_75	Dublu Yang
+DETAILS_76	Rezistenta la Magie
+DETAILS_77	Anti-Magie
+DETAILS_78	Rezist. la monstri
+DETAILS_79	Bonus Atac magic
+DETAILS_ATTBONUS_BELL	Vulnerabil Clopot
+DETAILS_ATTBONUS_BOW	Vulnerabil Sageata
+DETAILS_ATTBONUS_CLAW	Vulnerabil Gheara
+DETAILS_ATTBONUS_DAGGER	Vulnerabil Pumnal
+DETAILS_ATTBONUS_DRAGON	Tare impotriva Dragonilor
+DETAILS_ATTBONUS_FAN	Vulnerabil Evantai
+DETAILS_ATTBONUS_SWORD	Vulnerabil Sabie
+DETAILS_ATTBONUS_TWOHAND	Vulnerabil Doua Maini
+DETAILS_BLOCK_PENETRATE_PCT	Penetrarea blocarii
+DETAILS_CATE_1	Daune/Aparare
+DETAILS_CATE_2	Bonus element
+DETAILS_CATE_3	Bonus clasa
+DETAILS_CATE_4	Bonus arma
+DETAILS_CATE_5	Alte bonusuri
+DETAILS_CATE_6	Bonus special
+DETAILS_HIT_PCT	Precizie
+DETAILS_MYSTERY_DUNGEON	Puternic impotriva Misterelor
+DETAILS_RESIST_MOUNT_FALL	Rezistenta la alunecare
+DETAILS_TITLE	Detalii
+DETAILS_TOOLTIP_0	Tare vs pietre Metin: Daune mai mari impotriva pietrelor Metin.
+DETAILS_TOOLTIP_1	Tare vs Semi-Oameni: Daune mai mari impotriva Semi-Oameni.
+DETAILS_TOOLTIP_2	Rezistenta vs Semi-Oameni: Reduce daunele primite de la Semi-Oameni.
+DETAILS_TOOLTIP_3	Tare vs Orci: Daune mai mari impotriva orcilor.
+DETAILS_TOOLTIP_4	Tare vs Vampiri: Daune mai mari impotriva vampirilor.
+DETAILS_TOOLTIP_5	Tare vs Monstri: Daune mai mari impotriva monstrilor.
+DETAILS_TOOLTIP_6	Tare impotriva Monstrilor Zodiac: Daune mai mari impotriva monstrilor Zodiac.
+DETAILS_TOOLTIP_7	Tare vs Animale: Daune mai mari impotriva animalelor salbatice.
+DETAILS_TOOLTIP_8	Tare impotriva Misticilor: Daune mai mari impotriva misticilor.
+DETAILS_TOOLTIP_9	Tare vs Demoni: Daune mai mari impotriva demonilor.
+DETAILS_TOOLTIP_10	Tare impotriva Monstrilor de Desert: provoaca daune mai mari monstrilor de desert.
+DETAILS_TOOLTIP_11	Tare impotriva Insectelor: provoaca daune mai mari impotriva insectelor.
+DETAILS_TOOLTIP_12	Mareste valoarea atacului.
+DETAILS_TOOLTIP_13	Mareste valoarea apararii.
+DETAILS_TOOLTIP_14	Mareste paguba medie executata pe inamici in atac.
+DETAILS_TOOLTIP_15	Rezistenta vs paguba medie: reduce daunele primite in atac.
+DETAILS_TOOLTIP_16	Mareste daunele executate de o abilitate.
+DETAILS_TOOLTIP_17	Rezistenta vs paguba abilitate. Reduce daunele primite de la o abilitate.
+DETAILS_TOOLTIP_18	Mareste valoarea atacului fizic si magic.
+DETAILS_TOOLTIP_19	Mareste daunele atacului magic executat pe inamici in atac.
+DETAILS_TOOLTIP_20	Creste sansa unei lovituri critice.
+DETAILS_TOOLTIP_21	Probabilitate lovitura patrunzatoare: Creste sansa de a executa o lovitura patrunzatoare.
+DETAILS_TOOLTIP_22	Rezistenta vs lovitura critica: Reduce daunele facute de o lovitura critica.
+DETAILS_TOOLTIP_23	Rezistenta vs lovitura patrunzatoare: Reduce daunele facute de o lovitura patrunzatoare.
+DETAILS_TOOLTIP_24	Reduce daunele primite de la anumiti monstri.
+DETAILS_TOOLTIP_25	Reduce daunele primite de la anumiti monstri.
+DETAILS_TOOLTIP_26	Rezistenta la intuneric: Reduce daunele primite de la anumiti monstri.
+DETAILS_TOOLTIP_27	Reduce daunele primite de la anumiti monstri.
+DETAILS_TOOLTIP_28	Reduce daunele primite de la anumiti monstri.
+DETAILS_TOOLTIP_29	Reduce daunele primite de la anumiti monstri.
+DETAILS_TOOLTIP_30	Creste daunele facute cu puterea fulgerului.
+DETAILS_TOOLTIP_31	Creste daunele facute cu puterea ghetii.
+DETAILS_TOOLTIP_32	Creste daunele facute cu puterea intunecata.
+DETAILS_TOOLTIP_33	Creste daunele facute cu puterea focului.
+DETAILS_TOOLTIP_34	Creste daunele facute cu puterea vantului.
+DETAILS_TOOLTIP_35	Creste daunele facute cu puterea pamantului.
+DETAILS_TOOLTIP_36	Tare vs Razboinici: Daune mai mari impotriva razboinicilor.
+DETAILS_TOOLTIP_37	Tare vs Ninja: Daune mai mari impotriva ninja.
+DETAILS_TOOLTIP_38	Tare vs Sura: Daune mai mari impotriva sura.
+DETAILS_TOOLTIP_39	Tare vs Samani: Daune mai mari impotriva samanilor.
+DETAILS_TOOLTIP_40	Tare vs Lycani: Daune mai mari impotriva lycanilor.
+DETAILS_TOOLTIP_41	Sansa de aparare la atacurile primite de la razboinici: Reduce daunele primite de la razboinici.
+DETAILS_TOOLTIP_42	Sansa de aparare la atacurile primite de la ninja: Reduce daunele primite de la ninja.
+DETAILS_TOOLTIP_43	Sansa de aparare la atacurile primite de la sura: Reduce daunele primite de la sura.
+DETAILS_TOOLTIP_44	Sansa de aparare la atacurile primite de la saman: Reduce daunele primite de la saman.
+DETAILS_TOOLTIP_45	Sansa de aparare la atacurile primite de la lycan: Reduce daunele primite de la lycan.
+DETAILS_TOOLTIP_46	Reduce daunele produse de o sabie.
+DETAILS_TOOLTIP_47	Reduce daunele produse de o arma doua-maini.
+DETAILS_TOOLTIP_48	Reduce daunele produse de un pumnal.
+DETAILS_TOOLTIP_49	Reduce daunele produse de o gheara.
+DETAILS_TOOLTIP_50	Reduce daunele produse de un clopot.
+DETAILS_TOOLTIP_51	Reduce daunele produse de un evantai.
+DETAILS_TOOLTIP_52	Reduce daunele produse de un arc cu sageti
+DETAILS_TOOLTIP_53	Creste sansa de necunostinta la adversar.
+DETAILS_TOOLTIP_54	Creste sansa de a incetini un oponent.
+DETAILS_TOOLTIP_55	Creste sansa de a otravi un oponent.
+DETAILS_TOOLTIP_56	Reduce daunele produse de otrava.
+DETAILS_TOOLTIP_57	Creste sansa de a executa un atac sangeros.
+DETAILS_TOOLTIP_58	Rezistenta vs atac sangeros: Reduce daunele produse de atac sangeros.
+DETAILS_TOOLTIP_59	Fura PV de la oponenti atunci cand ii lovesti.
+DETAILS_TOOLTIP_60	Fura PM de la oponenti atunci cand ii lovesti.
+DETAILS_TOOLTIP_61	Mareste recuperarea punctelor de viata.
+DETAILS_TOOLTIP_62	Mareste recuperarea punctelor de magie.
+DETAILS_TOOLTIP_63	Sansa de blocare a unui atac fizic: Creste sansa de a evita un atac fizic.
+DETAILS_TOOLTIP_64	Sansa de evitare a unui atac cu sageti: Creste sansa de a evita un atac cu sageti sau de la distanta de la un monstru.
+DETAILS_TOOLTIP_65	Sansa de a reflecta lovituri fizice: O parte dintre daunele fizice de la oponent sunt reflectate catre el.
+DETAILS_TOOLTIP_66	Recuperare PV cand omori: Punctele tale de viata cresc cand omori un oponent.
+DETAILS_TOOLTIP_67	Recuperare PM cand omori: Punctele tale de magie cresc cand omori un oponent.
+DETAILS_TOOLTIP_68	Sansa de a castiga experienta dubla: Creste sansa de a castiga bonus de EXP atunci cand omori un oponent.
+DETAILS_TOOLTIP_69	Sansa la drop dublu Yang: Creste sansa de a primi de doua ori cantiatea de Yang.
+DETAILS_TOOLTIP_70	Sansa la drop obiecte: Creste sansa de a primi de doua ori numarul obiectelor.
+DETAILS_TOOLTIP_71	Mareste valoarea atacului.
+DETAILS_TOOLTIP_72	Mareste valoarea apararii.
+DETAILS_TOOLTIP_73	Creste colectarea de experienta.
+DETAILS_TOOLTIP_74	Sansa drop obiecte: Iti dubleaza sansa de a colecta obiecte.
+DETAILS_TOOLTIP_75	Sansa drop Yang: Iti dubleaza sansa de a colecta mai mult Yang.
+DETAILS_TOOLTIP_76	Reduce daunele primite de la atacul magic.
+DETAILS_TOOLTIP_77	Reduce rezistenta magica a oponentilor.
+DETAILS_TOOLTIP_78	Reduce daunele de la monstri.
+DETAILS_TOOLTIP_79	Creste valoare de atac magic.
+DETAILS_TOOLTIP_ATTBONUS_BELL	Vulnerabil aparare Clopot: Reduce apararea oponentului in fata clopotului.
+DETAILS_TOOLTIP_ATTBONUS_BOW	Vulnerabil aparare Sageata: Reduce apararea oponentului in fata sagetilor.
+DETAILS_TOOLTIP_ATTBONUS_CLAW	Vulnerabil aparare Gheara: Reduce apararea oponentului in fata ghearei.
+DETAILS_TOOLTIP_ATTBONUS_DAGGER	Vulnerabil aparare Pumnal: Reduce apararea oponentului in fata pumnalului.
+DETAILS_TOOLTIP_ATTBONUS_DRAGON	Cauzeaza daune mai mari dragonilor.
+DETAILS_TOOLTIP_ATTBONUS_FAN	Vulnerabil aparare Evantai: Reduce apararea oponentului in fata evantaiului.
+DETAILS_TOOLTIP_ATTBONUS_SWORD	Vulnerabil aparare Sabie: Reduce apararea oponentului in fata sabiei.
+DETAILS_TOOLTIP_ATTBONUS_TWOHAND	Vulnerabil aparare Doua Maini: Reduce apararea oponentului in fata armelor doua maini.
+DETAILS_TOOLTIP_BLOCK_PENETRATE_PCT	Ai sansa de a provoca daune ignorand blocarea inamicului tau (doar in PvP).
+DETAILS_TOOLTIP_HIT_PCT	Creste sansa de a lovi inamicul
+DETAILS_TOOLTIP_MYSTERY_DUNGEON	Puternic impotriva Misterelor: Aduce mai multa daune monstrilor din Temnita Misterioasa si Ecoul Misterios
+DETAILS_TOOLTIP_RESIST_MOUNT_FALL	Rezistenta la alunecare: Reduce sansa de a aluneca de pe mount.
+DONT_USE_ITEM_WHEN_SHOW_CONFIRM	Nu poti muta niciun obiect cand ai o cerere in asteptare.
+DO_NOT_INSERT_UPBRINGING_PET	Insotitorul activ nu poate fi selectat.
+DO_YOU_BUY_ITEM1	Vrei sa cumperi %s pentru %s Yang?
+DO_YOU_BUY_ITEM2	Doresti sa cumperi %s (%s bucati) pentru %s Yang?
+DO_YOU_BUY_ITEM3	Doresti sa cumperi %s pentru %s Won si %s Yang?
+DO_YOU_BUY_ITEM4	Doresti sa cumperi %s (%s bucati) pentru %s Won si %s Yang?
+DO_YOU_BUY_ITEM_SECONDARY_COIN_1	Vrei sa cumperi %s pentru %s?
+DO_YOU_BUY_ITEM_SECONDARY_COIN_2	Doresti sa cumperi %s (%s bucati) pentru %s?
+DO_YOU_DROP_MONEY	Vrei sa renunti la %d Yang?
+DO_YOU_SELL_ITEM1	Vrei sa vinzi %s pentru %s Yang?
+DO_YOU_SELL_ITEM2	Doresti sa vinzi %s (%s bucati) pentru %s Yang?
+DRAGON_GATE_AUTO_REINFORCE_QUESTION	
+DRAGON_GATE_CLEAR	
+DRAGON_GATE_CLEAR_NOT_ENOUGH_MAX_REINFORCE	
+DRAGON_GATE_CLEAR_QUESTION	
+DRAGON_GATE_CLEAR_SELECT	
+DRAGON_GATE_CLEAR_TOOLTIP	
+DRAGON_GATE_DEFENSE	
+DRAGON_GATE_ENCHANT_DARK	
+DRAGON_GATE_ENCHANT_EARTH	
+DRAGON_GATE_ENCHANT_ELECTRIC	
+DRAGON_GATE_ENCHANT_FIRE	
+DRAGON_GATE_ENCHANT_ICE	
+DRAGON_GATE_ENCHANT_WIND	
+DRAGON_GATE_EXPERIENCE	
+DRAGON_GATE_HEALTH	
+DRAGON_GATE_ITEM_CLEAR	
+DRAGON_GATE_ITEM_CLEAR_QUESTION	
+DRAGON_GATE_MARK	
+DRAGON_GATE_MASTER_STEP_CHECK	
+DRAGON_GATE_MY_POINT_TOOLTIP	
+DRAGON_GATE_NEED_POINT_TOOLTIP	
+DRAGON_GATE_PAEWANG	
+DRAGON_GATE_POINT_CLEAR	
+DRAGON_GATE_POINT_CLEAR_NOT_ENOUGH_POINT	
+DRAGON_GATE_POINT_CLEAR_QUESTION	
+DRAGON_GATE_POWER	
+DRAGON_GATE_REINFORCE_APPLY_DEFAULT_TOOLTIP	
+DRAGON_GATE_REINFORCE_BONUS	
+DRAGON_GATE_REINFORCE_BONUS_APPLY	
+DRAGON_GATE_REINFORCE_COUNT_TOOLTIP	
+DRAGON_GATE_REINFORCE_MAX	
+DRAGON_GATE_REINFORCE_NOT_BONUS_APPLY	
+DRAGON_GATE_REINFORCE_NOT_BONUS_APPLY2	
+DRAGON_GATE_REINFORCE_NOT_ENOUGH_POINT	
+DRAGON_GATE_REINFORCE_QUESTION	
+DRAGON_GATE_REINFORCE_RESULT	
+DRAGON_GATE_REINFORCE_TOOLTIP	
+DRAGON_GATE_REINFORCE_TOOLTIP_LINE1	
+DRAGON_GATE_REINFORCE_TOOLTIP_LINE2	
+DRAGON_GATE_REINFORCE_TOOLTIP_TITLE	
+DRAGON_GATE_RESIST_DARK	
+DRAGON_GATE_RESIST_EARTH	
+DRAGON_GATE_RESIST_ELECTRIC	
+DRAGON_GATE_RESIST_FIRE	
+DRAGON_GATE_RESIST_ICE	
+DRAGON_GATE_RESIST_WIND	
+DRAGON_GATE_STEP_CLEAR_INITIALIZE_FIRST	
+DRAGON_GATE_STEP_CLEAR_QUESTION_1	
+DRAGON_GATE_STEP_CLEAR_QUESTION_2	
+DRAGON_GATE_STEP_CLEAR_TOOLTIP	
+DRAGON_GATE_STEP_CLEAR_WARNING_QUESTION_1	
+DRAGON_GATE_STEP_CLEAR_WARNING_QUESTION_2	
+DRAGON_GATE_STEP_UPGRADE_NOT_ENOUGH_POINT	
+DRAGON_GATE_STEP_UPGRADE_QUESTION_1	
+DRAGON_GATE_STEP_UPGRADE_QUESTION_2	
+DRAGON_GATE_STEP_UPGRADE_TOOLTIP	
+DRAGON_GATE_SUNGMA_HP	
+DRAGON_GATE_SUNGMA_IMMUNE	
+DRAGON_GATE_SUNGMA_MOVE	
+DRAGON_GATE_SUNGMA_STR	
+DRAGON_GATE_TOOLTIP_LINE1	
+DRAGON_GATE_TOOLTIP_LINE2	
+DRAGON_GATE_TOOLTIP_LINE3	
+DRAGON_GATE_TOOLTIP_LINE4	
+DRAGON_GATE_TOOLTIP_LINE5	
+DRAGON_GATE_TOOLTIP_LINE6	
+DRAGON_GATE_TOOLTIP_LINE7	
+DRAGON_GATE_TOOLTIP_LINE8	
+DRAGON_GATE_TOOLTIP_LINE9	
+DRAGON_GATE_TOOLTIP_LINE10	
+DRAGON_GATE_TOOLTIP_LINE11	
+DRAGON_GATE_TOOLTIP_NOT_ENOUGH_REINFORCE	
+DRAGON_GATE_TOOLTIP_TITLE	
+DRAGON_GATE_TUGWI	
+DRAGON_HEART_CANNOT_EXTRACT_WHEN_EQUIP	Nu poti folosi Clestii Timpului pe o Piatra Dragon echipata.
+DRAGON_SOUL_CANNOT_EXTRACT_WHILE_CHANGE_ATTR	Nu se poate folosi in timp ce faci modificari la bonusurile Pietrei Dragon Mitic.
+DRAGON_SOUL_CANNOT_EXTRACT_WHILE_REFINE	Nu se poate folosi in timp ce faci imbunatatiri sau modernizari Pietrele Dragon Mitic.
+DRAGON_SOUL_CANNOT_REFINE	Aceasta Piatra Dragon nu poate fi rafinata.
+DRAGON_SOUL_CANNOT_REFINE_MORE	Aceasta Piatra Dragon a ajuns deja la nivelul maxim.
+DRAGON_SOUL_EQUIP_WARNING1	Este dificil sa inlaturi o Piatra Dragon odata ce a fost atasata.
+DRAGON_SOUL_EQUIP_WARNING2	Doresti sa continui?
+DRAGON_SOUL_EXPIRED	Piatra Dragon Expirata
+DRAGON_SOUL_INVALID_DRAGON_SOUL	Aceasta este o Piatra Dragon gresita.
+DRAGON_SOUL_IS_NOT_DRAGON_SOUL	Aceasta nu este o Piatra Dragon.
+DRAGON_SOUL_NOT_DRAGON_SOUL_REFINE_STONE	Aceasta nu este Piatra Dragon corecta.
+DRAGON_SOUL_NOT_ENOUGH_MATERIAL	Nu ai suficient material pentru rafinare.
+DRAGON_SOUL_NOT_ENOUGH_MATERIAL2	Pentru %s\nai nevoie: %s %dx
+DRAGON_SOUL_NOT_ENOUGH_MONEY	Nu ai suficient Yang pentru a schimba bonusul.
+DRAGON_SOUL_NOT_MATCHED_SLOT	Piatra Dragon nu se potriveste in acest slot.
+DRAGON_SOUL_SEAL_CANNOT_CHANGE_ATTR	Obiectele personalizate nu pot fi schimbate.
+DRAGON_SOUL_SEAL_CANNOT_EQUIP	Piatra Dragon Personalizata nu poate fi echipata.
+DRAGON_SOUL_SEAL_CANNOT_EXTRACT	Nu poti folosi asta pe o Piatra Dragon personalizata.
+DRAGON_SOUL_SEAL_CANNOT_REFINE	Obiectele personalizate nu pot fi imbunatatite.
+DRAGON_SOUL_SEAL_CANNOT_UN_EQUIP	Piatra Dragon Personalizata nu poate fi dezechipata.
+DRAGON_SOUL_STEP_LEVEL1	Claritate: opaca,
+DRAGON_SOUL_STEP_LEVEL2	Claritate: clara,
+DRAGON_SOUL_STEP_LEVEL3	Claritate: perfecta,
+DRAGON_SOUL_STEP_LEVEL4	Claritate: stralucitoare,
+DRAGON_SOUL_STEP_LEVEL5	Claritate: excelenta,
+DRAGON_SOUL_STRENGTH	Nivel: +%d	SA
+DRAGON_SOUL_UNEQUIP_WARNING1	Piatra Dragon poate fi distrusa in acest proces.
+DRAGON_SOUL_UNEQUIP_WARNING2	Doresti sa continui?
+DRAGON_SOUL_UNMATCHED_SLOT	Acest slot este gresit.
+DRAGON_SOUL_UNQUALIFIED	Inca nu poti folosi alchimia Pietrei Dragon.
+DROP_ITEM_FAILURE_EQUIP_ITEM	Nu poti arunca obiecte din echipament.
+DROP_ITEM_FAILURE_PRIVATE_SHOP	Nu poti renunta la un obiect atribuit caracterului daca magazinul privat este deschis.
+DROP_MONEY_FAILURE_1000_OVER	Poti renunta la maxim 999 Yang.
+DS_SYSTEM_MSG_1	Ai nevoie %s (%dx).
+DUTCH_AUCTION_CLOSE_OTHER_WINDOW	Inchide toate ferestrele inainte de a deschide Licitatii Rapide.
+EASTER_EGG_CANT_GET_EGG_ANYMORE	Nu poti colecta mai multe Oua de Paste.
+EASTER_EGG_CANT_USE_ANYMORE	Ai colectat deja numarul maxim de oua de acest tip.
+EASTER_EGG_CLICK_BANNER_AFTER_END_EVENT	Evenimentul Paste s-a terminat.
+EASTER_EGG_COMPLETE_RABBIT_BELIEF	Ai indeplinit toate cerintele Iepurasului de Paste. Poti schimba Ouale de Paste colectate pentru recompense in fereastra evenimentului.
+EASTER_EGG_EVENT_IS_END	Evenimentul nu este activ momentan.
+EASTER_EGG_GET_EGG	Ai primit un Ou de Paste.
+EASTER_EGG_USE_EGG_ITEM	Ouale de Paste au fost adaugate in fereastra evenimentului.
+ELEMENT_BUFF_DARK_TOOLTIP	Poti provoca daune suplimentare in timp ce esti sub efectul unei Flori Putere Intunecata.
+ELEMENT_BUFF_EARTH_TOOLTIP	Poti provoca daune suplimentare in timp ce esti sub efectul unei Flori Putere de Pamant.
+ELEMENT_BUFF_ELECT_TOOLTIP	Poti provoca daune suplimentare in timp ce esti sub efectul unei Flori Putere de Fulger.
+ELEMENT_BUFF_FIRE_TOOLTIP	Poti provoca daune suplimentare in timp ce esti sub efectul unei Flori Putere de Foc.
+ELEMENT_BUFF_ICE_TOOLTIP	Poti provoca daune suplimentare in timp ce esti sub efectul unei Flori Putere de Gheata.
+ELEMENT_BUFF_NONE_TOOLTIP	Poti provoca daune suplimentare in timp ce esti sub efectul unei Flori Putere Normala.
+ELEMENT_BUFF_WIND_TOOLTIP	Poti provoca daune suplimentare in timp ce esti sub efectul unei Flori Putere de Vant.
+DEFENSAWE_HYDRA	Apararea Navei
+DESTROY_ITEM_QUESTION	Esti sigur ca vrei sa stergi?
+DO_YOU_BUY_ITEM1	Vrei sa cumperi %s cu %s ?
+DO_YOU_BUY_ITEM2	Vrei sa cumperi %s x%s cu %s ?
+DO_YOU_DROP_MONEY	Vrei sa renunti la %d Yang?
+DO_YOU_SELL_ITEM1	Vrei sa vinzi %s cu %s ?
+DO_YOU_SELL_ITEM2	Vrei sa vinzi %s x%s cu %s ?
+DROP_ITEM_FAILURE_EQUIP_ITEM	Nu poti arunca obiecte din echipament.
+DROP_ITEM_FAILURE_PRIVATE_SHOP	Nu poti renunta la un obiect atribuit caracterului daca magazinul privat este deschis.
+DROP_MONEY_FAILURE_1000_OVER	Poti renunta la maxim 999 Yang.
+DUNGEON_TIMER_FLOOR	Etaj %d
+DUNGEON_TIMER_WAVE	Val %d
+EMOJI_CHEST_VIEW	Arata drop - |Eemoji/key_rclick|e
+EMOJI_QUICK_ADD	Adauga rapid - |Eemoji/key_ctrl|e + |Eemoji/key_rclick|e
+EMOJI_RENDER_TARGET_MOVE	Roteste - |Eemoji/key_rclick|e
+EMOJI_RENDER_TARGET_WHEEL	Zoom - |Eemoji/key_lclick_wheel|e
+EMOJI_SHOP_BUY	Cumpara - |Eemoji/key_rclick|e
+EMOJI_SHOP_SELL	Vinde - |Eemoji/key_ctrl|e + |Eemoji/key_rclick|e
+EMOTION_ANGRY	Neplacut
+EMOTION_ATTRACTIVE	Tentatie
+EMOTION_BANTER	Rautacios
+EMOTION_CHEERS_1	Bucurie 1
+EMOTION_CHEERS_2	Bucurie 2
+EMOTION_CHEERUP	A se bucura
+EMOTION_CHOOSE_ONE	Alege o tinta.
+EMOTION_CLAP	Aplauze
+EMOTION_CLAP_KISS	Sarut
+EMOTION_CONGRATULATION	Acord
+EMOTION_DANCE_1	Dans 1
+EMOTION_DANCE_2	Dans 2
+EMOTION_DANCE_3	Dans 3
+EMOTION_DANCE_4	Dans 4
+EMOTION_DANCE_5	Dans 5
+EMOTION_DANCE_6	Dans 6
+EMOTION_DANCE_7	Dans 7
+EMOTION_SELFIE	Selfie
+EMOTION_PUSHUP	Flotari
+EMOTION_EXERCISE	Incalzire
+EMOTION_DOZE	Suparat
+EMOTION_FORGIVE	Iertare
+EMOTION_FRENCH_KISS	Sarut Frantuzesc
+EMOTION_JOY	Bucurie
+EMOTION_SAD	Trist
+EMOTION_SHY	Refuz
+EMOTION_SLAP	Lovitura
+EMOTION_EMOTION_1	Worship
+EMOTION_EMOTION_2	Backflip
+EMOTION_EMOTION_3	BreakDance
+EMOTION_EMOTION_4	Dans 8
+EMOTION_EMOTION_5	Dab
+EMOTION_EMOTION_6	Facepalm
+EMOTION_EMOTION_7	Fuck off
+EMOTION_EMOTION_8	Wank/fingering
+EMOTION_EMOTION_9	Shake it
+EMOTION_EMOTION_10	Throw the money
+EMOTION_EMOTION_11	Street Dance
+EMOTION_EMOTION_12	Twerk
+EMPIRE_A	Regatul Shinsoo
+EMPIRE_B	Regatul Chunjo
+EMPIRE_C	Regatul Jinno
+EVENT_MANAGER_DURATION	Start: %s ~ Stop: %s
+EVENT_MANAGER_DROP_TYPE	Drop: %s
+EVENT_MANAGER_DROP_TYPE_NONE	Fara
+EVENT_MANAGER_DROP_TYPE_GENERAL	Toti monstrii
+EVENT_MANAGER_DROP_TYPE_BOSS_AND_MORE	Pietre Metin & Șefi
+EVENT_MANAGER_DROP_TYPE_BOSS	Șefi
+EVENT_MANAGER_DROP_TYPE_STONE	Pietre Metin
+EXCHANGE_ALERT	Esti sigur ca vrei sa oferi iteme fara nimic in schimb?
+EXCHANGE_CANNOT_GIVE	Nu poti vinde acest obiect.
+EXCHANGE_CANT_EDIT_MONEY	Acum nu mai poti modifica suma.
+EXCHANGE_FAILURE_EQUIP_ITEM	Nu poti schimba iteme atribuite caracterului.
+EXCHANGE_MONEY	Suma
+EXCHANGE_OWNER_ACCEPT	%s Ai acceptat negotul.
+EXCHANGE_OWNER_ADD	%s Ai adaugat [%s]
+EXCHANGE_OWNER_ADD_ATT	%s Ai adaugat |cffffc700|H|h[%s]|h|r
+EXCHANGE_OWNER_ADD_COUNT	%s Ai adaugat %sx [%s]
+EXCHANGE_OWNER_ADD_COUNT_ATT	%s Ai adaugat %sx |cffffc700|H|h[%s]|h|r
+EXCHANGE_OWNER_YANG	%s Ai crescut suma de Yang la |cffb8ff00|H|h%s|h|r
+EXCHANGE_START	%s Negotul a inceput.
+EXCHANGE_TARGET_ADD	%s %s a adaugat [%s]
+EXCHANGE_TARGET_ADD_ATT	%s %s a adaugat |cffffc700|H|h[%s]|h|r
+EXCHANGE_TARGET_ADD_COUNT	%s %s a adaugat %sx [%s]
+EXCHANGE_TARGET_ADD_COUNT_ATT	%s %s a adaugat %sx |cffffc700|H|h[%s]|h|r
+EXCHANGE_TARGET_ACCEPT	%s %s a acceptat negotul.
+EXCHANGE_TARGET_YANG	%s %s a crescut suma de Yang la |cffb8ff00|H|h%s|h|r
+EXCHANGE_TITLE	Negociaza cu %s
+EXCHANGE_TITLE_LEVEL	Negociaza cu %s (%d)
+EXTENDED_BATTLE_PASS_ITS_NOT_BATTLEPASS_ITEM	Ai nevoie de un ticket pentru Battle-Pass premium.
+EXTENDED_BATTLE_PASS_RANKLIST_REFRESH	Clasamentul a fost actualizat.
+EXTENDED_BATTLE_PASS_RANKLIST_WAIT_TO_REFRESH	Trebuie sa astepti %d secunde pentru a actualiza clasamentul.
+FISHGAME_TITLE	Peste
+FISHING_FAILURE	Ai pierdut momeala pentru pescuit.
+FISHING_NOTIFY1	Se pare ca %s a muscat.
+FISHING_NOTIFY2	Se pare ca s-a prins %s.
+FISHING_RENEWAL_CANNOT_EMOTION	Nu poti folosi emotiile in timp ce pescuiesti.
+FISHING_RENEWAL_CANNOT_OPEN_1	Nu poti deschide in timp ce pescuiesti.
+FISHING_RENEWAL_CANNOT_OPEN_2	Nu poti efectua aceasta actiune in timpul pescuitului.
+FISHING_RENEWAL_QUESTION	Ai o muscatura. Doresti sa prinzi?
+FISHING_RENEWAL_TIMEOUT	Ai asteptat prea mult. Pestele a fugit.
+FISHING_SUCCESS1	Ai prins %s.
+FISHING_SUCCESS2	Ai scos %s din apa!
+FISHING_UNKNOWN	Ceva a muscat dar nu stiu ce anume.
+FISHING_WRONG_PLACE	Nu pot sa pescuiesc aici.
+FLOWER_EVENT_ENVELOPE_MAX	Nu poti primi mai multe Seminte de Flori.
+FLOWER_EVENT_GET_SHOOT_CHRYSANTHEMUM	Ai primit Lastari de Crizantema.
+FLOWER_EVENT_GET_SHOOT_CHRYSANTHEMUM_COUNT	Ai primit %d Lastari de Crizantema.
+FLOWER_EVENT_GET_SHOOT_DAFFODIL	Ai primit Lastari de Narcisa.
+FLOWER_EVENT_GET_SHOOT_DAFFODIL_COUNT	Ai primit %d Lastari de Narcisa.
+FLOWER_EVENT_GET_SHOOT_ENVELOPE	Ai primit Seminte de Flori.
+FLOWER_EVENT_GET_SHOOT_LILY	Ai primit Lastari de Crin.
+FLOWER_EVENT_GET_SHOOT_LILY_COUNT	Ai primit %d Lastari de Crin.
+FLOWER_EVENT_GET_SHOOT_MAY_BELL	Ai primit Lastari de Floare Clopotel.
+FLOWER_EVENT_GET_SHOOT_MAY_BELL_COUNT	Ai primit %d Lastari de Floare Clopotel.
+FLOWER_EVENT_GET_SHOOT_SUNFLOWER	Ai primit Lastari de Floarea Soarelui.
+FLOWER_EVENT_GET_SHOOT_SUNFLOWER_COUNT	Ai primit %d Lastari de Floarea Soarelui.
+FLOWER_EVENT_ITEM_FULL_AND_NOT_USE	Nu poti schimba asta deoarece ai deja numarul maxim de lastari.
+FLOWER_EVENT_NOT_ENOUGH_EVENTORY_SPACE	Nu ai destul spatiu in inventar.
+FLOWER_EVENT_NOT_ENOUGH_SHOOT_COUNT	Nu ai numarul corect de lastari.
+FLOWER_EVENT_NOT_ENOUGH_SHOOT_ENVELOPE	Nu ai suficiente seminte de flori.
+FLOWER_EVENT_USE_ITEM_TEXT1	Doresti sa inlocuiesti efectul activ?
+FLOWER_EVENT_USE_ITEM_TEXT2	Incercarea poate esua cauzand ofilirea florii.
+FOOTBALL_EVENT_MESSAGE_BUTTON_COOLTIME	Te rugam, incearca mai tarziu.
+FOOTBALL_EVENT_MESSAGE_CANNOT_GET_FOOTBALL	Nu mai poti primi Mingi de Fotbal.
+FOOTBALL_EVENT_MESSAGE_GET_FOOTBALL	Ai primit 1 Minge de Fotbal.
+FOOTBALL_EVENT_MESSAGE_NOT_ENOUGH_FOOTBALL	Mingi de Fotbal insuficiente.
+FOOTBALL_EVENT_MESSAGE_NOT_ENOUGH_INVENTORY	Nu este destul loc in inventar.
+FORCE_EVENT_CANNOT_OPEN_UI	Evenimentul Ecoul Puterii s-a incheiat.
+FORCE_EVENT_CAN_USE_BUTTON	Ecoul tau este suficient de puternic pentru a fi activat.
+FORCE_EVENT_EMPTY_NORMAL_FORCE_SLOT_TOOLTIP	Poti selecta Ecoul Puterii tragandu-l din inventar.
+FORCE_EVENT_EMPTY_SKILL_FORCE_SLOT_TOOLTIP	Poti selecta Ecoul Talentului tragandu-l din inventar.
+FORCE_EVENT_END_NOTICE	Evenimentul Ecoul Puterii s-a incheiat.
+FORCE_EVENT_FORCE_CHANGE_BUFF	Ai ales deja un Ecou. Doresti sa il schimbi?
+FORCE_EVENT_FORCE_GAGUE_REMAIN_TIME	%d/%d minute
+FORCE_EVENT_FORCE_GAUGE_REFINE_TOOLTIP	Ecoul tau a devenit mai puternic.
+FORCE_EVENT_FORCE_NOTICE_CAN_USE_FORCE_BUFF	%s poate fi activat. Verifica fereastra Ecou.
+FORCE_EVENT_FORCE_REGISTER_TOOLTIP_1	Doresti sa selectezi %s?
+FORCE_EVENT_FORCE_REGISTER_TOOLTIP_2	Daca modifici Ecoul selectat, timpul de redare va fi resetat.
+FORCE_EVENT_FORCE_SLOT_REMAIN_TIME	Timp ramas:
+FORCE_EVENT_INVALIED_SLOT_ITEM	Trebuie sa activezi acest Ecou in celalalt slot.
+FORCE_EVENT_NOTICE_REMAIN_PLAY_TIME	%s ales de tine a ajuns la %d/%d.
+FORCE_EVENT_NOT_ENOUGH_FORCE_CANNOT_USE_BUTTON	Ecoul tau nu este suficient de puternic pentru a-l folosi deocamdata.
+FORCE_EVENT_NOT_ENOUGH_LEVEL	Trebuie sa fi atins nivelul 70 pentru a participa.
+FORCE_EVENT_READY_TO_USE_FORCE_BUFF	%s poate fi activat. Verifica fereastra Ecou.
+FORCE_EVENT_REMOVE_REGIST_FORCE	Elimini Ecoul ales? Acest lucru va reseta timpul de joc si va distruge Ecoul.
+FORCE_EVENT_START_NOTICE	Evenimentul Ecoul Puterii a inceput
+FOR_FEMALE	Pentru femei
+FOR_MALE	Pentru barbati
+FRAGMENT_COMB_COST	Costuri combunatie: %s
+FREEZING_BUTTON_COOLTIME	Te rugam, incearca mai tarziu.
+GAME_CANNOT_MINING	Nu poti sa sapi dupa minereu in timp ce calaresti.
+GAME_CANNOT_PICK_ITEM	Nu poti culege acest obiect, pentru ca nu a fost capturat de tine.
+GAME_GUILDWAR_NOW_JOIN	Vrei sa te alaturi razboiului breslei?
+GAME_INIT_ERROR_CURSOR	Cursorul nu a putut fi creat.
+GAME_INIT_ERROR_DIRECTX	Ai nevoie de DirectX 8.1 pentru a rula jocul.\nInstaleaza DirectX 8.1 sau peste.
+GAME_INIT_ERROR_GRAPHICS_BAD_PERFORMANCE	Nu s-a gasit placa grafica pentru rularea jocului.\nVerifica daca placa VGA e instalata corect.
+GAME_INIT_ERROR_GRAPHICS_NOT_EXIST	Placa grafica nu a putut fi initializata.nVerifica daca detii o placa VGA.\nAlternativ poti sa activezi accelerarea hardware.\n(Accelerare hardware la maxim \nControl Panel->Display->Settings->Advanced->Troubleshooting)
+GAME_INIT_ERROR_GRAPHICS_NOT_SUPPORT_32BIT	Placa grafica nu suporta 32bit.\nSchimba pe 16bit sau foloseste full screen.
+GAME_INIT_ERROR_ITEM_PROTO	Datele obiectului inaccesibile.\nReinstaleaza jocul.
+GAME_INIT_ERROR_MAIN_WINDOW	Fereastra principala nu a putut fi realizata.
+GAME_INIT_ERROR_MOB_PROTO	Datele monstrului inaccesibile.\nReinstaleaza jocul.
+GAME_INIT_ERROR_NETWORK	Legatura la retea nu s-a realizat.\nVerifica legatura la internet.
+GAME_OPTION_GAME	Joc
+GAME_OPTION_KEYCHANGE_SAVE_OPTION	Selecteaza pentru a salva combinatiile alese numai pentru acest caracter.
+GAME_OPTION_KEYSETTING	Chei
+GAME_OPTION_KEYSETTING_CHECK_KEY	Una dintre functii nu are scurtatura pe tastatura.
+GAME_OPTION_KEYSETTING_KEY_CHANGE_CHECK	Aceasta tasta este deja folosita pentru %s. Doresti sa o schimbi?
+GAME_OPTION_KEYSETTING_KEY_INIT_NOTICE	%s a fost resetata. Te rugam, selecteaza din nou.
+GAME_OPTION_LOOTING	Prada
+GAME_OPTION_SYSTEM	Sistem
+GAME_OPTION_SYSTEM_DROP_YANG_CHECK_TOOLTIP	Yang-ul este afisat cand aceasta optiune este selectata sau ascuns cand este deselectata.
+GAME_OPTION_SYSTEM_STRUCTURE_TOOLTIP	Ascunde Decoratiuni
+GAME_PICK_MONEY	Ai primit %s Yang.
+GAME_USE_MONEY	%s Yang a fost dedus.
+GEM_CONVERTER_MESSAGE_CONVERT_SUCCESS_CONVERTER	Ai folosit %d Transformari Gaya.
+GEM_CONVERTER_MESSAGE_CONVERT_SUCCESS_GEM_STONE	Ai convertit %d Pietre Lucioase.
+GEM_CONVERTER_MESSAGE_GEM_MAX	Ai deja cantitatea maxima de Gaya.
+GEM_CONVERTER_MESSAGE_NOT_ENOUGH_GEMSTONE	Ai nevoie de cel putin %s Pietre Lucioase.
+GEM_CONVERTER_MESSAGE_NOT_ENOUGH_GOLD	Nu ai suficient Yang.
+GEM_CONVERTER_MESSAGE_USE_CONVERTER_QUESTION	Doresti sa utilizezi Transformare Gaya?
+GEM_SYSTEM_ADD_SLOT	Cerinte obiect: %s.\nDoresti sa folosesti %d dintre acestea pentru a debloca un loc aditional?
+GEM_SYSTEM_BUY_ITEM	Doresti sa cumperi acest obiect?
+GEM_SYSTEM_NAME	Gaya
+GEM_SYSTEM_NOT_ENOUGHT_REFRESHITEM	[Gaya] Nu ai suficiente obiecte Actualizeaza Piata Gaya.
+GEM_SYSTEM_NOT_ENOUGH_HP_GEM	[Gaya] Nu ai suficiente Gaya.
+GEM_SYSTEM_NO_MORE_ADDSLOT	[Gaya] Nu mai ai locuri de deblocat.
+GEM_SYSTEM_OPEN_GEMSHOP	[Gaya] Deschide Piata Gaya mai intai.
+GEM_SYSTEM_PICK_GEM	Ai primit %s Gaya.
+GEM_SYSTEM_REFRESH_SHOP_ITEMS	Vrei sa actualizezi magazinul?
+GEM_USE_GEM	%s Gaya a fost dedus.
+GIVEUP_QUESTION	Chiar vrei sa renunti?
+GOLDEN_LAND_CHAT_MESSAGE_CANNOT_USE_FRUIT_BOX_EVENT_CLOSED	Evenimentul a luat sfarsit. Nu poti folosi acest obiect.
+GOLDEN_LAND_CHAT_MESSAGE_CANNOT_USE_MINE_TOWER_SKILL_PROCESSING	Nu mai poti folosi asta dupa activarea Turnului Canonada.
+GOLDEN_LAND_CHAT_MESSAGE_FIND_CARD_CLEAR	Ai gasit toate careurile cu Fructe Aurii! Vei primi recompensa prin posta.
+GOLDEN_LAND_CHAT_MESSAGE_FIND_CARD_GOLDEN_FRUIT_FOUND	Ai gasit un careu cu Fructe Aurii!
+GOLDEN_LAND_CHAT_MESSAGE_FIND_CARD_GOLDEN_FRUIT_NOT_FOUND	Se pare ca nu era un careu cu Fructe Aurii.
+GOLDEN_LAND_CHAT_MESSAGE_FIND_CARD_NOT_ENOUGH_YELLOW_FRUIT	Nu ai suficiente Fructe Aurii.
+GOLDEN_LAND_CHAT_MESSAGE_MINE_TOWER_GUARD_CREATED	Acum ai aparare Anti-Bombe si esti protejat de urmatorul Turn Canonada.
+GOLDEN_LAND_CHAT_MESSAGE_MINE_TOWER_SKILL_GUARDED	Ajutorul Anti-Bombe te-a protejat si a fost consumat. Turnul Canonada iti poate produce din nou daune.
+GOLDEN_LAND_CHAT_MESSAGE_NOTICE_BATTLE_STAGE_START	Vei fi teleportat la urmatorul nivel.
+GOLDEN_LAND_CHAT_MESSAGE_NOTICE_DUNGEON_REMAIN_TIME_MIN	Mai poti ramane pe Taramul Aurului timp de %d minute.
+GOLDEN_LAND_CHAT_MESSAGE_NOTICE_EVENT_END	Expeditia Primordis s-a terminat.
+GOLDEN_LAND_CHAT_MESSAGE_NOTICE_EVENT_START	Expeditia Primordis a inceput! Invinge Gardianul Primordis pentru a merge pe Taramul Aurului!
+GOLDEN_LAND_CHAT_MESSAGE_NOTICE_OASIS_SHOP	Poti achizitiona obiecte de la Caravana de Comert.
+GOLDEN_LAND_CHAT_MESSAGE_NOTICE_OASIS_STAGE_START	Vei fi teleportat pe oaza.
+GOLDEN_LAND_CHAT_MESSAGE_NOTICE_STONE_SPAWN_AFTER_10SEC	Statuile Primordis vor aparea in 10 secunde.
+GOLDEN_LAND_CHAT_MESSAGE_NOT_ENOUGH_LEVEL	Nu poti folosi acest obiect deoarece nivelul tau este prea scazut.
+GOLDEN_LAND_CHAT_MESSAGE_RESET_ALREADY_RESET	Deja ai resetat.
+GOLDEN_LAND_CHAT_MESSAGE_RESET_NOT_ENOUGH_ITEM	Nu ai un Reset Primordis.
+GOLDEN_LAND_CHAT_MESSAGE_RESET_SUCCESS	Intrarile tale si tabla de joc au fost resetate.
+GOLDEN_LAND_CHAT_MESSAGE_SHOP_NOT_ENOUGH_INVENTORY_SPACE	Nu este destul loc in inventar.
+GOLDEN_LAND_CHAT_MESSAGE_SHOP_NOT_ENOUGH_TREE_FRUIT	Nu ai suficiente Fructe Amare.
+GOLDEN_LAND_CHAT_MESSAGE_SHOP_YELLOW_FRUIT_EXCEED	Nu mai poti achizitiona Fructe Aurii deoarece ai ajuns la maximum.
+GOLDEN_LAND_CHAT_MESSAGE_TREE_FRUIT_GAINED	Primesti %d Fructe Amare.
+GOLDEN_LAND_CHAT_MESSAGE_TREE_FRUIT_GAINED_WITH_POSSESS_INFO	Primesti %d Fructe Amare. (Ai %d.)
+GOLDEN_LAND_CHAT_MESSAGE_YELLOW_FRUIT_GAINED	Ai primit %d Fructe Aurii.
+GOLDEN_LAND_FIND_CARD_QUESTION_OPEN_CARD	Vrei sa descoperi un careu pentru %d Fructe Aurii?
+GOLDEN_LAND_FIND_CARD_QUESTION_RESET	Cand utilizezi acest obiect, intrarile tale pe Taramul Aurului si tabla de joc Vanatoare Fructe Aurii vor fi resetate. Doresti sa continui?
+GOLDEN_LAND_REMAIN_MINE_TOWER_KILL_COUNT	Turnuri Canonada ramase: %d
+GOLDEN_LAND_REMAIN_STONE_KILL_COUNT	Statui Primordis ramase: %d
+GUILDBANK_CLEARBANK	Atentie: Depozitul Breslei trebuie golit!
+GUILDBANK_DONT_MONEY_OUT	Nu ai Yang in banca breslei!
+GUILDBANK_GOLD_IN	Depunere
+GUILDBANK_GOLD_OUT	Retragere
+GUILDBANK_ITEM_IN	Inmagazineaza
+GUILDBANK_ITEM_OUT	Inlatura
+GUILDBANK_MONEYIN	Depunere Yang
+GUILDBANK_MONEYOUT	Retragere Yang
+GUILDBANK_NOTUSE	Nu ai permisiunile necesare.
+GUILDBANK_NOT_ENOUGH_MONEY	Nu ai Yang suficient pentru depunere.
+GUILDBANK_OVER_INCOME	Limita atinsa pe cont.
+GUILDBANK_OVER_MONEY	Contul breslei este plin.
+GUILDLAND_ABANDON	Abandoneaza Teritoriu Breasla
+GUILDLAND_ABANDON_TEXT1	Vrei sa abandonezi teritoriul breslei?
+GUILDLAND_ABANDON_TEXT2	Sigur vrei sa abandonezi teritoriul breslei?
+GUILDLAND_ABANDON_TEXT3	Depozitul breslei si toate cladirile vor fi eliminate.
+GUILDLAND_ACCEPT	Da
+GUILDLAND_DONTHAVE_LAND	Nu ai niciun teritoriu de breasla.
+GUILDLAND_NOT	Nu
+GUILDLIST_APPLICANT	Doresti sa continui?
+GUILDMARK_UPLOADER_ERROR_12_HEIGHT	Inaltimea nu are 12 pixel.
+GUILDMARK_UPLOADER_ERROR_16_WIDTH	Inaltimea nu are 16 pixel.
+GUILDMARK_UPLOADER_ERROR_64_WIDTH	Inaltimea nu are 64 pixel.
+GUILDMARK_UPLOADER_ERROR_128_HEIGHT	Inaltimea nu are 128 pixel.
+GUILDMARK_UPLOADER_ERROR_FILE_FORMAT	Jocul nu suporta aceasta imagine.
+GUILDMARK_UPLOADER_ERROR_PATH	Copiaza fisierele in directorul metin2/upload.
+GUILDMARK_UPLOADER_ERROR_SELECT	Nicio imagine selectata.
+GUILDWAR_ALL	Batalii (B)
+GUILDWAR_CTF_TITLE	Captureaza Steag
+GUILDWAR_DRAW	Remize (R)
+GUILDWAR_GAINSCORE_FIFTY	50 puncte
+GUILDWAR_GAINSCORE_HUNDRED	100 puncte
+GUILDWAR_GAINSCORE_THIRTY	30 puncte
+GUILDWAR_GAMETIME_SIXTY	60 minute
+GUILDWAR_GAMETIME_TEN	10 minute
+GUILDWAR_GAMETIME_THIRTY	30 minute
+GUILDWAR_INPUT_OTHERGUILD	Te rugam introdu breasla oponenta.
+GUILDWAR_LADDER	Puncte Rang
+GUILDWAR_LIMIT_MEMBER_FIVE	Minim 5 participanti.
+GUILDWAR_LOSE	Pierderi (P)
+GUILDWAR_NORMAL_TITLE	Lupta de Camp
+GUILDWAR_OVER_MEMBERCOUNT	Numarul limita de membri a fost atins.
+GUILDWAR_QUESTION_LINE_1	Breasla %s a declarat breslei tale razboi,
+GUILDWAR_QUESTION_LINE_2	Accepti? (%s)
+GUILDWAR_RANKING	Rang
+GUILDWAR_RECODE_ALL	%d B, %d V, %d P, %d R
+GUILDWAR_SELECT_MEMBER_COUNT	Alege numarul de participanti.
+GUILDWAR_TYPE_DEFENSE	Scut Lupta
+GUILDWAR_TYPE_TIGER	Anihilare
+GUILDWAR_TYPE_TIME	Timp Atac
+GUILDWAR_UNKNOWN_TITLE	...
+GUILDWAR_WARP_TITLE	Lupta in Arena
+GUILDWAR_WIN	Victorii (V)
+GUILDWAR_WIN_FIVE	5 runde
+GUILDWAR_WIN_ONE	1 runda
+GUILDWAR_WIN_THREE	3 runde
+GUILDWINDOW_BUTTON_BANKGOLDINFO	Log Depozit Breasla
+GUILDWINDOW_BUTTON_BASEABANDON	Abandoneaza Teritoriu Breasla
+GUILDWINDOW_BUTTON_BASEDEAL	Vinde Teritoriu Breasla
+GUILDWINDOW_BUTTON_BOARD	Mesajele Breslei
+GUILDWINDOW_BUTTON_CHANGEMASTER	Schimba Lider Breasla
+GUILDWINDOW_BUTTON_DECLARE	Declara Razboi
+GUILDWINDOW_BUTTON_DONATE	Doneaza
+GUILDWINDOW_BUTTON_GOLDIN	Depunere
+GUILDWINDOW_BUTTON_GOLDOUT	Retragere
+GUILDWINDOW_BUTTON_GRADE	Seteaza Permisiuni
+GUILDWINDOW_BUTTON_GUILDLIST	Lista Breasla
+GUILDWINDOW_BUTTON_GUILD_BATTLE	Batalia Breslelor
+GUILDWINDOW_BUTTON_GUILD_CONTENTS_LIST	Inapoi la Fereastra Batalia Breslelor
+GUILDWINDOW_BUTTON_HEALGSP	Reface Putere Zeul Dragon
+GUILDWINDOW_BUTTON_INFO	Informatii Breasla
+GUILDWINDOW_BUTTON_LANDINFO	Informatii Teritoriu
+GUILDWINDOW_BUTTON_MARK	Incarca Simbol Breasla
+GUILDWINDOW_BUTTON_MEMBER	Membru
+GUILDWINDOW_BUTTON_OFFER	Doneaza EXP
+GUILDWINDOW_BUTTON_OUTMEMBER	Inlatura Membru
+GUILDWINDOW_BUTTON_SKILL	Abilitati Breasla
+GUILDWINDOW_BUTTON_SYMBOL	Incarca Steag Breasla
+GUILDWINDOW_BUY_GUILD_LAND	Cumpara Teren
+GUILDWINDOW_CHANGE_BLACKSMITH	Schimba Profesia
+GUILDWINDOW_CHANGE_OBJECT	Reconstructie
+GUILDWINDOW_CHANGE_SMELTER	Schimba Prelucrator de jad
+GUILDWINDOW_CREATE_OBJECT	Constructie
+GUILDWINDOW_DEAL_GUILD_LAND	Vinde Teren
+GUILDWINDOW_GRADE_BANK	Se poate utiliza banca breslei si depozitul
+GUILDWINDOW_GRADE_DRIVEOUTAUTHORITY	Poate inlatura membri din breasla
+GUILDWINDOW_GRADE_GRADENAME	Nume Rang
+GUILDWINDOW_GRADE_GRADENUMBER	Numar Rang
+GUILDWINDOW_GRADE_GUILDWAR	Poate alege membri combatanti
+GUILDWINDOW_GRADE_INVITEAUTHORITY	Poate accepta jucatori in breasla
+GUILDWINDOW_GRADE_NOTICEAUTHORITY	Poate compune mesaje breasla
+GUILDWINDOW_GRADE_SKILLAUTHORITY	Poate folosi abilitatile breslei
+GUILDWINDOW_INFO_LEVEL5	+5% EXP la donatii breasla
+GUILDWINDOW_INFO_LEVEL10	A crescut nr. max. membri
+GUILDWINDOW_INFO_LEVEL15	Red.: Puterea Zeului Dragon
+GUILDWINDOW_INFO_LEVEL20	Banca: Scutire de Taxe
+GUILDWINDOW_LAND_TAX	Arenda
+GUILDWINDOW_LIST_ALL	Toate Regatele
+GUILDWINDOW_LIST_ALREADY_REGISTER	[Breasla] Deja ai aplicat.
+GUILDWINDOW_LIST_APPLICANT_LIST	Lista Aplicatii
+GUILDWINDOW_LIST_CHRACTER_JOB	Clasa
+GUILDWINDOW_LIST_CHRACTER_LV	Nivel
+GUILDWINDOW_LIST_CHRACTER_NAME	Nume Caracter
+GUILDWINDOW_LIST_CHRACTER_SUB_JOB	Sub-clasa
+GUILDWINDOW_LIST_EMPIRE_A	Shinsoo
+GUILDWINDOW_LIST_EMPIRE_B	Chunjo
+GUILDWINDOW_LIST_EMPIRE_C	Jinno
+GUILDWINDOW_LIST_GUILDMEMBER	Membru
+GUILDWINDOW_LIST_GUILD_LIST	Lista Breasla
+GUILDWINDOW_LIST_GUILD_LV	Nivel
+GUILDWINDOW_LIST_GUILD_NAME	Breasla
+GUILDWINDOW_LIST_INPUT_GUILDNAME	[Breasla] Te rugam sa introduci un nume de breasla.
+GUILDWINDOW_LIST_LADDER	Puncte Rang
+GUILDWINDOW_LIST_NOTPROMOTEGUILD	[Breasla] Breasla nu este publica.
+GUILDWINDOW_LIST_PROMOTE_GUILD	Aplicatie
+GUILDWINDOW_LIST_PROMOTE_GUILD_LIST	Lista Breasla
+GUILDWINDOW_LIST_RANKING	Pozitie
+GUILDWINDOW_LIST_RANKING_COUNT	Pozitie
+GUILDWINDOW_LIST_REGISTER	Aplicatii
+GUILDWINDOW_LIST_REGISTER_GUILD	Aplica la breasla
+GUILDWINDOW_LIST_SEARCH	Cauta
+GUILDWINDOW_LIST_SELECT_GUILD	[Guild] Te rugam alege o breasla sa aplici.
+GUILDWINDOW_PROMOTE_REFRESH	Reclama
+GUILDWINDOW_PROMOTE_REGISTER	Reclama
+GUILDWINDOW_SP_RECOVER	Puterea Zeului Dragon
+GUILDWINDOW_UPGRADE_ALTEROFPOWER	Imbunatatire Altar
+GUILDWINDOW_UPGRADE_GUILDBANK	Imbunatatire Banca
+GUILD_ATTENDANCE_FAIL_ALREADY	Ai participat deja astazi.
+GUILD_ATTENDANCE_FAIL_JOIN_TIME	Nu poti participa acum. Participarea se reseteaza zilnic la ora 5:00 AM.
+GUILD_BANKINFO_CLOSE	Inchis
+GUILD_BANKINFO_NAME	Membru
+GUILD_BANKINFO_TYPE	Obiect/Valoare
+GUILD_BANKINFO_USETYPE	Actiune
+GUILD_BANK_CLOSE	Inchis
+GUILD_BANK_INFO	Log Depozit Breasla
+GUILD_BATTLE_APPLY_SUCCESS_MESSAGE	Te-ai inregistrat cu succes la Batalia Breslelor.
+GUILD_BATTLE_AREA_INFO_TEXT	Timp ramas: %s\nMonstri ramasi (%d/61)\nAlbastru: (%s) Galben: (%s) Verde: (%s) Rosu: (%s)
+GUILD_BATTLE_AREA_INFO_TEXT_FONT	Tahoma:14b
+GUILD_BATTLE_AREA_UNDER_ATTCK_MESSAGE	Monstrii sunt atacati in %s.
+GUILD_BATTLE_CANNOT_APPLY_TIME_MESSAGE	Nu poti participa acum la Batalia Breslelor, deoarece toate locurile sunt ocupate. Incearca din nou data viitoare!
+GUILD_BATTLE_CANNOT_ENTER_JOIN_TIME	Nu poti participa inca. Timp ramas: %d minute.
+GUILD_BATTLE_CANNOT_ENTER_MAP_MESSAGE	Poti intra doar din primul sat sau din Aria Dong Gwang.
+GUILD_BATTLE_CANNOT_ENTER_NOT_MATCHING_MESSAGE	Nu poti gasi un combatant potrivit pentru breasla ta. Te rugam, incearca din nou data viitoare.
+GUILD_BATTLE_CANNOT_GET_REWARD_NOT_ENOUGH_INEVENTORY	Nu este destul loc in inventar.
+GUILD_BATTLE_CANNOT_GUILD_ACTION_MESSAGE	
+GUILD_BATTLE_CANNOT_PARTICIPATION_MESSAGE	Nu indeplinesti toate cerintele pentru a participa la Batalia Breslelor.
+GUILD_BATTLE_CANNOT_USE_MOVE_TICKET_NOT_OCCUPY_MESSAGE	Nu poti intra in aceasta zona deoarece a fost deja cucerita de o alta breasla.
+GUILD_BATTLE_CANNOT_USE_PORTAL_NOT_OCCUPY	Se poate folosi doar dupa ce zona a fost cucerita de breasla ta.
+GUILD_BATTLE_CANNOT_USE_TICKET_NOT_MASTER	Doar liderul breslei poate folosi acest obiect.
+GUILD_BATTLE_CANNOT_USE_TICKET_NOT_OPEN	Nu poti folosi Tichet Batalie Breasla.
+GUILD_BATTLE_CAN_NOT_USE_TICKET_MESSAGE	A fost deja folosit si nu poate fi folosit din nou.
+GUILD_BATTLE_CMD_FAIL_IMMEDIATELY_START	Trebuie sa astepti pana cand participa cel putin alte 2 bresle.
+GUILD_BATTLE_DEAD_TO_PLAYER	Ai fost ucis de un membru al breslei %s.
+GUILD_BATTLE_DROP_ITEM_BY_REWARD_BOX_MESSAGE	De la %s ai primit %s.
+GUILD_BATTLE_ENCOURAGE_MESSAGE	Batalia Breslelor incepe in %d minute. Esti inregistrat pentru a participa. Pregateste-te si arata tot ce poti!
+GUILD_BATTLE_END_MESSAGE	Batalia Breslelor s-a terminat.
+GUILD_BATTLE_END_REMAIN_TIME_MESSAGE	Batalia Breslelor se termina in %d minute.
+GUILD_BATTLE_ENTER_AREA_MESSAGE	Ai intrat in %s. Invinge toti monstrii!
+GUILD_BATTLE_ENTER_BUTTON_TOOLTIP	Intra
+GUILD_BATTLE_ENTER_MESSAGE	Vei fi inregistrat in scurt timp la Batalia Breslelor.
+GUILD_BATTLE_ENTER_OCCUPY_AREA_MESSAGE	Ai intrat in %s.
+GUILD_BATTLE_ENTER_OUTPOST_BLUE	Esti membrul echipei albastre. Foloseste portalul pentru a intra in zona pentru Batalia Breslelor.
+GUILD_BATTLE_ENTER_OUTPOST_GREEN	Esti membrul echipei verzi. Foloseste portalul pentru a intra in zona pentru Batalia Breslelor.
+GUILD_BATTLE_ENTER_OUTPOST_RED	Esti membrul echipei rosii. Foloseste portalul pentru a intra in zona pentru Batalia Breslelor.
+GUILD_BATTLE_ENTER_OUTPOST_YELLOW	Esti membrul echipei galbene. Foloseste portalul pentru a intra in zona pentru Batalia Breslelor.
+GUILD_BATTLE_GET_GUILD_REWARD_MESSAGE	Ai primit o recompensa de breasla. O vei gasi in inventarul tau.
+GUILD_BATTLE_GET_PERSONAL_REWARD_BUFF_MESSAGE	Ai primit o recompensa de suport! Clic pe iconita de suport pentru a afla mai multe.
+GUILD_BATTLE_GUILD_REWARD_BUTTON_TOOLTIP	Colecteaza Recompensa Breasla
+GUILD_BATTLE_LIST_REMAIN_TIME	Timp ramas: %s
+GUILD_BATTLE_MONSTER_KILL_GUILD_MESSAGE	%s a ucis %d monstri.
+GUILD_BATTLE_NEED_REWARD_OPEN_KEY_MESSAGE	Nu ai o Cheie Victorie pentru a deschide cufarul. Ucide monstri pentru a obtine o cheie.
+GUILD_BATTLE_NOT_ENOUGH_INEVENTORY_MESSAGE	Creeaza spatiu in inventar si incearca din nou.
+GUILD_BATTLE_NOT_ENOUGH_MOVE_TICKET_MESSAGE	Nu ai un Tichet Batalie Breasla.
+GUILD_BATTLE_NOT_ENOUGH_TIME_OF_CREATE_TO_APPLY	Nu poti participa deocamdata, deoarece breasla ta a fost fondata in ultimele 24 de ore.
+GUILD_BATTLE_OCCUPY_AREA_MESSAGE	Aceasta zona a fost cucerita. In scurt timp va aparea un portal si monstrii vor iesi pentru a apara zona.
+GUILD_BATTLE_OCCUPY_AREA_MESSAGE_IN_OUTPOST	%s a fost cucerita. In scurt timp va aparea un portal si monstrii vor iesi pentru a apara zona.
+GUILD_BATTLE_OCCUPY_AREA_OTHERS_GUILD_MESSAGE	Aceasta zona a fost deja cucerita de o alta breasla. Vei fi teleportat la Avanpost Breasla in scurt timp.
+GUILD_BATTLE_ONGOING	Batalie in Desfasurare
+GUILD_BATTLE_OPEN_REWARD_BOX	Doresti sa deschizi %s?
+GUILD_BATTLE_OTHER_GUILD_ONGOING	Celelalte bresle se lupta deja.
+GUILD_BATTLE_OUTPOST_REMAIN_TIME	Timp ramas: %s
+GUILD_BATTLE_OUTPOST_REMAIN_TIME_FONT	Tahoma:14b
+GUILD_BATTLE_PAGE_ENTER_REQUIRMENTS	Conditii indeplinite?
+GUILD_BATTLE_PAGE_START_REMAIN_TIME	Batalia incepe in: %s
+GUILD_BATTLE_PERSONAL_BUFF	Suport Recompensa
+GUILD_BATTLE_PERSONAL_REWARD_BUTTON_TOOLTIP	Primesti Recompensa Suport
+GUILD_BATTLE_PK_GUILD_MESSAGE	%s a ucis %d jucatori din alte bresle.
+GUILD_BATTLE_PLAYER_KILL	Ai ucis un membru al breslei %s.
+GUILD_BATTLE_QUALIFICATION	Invinge-l pe Regele Dragon sau foloseste un\nTichet Batalia Breslelor pentru a participa.
+GUILD_BATTLE_RELOAD_BUTTON_COOLTIME_MESSAGE	Mai incearca odata.
+GUILD_BATTLE_RESULT_BOARD_REMAIN_TIME_MESSAGE	Vei fi teleportat in %s.
+GUILD_BATTLE_REVIVE_USE_SCROLL_MESSAGE	Ai reinviat cu Reinviere Breasla.
+GUILD_BATTLE_START_MESSAGE	Batalia Breslelor a inceput! Participa la provocare apasand pe butonul Intra din meniul Batalia Breslelor!
+GUILD_BATTLE_STATUS_BOARD_PK	PK: %d
+GUILD_BATTLE_STATUS_BOARD_REMAIN_MONSTER_COUNT	%s: %d/%d
+GUILD_BATTLE_TEAM_NAME_BLUE	Albastru
+GUILD_BATTLE_TEAM_NAME_GREEN	Verde
+GUILD_BATTLE_TEAM_NAME_RED	Rosu
+GUILD_BATTLE_TEAM_NAME_YELLOW	Galben
+GUILD_BATTLE_USE_MOVE_TICKET_MESSAGE	Ai folosit Tichet Portal Breasla si vei fi teleportat la %s in curand.
+GUILD_BATTLE_USE_SCROLL	Doresti sa participi la Batalia Breslelor?
+GUILD_BATTLE_USE_TICKET_CANCEL_MESSAGE	Inregistrarea ta pentru Batalia Breslelor a fost anulata.
+GUILD_BOARD_ID	Membru
+GUILD_BOARD_TEXT	Mesaj
+GUILD_BUILDING_FIX_CHANGE	Sigur doresti sa schimbi pozitia?
+GUILD_BUILDING_FIX_CHANGE_GOLD	Cost: 1,000,000 Yang
+GUILD_BUILDING_FIX_DELETE	Chiar vrei sa stergi acest obiect?
+GUILD_BUILDING_FIX_NEED_BUILDING	Nicio cladire prezenta.
+GUILD_BUILDING_GRADE	Grad
+GUILD_BUILDING_LOG_PLUS	Bustean+
+GUILD_BUILDING_NAME	Numele cladirii
+GUILD_BUILDING_PLY_PLUS	Placaj+
+GUILD_BUILDING_SMELT_STONE	Piatra Runica
+GUILD_BUILDING_STONE_PLUS	Piatra Fundatie+
+GUILD_CANNOT_HEAL_GSP_ANYMORE	Energia Spiritul Dragonului este deja plina.
+GUILD_CHANGEMASTER_TEXT1	Noul lider va fi: %s
+GUILD_CHANGEMASTER_TEXT2	Doresti sa numesti un nou lider de breasla?
+GUILD_CHANGEMASTER_TEXT3	Esti sigur ca vrei sa predai
+GUILD_CHANGEMASTER_TEXT4	functia de lider de breasla?
+GUILD_COMMENT	Scrie
+GUILD_CONTENTS_ONGOING	Batalie in Desfasurare
+GUILD_CREATE_ERROR_INSULT_NAME	Numele breslei nu este permis.
+GUILD_DEFAULT_GRADE	Membrii breslei
+GUILD_DELETE	Șterge
+GUILD_DEPOSIT	Pune deoparte
+GUILD_DISBAND_OR_LEAVE_OR_OUT_FAIL_MESSAGE	Nu poti parasi breasla acum, deoarece esti in lupta.
+GUILD_DISBAND_SUCCESS_MESSAGE	Breasla a fost desfiintata.
+GUILD_DONATE_FAIL_NOT_ENOUGH_HIGH_ITEM	Nu ai suficiente Tichete Donatie Mare.
+GUILD_DONATE_FAIL_NOT_ENOUGH_INVENTORY	Nu mai exista loc in inventar. Nu poti dona.
+GUILD_DONATE_FAIL_NOT_ENOUGH_LEVEL	Trebuie sa fi atins nivelul 30 pentru a putea dona.
+GUILD_DONATE_FAIL_NOT_ENOUGH_MIDDLE_ITEM	Nu ai suficiente Tichete Donatie Medie.
+GUILD_DONATE_FAIL_NOT_ENOUGH_YANG	Nu ai suficient Yang.
+GUILD_DONATE_FAIL_TIME	Nu poti dona timp de 24 de ore dupa ce ai intrat in breasla.
+GUILD_DONATE_QUESTION_HIGH	Vrei sa faci o Donatie Mare?
+GUILD_DONATE_QUESTION_MIDDLE	Vrei sa faci o Donatie Medie?
+GUILD_DONATE_QUESTION_NORMAL	Vrei sa faci o Donatie Mica?
+GUILD_DO_YOU_HEAL_GSP	Doresti sa folosesti %d Yang pentru a restaura %d unitati din Spiritul Dragonului?
+GUILD_DO_YOU_JOIN	 te-a invitat. Vrei sa te alaturi aliantei?
+GUILD_DRAGONLAIR_MIN	min.
+GUILD_DRAGONLAIR_PARTY_ALL	Ranguri Totale
+GUILD_DRAGONLAIR_PARTY_LINE_FOUR	Locul 11 si mai putin: 100 Gaya
+GUILD_DRAGONLAIR_PARTY_LINE_HELP	Ajutor
+GUILD_DRAGONLAIR_PARTY_LINE_ONE	Locul 1: 400 Gaya
+GUILD_DRAGONLAIR_PARTY_LINE_THREE	Locul 4-10: 200 Gaya
+GUILD_DRAGONLAIR_PARTY_LINE_TWO	Locul 2-3: 300 Gaya
+GUILD_DRAGONLAIR_PARTY_MEMBER	Membri
+GUILD_DRAGONLAIR_PARTY_NOW	Ranguri Saptamanale
+GUILD_DRAGONLAIR_PARTY_PAST	Ranguri Anterioare
+GUILD_DRAGONLAIR_PARTY_TIME	Timp
+GUILD_DRAGONLAIR_PARTY_TOOLTIP_TITLE	Recompensa
+GUILD_DRAGONLAIR_RANKING_FAIL	ESUAT
+GUILD_DRAGONLAIR_RANKING_NONE	NOU
+GUILD_DRAGONLAIR_RANKING_SUCCESS	SUCCES
+GUILD_DRAGONLAIR_SECOND	sec.
+GUILD_DRAGON_LAIR_DUNGEON_APPLY_SUCCESS	Te-ai inregistrat la Cripta lui Balathor. Vorbeste cu Garda Dragon Dolnarr pentru a intra. Dupa aceea, ai 10 minute pentru a incepe lupta.
+GUILD_DRAGON_LAIR_DUNGEON_START	Batalia pentru Cripta lui Balathor a inceput. Limita de timp in temnita este de o ora.
+GUILD_EMPTY_AREA	Şara goala
+GUILD_ENEMY_GUILD_NAME	Numele breslei inamicului
+GUILD_FACILITY	Cladire secundara
+GUILD_GEM	Piatra pretioasa
+GUILD_HEADQUARTER	Cladire principala
+GUILD_HEAL_GSP	Reface Spiritul Dragonului
+GUILD_INFO_ENEMY_GUILD_EMPTY	Niciuna
+GUILD_MARK_NOT_ENOUGH_LEVEL	Cerinta: Minim nivelul 3
+GUILD_MARK_UPLOAD_NOTICE	Asteapta un moment pentru a putea adauga logo-uri breslei.
+GUILD_MEMBEROUT_AUTH	Nu poti elimina niciun membru.
+GUILD_MEMBEROUT_NOMAL	Doresti sa elimini acest membru?
+GUILD_MEMBER_JOB	Clasa
+GUILD_MEMBER_KNIGHT	Combatant
+GUILD_MEMBER_LEVEL	Nivel
+GUILD_MEMBER_NAME	Membru
+GUILD_MEMBER_RANK	Rang
+GUILD_MEMBER_SPECIFIC_GRAVITY	EXP Donata
+GUILD_NAME	Numele breslei
+GUILD_NOT_ENOUGH_MATERIAL	Nu detii destul material pentru aceasta cladire.
+GUILD_NOT_ENOUGH_MONEY	Nu detii destul Yang pentru aceasta cladire.
+GUILD_NO_NOTICE_PERMISSION	Nu iti este permis sa faci un anunt.
+GUILD_OBJECT	Obiecte
+GUILD_OBJECT_POSSIBLE_NEWWORLD	Aceasta cladire este disponibila doar pe continentul Yohara.
+GUILD_OFFER_EXP	Investeste Experienta
+GUILD_SELECT_ONE	Alege un membru al breslei.
+GUILD_SHORT_EXP	Nu ai destule puncte de experienta.
+GUILD_SITE_AUCTION_END_TIME	Licitatie Teritoriu: %02d/%02d (luna/zi) la %02d:%02d
+GUILD_SITE_AUCTION_END_TIME_DEFAULT	Licitatie de teritoriu: N/A
+GUILD_SITE_AUCTION_INFO	Teritoriul oferit: %s / %d,%d
+GUILD_SITE_AUCTION_INFO_DEFAULT	Teritoriul oferit: N/A
+GUILD_SITE_AUCTION_MAP_INFO	Data (luna/zi): %02d/%02d; Ora: %02d:%02d
+GUILD_SITE_AUCTION_STATE_NONE	Toate licitatiile au fost trimise.
+GUILD_SITE_AUCTION_STATE_REGIST	In %s, teritoriul de la %s,%s este licitat. Doar liderii breslei se poate inregistra la licitatia teritoriala.
+GUILD_SITE_AUCTION_STATE_RUN	Licitatia teritoriului se termina pe %02d/%02d (luna/zi) la %02d:%02d.
+GUILD_SITE_AUCTION_STATE_WAIT	Licitatia teritoriului incepe pe %02d/%02d (luna/zi) la %02d:%02d pentru %s, teritoriu %d,%d.
+GUILD_SITE_AUTO_ABNDON_TIME	Abandonare automata a teritoriului: %s
+GUILD_SITE_TAX_INFO	Teritoriul breslei va fi abandonat in %s. Toate obiectele din depozitul breslei vor fi sterse.
+GUILD_TILE_BASEINFO	Informatii Teritoriu
+GUILD_TILE_BOARD	Mesajele Breslei
+GUILD_TILE_GRADE	Drepturi de Administrare
+GUILD_TILE_GUILD_BATTLE	Batalia Breslelor
+GUILD_TILE_GUILD_CONTENTS_LIST	Batalia Breslelor
+GUILD_TILE_INFO	Informatii breasla
+GUILD_TILE_MEMBER	Membru
+GUILD_TILE_SKILL	Calificarea breslei
+GUILD_USE_MASTER_ONLY	Doar liderul breslei are acest drept.
+GUILD_VILLAGE_01	Miryang
+GUILD_VILLAGE_02	Songpa
+GUILD_VILLAGE_03	Daeyami
+GUILD_WAR1	Zona de Lupta Breasla
+GUILD_WAR2	Zona de Lupta Breasla
+GUILD_WAR3	Zona de Lupta Breasla
+GUILD_WAR4	Zona de Lupta Breasla
+GUILD_WAR_GAINSCORE_FIFTY	50 puncte
+GUILD_WAR_GAINSCORE_HUNDRED	100 puncte
+GUILD_WAR_GAINSCORE_THIRTY	30 puncte
+GUILD_WAR_GAMETIME_SIXTY	60 minute
+GUILD_WAR_GAMETIME_TEN	10 minute
+GUILD_WAR_GAMETIME_THIRTY	30 minute
+GUILD_WAR_LIMIT_30MIN	Timp: 30 de minute
+GUILD_WAR_REWARD_POTION	Recompensa: Castigatorul primeste licori
+GUILD_WAR_SELECT_WAR	Selecteaza tipul
+GUILD_WAR_TYPE_DEFENSE	Scut Lupta
+GUILD_WAR_TYPE_DIE	Lupta in Arena
+GUILD_WAR_TYPE_FLAG	Captureaza Steag
+GUILD_WAR_TYPE_NORMAL	Lupta de Camp
+GUILD_WAR_TYPE_TIGER	Anihilare
+GUILD_WAR_TYPE_TIME	Timp Atac
+GUILD_WAR_USE_BATTLE_MAP	Locatie: Campul de Lupta al Breslei
+GUILD_WAR_USE_NORMAL_MAP	Locatie: Harta Normala
+GUILD_WAR_WIN_CHECK_SCORE	Cel mai bun rezultat castiga razboiul.
+GUILD_WAR_WIN_FIVE	5 runde
+GUILD_WAR_WIN_ONE	1 runda
+GUILD_WAR_WIN_TAKE_AWAY_FLAG1	Captureaza steagul inamicului
+GUILD_WAR_WIN_TAKE_AWAY_FLAG2	si adu-l in baza ta.
+GUILD_WAR_WIN_THREE	3 runde
+GUILD_WAR_WIN_WIPE_OUT_GUILD	Infrange toti inamicii pentru a castiga.
+GUILD_WHITE_DRAGON_LAIR_ALREADY_USED_BUFF_POTION	Efectele sunt deja active.
+GUILD_WHITE_DRAGON_LAIR_BUFF_POTION_CANNOT_USE_IN_MAP	Poti folosi asta doar in Cripta lui Balathor.
+GUILD_WHITE_DRAGON_LAIR_CANNOT_ATTACK_EGG	Trebuie sa muti Ou Dragon Fierbinte in cealalta directie.
+GUILD_WHITE_DRAGON_LAIR_CAN_USE_SINGIJEON	Hwacha este gata sa fie folosita!
+GUILD_WHITE_DRAGON_LAIR_CONCENTRATED_STRIKE_REMAIN_TIME	Concentreaza-te pe Ou Dragon Inghetat inainte ca acesta sa dispara in %d secunde.
+GUILD_WHITE_DRAGON_LAIR_CONCENTRATED_STRIKE_SUCCESS	Ai alungat cu succes frigul inghetat.
+GUILD_WHITE_DRAGON_LAIR_DRAGON_CRY_SOUNDS_LOUDER	Ragetul lui Balathor zguduie cripta.
+GUILD_WHITE_DRAGON_LAIR_DRAGON_STARTS_GOING_CRAZY	Balathor a pierdut Ouale Dragon. Acum se va enerva!
+GUILD_WHITE_DRAGON_LAIR_DRAGON_STARTS_GOING_MILD	Balathor are din nou Ouale Dragon. Va avea grija sa nu-si foloseasca toata puterea.
+GUILD_WHITE_DRAGON_LAIR_FAIL_1	Nu ai reusit sa finalizezi Cripta lui Balathor. Vei fi teleportat afara in 5 minute.
+GUILD_WHITE_DRAGON_LAIR_FAIL_2	Vei fi teleportat afara in 3 minute. Poti vorbi cu Garda Dragon Dolnarr pentru a parasi temnita imediat.
+GUILD_WHITE_DRAGON_LAIR_FIRE_ARROW_COUNT_FULL	Nu mai poti incarca sageti.
+GUILD_WHITE_DRAGON_LAIR_GAUGE_INCREASED_BY_DESTROYED_EGG	Sigiliul lui Balathor a fost foarte slabit, deoarece un Ou Dragon a fost distrus.
+GUILD_WHITE_DRAGON_LAIR_GAUGE_INCREASED_BY_DYING	Moartea unui erou a slabit sigiliul lui Balathor.
+GUILD_WHITE_DRAGON_LAIR_GAUGE_INCREASED_BY_FREEZING_DEBUFF	Sigiliul lui Balathor a fost slabit deoarece cineva a fost inghetat.
+GUILD_WHITE_DRAGON_LAIR_GET_FIRE_ARROW	Distruge cristalele antice de gheata pentru a obtine Sageti de Foc.
+GUILD_WHITE_DRAGON_LAIR_HIDDEN_CONCENTRATED_STRIKE_START	Distruge Oul Dragon Inghetat repede!
+GUILD_WHITE_DRAGON_LAIR_HIDDEN_CONCENTRATED_STRIKE_WAIT	In 10 secunde, va aparea Oul Dragon al lui Balathor si poti initia un atac asupra lui.
+GUILD_WHITE_DRAGON_LAIR_HIDDEN_FAIL_REWARD	Balathor fuge si isi lasa comoara in urma.
+GUILD_WHITE_DRAGON_LAIR_NEXT_CONCENTRATED_STRIKE_NEED_MORE_DAMAGE	Va fi nevoie de mai multe daune pentru urmatorul atac.
+GUILD_WHITE_DRAGON_LAIR_NOTICE_CONCENTRATED_STRIKE_START	Unul dintre Ouale Dragon Balathor invoca inghetul! Concentreaza-ti atacurile pentru a-l opri.
+GUILD_WHITE_DRAGON_LAIR_NOTICE_GIVE_UP	Şi-ai anulat incercarea de a stapani Cripta lui Balathor. Vei fi teleportat in 1 minut.
+GUILD_WHITE_DRAGON_LAIR_NOTICE_INCREASE_ARROW_COUNT	Hwacha este in prezent incarcat cu %d Sageti de Foc.
+GUILD_WHITE_DRAGON_LAIR_NOTICE_LIMIT_TIME	Timp ramas: %d
+GUILD_WHITE_DRAGON_LAIR_NOTICE_REWARD_STAGE_REMAIN_TIME	Vei fi teleportat afara in %d minute. Poti vorbi cu Garda Dragon Dolnarr pentru a parasi temnita imediat.
+GUILD_WHITE_DRAGON_LAIR_NOTICE_REWARD_STATGE	Poti colecta recompensa din Comoara lui Balathor. Vei fi teleportat afara in 5 minute.
+GUILD_WHITE_DRAGON_LAIR_NOTICE_SPAWNEED_BROKEN_EGG	Ou Dragon Fierbinte a aparut.
+GUILD_WHITE_DRAGON_LAIR_NOT_ENOUGH_GUILD_SP	Nu ai suficient Puterea Zeului Dragon.
+GUILD_WHITE_DRAGON_LAIR_PROTECTED_EGGS	Distruge ouale pentru a provoca daune!
+GUILD_WHITE_DRAGON_LAIR_PUT_EGGS_BACK_IN_ORIGINAL_PLACE	Ou Dragon Balathor reapare in locatia sa initiala.
+GUILD_WHITE_DRAGON_LAIR_REPAIR_SINGIJEON	Hwacha nu poate fi incarcat inainte de a fi reparat.
+GUILD_WHITE_DRAGON_LAIR_REPAIR_SINGIJEON_SUCCESS	Hwacha este acum complet reparata.
+GUILD_WHITE_DRAGON_LAIR_RUN_AWAY_TO_BREATH	Balathor a vazut un Ou Dragon distrus. Evita-i respiratia inghetata!
+GUILD_WHITE_DRAGON_LAIR_UI_BOSS_NAME_TOOLTIP	Balathor
+GUILD_WHITE_DRAGON_LAIR_UI_BROKEN_EGG_INFO_1	Ramas
+GUILD_WHITE_DRAGON_LAIR_UI_BROKEN_EGG_INFO_2	Sanse: %d
+GUILD_WHITE_DRAGON_LAIR_UI_BROKEN_EGG_TOOLTIP	Daca %d Oua Dragon Fierbinti sunt distruse, incercarea in temnita este esuata.
+GUILD_WHITE_DRAGON_LAIR_UI_FLYING_FLMAE_BREATH_TOOLTIP	Daca sigiliul esueaza 100%%, Balathor isi va indrepta privirea mortala asupra ta. (Deficienta actuala a sigiliului: %d%%)
+GUILD_WHITE_DRAGON_LAIR_UI_HIDDEN_BOSS_NAME_TOOLTIP	Balathor
+GUILD_WHITE_DRAGON_LAIR_UI_SINGIJEON_NAME_TOOLTIP	Hwacha
+GUILD_WHITE_DRAGON_LAIR_UI_SINGIJEON_TOOLTIP	Odata ce sunt incarcate 8 sageti, armura lui Balathor poate fi distrusa. Sagetile de Foc pot fi achizitionate din cristalele de gheata antice. Incarcat in prezent: %d
+GUILD_WITHDRAW	Retragere
+GUILD_YOU_DO_NOT_JOIN	Nu apartii nici unei bresle.
+HACK_USER_MESSAGE	Aceasta functie nu este disponibila deoarece a fost detectat software de hacking.
+HORSE_HEALTH0	Mort
+HORSE_HEALTH1	Foame
+HORSE_HEALTH2	Infometat
+HORSE_HEALTH3	Plin
+HORSE_LEVEL1	Cal normal
+HORSE_LEVEL2	Cal de lupta
+HORSE_LEVEL3	Cal militar
+HORSE_LEVEL4	Cal de Razboi Puternic
+HOUR	h
+HOW_MANY_ITEM_DO_YOU_DROP1	Vrei sa arunci %s?
+HOW_MANY_ITEM_DO_YOU_DROP2	Vrei sa arunci %s %d?
+INPUT_PRIVATE_CODE_DIALOG_DESCRIPTION	Introducere cod de stergere din administrare cont.
+INPUT_PRIVATE_CODE_DIALOG_TITLE	Șterge caracterul
+INVENTORY_REALLY_USE_ITEM	Vrei sa folosesti acest obiect?
+INVENTORY_REALLY_USE_PET_BAG_ITEM	Doresti sa pui insotitorul in Cutia de Transport?
+INVENTORY_REALLY_USE_PET_BAG_TAKE_OUT	Doresti sa deschizi Cutia de Transport?
+INVENTORY_REALLY_USE_PET_FEEDSTUFF_ITEM	Doresti sa hranesti cu %s pe %s?
+ITEMSHOP_BUY_TEXT	Vrei sa cumperi |cffF7BD48%s|r ?
+ITEMSHOP_BUY_TEXT_COUNT	Vrei sa cumperi |cffF7BD48%s x%d|r ?
+ITEMSHOP_CATEGORY_0_NAME	Oferte
+ITEMSHOP_CATEGORY_0_SUB_0_NAME	Pachete
+ITEMSHOP_CATEGORY_0_SUB_1_NAME	Oferte speciale
+ITEMSHOP_CATEGORY_1_NAME	Obiecte speciale
+ITEMSHOP_CATEGORY_2_NAME	Cosmetice
+ITEMSHOP_CATEGORY_2_SUB_0_NAME	Costume Arma
+ITEMSHOP_CATEGORY_2_SUB_1_NAME	Costume Armura
+ITEMSHOP_CATEGORY_2_SUB_2_NAME	Frizuri
+ITEMSHOP_CATEGORY_2_SUB_3_NAME	Costume Animalut
+ITEMSHOP_CATEGORY_2_SUB_4_NAME	Costume Mount
+ITEMSHOP_CATEGORY_3_NAME	Companioni
+ITEMSHOP_CATEGORY_3_SUB_0_NAME	Mounti
+ITEMSHOP_CATEGORY_3_SUB_1_NAME	Animalute
+ITEMSHOP_CATEGORY_3_SUB_2_NAME	Insotitori
+ITEMSHOP_CATEGORY_4_NAME	Temnite
+ITEMSHOP_CATEGORY_5_NAME	Echipament
+ITEMSHOP_DRAGONCOINT	Monede Dragon
+ITEMSHOP_EXPIRED	Expirat
+ITEMSHOP_ITEMSEARCH_DEFAULT_TEXT	Cauta ...
+ITEMSHOP_LAST_COUNT	Ramas: %d
+ITEMSHOP_MENU_TITLE_HOME	Acasa
+ITEMSHOP_MENU_TITLE_HOTITEMS	|Eishop/hot|e Popular
+ITEMSHOP_MENU_TITLE_OFFERS	|Eishop/offer|e Oferte
+ITEMSHOP_MENU_TITLE_WHEEL	|Eishop/wheel_icon|e Ruleta
+ITEMSHOP_PRICE_NEW	|Eishop/mini_coin|e %s MD
+ITEMSHOP_PRICE_ONLY_TEXT	%s MD
+ITEMSHOP_PRICE_WITH_DISCOUNT	|Eishop/mini_coin|e |cffFF7B7B%s MD (%d%%)
+ITEMSHOP_PURCHASES	Istoric
+ITEMSHOP_PURCHASES_ACCOUNTID	Cont
+ITEMSHOP_PURCHASES_DATE	Data
+ITEMSHOP_PURCHASES_IP	IP
+ITEMSHOP_PURCHASES_ITEMBOUGHT	Obiect cumparat
+ITEMSHOP_PURCHASES_PRICE	Pret
+ITEMSHOP_PURCHASES_PRICE_TEXT	|Eishop/mini_coin|e |cfff7bd48%s MD
+ITEMSHOP_WHEEL_COIN_TEXT	|Eishop/coin|e  Pret: 10 MD
+ITEMSHOP_WHEEL_COIN_TEXT_INFO	Folosesti |cffF7BD48Monede|r pentru ruleta.
+ITEMSHOP_WHEEL_PURCHASE	|Eishop/wheel_icon|e  |cffF7BD48Ruleta norocului|r
+ITEMSHOP_WHEEL_REWARD_TEXT	Ai primit de la ruleta
+ITEMSHOP_WHEEL_REWARD_TITLE	Premium
+ITEMSHOP_WHEEL_SKIP_ANIMATION	Fara animatie
+ITEMSHOP_WHEEL_TICKET_TEXT	|Eishop/wheel_ticket|e x1 Bilet ruleta
+ITEMSHOP_WHEEL_TICKET_TEXT_INFO	Folosesti |cffF7BD48Bilet ruleta|r pentru ruleta.
+ITEMSHOP_WINDOW_TITLE	Magazin obiecte
+JOB_ASSASSIN	Ninja
+JOB_SHAMAN	Șaman
+JOB_SURA	Sura
+JOB_WARRIOR	Razboinic
+LEFT_TIME	Timp ramas
+LOGIN_CLIENT_LOADING	Se incarca clientul din cache ...
+LOGIN_CONNECT_FAILURE	Eroare la conectarea la server.
+LOGIN_CONNECT_SUCCESS	Ai fost conectat la server.
+LOGIN_CONNETING	Vei fi conectat la server ...
+LOGIN_FAILURE_ALREAY	Contul tau este deja conectat.
+LOGIN_FAILURE_BE_SAME_KEY	Problema la login
+LOGIN_FAILURE_BLOCK_ID	Contul este blocat.
+LOGIN_FAILURE_BLOCK_LOGIN	Alege alt server!
+LOGIN_FAILURE_NOBILL	Contul nu detine timp de joc.
+LOGIN_FAILURE_NOT_AVAIL	Contul este inaccesibil.
+LOGIN_FAILURE_NOT_EXIST_ID	Nume contului sau parola sunt gresite.
+LOGIN_FAILURE_REPAIR_ID	Pentru acest cont sunt refacute obiectele.
+LOGIN_FAILURE_SAMELOGIN	Cineva s-a conectat la contul tau.
+LOGIN_FAILURE_SHUTDOWN	Serverul nu este inca deschis.
+LOGIN_FAILURE_TOO_MANY_USER	Conectarea nu s-a realizat pentru ca exista prea multi jucatori.
+LOGIN_FAILURE_UNKNOWN	Login a esuat din motive necunoscute.
+LOGIN_FAILURE_WEB_BLOCK	Ai fost blocat pe website. Verifica-ti mailurile.
+LOGIN_FAILURE_WRONG_PASSWORD	Nume sau parola gresita.
+LOGIN_FAILURE_WRONG_VERSION	Actualizeaza clientul, versiune client gresita!
+LOGIN_INPUT_ID	Introdu ID-ul.
+LOGIN_INPUT_PASSWORD	Introdu parola.
+LOGIN_PROCESSING	Conectarea ruleaza ...
+MAINTENANCE_TEXT_INFO	|cFFf2e2bc|H|hMentenanta tehnica in: |cFF80f076|H|h%s
+MAINTENANCE_TEXT_LENGTH	|cFFc9ff00|H|hDurata: |cFF80f076|H|h%s
+MAINTENANCE_TEXT_REASON	Motiv: %s
+MAINTENANCE_TEXT_REASON_TECHNICAL	Motiv: Mentenanta tehnica
+MAINTENANCE_TEXT_TIME_DAYS	 Zile
+MAINTENANCE_TEXT_TIME_HOURS	 Ore
+MAINTENANCE_TEXT_TIME_MINUTES	 Minut(e)
+MALL_CANNOT_INSERT	Nu poti pozitiona obiectul.
+MALL_PASSWORD_TITLE	Parola
+MAP_01	Map 1
+MAP_02	Map 2
+MAP_01_02	Map 1 & 2
+MAP_A1	Ținutul Yongan
+MAP_A2	Valea Seungryong
+MAP_A3	Ținutul Yayang
+MAP_AG	Jungrang
+MAP_B1	Ținutul Joan
+MAP_B2	Valea Imji
+MAP_B3	Ținutul Bokjung
+MAP_BAY	Trecatoarea Nephrite
+MAP_BG	Waryong
+MAP_C1	Ținutul Pyungmoo
+MAP_C2	Valea Bangsan
+MAP_C3	Ținutul Bakra
+MAP_CAPE	Peninsula Dragon de Foc
+MAP_CG	Imha
+MAP_DAWN	Stancile Gautama
+MAP_DESERT	Desertul Yongbi
+MAP_DEVILTOWER1	Turnul Demonilor
+MAP_DEVILTOWER2	Turnul Umbrelor
+MAP_DEVILCATACOMB	Catacomba Diavolului
+MAP_DUEL	Arena Antrenament de Lupta
+MAP_EMPIREWAR01	Batalie Castel
+MAP_EMPIREWAR02	Batalie Castel
+MAP_EMPIREWAR03	Batalie Castel
+MAP_FLAME	Doyyumhwan
+MAP_GUILD_01	Jungrang
+MAP_GUILD_02	Waryong
+MAP_GUILD_03	Imha
+MAP_MONKEY_DUNGEON	Hasun Dong
+MAP_MONKEY_DUNGEON2	Jungsun Dong
+MAP_MONKEY_DUNGEON3	Sangsun Dong
+MAP_MONKEY_DUNGEON_11	Hasun Dong
+MAP_MONKEY_DUNGEON_12	Hasun Dong
+MAP_MONKEY_DUNGEON_13	Hasun Dong
+MAP_NUSLUCK	Taramul Gigantilor
+MAP_N_FLAME_01	Țara de Foc
+MAP_N_FLAME_DUNGEON_01	Purgatoriul Iadului
+MAP_N_SNOW_DUNGEON_01	Turnul lui Nemere
+MAP_OXEVENT	Concurs OX
+MAP_SKELTOWER	Turnul Gumsan
+MAP_SNOW	Muntele Sohan
+MAP_SPIDER	Kuahlo Dong
+MAP_SPIDERDUNGEON	Temnita Paianjenilor 1
+MAP_SPIDERDUNGEON_02	Temnita Paianjenilor 2
+MAP_SPIDERDUNGEON_03	Temnita Paianjenilor 3
+MAP_SKIPIA_DUNGEON_01	Grota Exilului
+MAP_SKIPIA_DUNGEON_02	Grota Exilului 2
+MAP_SKIPIA_DUNGEON_01_02	Grota Exilului 1 & 2
+MAP_SKIPIA_DUNGEON_BOSS	Templul Dragonului
+MAP_T1	Zona de Lupta Breasla
+MAP_T2	Zona de Lupta Breasla
+MAP_T3	Zona de Lupta Breasla
+MAP_T4	Zona de Lupta Breasla
+MAP_TEMPLE	Templul Hwang
+MAP_THUNDER	Muntii Thunder
+MAP_TRADE	Bazaar
+MAP_TREE	Lungsam
+MAP_TRENT	Padurea Fantoma
+MAP_TRENT02	Padurea Rosie
+MAP_WEDDING_01	Harta Casatoriilor
+MAP_WL	Valea Șerpilor
+MESSENGER_ADD_FRIEND_ANSWER_TIMEOVER	Cererea de prietenie a fost anulata.
+MESSENGER_ADD_FRIEND	Adauga prieten
+MESSENGER_ADD_BLOCK_FRIEND	Blocheaza jucator
+MESSENGER_BLOCK	Blocat
+MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND	%s vrea sa fiti prieteni, accepti?
+MESSENGER_DO_YOU_DELETE	Vrei sa stergi din lista?
+MESSENGER_DO_YOU_DELETE_PHONE_NUMBER	Vrei sa stergi numarul de mobil?
+MESSENGER_DO_YOU_MOVE	Mai departe?
+MESSENGER_EMPTY_LIST	Gol
+MESSENGER_FAMILY	Familie
+MESSENGER_FRIEND	Prieteni
+MESSENGER_GUILD	Breasla
+MESSENGER_TEAM	Echipa
+MINIMAP	Deschide mini harta
+MINIMAP_BOSS_RESPAWN_TIME	[Respawn: %s]
+MINIMAP_CANNOT_SEE	Harta mini nu poate fi afisata.
+MINIMAP_CAN_NOT_SHOW_AREAMAP	Harta mare nu poate fi afisata.
+MINIMAP_DEC_SCALE	Minimeaza
+MINIMAP_INC_SCALE	Maximeaza
+MINIMAP_OBSERVER_COUNT	%d spectatori
+MINIMAP_SHOW_AREAMAP	Deschide harta mare
+MINI_GAME_RUMI_DISCARD_QUESTION	Esti sigur ca doresti sa lasi acest card?
+MINI_GAME_RUMI_EXIT_QUESTION	Doresti sa termini jocul si sa colectezi premiul?
+MINI_GAME_RUMI_EXIT_QUESTION2	Premiul difera in functie de punctele acumulate.
+MINI_GAME_RUMI_START_QUESTION	Ai nevoie de %d Yang si %d Set(uri) de Carduri.
+MINI_GAME_RUMI_START_QUESTION2	Vrei sa joci?
+MINUTE	Min
+MONETARY_UNIT0	Yang
+MONETARY_UNIT1	zece mii
+MONETARY_UNIT2	o suta de milioane
+MONETARY_UNIT_JUN	MD
+MONETARY_UNIT_EXP	Experienta
+MONEY_INPUT_DIALOG_SELLPRICE	Pret de vanzare:
+MOUNT_UPGRADE_SYSTEM_BANN_WHILE_MOUNTING	Nu poti face asta in timp ce calaresti.
+MOUNT_UPGRADE_SYSTEM_CONQUEROR_LEVEL_MSG	Poti creste nivelul calului atunci cand ajungi la Nivel Campion.
+MOUNT_UPGRADE_SYSTEM_LEVEL_UP_POPUP_COST	Ai nevoie de %d Furaje si %d Yang.
+MOUNT_UPGRADE_SYSTEM_LEVEL_UP_POPUP_MSG_LEVEL	Incerci sa cresti nivelul calului la %d?
+MOUNT_UPGRADE_SYSTEM_LEVEL_UP_POPUP_RETRY_COST	Pentru a creste nivelul calului tau, vei avea nevoie de %d Furaje, %d Gaya, %d Yang.
+MOUNT_UPGRADE_SYSTEM_LEVEL_UP_RESULT_GEM_NOT_ENOUGH	Nu ai suficient Gaya.
+MOUNT_UPGRADE_SYSTEM_LEVEL_UP_RESULT_PERCENT_FAIL	Cresterea nivelului calului a esuat.
+MOUNT_UPGRADE_SYSTEM_LEVEL_UP_RESULT_PERCENT_SUCCESS	Nivelul calului a crescut la %d.
+MOUNT_UPGRADE_SYSTEM_LEVEL_UP_RESULT_YANG_OR_FEED_NOT_ENOUGH	Nu ai suficient Yang sau Furaj.
+MOUNT_UPGRADE_TOOLTIP_SKILL_NEXT_LEVEL	Urmatorul nivel: %d (Max. %d)
+MOVE_CHANNEL_NOTICE	Te-ai conectat cu succes la canalul %d ...
+MOVE_CHANNEL_OFFLINE	Acest canal este inchis.
+MOVE_CHANNEL_TITLE	Schimba canalul
+MOVE_ITEM_FAILURE_PRIVATE_SHOP	Nu poti muta obiectul daca ai deschis un magazin privat.
+MULTI_FARM_ACTIVE_CHAT	|cff00A8EB[Multi-Farm]|r |cffFFFFFFAcest cont primeste drop!|r
+MULTI_FARM_ACTIVE_TEXT	Doresti sa activezi farm-ul?
+MULTI_FARM_DEACTIVE_CHAT	|cff00A8EB[Multi-Farm]|r |cffFFFFFFAcest cont nu mai primeste drop!|r
+MULTI_FARM_DEACTIVE_TEXT	Doresti sa dezactivezi farm-ul?
+MULTI_FARM_PREMIUM_EFFECT	+%d caractere la Multi-Farm	SA
+MULTI_FARM_TEXT_CAN_FARM	Dezactiveaza multi-farm - |Eemoji/key_lclick|e
+MULTI_FARM_TEXT_CANT_FARM	Activeaza multi-farm - |Eemoji/key_lclick|e
+MULTI_FARM_TITLE	Multi-Farm
+MUSIC_EMPTY_MUSIC_LIST	Nicio muzica de fundal.
+MUSIC_METIN2_DEFAULT_THEMA	Metin2 muzica standard
+MUSIC_NOT_SELECT_MUSIC	Nu ai ales nici un fisier de muzica.
+NEEFD_REST	Trebuie sa te odihnesti intai.
+NOT_YET_SUPPORT	Nu este suportat.
+OFFLINESHOP_AFFECT_DECORATION	Decoratiune magazin	SNA
+OFFLINESHOP_BOARD_TITLE	Magazin privat
+OFFLINESHOP_BUTTON_CLOSE	Inchide magazin
+OFFLINESHOP_BUTTON_HISTORY	Istoric
+OFFLINESHOP_BUTTON_HISTORY_CLEAR	Șterge istoric
+OFFLINESHOP_DO_YOU_GET_BACK	Vrei sa retragi %s din magazin?
+OFFLINESHOP_DO_YOU_REMOVE_HISTORY	Vrei sa stergi istoricul?
+OFFLINESHOP_DO_YOU_WANT_BACK	Vrei sa iti retragi itemele?
+OFFLINESHOP_DO_YOU_WANT_CLOSE	Vrei sa inchizi magazinul?
+OFFLINESHOP_DO_YOU_WANT_OPEN	Vrei sa deschizi magazinul pentru %s Yang?
+OFFLINESHOP_DO_YOU_WANT_SLOT	Vrei sa deblochezi acest slot?
+OFFLINESHOP_EXTEND_TIME_DIALOG	Te costa %s pentru a extinde cu 12 ore.
+OFFLINESHOP_ITEM_SOLD	Vandut!
+OFFLINESHOP_ITEM_SOLD2	[Cumparator: %s]
+OFFLINESHOP_ITEM_SOLD_MESSAGE	Ai vandut %s cu %s Yang
+OFFLINESHOP_ITEM_SOLD_MESSAGE_WITH_COUNT	Ai vandut x%d%s cu %s Yang
+OFFLINESHOP_SEARCH_BUTTON	Cauta
+OFFLINESHOP_SEARCH_BUTTON_BUY	Cumpara
+OFFLINESHOP_SEARCH_BUTTON_BUY_QUESTION	Ai %d item selectat.
+OFFLINESHOP_SEARCH_BUTTON_BUY_QUESTION2	Ai %d iteme selectate.
+OFFLINESHOP_SEARCH_BUTTON_BUY_QUESTION_TOTAL	Total %s.
+OFFLINESHOP_SEARCH_CLASS	Clasa
+OFFLINESHOP_SEARCH_CLASS_ALL	Toate
+OFFLINESHOP_SEARCH_CLASS_ASSASSIN	Ninja
+OFFLINESHOP_SEARCH_CLASS_SHAMAN	Șaman
+OFFLINESHOP_SEARCH_CLASS_SURA	Sura
+OFFLINESHOP_SEARCH_CLASS_WARRIOR	Razboinic
+OFFLINESHOP_SEARCH_FILTER	Filtru item
+OFFLINESHOP_SEARCH_ITEM_COUNT	Cantitate
+OFFLINESHOP_SEARCH_ITEM_NAME	Nume item
+OFFLINESHOP_SEARCH_ITEM_SELLER	Vanzator
+OFFLINESHOP_SEARCH_NOT_ENOUGH_YANG	Nu ai suficient Yang.
+OFFLINESHOP_SEARCH_OBJECTS	Obiecte
+OFFLINESHOP_SEARCH_OBJECTS_ALL	Toate
+OFFLINESHOP_SEARCH_OBJECTS_BOOKS	Carti
+OFFLINESHOP_SEARCH_OBJECTS_BOOKS_COMPANIONS	Insotitori
+OFFLINESHOP_SEARCH_OBJECTS_BOOKS_SKILLS	Abilitati
+OFFLINESHOP_SEARCH_OBJECTS_COMPANIONS	Companioni
+OFFLINESHOP_SEARCH_OBJECTS_COMPANIONS_MOUNT	Mount
+OFFLINESHOP_SEARCH_OBJECTS_COMPANIONS_PET	Animalute
+OFFLINESHOP_SEARCH_OBJECTS_COMPANIONS_PET2	Insotitori
+OFFLINESHOP_SEARCH_OBJECTS_COSTUMES	Costume
+OFFLINESHOP_SEARCH_OBJECTS_COSTUMES_ACCE	Esarfe
+OFFLINESHOP_SEARCH_OBJECTS_COSTUMES_ARMOUR	Armura
+OFFLINESHOP_SEARCH_OBJECTS_COSTUMES_AURA	Aura
+OFFLINESHOP_SEARCH_OBJECTS_COSTUMES_HAIR	Frizura
+OFFLINESHOP_SEARCH_OBJECTS_COSTUMES_MOUNT_SKIN	Mount
+OFFLINESHOP_SEARCH_OBJECTS_COSTUMES_PET_SKIN	Animalute
+OFFLINESHOP_SEARCH_OBJECTS_COSTUMES_WEAPON	Arme
+OFFLINESHOP_SEARCH_OBJECTS_EQUIPMENT	Echipament
+OFFLINESHOP_SEARCH_OBJECTS_EQUIPMENT_ARMOUR	Armura
+OFFLINESHOP_SEARCH_OBJECTS_EQUIPMENT_BELTS	Curele
+OFFLINESHOP_SEARCH_OBJECTS_EQUIPMENT_BRACELETS	Bratari
+OFFLINESHOP_SEARCH_OBJECTS_EQUIPMENT_EARRINGS	Cercei
+OFFLINESHOP_SEARCH_OBJECTS_EQUIPMENT_HELMETS	Casca
+OFFLINESHOP_SEARCH_OBJECTS_EQUIPMENT_NECKLACES	Colier
+OFFLINESHOP_SEARCH_OBJECTS_EQUIPMENT_PENDANT	Talisman
+OFFLINESHOP_SEARCH_OBJECTS_EQUIPMENT_SHIELD	Scut
+OFFLINESHOP_SEARCH_OBJECTS_EQUIPMENT_SHOES	Papuci
+OFFLINESHOP_SEARCH_OBJECTS_OTHERS	Altele
+OFFLINESHOP_SEARCH_OBJECTS_WEAPONS	Arme
+OFFLINESHOP_SEARCH_OBJECTS_WEAPONS_BELL	Clopot
+OFFLINESHOP_SEARCH_OBJECTS_WEAPONS_BOW	Arc
+OFFLINESHOP_SEARCH_OBJECTS_WEAPONS_DAGGER	Pumnale
+OFFLINESHOP_SEARCH_OBJECTS_WEAPONS_FAN	Evantai
+OFFLINESHOP_SEARCH_OBJECTS_WEAPONS_SWORD	Sabie
+OFFLINESHOP_SEARCH_OBJECTS_WEAPONS_TWOHAND	Lama doua-maini
+OFFLINESHOP_SEARCH_PRICE	Pret
+OFFLINESHOP_SEARCH_SELECT_ITEM	Trebuie sa alegi un item.
+OFFLINESHOP_SEARCH_TITLE	Cautare globala
+OFFLINESHOP_SEARCH_WAIT	Te rog asteapta
+OFFLINESHOP_SEARCH_WAIT_SPAM	Trebuie sa astepti cateva secunde.
+OFFLINESHOP_VIEWS	Views: %d Total: %d
+ONLINE_PLAYER_NOTICE	Jucatorul %s este online.
+OPTION_GAME_CHARACTER	Caracter
+OPTION_GAME_ENVIRONMENT	Ambient
+OPTION_GAME_GRAPHIC	Grafica
+OPTION_GAME_INTERFACE	Interfata
+OPTION_GAME_PICKUP	Colectare
+OPTION_GAME_SETTINGS	Setari joc
+OPTION_GAME_SOUND	Sunete si muzica
+OPTION_GRAPHIC_SETTINGS	Setari grafica
+OPTION_SOUND_SETTINGS	Setari sunete
+OPTION_PVPMODE_CANNOT_SET_GUILD_MODE	Nu poti activa modul breasla daca nu apartii nici uneia.
+OPTION_PVPMODE_NOT_SUPPORT	Nu poti folosi configuratia modului PvP.
+OPTION_PVPMODE_PROTECT	Trebuie sa fi atins minim nivelul %d pentru a activa modul PvP.
+PARTY_ANSWER_TIMEOVER	Invitatia in grup a fost anulata.
+PARTY_BONUS_ATTACKER	Valoare atac: +%d	SA
+PARTY_BONUS_BERSERKER	Viteza de atac: +%d	SA
+PARTY_BONUS_BUFFER	Durata Skill: +%d	SA
+PARTY_BONUS_DEFENDER	Aparare: +%d	SA
+PARTY_BONUS_EXP	Bonus-EXP: %d%%	SA
+PARTY_BONUS_SKILL_MASTER	Max. PM: +%d	SA
+PARTY_BONUS_TANKER	Max. PV: +%d	SA
+PARTY_BREAK_UP	Sparge grupa
+PARTY_DO_YOU_ACCEPT	%s te-a invitat in grup.
+PARTY_DO_YOU_JOIN	, accepti invitatia de a intra in grup?
+PARTY_EXP_DISTRIBUTION_MODE	Distribuire EXP
+PARTY_EXP_DISTRIBUTION_MODE_LEVEL	Adept level
+PARTY_EXP_DISTRIBUTION_MODE_LEVEL_TOOLTIP	Nivel mai inalt primeste mai mult EXP.
+PARTY_EXP_DISTRIBUTION_MODE_PARITY	Egal
+PARTY_EXP_DISTRIBUTION_MODE_PARITY_TOOLTIP	Toti membrii grupei primesc la fel de mult EXP.
+PARTY_HEAL_ALL_MEMBER	Reface totul
+PARTY_INCREASE_AREA_150	Autonomia grupei marita de 1,5 ori.	SNA
+PARTY_INCREASE_AREA_200	Autonomia grupei marita de 2 ori.	SNA
+PARTY_LEAVE	Paraseste grupul
+PARTY_LONGTIME_BONUS_EXP	EXP-bonus petru joc de grupa lung: +%d%%	SA
+PARTY_MEMBER_OFFLINE	[Offline]
+PARTY_RECALL_MEMBER	Striga membru al grupei incoace.
+PARTY_REGEN_BONUS	Bonus pentru regenerarea PV- + PM: +%d%%	SA
+PARTY_REQUEST_DENIED	Cererea a fost refuzata.
+PARTY_SET_ATTACKER	Stabileste ca atacator.
+PARTY_SET_BERSERKER	Stabileste ca berserker.
+PARTY_SET_BUFFER	Stabileste ca blocant.
+PARTY_SET_DEFENDER	Stabileste ca aparator.
+PARTY_SET_NORMAL	Anuleaza setarea.
+PARTY_SET_SKILL_MASTER	Stabileste ca maestru al competentei.
+PARTY_SET_TANKER	Stabileste ca luptator de apropiere.
+PARTY_SKILL_ATTACKER	Valoare de baza atac atacator +%.0f
+PARTY_SKILL_BERSERKER	Viteza de atac berserker +%.0f
+PARTY_SKILL_BUFFER	Durata Skill Blocant +%.0f
+PARTY_SKILL_DEFENDER	Aparare aparator +%.0f
+PARTY_SKILL_HP_REGEN	Regenerare PV +%.0f%%
+PARTY_SKILL_PARTY_AREA	Autonomia grupei +%d%%
+PARTY_SKILL_SKILL_MASTER	PM maestrul competentei max. +%.0f
+PARTY_SKILL_SP_REGEN	Regenerare PM +%.0f%%
+PARTY_SKILL_TANKER	Max. PV luptator aproape +%.0f
+PARTY_SKILL_WARP	Capacitate de a striga membri ai grupei incoace.
+PASSWORD_TITLE	Parola depozit
+PET_ATTR_CHANGE_DIALOG_TEXT	Doresti sa schimbi atributele insotitorului acum?\nObiectul 'Insotitor Magic' va fi folosit in acest proces.\nProcesul poate esua.
+PET_ATTR_DETERMINE_TYPE1	Insotitor Tip 1: neIndemanatic. Nu este foarte puternic.\nVei putea sa ii imbunatatesti abilitatile.
+PET_ATTR_DETERMINE_TYPE2	Insotitor Tip 2: indiscret. Nu este foarte puternic.\nUn insotior loial ale carui abilitati se vor imbunatati cu timpul.
+PET_ATTR_DETERMINE_TYPE3	Insotitor Tip 3: vioi. Putere medie.\nVei putea sa ii imbunatatesti abilitatile.
+PET_ATTR_DETERMINE_TYPE4	Insotitor Tip 4: curajos. Putere medie.\nUn insotior loial ale carui abilitati se vor imbunatati cu timpul.
+PET_ATTR_DETERMINE_TYPE5	Insotitor Tip 5: indraznet. Puternic.\nVei putea sa ii imbunatatesti abilitatile si mai mult.
+PET_ATTR_DETERMINE_TYPE6	Insotitor Tip 6: legendar. Puternic.\nUn insotior loial ale carui abilitati se vor imbunatati mai mult cu timpul.
+PET_ATTR_DETERMINE_TYPE7	Insotitor Tip 7: mitic. Foarte puternic.\nVa ajunge in timp la potential maxim.
+PET_ATTR_DETERMINE_TYPE8	Insotitor Tip 8: prismatic. Extrem de puternic.\nUn insotitor loial pe care te vei putea baza mereu.
+PET_BAG_DESC	%s
+PET_CAN_NOT_EGG_ITEM_USE	Nu poti deschide Incubatorul in timp ce negociezi, ai deschis depozitul sau un magazin privat.
+PET_CAN_NOT_FEED_SPLIT_ITEM	Nu poti pune obiecte sparte in aceasta fereastra.
+PET_CAN_NOT_FEED_TYPE	Nu poti hrani insotitorul cu asta. incearca altceva.
+PET_CAN_NOT_OPEN_EVOL_BUTTON	Insotitorul trebuie sa aiba nivelul %d pentru a-l antrena si promova la urmatorul stadiu de evolutie.
+PET_CAN_NOT_OPEN_EVOL_BUTTON_EXP_LACK	Insotitorul trebuie sa aiba 100% experienta pentru a-l antrena si promova la urmatorul stadiu de evolutie.
+PET_CAN_NOT_OPEN_EVOL_BUTTON_LEVEL_MAX	Insotitorul a atins deja cel mai inalt grad al evolutiei.
+PET_CAN_NOT_OPEN_SHOP_BECAUSE_SUMMON	Nu poti deschide un magazin privat in timp ce ai chemat insotitorul.
+PET_CAN_NOT_OPEN_SPECIAL_EVOL_BUTTON	Insotitorul trebuie sa aiba %d zile pentru a-l antrena si promova la urmatorul stadiu de evolutie.
+PET_CAN_NOT_SUMMON_BECAUSE_LIFE_TIME_END	Nu poti chema insotitorul deoarece a expirat valabilitatea.
+PET_CAN_NOT_USE_BAG	Nu poti folosi Cutia de Transport deoarece insotitorul tau deja a expirat.
+PET_EMPTY_SKILL_SLOT_USE_ITEM	Insotitorul nu are nicio abilitate de resetat.
+PET_HATCHING_ACCEPT	Doresti sa iti chemi insotitorul '%s'?
+PET_HATCHING_MONEY	Pret: %s
+PET_HATCHING_WINDOW_OPEN_CAN_NOT_USE	Nu poti avea nicio alta actiune in timp ce Incubatorul este deschis.
+PET_INFORMATION_STAGE1	Tanar
+PET_INFORMATION_STAGE2	Salbatic
+PET_INFORMATION_STAGE3	Curajos
+PET_INFORMATION_STAGE4	Eroic
+PET_INFO_EXP	Experienta acumulata
+PET_INFO_ITEM_EXP	EXP obiect actual
+PET_INFO_NEXT_EXP	Experienta ramasa
+PET_INFO_NEXT_ITEM_EXP	EXP obiect ramas
+PET_MSG_NOT_ENOUGH_MONEY	Nu ai Yang suficient.
+PET_NAME_CHANGE_ACCEPT	Doresti sa schimbi numele insotitorului in %s?
+PET_NAME_MIN	Numele introdus este prea scurt.
+PET_REVIVE_FAIL_EMPTY_PET_SLOT	Nu exista niciun insotitor de reInviat.
+PET_REVIVE_FAIL_NOT_ENOUGHT_MATERIAL	Nu ai destul material.
+PET_REVIVE_QUESTION	Vrei sa reInvii pe %s? Numar de Prisme ReInviere: %d
+PET_REVIVE_UI_MATERIAL_COUNT	%d/%d
+PET_SKILL_DELETE_QUESTION_DLG_MSG1	Resetarea abilitatilor insotitorului este ireversibila.
+PET_SKILL_DELETE_QUESTION_DLG_MSG2	Doresti sa continui?
+PET_SKILL_LEARN_QUESTION_DLG_MSG	Doresti sa incepi antrenamentul pentru '%s'?
+PET_SKILL_TOOLTIP_COOLTIME	Calmare: %s secunde
+PET_SKILL_TOOLTIP_FEATHER	Insotitorul are %d%% sansa sa activeze Mers de Fulg pentru %.1f secunde.\nAtac %d - %d	SAAAA
+PET_SKILL_TOOLTIP_HEAL	Cand PV scade sub 20%, ai \n %d%% sansa sa cresti PV cu %d.	SAA
+PET_SKILL_TOOLTIP_INVINVIBILITY	Caracterul tau are %d%% sansa sa devina invincibil \n atunci cand PV scade sub 10%%. \n Durata efect: %.1f secunde.	SAA
+PET_SKILL_TOOLTIP_REMOVAL	Exista o sansa de %d%% pentru a inlatura imediat \n toate efectele precum incetinirea, otravirea sau sangerarea daca \n a fost afectat caracterul.	SAN
+PET_SKILL_UPGRADE_QUESTION_DLG_MSG1	Treci antrenamentul la urmatorul nivel?
+PET_SKILL_UPGRADE_QUESTION_DLG_MSG2	Pret: %s
+PET_TOOLTIP_DEF	Aparare
+PET_TOOLTIP_HP	PV
+PET_TOOLTIP_LEVEL	Nivel
+PET_TOOLTIP_LIFETIME_OVER	Expirat
+PET_TOOLTIP_SKILL_BONUS_VALUE	In antrenament
+PET_TOOLTIP_SKILL_CUR_LEVEL	Nivel: %d
+PET_TOOLTIP_SKILL_NEXT_LEVEL	Urmatorul nivel: %d (max. %d)
+PET_TOOLTIP_SP	PM
+PET_TOOLTIP_TRADABLE	Negociabil
+PET_TOOLTUP_SKILL	%s (Stagiu %d)
+PICK_ITEM_TITLE	Numarul obiectului.
+PICK_MONEY_TITLE	Suma
+PRIVATE_SHOP_CANNOT_SELL_ITEM	Nu poti vinde acest obiect in magazin.
+PRIVATE_SHOP_CLOSE_QUESTION	Vrei sa inchizi magazinul?
+PRIVATE_SHOP_INPUT_NAME_DIALOG_TITLE	Numele magazinului
+PRIVATE_SHOP_INPUT_PRICE_DIALOG_TITLE	Pret
+PVP_LEVEL0	Cavaleresc
+PVP_LEVEL1	Nobil
+PVP_LEVEL2	Bun
+PVP_LEVEL3	Prietenos
+PVP_LEVEL4	Neutru
+PVP_LEVEL5	Agresiv
+PVP_LEVEL6	Dezonorat
+PVP_LEVEL7	Rautacios
+PVP_LEVEL8	Crud
+PVP_MODE_GUILD	PvP - Breasla activat
+PVP_MODE_KILL	PvP - Liber activat.
+PVP_MODE_NORMAL	PvP - Pace activat.
+PVP_MODE_PROTECT	PvP - Protectie activat.
+PVP_MODE_REVENGE	PvP - Agresiv activat.
+PVP_OPTION_KILL	Liber
+PVP_OPTION_NORMAL	Pace
+PVP_OPTION_PROTECT	Protectie
+PVP_OPTION_REVENGE	Agresiv
+QUEST_APPEND	Misiune noua inregistrata.
+QUEST_CATEGORY_00	Misiuni principale
+QUEST_CATEGORY_01	Misiuni secundare
+QUEST_CATEGORY_02	Misiuni de vanatoare
+QUEST_CATEGORY_03	Misiuni eveniment
+QUEST_CATEGORY_04	Misiuni biolog
+QUEST_CATEGORY_05	Misiuni din joc
+QUEST_CATEGORY_06	Misiuni de la carti
+QUEST_CATEGORY_07	Misiuni zilnice
+QUEST_MIN	Min.
+QUEST_SEC	Sec.
+QUEST_TIMEOVER	Timpul a expirat
+QUEST_UNLIMITED_TIME	Nici o limita de timp
+QUEST_ZEROSEC	0 sec.
+QUICKSLOT_REGISTER_DISABLE_ITEM	Acest obiect nu poate fi adaugat la campul de acces rapid.
+RECEIVE_MESSAGE	%s ti-a trimis un mesaj.
+REFINE_AUTO	Pastreaza fereastra deschisa
+REFINE_COST	Costuri de imbunatatire: %d Yang
+REFINE_COST_UPGRADE	[i] Costuri de imbunatatire
+REFINE_DESTROY_WARNING	Obiectul poate fi distrus prin innobilare.
+REFINE_DESTROY_WARNING_WITH_BONUS_PERCENT_1	Creste probabilitatea de imbunatatire,
+REFINE_DESTROY_WARNING_WITH_BONUS_PERCENT_2	dar daca nu iti reuseste, obiectul va fi distrus. Continui?
+REFINE_DOWN_GRADE_WARNING	Obiectul poate fi distrus prin innobilare.
+REFINE_DO_YOU_SEPARATE_METIN	Doresti sa inlaturi toate Pietrele Spiritului disponibile?
+REFINE_FAILURE	Nu a functionat. Am esuat.
+REFINE_FAILURE_CAN_NOT_ATTACH	%s nu poate fi adaugat obiectului.
+REFINE_FAILURE_EQUIP_ITEM	Nu poti imbunatati obiectele echipate.
+REFINE_FAILURE_METIN_INSEPARABLE_ITEM	Nu poate fi indepartata nici o piatra stafie.
+REFINE_FAILURE_NEED_BETTER_SCROLL	Ai nevoie de un pergament de imbunatatire mai bun.
+REFINE_FAILURE_NO_GOLD_SOCKET	Nu exista suport de aur pentru a adauga %s.
+REFINE_FAILURE_NO_MORE_SOCKET	Nu poti sa mai adaugi suporturi.
+REFINE_FAILURE_NO_SOCKET0	Nu exista suport pentru a adauga %s.
+REFINE_FAILURE_SOCKET_DISABLE_ITEM	Acestui obiect nu ii poate fi adaugat un suport.
+REFINE_FAILURE_UPGRADE_DISABLE_ITEM	Acest obiect nu poate fi imbunatatit.
+REFINE_NEED_ITEMS	[i] Materiale necesare
+REFINE_SUCCESS	Imbunatatirea obiectului a reusit.
+REFINE_SUCCESS_PROBALITY	Șansa de imbunatatire: %d%%
+REFINE_UPGRADE	[i] imbunatatire
+REFINE_WARNING2	Vrei sa continui?
+RENEWAL_SKILL_SELECT_ASSASSIN_SKILL_IMG_DESC_LEFT	Un puternic si iute luptator este capabil sa isi ucida[ENTER]dusmanul fara ca acesta sa isi dea[ENTER]seama ce s-a intamplat!
+RENEWAL_SKILL_SELECT_ASSASSIN_SKILL_IMG_DESC_RIGHT	Un vechi luptator ce l-a avut ca profesor pe[ENTER]arcasul Lars Andersen si poate face cu sagetile ceea[ENTER]ce nimeni nu credea ca este posibil!
+RENEWAL_SKILL_SELECT_CONFIRMATION	Competenta aleasa : %s
+RENEWAL_SKILL_SELECT_FINAL_ANSWER	Sunteti sigur de aceasta alegere?
+RENEWAL_SKILL_SELECT_JOB_ASSASSIN_SKILL_1_FOOTER	Lupta corp la corp
+RENEWAL_SKILL_SELECT_JOB_ASSASSIN_SKILL_2_FOOTER	Lupta la departare
+RENEWAL_SKILL_SELECT_JOB_ASSASSIN_SKILL_1_HEADER	Ninja Lama
+RENEWAL_SKILL_SELECT_JOB_ASSASSIN_SKILL_2_HEADER	Ninja Arc
+RENEWAL_SKILL_SELECT_JOB_SHAMAN_SKILL_1_FOOTER	Lupta defensiva corporala
+RENEWAL_SKILL_SELECT_JOB_SHAMAN_SKILL_2_FOOTER	Lupta ofensiva psihica
+RENEWAL_SKILL_SELECT_JOB_SHAMAN_SKILL_1_HEADER	Șaman Zmeu
+RENEWAL_SKILL_SELECT_JOB_SHAMAN_SKILL_2_HEADER	Șaman Vindecare
+RENEWAL_SKILL_SELECT_JOB_SURA_SKILL_1_FOOTER	Lupta corp la corp
+RENEWAL_SKILL_SELECT_JOB_SURA_SKILL_2_FOOTER	Lupta magica
+RENEWAL_SKILL_SELECT_JOB_SURA_SKILL_1_HEADER	Sura Arme Magice
+RENEWAL_SKILL_SELECT_JOB_SURA_SKILL_2_HEADER	Sura Magie Neagra
+RENEWAL_SKILL_SELECT_JOB_WARRIOR_SKILL_1_FOOTER	Lupta corp la corp
+RENEWAL_SKILL_SELECT_JOB_WARRIOR_SKILL_2_FOOTER	Lupta psihica
+RENEWAL_SKILL_SELECT_JOB_WARRIOR_SKILL_1_HEADER	Razboinic Corporal
+RENEWAL_SKILL_SELECT_JOB_WARRIOR_SKILL_2_HEADER	Razboinic Mental
+RENEWAL_SKILL_SELECT_SHAMAN_SKILL_IMG_DESC_LEFT	A fost creat si crescut cu scopul de a-si ajuta aliatii oferindu-le putere in lovituri si protectie in lupta!
+RENEWAL_SKILL_SELECT_SHAMAN_SKILL_IMG_DESC_RIGHT	Este capabil sa isi ofere siesi si aliatilor sai viteza si[ENTER]regenerare in lupta fiind si un bun ucigas!
+RENEWAL_SKILL_SELECT_SURA_SKILL_IMG_DESC_LEFT	Un legionar din Teutoburg ramas in viata ca un[ENTER]mutant si fiind nevoit sa supravietuiasca in padurea[ENTER]mortii, s-a specializat pe lupta contra monstrilor!
+RENEWAL_SKILL_SELECT_SURA_SKILL_IMG_DESC_RIGHT	Un tradator al legiunii, fiind un vrajitor de temut[ENTER]acesta reuseste prin, abilitatile sale sa puna pe fuga[ENTER]chiar si pe cei mai de temut luptatori!
+RENEWAL_SKILL_SELECT_WARRIOR_SKILL_IMG_DESC_LEFT	Cunoscuti pentru iuteala si atacurile de baza mari,[ENTER]razboinicii corporali mai sunt numiti si berserkeri[ENTER]neInfricati!
+RENEWAL_SKILL_SELECT_WARRIOR_SKILL_IMG_DESC_RIGHT	Solid ca si zidul chinezesc, razboinicul mental este[ENTER]greu de pus la pamant, ajutat fiind de mobilitatea[ENTER]pe care o are!
+RESTART_INSTANT_MESSAGE	Aceasta optiune te costa 500.000 Yang.
+RESTART_CLIENT_DO_YOU_ACCEPT_1	Trebuie sa repornesti clientul pentru ca modificarile sa fie aplicate.
+RESTART_CLIENT_DO_YOU_ACCEPT_2	Vrei sa repornesti clientul acum?
+REVIVE_AUTO_TOWN_MESSAGE	Vei fi teleportat in oras in: {}
+SAFEBOX_ERROR	Ai introdus o parola gresita.
+SAFEBOX_SELL_DISABLE_SAFEITEM	Nu poti vinde nici unul din obiectele salvate.
+SAFEBOX_WRONG_PASSWORD	Parolele trebuie sa fie identice.
+SCREENSHOT_SAVE1	Poza este salvata in
+SCREENSHOT_SAVE2	directorul screenshot
+SCREENSHOT_SAVE_FAILURE	Salvarea screenshotului esuata.
+SECOND	Sec
+SECOND_CONFIRM_PET_FEED_QUESTION_1	Obiectul tau are %d sau mai multe bonusuri.
+SECOND_CONFIRM_PET_FEED_QUESTION_2	Esti sigur ca doresti sa hranesti insotitorul?
+SELECT_CAN_NOT_DELETE	Nu poti sterge caracterul.
+SELECT_CHANGED_NAME	Ai schimbat numele caracterului.
+SELECT_CHANGE_FAILURE_ALREADY_EXIST_NAME	Numele caracterului exista deja.
+SELECT_CHANGE_FAILURE_STRANGE_INDEX	Mai incearca odata.
+SELECT_CHANGE_FAILURE_STRANGE_NAME	Numele caracterului este gresit.
+SELECT_CHANGE_NAME_TITLE	Schimba numele caracterului
+SELECT_DELEING	Caracterul se va sterge
+SELECT_DELETED	Ștergerea s-a realizat.
+SELECT_DO_YOU_DELETE_REALLY	Vrei sa continui?
+SELECT_EMPTY_SLOT	Acesta este un camp gol.
+SELECT_GM_NAME	GM
+SELECT_INPUT_CHANGING_NAME	Introdu un nou nume.
+SELECT_NOT_JOIN_GUILD	Nici o breasla
+SELL_PRICE_INFO	[Pret de vanzare]
+SELL_PRICE_INFO_PCS	Bucata: %s
+SELL_PRICE_INFO_ALL	Toate: %s
+SERVER_NOTIFY_CLOSED	Server inchis: pot intra doar conturile create inainte de inchidere.
+SERVER_STATUS_CLOSE	INCHIS
+SERVER_STATUS_NEW	NOU
+SERVER_STATUS_SPECIAL	SPECIAL
+SHIP_MAST	Catarg
+SHOP_ALREADY_HAVE_ONE_ITEM	Poti avea doar un item de acest tip cu tine.
+SHOP_BUY_INFO	Alege obiectul pe care vrei sa-l cumperi in fereastra magazinului.
+SHOP_CANNOT_SELL_EQUIPMENT	Nu poti vinde obiectele echipate.
+SHOP_CANNOT_SELL_ITEM	Acest obiect nu este de vanzare.
+SHOP_ERROR_UNKNOWN	Eroare necunoscuta magazin: %s
+SHOP_INVALID_POS	Acest obiect este nepotrivit.
+SHOP_INVENTORY_FULL	Nu mai exista loc in inventar.
+SHOP_NOT_ENOUGH_COINS	Nu ai suficiente Monede Dragon.
+SHOP_NOT_ENOUGH_EXP	Nu ai suficienta Experienta.
+SHOP_NOT_ENOUGH_ITEM	Nu ai suficiente Obiecte.
+SHOP_NOT_ENOUGH_MONEY	Nu ai suficienti Yang.
+SHOP_SELL_INFO	Alege obiectul pe care vrei sa-l vinzi din fereastra inventarului tau.
+SHOP_SOLDOUT	Vandut
+SHOT_ERROR_UNKNOWN	Eroare necunoscuta in timpul atacului la distanta: %s
+SKILL_BOHO	Reflectare
+SKILL_CANNOT_LEVEL_UP_ANYMORE_BY_BOOK	Ai nevoie de EXP pentru a invata calificarea aceasta.
+SKILL_CANNOT_LEVEL_UP_ANYMORE_BY_STAT	Ai nevoie de o carte pentru a invata aceasta calificare.
+SKILL_CHEONGEUN	Corp puternic
+SKILL_COLOR_SELECT_FIRST	Alege o culoare.
+SKILL_COLOR_PICK_TOOLTIP	Alege culoarea pentru %s. (Cod HEX : %s)
+SKILL_COLOR_DO_YOU_RESET	Vrei sa resetezi culoarea abilitatii?
+SKILL_COLOR_DO_YOU_CHANGE	Vrei sa schimbi culoarea abilitatii?
+SKILL_CRITICAL	Lovitura critica
+SKILL_ENCHANT_POISON	Foloseste otrava
+SKILL_EUNHYEONG	Invizibil
+SKILL_FAINT	Necunostiinta
+SKILL_FIND_TRAP	Cauta capcana
+SKILL_FIRE	Arde
+SKILL_FISHMIND	Marmura de pescuit este activa
+SKILL_GAMJI	Inregistrare
+SKILL_GEOMGYEONG	Aura sabiei
+SKILL_GICHEON	Ajutorul zmeului
+SKILL_GIGONG	Rotatia Chi
+SKILL_GONGPO	Frica
+SKILL_GRADE_NAME_GRAND_MASTER	%s Mare maestru
+SKILL_GRADE_NAME_MASTER	%s Maestru
+SKILL_GRADE_NAME_PERFECT_MASTER	%s Maestru perfect
+SKILL_GROUP_ASSASSIN_1	Lama
+SKILL_GROUP_ASSASSIN_2	Arc
+SKILL_GROUP_HORSE	Calarie
+SKILL_GROUP_SHAMAN_1	Zmeu
+SKILL_GROUP_SHAMAN_2	Vindecare
+SKILL_GROUP_SURA_1	Arme
+SKILL_GROUP_SURA_2	Magie
+SKILL_GROUP_WARRIOR_1	Corp
+SKILL_GROUP_WARRIOR_2	Mental
+SKILL_GWIGEOM	Lama fermecata
+SKILL_GYEONGGONG	Usurare
+SKILL_HEUKSIN	Protectie intunecata
+SKILL_HOSIN	Binecuvantare
+SKILL_INC_ATKSPD	Viteza de atac a crescut
+SKILL_INC_MOVSPD	Viteza de miscare a crescut
+SKILL_JEOJU	Blestem
+SKILL_JEONGEOP	Vindecare
+SKILL_JEONGWI	Betia de lupta
+SKILL_JEONSINBANGEO	Aparare deplina
+SKILL_JEONSINGONGGYEOK	Atac deplin
+SKILL_JEUNGRYEOK	Atac +
+SKILL_JEUNGSOK	Viteza +
+SKILL_JUMAGAP	Armura fermecata
+SKILL_KWAESOK	Repeziciune
+SKILL_MUYEONG	Spiritul focului
+SKILL_NEED_EMPTY_BOTTLE	Nu am nici o sticla goala.
+SKILL_NEED_POISON_BOTTLE	Nu am nici o sticla de otrava.
+SKILL_ONLY_FOR_GUILD_WAR	Poti folosi aceasta calificare doar intr-un razboi de bresle.
+SKILL_PABEOP	Alunga vraja.
+SKILL_POWERFUL_STRIKE	Atac anestezie
+SKILL_SEOMGWANG	Bomba fulger
+SKILL_SLEEP	Somn
+SKILL_SLOW	Incet
+SKILL_STUN	Anestezia
+SKILL_SUHO	Paznic
+SKILL_SUMMON_DESCRIPTION	Șansa incantatiei: %d%%
+SKILL_TOOLTIP_INT	Inteligenta
+SKILL_TOOLTIP_LEVEL	Nivel
+SKILL_TOXICDIE	Otravire
+SKILL_TOXICPOWER	Atac otravitor imbunatatit
+SKILL_TUSOK	Lovitura de stafie
+SPECIAL_CHAT_PICK	|Eemoji/key_plus|e %s
+SPECIAL_INVENTORY_CHANGERS	Bonusuri
+SPECIAL_INVENTORY_CHEST	Cufere
+SPECIAL_INVENTORY_MALL	Item-Shop
+SPECIAL_INVENTORY_MATERIAL	Materiale
+SPECIAL_INVENTORY_SAFEBOX	Depozit
+SPECIAL_INVENTORY_SAFEBOX_OPEN	Asteapta, depozitul se deschide.
+SPECIAL_INVENTORY_SKILL_BOOK	Carti
+SPECIAL_INVENTORY_STONE	Pietre
+STATS_BOARD_JINNO_PLAYERS	Jucatori Jinno
+STATS_BOARD_SHINSOO_PLAYERS	Jucatori Shinsoo
+STATS_BOARD_CHUNJO_PLAYERS	Jucatori Chunjo
+STATS_BOARD_PLAYERS_KILLED	Jucatori invinsi
+STATS_BOARD_DUELS_WON	Dueluri castigate
+STATS_BOARD_LOST_DUELS	Dueluri pierdute
+STATS_BOARD_KILLED_MONSTER	Monstri ucisi
+STATS_BOARD_DEFEATED_BOSSES	Șefi invinsi
+STATS_BOARD_DESTROYED_STONES	Pietre distruse
+STAT_MINUS_CON	Adaptarea vitalitatii (Șansa ramasa: %d)
+STAT_MINUS_DEX	Adaptarea dexteritatii (Șansa ramasa: %d)
+STAT_MINUS_INT	Adaptarea inteligentei (Șansa ramasa: %d)
+STAT_MINUS_STR	Ajustarea puterii (Șansa ramasa: %d)
+STAT_TOOLTIP_ADD	Adauga x1 punct.
+STAT_TOOLTIP_ADD_2	Adauga x10 puncte.
+STAT_TOOLTIP_BONUS	Bonus Caracter
+STAT_TOOLTIP_IMG_CON	Vitalitate
+STAT_TOOLTIP_IMG_INT	Inteligenta
+STAT_TOOLTIP_IMG_STR	Putere
+STAT_TOOLTIP_IMG_DEX	Dexteritate
+STAT_TOOLTIP_IMG_HEL	PV
+STAT_TOOLTIP_IMG_SP	PM
+STAT_TOOLTIP_IMG_ATT	Atac
+STAT_TOOLTIP_IMG_DEF	Aparare
+STAT_TOOLTIP_MOVE_SPEED	Viteza de miscare
+STAT_TOOLTIP_ATT_SPEED	Viteza de atac
+STAT_TOOLTIP_CAST_SPEED	Viteza vraja
+STAT_TOOLTIP_MAG_ATT	Atac magie
+STAT_TOOLTIP_MAG_DEF	Aparare magie
+STAT_TOOLTIP_MAG_ER	Valoare eschiva
+STAT_TOOLTIP_CON	Creste PV si apararea
+STAT_TOOLTIP_DEX	Creste atacul si evadarea
+STAT_TOOLTIP_INT	Creste PM, atacul magic si apararea
+STAT_TOOLTIP_STATS	Statistici
+STAT_TOOLTIP_STATUS	Status Caracter
+STAT_TOOLTIP_STR	Creste valoarea atacului si daunele
+SWITCHBOT_TITLE	Switchbot
+SWITCHBOT_START	Start
+SWITCHBOT_STOP	Stop
+SWITCHBOT_RESET	Reseteaza
+SWITCHBOT_ALTERNATIVES	Alternative posibile
+SWITCHBOT_EMPTY_ATTR	- Gol -
+SWITCHBOT_SELECT_ATTR	Alege bonus
+SWITCHBOT_CLEAR_ATTR	Șterge
+SWITCHBOT_LOAD_CONFIGURATION	Incarca
+SWITCHBOT_CLEAR_CONFIGURATION	Goleste
+SYMBOLLIST_TITLE	Anunta steagul breslei
+SYSTEM_WHISPER	[Nirvana2]
+TARGET_BUTTON_ACCEPT_FIGHT	Aproba
+TARGET_BUTTON_AVENGE	Razbunare
+TARGET_BUTTON_BLOCK	Blocheaza
+TARGET_BUTTON_BUILDING_DESTROY	Distruge
+TARGET_BUTTON_DISMOUNT	Descaleca
+TARGET_BUTTON_EMOTION_ALLOW	Emotii
+TARGET_BUTTON_EXCHANGE	Negociaza
+TARGET_BUTTON_EXCLUDE	Exclude
+TARGET_BUTTON_EXIT_OBSERVER	Inchide modul spectator
+TARGET_BUTTON_FIGHT	Duel
+TARGET_BUTTON_FRIEND	Prieten
+TARGET_BUTTON_INVITE_GUILD	Invitatia breslei
+TARGET_BUTTON_INVITE_PARTY	Invitatia grupei
+TARGET_BUTTON_LEAVE_PARTY	Paraseste grupa
+TARGET_BUTTON_REQUEST_ENTER_PARTY	Alatura-te grupei
+TARGET_BUTTON_UNBLOCK	Deblocheaza
+TARGET_BUTTON_VIEW_EQUIPMENT	Armament
+TARGET_BUTTON_WHISPER	Șoapta
+TARGET_LEVEL_BOSS	Șef
+TARGET_LEVEL_KING	Categoria 5
+TARGET_LEVEL_KNIGHT	Categoria 3
+TARGET_LEVEL_PAWN	Categoria 1
+TARGET_LEVEL_S_KNIGHT	Categoria 4
+TARGET_LEVEL_S_PAWN	Categoria 2
+TASKBAR_ATTACK	Ataca
+TASKBAR_AUTO	Ataca automat
+TASKBAR_CAMERA	Camera
+TASKBAR_EXP	Experienta
+TASKBAR_HP	PV
+TASKBAR_MOVE	Misca
+TASKBAR_SKILL	Calificare
+TASKBAR_SP	PM
+TASKBAR_ST	AP
+TELEPORT_WINDOW_CLASS_0	Regate
+TELEPORT_WINDOW_CLASS_1	Temnite
+TELEPORT_WINDOW_CLASS_2	Beta
+TELEPORT_WINDOW_CLASS_3	Altele
+TELEPORT_WINDOW_CONFIRM_WARP	Sunteti sigur ca doriti sa va teleportati in |cff58aa51%s?
+TELEPORT_WINDOW_ITEM_ICON_TOOLTIP	Obiect necesar
+TELEPORT_WINDOW_ITEM_REQ	Obiect Necesar: |cff24ff00%s|h|r
+TELEPORT_WINDOW_ITEM_REQ_DESC_0	Obiectul se poate obtine de la
+TELEPORT_WINDOW_ITEM_REQ_DESC_1	Monstri Generali & Șefi
+TELEPORT_WINDOW_LEVEL_ICON_TOOLTIP	Nivel Necesar (Min-Max)
+TELEPORT_WINDOW_LEVEL_REQ	Minim: |cff24ff00%d|h|r / Maxim: |cff24ff00%d|h|r
+TELEPORT_WINDOW_MONEY_ICON_TOOLTIP	Costuri Teleportare (Yang)
+TELEPORT_WINDOW_MONEY_REQ	Yang: |cff24ff00%s|h|r
+TELEPORT_WINDOW_NO_ITEM_REQ	Teleportarea este gratuita!
+TELEPORT_WINDOW_UNSELECTED_MAP_INDEX	Va rugam sa selectati o harta!
+THING_COUNT	toate
+TITLE_SYSTEM_NAME_0	Fara Titlu
+TITLE_SYSTEM_NAME_1	Ucenic
+TITLE_SYSTEM_NAME_2	Prieten pe viata
+TITLE_SYSTEM_NAME_3	Dresor de animale
+TITLE_SYSTEM_NAME_4	Erou in devenire
+TITLE_SYSTEM_NAME_5	Distrugator
+TITLE_SYSTEM_NAME_6	Vanator
+TITLE_SYSTEM_NAME_7	Vanator Suflete
+TITLE_SYSTEM_NAME_8	Calaretul fantoma
+TITLE_SYSTEM_NAME_9	Ingerul cu coasa
+TITLE_SYSTEM_NAME_10	Imblanzitor Dragoni
+TITLE_SYSTEM_NAME_11	Romantic
+TITLE_SYSTEM_NAME_12	Titan
+TITLE_SYSTEM_NAME_13	Magician Demoni
+TITLE_SYSTEM_NAME_14	Neinfricat
+TITLE_SYSTEM_NAME_15	Nemuritor
+TITLE_SYSTEM_NAME_16	Vanator Dragoni
+TITLE_SYSTEM_NAME_17	Expert
+TITLE_SYSTEM_NAME_18	Legendar
+TITLE_SYSTEM_NAME_19	Zeu PvP
+TITLE_SYSTEM_NAME_20	Zeu PvM
+TOOLTIP_ANTIFLAG_DESTROY	Șterge
+TOOLTIP_ANTIFLAG_DROP	Arunca
+TOOLTIP_ANTIFLAG_GIVE	Negociaza
+TOOLTIP_ANTIFLAG_MYSHOP	Magazin
+TOOLTIP_ANTIFLAG_NOT_POSSIBLE	[ imposibil ]
+TOOLTIP_ANTIFLAG_PKDROP	PvP-Drop
+TOOLTIP_ANTIFLAG_SAFEBOX	Depozit
+TOOLTIP_ANTIFLAG_SELL	Vinde
+TOOLTIP_ANTIFLAG_STACK	Stack
+TOOLTIP_ANTI_CRITICAL_PCT	Rezistenta la lovitura critica +%d%%	SA
+TOOLTIP_ANTI_PENETRATE_PCT	Rezistenta la lovitura patrunzatoare +%d%%	SA
+TOOLTIP_ANTI_SELL	Nu poate fi vandut in magazin.
+TOOLTIP_APPLY_ATTBONUS_ANIMAL	Tare impotriva animalelor +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_ASSASSIN	Tare impotriva ninja +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_BOSS	Tare impotriva sefilor +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_DARK	Tare impotriva intunericului +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_DEVIL	Tare impotriva diavolului +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_EARTH	Tare impotriva pamantului +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_ELEC	Tare impotriva fulgerului +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_FIRE	Tare impotriva focului +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_HUMAN	Tare impotriva semi-oamenilor +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_ICE	Tare impotriva ghetii +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_METIN	Tare impotriva metinelor +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_MILGYO	Tare impotriva esotericilor +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_MONSTER	Tare impotriva monstrilor +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_ORC	Tare impotriva orcilor +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_SHAMAN	Tare impotriva samanilor +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_SURA	Tare impotriva sura +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_UNDEAD	Puternic impotriva vampirilor +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_WARRIOR	Tare impotriva razboinicilor +%d%%	SA
+TOOLTIP_APPLY_ATTBONUS_WIND	Tare impotriva vantului +%d%%	SA
+TOOLTIP_APPLY_BLOCK	Șansa de a bloca un atac corporal +%d%%	SA
+TOOLTIP_APPLY_COMBAT_SP_RECOVER	Reface in lupta PM la interval de 5 sec. %d	SA
+TOOLTIP_APPLY_CRITICAL_PCT	Șansa de lovitura critica +%d%%	SA
+TOOLTIP_APPLY_DAMAGE_SP_RECOVER	Șansa %d%% de a primi inapoi PM la lovituri reusite	SA
+TOOLTIP_APPLY_DODGE	Șansa %d%% de a evita atacul cu sageti	SA
+TOOLTIP_APPLY_EXP_DOUBLE_BONUS	Șansa %d%% la bonus-EXP	SA
+TOOLTIP_APPLY_GOLD_DOUBLE_BONUS	Șansa %d%% de a arunca de doua ori mai mult Yang	SA
+TOOLTIP_APPLY_IMMUNE_FALL	Imun la cazatura	SNA
+TOOLTIP_APPLY_IMMUNE_SLOW	Imun la incetinire	SNA
+TOOLTIP_APPLY_IMMUNE_STUN	Imun la necunostinta	SNA
+TOOLTIP_APPLY_ITEM_DROP_BONUS	Șansa %d%% de a arunca de 2 ori mai multe obiecte	SA
+TOOLTIP_APPLY_KILL_HP_RECOVER	Șansa %d%% de a reface PV	SA
+TOOLTIP_APPLY_KILL_SP_RECOVER	Șansa %d%% de a reface PM	SA
+TOOLTIP_APPLY_MANA_BURN_PCT	%d%% sansa de a jefui PM	SA
+TOOLTIP_APPLY_MAX_HP_PCT	Max. PV +%d%%	SA
+TOOLTIP_APPLY_MAX_SP_PCT	Max. PM +%d%%	SA
+TOOLTIP_APPLY_NOAFFECT	Fara efect
+TOOLTIP_APPLY_NO_DEATH_PENALTY	Nu vei perde puncte de exprienta daca caracterul tau va fi re-adus la viata in locul mortii sale.	SNA
+TOOLTIP_APPLY_PENETRATE_PCT	Șansa %d%% la lovituri patrunzatoare	SA
+TOOLTIP_APPLY_POISON_PCT	Șansa de otravire %d%%	SA
+TOOLTIP_APPLY_POISON_REDUCE	Rezistenta la otrava %d%%	SA
+TOOLTIP_APPLY_POTION_BONUS	%d%% crestere efect al licorii	SA
+TOOLTIP_APPLY_REFLECT_CURSE	Șansa %d%% de a reflecta un blestem	SA
+TOOLTIP_APPLY_REFLECT_MELEE	%d%% sansa de a reflecta loviturile atacului corporal	SA
+TOOLTIP_APPLY_RESIST_ASSASSIN	Șansa de aparare impotriva atacului ninja %d%%	SA
+TOOLTIP_APPLY_RESIST_BELL	Aparare clopot %d%%	SA
+TOOLTIP_APPLY_RESIST_DAGGER	Aparare pumnal %d%%	SA
+TOOLTIP_APPLY_RESIST_FAN	Aparare evantai %d%%	SA
+TOOLTIP_APPLY_RESIST_SHAMAN	Șansa de aparare impotriva atacului samanilor %d%%	SA
+TOOLTIP_APPLY_RESIST_SURA	Șansa de aparare impotriva atacului sura %d%%	SA
+TOOLTIP_APPLY_RESIST_SWORD	Aparare cu sabia %d%%	SA
+TOOLTIP_APPLY_RESIST_TWOHAND	Aparare cu doua-maini %d%%	SA
+TOOLTIP_APPLY_RESIST_WARRIOR	Șansa de aparare impotriva atacului razboinicilor %d%%	SA
+TOOLTIP_APPLY_RESIST_WIND	Rezistenta vantului %d%%	SA
+TOOLTIP_APPLY_SKILL_BOOK_BONUS	Șansa de a invata din carti de 2,5 ori mai buna.	SNA
+TOOLTIP_APPLY_SKILL_BOOK_NO_DELAY	Daca invatatul nu reuseste, ai inca o incercare gratuita.	SNA
+TOOLTIP_APPLY_SLOW_PCT	Șansa de incetinire %d%%	SA
+TOOLTIP_APPLY_STEAL_HP	%d%% daune vor fi absorbite de PV.	SA
+TOOLTIP_APPLY_STEAL_SP	%d%% daune vor fi absorbite de PM.	SA
+TOOLTIP_APPLY_STUN_PCT	Șansa de blocare %d%%	SA
+TOOLTIP_ARMOR	Armura
+TOOLTIP_ARROW	Sageata
+TOOLTIP_ASSASSIN	Ninja
+TOOLTIP_ATT_GRADE	Valoarea atacului +%d	SA
+TOOLTIP_ATT_SPEED	Viteza de atac +%d%%	SA
+TOOLTIP_AUTO_POTION_HP	Elixirul Soarelui
+TOOLTIP_AUTO_POTION_REST	Ramas: %.2f%%
+TOOLTIP_AUTO_POTION_SP	Elixirul Lunii
+TOOLTIP_AUTO_POTION_USING	Activ
+TOOLTIP_BOW_DISTANCE	Autonomia arcului +%dm	SA
+TOOLTIP_BUYPRICE	Pret: %s
+TOOLTIP_NO_BUYPRICE	Gratis
+TOOLTIP_CAST_SPEED	Viteza farmecului +%d%%	SA
+TOOLTIP_CON	Vitalitate +%d	SA
+TOOLTIP_COSTUME_ATTR_BONUS	Bonus costum %d%%	SA
+TOOLTIP_COSTUME_EXTEND_TIME	Extinde pentru %d zile
+TOOLTIP_DEF_GRADE	Aparare +%d	SA
+TOOLTIP_DEX	Dexteritate +%d	SA
+TOOLTIP_DRAGON_SOUL_DECK1	Pamant	SNA
+TOOLTIP_DRAGON_SOUL_DECK2	Cer	SNA
+TOOLTIP_EAR	Cercel
+TOOLTIP_EMOJI	Emoji
+TOOLTIP_EMOJI_ACTIONS	Actiuni
+TOOLTIP_EMOJI_ACTIVITIES	Activitati
+TOOLTIP_EMOJI_CLOSE	Inchide Emoji
+TOOLTIP_EMOJI_FLAGS	Steaguri
+TOOLTIP_EMOJI_FOOD	Mancare
+TOOLTIP_EMOJI_NATURE	Animale si Natura
+TOOLTIP_EMOJI_OBJECTS	Obiecte
+TOOLTIP_EMOJI_OPEN	Deschide Emoji
+TOOLTIP_EMOJI_PEOPLE	Oameni
+TOOLTIP_EMOJI_PLACES	Calatorii si Locuri
+TOOLTIP_EMOJI_RECENT	Recent
+TOOLTIP_EMOJI_SIMBOLS	Simboluri
+TOOLTIP_EMOJI_USED_ONCE	Emoji folosit o data.
+TOOLTIP_EMOJI_USED_MORE	Emoji folosit de %s ori.
+TOOLTIP_ENERGY	Energie %d	SA
+TOOLTIP_ETC	etc.
+TOOLTIP_EVENT_MONDAY	Luni
+TOOLTIP_EVENT_TUESDAY	Marti
+TOOLTIP_EVENT_WEDNESDAY	Miercuri
+TOOLTIP_EVENT_THURSDAY	Joi
+TOOLTIP_EVENT_FRIDAY	Vineri
+TOOLTIP_EVENT_SATURDAY	Sambata
+TOOLTIP_EVENT_SUNDAY	Duminica
+TOOLTIP_EVENT_TYPE_EXPERIENCE	Eveniment Experienta
+TOOLTIP_EVENT_TYPE_ITEM_DROP	Eveniment Drop
+TOOLTIP_EVENT_TYPE_BOSS	Vanatoare
+TOOLTIP_EVENT_TYPE_METIN	Ploaie de Metine
+TOOLTIP_EVENT_TYPE_MINING	Eveniment Minerit
+TOOLTIP_EVENT_TYPE_GOLD_FROG	Eveniment Broasca de Aur
+TOOLTIP_EVENT_TYPE_MOONLIGHT	Eveniment Clar de Luna
+TOOLTIP_EVENT_TYPE_HEXEGONAL_CHEST	Eveniment Cufar Hexagonal
+TOOLTIP_EVENT_TYPE_FISHING	Eveniment Pescuit
+TOOLTIP_EVENT_TYPE_HIDE_AND_SEEK	Hide & Seek
+TOOLTIP_EVENT_TYPE_OX	Eveniment OX
+TOOLTIP_EVENT_TYPE_TANAKA	Eveniment Tanaka
+TOOLTIP_EVENT_TYPE_YANG	Eveniment Yang
+TOOLTIP_EXPANDED_COINS	Monede Dragon
+TOOLTIP_EXPANDED_YANG	Yang
+TOOLTIP_FISHINGROD_EXP	Puncte: %d / %d
+TOOLTIP_FISHINGROD_LEVEL	Nivel: %d
+TOOLTIP_FISHINGROD_UPGRADE1	Da-o pescarului
+TOOLTIP_FISHINGROD_UPGRADE2	pentru a realiza din ea
+TOOLTIP_FISHINGROD_UPGRADE3	undita
+TOOLTIP_FISH_LEN	Lungime: %.2fcm
+TOOLTIP_HELMET	Coif
+TOOLTIP_HP_REGEN	Regenerare PV +%d%%	SA
+TOOLTIP_INT	Inteligenta +%d	SA
+TOOLTIP_ITEM_ATT_GRADE	Valoarea atacului %d
+TOOLTIP_ITEM_ATT_POWER	Valoarea atacului %d - %d
+TOOLTIP_ITEM_ATT_POWER_ONE_ARG	Valoarea atacului %d
+TOOLTIP_ITEM_ATT_POWER_REFINE	Valoarea atacului %d - %d (+%d)
+TOOLTIP_ITEM_ATT_SPEED	Viteza de atac %s
+TOOLTIP_ITEM_DEF_GRADE	Aparare %d
+TOOLTIP_ITEM_FAST	Repede
+TOOLTIP_ITEM_LIMIT_CON	Limita superioara a vitalitatii %d
+TOOLTIP_ITEM_LIMIT_DEX	Limita superioara a dexteritatii: %d
+TOOLTIP_ITEM_LIMIT_INT	Limita superioara a inteligentei: %d
+TOOLTIP_ITEM_LIMIT_LEVEL	De la nivelul: %d
+TOOLTIP_ITEM_LIMIT_STR	Limita superioara a puterii: %d
+TOOLTIP_ITEM_MAGIC_ATT_POWER	Valoarea atacului magic %d - %d
+TOOLTIP_ITEM_MAGIC_ATT_POWER_ONE_ARG	Valoarea atacului magic %d
+TOOLTIP_ITEM_MAGIC_DEF_POWER	Aparare magica %d
+TOOLTIP_ITEM_NORMAL	Normal
+TOOLTIP_ITEM_SLOW	Incet
+TOOLTIP_ITEM_VERY_FAST	Foarte repede
+TOOLTIP_ITEM_VERY_SLOW	Foarte incet
+TOOLTIP_ITEM_VNUM	Item %d
+TOOLTIP_ITEM_WEARABLE_JOB	[ echipabil ]
+TOOLTIP_LOTTERY_STEP_NUMBER	%d
+TOOLTIP_LOTTO_NUMBER	Numar norocos: %d
+TOOLTIP_MAGIC_ATTBONUS_PER	Atac magic +%d%%	SA
+TOOLTIP_MAGIC_ATT_GRADE	Valoarea atacului magic +%d	SA
+TOOLTIP_MAGIC_DEF_GRADE	Aparare magica +%d	SA
+TOOLTIP_MALL_ATTBONUS	Valoarea atacului +%d%%	SA
+TOOLTIP_MALL_ATTBONUS_STATIC	Valoarea atacului +12~15%	SNA
+TOOLTIP_MALL_AUTOLOOT	Yang este insusit automat.	SNA
+TOOLTIP_MALL_DEFBONUS	Aparare +%d%%	SA
+TOOLTIP_MALL_DEFBONUS_STATIC	Aparare +12~15%	SNA
+TOOLTIP_MALL_EXPBONUS	EXP +%d%%	SA
+TOOLTIP_MALL_EXPBONUS_STATIC	50% mai mult EXP	SNA
+TOOLTIP_MALL_FISH_MIND	Șansa de a prinde un peste este mai mare.	SNA
+TOOLTIP_MALL_GOLDBONUS	Șansa de drop Yang (%.1f)	SA
+TOOLTIP_MALL_GOLDBONUS_STATIC	Șansa dubla de drop Yang	SNA
+TOOLTIP_MALL_ITEMBONUS	Șansa de drop obiecte (%.1f)	SA
+TOOLTIP_MALL_ITEMBONUS_STATIC	Șansa dubla drop obiecte	SNA
+TOOLTIP_MALL_MARRIAGE_FAST	Punctele de dragoste cresc mai repede.	SNA
+TOOLTIP_MALL_SAFEBOX	Mai mult spatiu de depozitare sta la dispozitie.	SNA
+TOOLTIP_MAX_HP	Max. PV +%d	SA
+TOOLTIP_MAX_HP_PCT	Max. PV +%d%%	SA
+TOOLTIP_MAX_SP	Max. PM +%d	SA
+TOOLTIP_MAX_SP_PCT	Max. PM +%d%%	SA
+TOOLTIP_MAX_STAMINA	Rezistenta max. +%d	SA
+TOOLTIP_MELEE_MAGIC_ATTBONUS_PER	Atac cu arma/magic +%d%%	SA
+TOOLTIP_MEMORIZED_POSITION	%s(%d, %d)
+TOOLTIP_MEMORIZED_POSITION_ERROR	EROARE-GPS(%d, %d)
+TOOLTIP_MOV_SPEED	Viteza de miscare %d%%	SA
+TOOLTIP_MULTI_FARM_EXTRA_ACCOUNT	Cont extra: (+%d)
+TOOLTIP_NECK	Colier
+TOOLTIP_NEED_ALL_SP	PM necesare: Max.
+TOOLTIP_NEED_GSP	Spirit Dragon necesar: %d
+TOOLTIP_NEED_HP	PV necesare: %d
+TOOLTIP_NEED_HP_PER_SEC	PV/Sec.: %d
+TOOLTIP_NEED_SKILL_POINT	Puncte de calificare necesare:
+TOOLTIP_NEED_SP	PM necesare: %d
+TOOLTIP_NEED_SP_PER_SEC	SP/Sec.: %d
+TOOLTIP_NEW_AFFECT_AUTO_PICK_UP	Colectare automata	SNA
+TOOLTIP_NEW_AFFECT_PREMIUM_ACCOUNT	Cont premium	SNA
+TOOLTIP_NEXT_SKILL_LEVEL_1	Nivelul urmator: %d (Max. %d)
+TOOLTIP_NEXT_SKILL_LEVEL_2	Nivelul urmator: %d (Max. %d-%d)
+TOOLTIP_NORMAL_HIT_DAMAGE_BONUS	Paguba medie %d%%	SA
+TOOLTIP_NORMAL_HIT_DEFEND_BONUS	Rezistenta la paguba medie %d%%	SA
+TOOLTIP_PARTY_INFO_GRADE_UP1	Peste %d membri ai grupei
+TOOLTIP_PARTY_INFO_GRADE_UP2	Categoria de atac +%d
+TOOLTIP_PARTY_INFO_GRADE_UP3	Categoria de aparare +%d
+TOOLTIP_PARTY_INFO_HEAL_18_LEVEL	PV/PM ale tuturor membrilor grupei reinnoite odata in 60 de minute.
+TOOLTIP_PARTY_INFO_HEAL_40_LEVEL	PV/PM ale tuturor membrilor grupei reinnoite odata in 30 de minute.
+TOOLTIP_PARTY_INFO_RECALL_12_LEVEL	Trebuie sa astepti 3 minute dupa moartea membrului grupei.
+TOOLTIP_PARTY_INFO_RECALL_20_LEVEL	Poti striga incoace oricand membri ai grupei de pe acelasi server.
+TOOLTIP_PARTY_INFO_SET_ATTACKER	Categoria de atac +(Membri grupei/2) %d atacatorii pot fi alesi.
+TOOLTIP_PARTY_INFO_SET_TANKER	Nivelul de aparare +(Numarul Membri grupei) luptatorii cu sabia 1 pot fi alesi.
+TOOLTIP_PARTY_SKILL_LEVEL	Nivel actual: %d
+TOOLTIP_PARTY_TITLE_GRADE_UP	[Atac/aparare imbunatatit]
+TOOLTIP_PARTY_TITLE_HEAL	[Reface]
+TOOLTIP_PARTY_TITLE_INFO_BONUS_EXP	Mai mult de %d membri ai grupei ofera %d%% EXP-bonus.
+TOOLTIP_PARTY_TITLE_MEMBER_BONUS_EXP	[Bonus-EXP]
+TOOLTIP_PARTY_TITLE_RECALL	[Striga incoace]
+TOOLTIP_PARTY_TITLE_SET_ATTACKER	[Stabileste atacatorul]
+TOOLTIP_PARTY_TITLE_SET_TANKER	[Stabileste luptator cu sabia]
+TOOLTIP_PICK_EXP	Puncte: %d / %d
+TOOLTIP_PICK_LEVEL	Nivel: %d
+TOOLTIP_PICK_UPGRADE1	Da-o taietorului de lemne
+TOOLTIP_PICK_UPGRADE2	pentru a realiza din ea
+TOOLTIP_PICK_UPGRADE3	Tarnacop
+TOOLTIP_POTION_CURE	Anuleaza efectele negative.
+TOOLTIP_POTION_MIN	Min.
+TOOLTIP_POTION_PLUS_ATTACK_SPEED	Viteza de atac +%d
+TOOLTIP_POTION_PLUS_HP_PERCENT	PV +%d%%
+TOOLTIP_POTION_PLUS_HP_POINT	PV +%d
+TOOLTIP_POTION_PLUS_MOVING_SPEED	Viteza de miscare +%d
+TOOLTIP_POTION_PLUS_SP_PERCENT	SP +%d%%
+TOOLTIP_POTION_PLUS_SP_POINT	SP +%d
+TOOLTIP_POTION_SEC	Sec.
+TOOLTIP_POTION_TIME	Durata: 
+TOOLTIP_POTION_UNLIMITED	Durata: Nelimitat
+TOOLTIP_REQUIREMENT_21_LEVEL	Trebuie sa fi atins nivelul 21
+TOOLTIP_REQUIREMENT_41_LEVEL	Trebuie sa fi atins nivelul 41
+TOOLTIP_REQUIREMENT_LEVEL	Trebuie sa fi atins nivelul %d
+TOOLTIP_REQUIREMENT_SKILL_LEVEL	%s nivelul %d necesar
+TOOLTIP_REQUIREMENT_STAT_LEVEL	%s %d necesar
+TOOLTIP_RESIST_BOW	Rezistenta la sageti %d%%	SA
+TOOLTIP_RESIST_DARK	Rezistenta la intunecare +%d%%	SA
+TOOLTIP_RESIST_EARTH	Rezistenta pamant +%d%%	SA
+TOOLTIP_RESIST_ELEC	Rezistenta la fulger %d%%	SA
+TOOLTIP_RESIST_FIRE	Rezistenta la foc %d%%	SA
+TOOLTIP_RESIST_ICE	Rezistenta gheata +%d%%	SA
+TOOLTIP_RESIST_MAGIC	Rezistenta la magie %d%%	SA
+TOOLTIP_REST_USABLE_COUNT	Ramas: %d
+TOOLTIP_SEALED	Personalizat
+TOOLTIP_SELLPRICE	Pret: %s
+TOOLTIP_SHAMAN	Șaman
+TOOLTIP_SHIELD	Scut
+TOOLTIP_SHOES	Papuci
+TOOLTIP_SKILL	Competenta	SNA
+TOOLTIP_SKILLBOOK_NAME	Cartea competentei
+TOOLTIP_SKILL_AFFECT_ATT_GRADE	Valoarea atacului: +
+TOOLTIP_SKILL_AFFECT_ATT_POWER	Valoarea atacului:
+TOOLTIP_SKILL_AFFECT_ATT_SPEED	Viteza de atac: +
+TOOLTIP_SKILL_AFFECT_DEF_GRADE	Aparare:
+TOOLTIP_SKILL_AFFECT_DODGE	Valoarea atacului inamic: -
+TOOLTIP_SKILL_AFFECT_HEAL	Reinnoieste PV:
+TOOLTIP_SKILL_AFFECT_MOV_SPEED	Viteza de miscare: +
+TOOLTIP_SKILL_AFFECT_REFLECT_MELEE	Șansa de a evita un atac corporal:
+TOOLTIP_SKILL_AFFECT_RESIST_NORMAL	Rezistenta la paguba corporala:
+TOOLTIP_SKILL_COOL_TIME	Re-incarcare: 
+TOOLTIP_SKILL_DAMAGE_BONUS	Paguba competentei %d%%	SA
+TOOLTIP_SKILL_DEFEND_BONUS	Rezistenta la paguba competentei %d%%	SA
+TOOLTIP_SKILL_DURATION	Durata: %d sec.
+TOOLTIP_SKILL_FORGET_BOOK_NAME	Banderola uitarii
+TOOLTIP_SKILL_LEVEL	Nivel actual: %d
+TOOLTIP_SKILL_LEVEL_MASTER	Nivel actual: %d (Maestru)
+TOOLTIP_SKILL_LEVEL_WITH_MAX	Nivel actual: %d (Max. %d)
+TOOLTIP_SOCKET_EMPTY	Gol
+TOOLTIP_SOCKET_REFINABLE_ITEM	[Obiect cu suport]
+TOOLTIP_SP_REGEN	Regenerare PM +%d%%	SA
+TOOLTIP_STATUS_EFFECT_SHOWER_ELEMENT_ENCHANT_DARK	Intuneric
+TOOLTIP_STATUS_EFFECT_SHOWER_ELEMENT_ENCHANT_EARTH	Pamant
+TOOLTIP_STATUS_EFFECT_SHOWER_ELEMENT_ENCHANT_ELECT	Fulger
+TOOLTIP_STATUS_EFFECT_SHOWER_ELEMENT_ENCHANT_FIRE	Foc
+TOOLTIP_STATUS_EFFECT_SHOWER_ELEMENT_ENCHANT_ICE	Gheata
+TOOLTIP_STATUS_EFFECT_SHOWER_ELEMENT_ENCHANT_WIND	Vant
+TOOLTIP_STATUS_EFFECT_SHOWER_GUILD_BATTLE_TEAM_BLUE	Albastru
+TOOLTIP_STATUS_EFFECT_SHOWER_GUILD_BATTLE_TEAM_GREEN	Verde
+TOOLTIP_STATUS_EFFECT_SHOWER_GUILD_BATTLE_TEAM_RED	Rosu
+TOOLTIP_STATUS_EFFECT_SHOWER_GUILD_BATTLE_TEAM_YELLOW	Galben
+TOOLTIP_STR	Putere +%d	SA
+TOOLTIP_SURA	Sura
+TOOLTIP_TIME_CHARGER_FIX	Timp de incarcare %d sec.	SA
+TOOLTIP_TIME_CHARGER_PER	Timp de incarcare %d%%	SA
+TOOLTIP_UNIQUE	Unic
+TOOLTIP_WARRIOR	Razboinic
+TOOLTIP_WEAPON	Arma
+TOOLTIP_WRISTLET	Bratara
+TRACK_BOSS_COOLDOWN_FIELD	Harta: %s
+TRACK_BOSS_INFORMATION	World Boss
+TRACK_BOSS_INFORMATION_NOTICE	Notificare World Boss
+TRACK_BOSS_LEVEL_FIELD	Nivel recomandat: %d - %d
+TRACK_BOSS_PARTY_FIELD	Timp asteptare: %s
+TRACK_BOSS_READY	[WorldBoss] %s este disponibil!
+TRACK_DUNGEON_COOLDOWN_FIELD	Timp asteptare: %s
+TRACK_DUNGEON_INFORMATION	Temnite
+TRACK_DUNGEON_INFORMATION_NOTICE	Notificare Temnite
+TRACK_DUNGEON_KEY	Cheie
+TRACK_DUNGEON_LEVEL_FIELD	Nivel: %d - %d
+TRACK_DUNGEON_PARTY_FIELD	Grupa: %s
+TRACK_DUNGEON_PARTY_NEED	Da
+TRACK_DUNGEON_PARTY_NOT_NEED	Nu
+TRACK_DUNGEON_READY	[Temnita] %s este disponibil!
+TRACK_STATUS_ALIVE	In viata    CH%d
+TRACK_STATUS_AVAILABLE	Disponibil
+TRACK_STATUS_FIELD	Status: %s
+TRACK_STATUS_FIELD_GO_BACK	Mergi inapoi - 
+TRACK_WB_1	General Wu
+TRACK_WB_2	General You
+TRACK_WB_3	General Chou
+TRACK_WB_4	General Xu
+TRACK_WB_5	General Chen
+TRACK_WB_6	Dune Guardian
+TRACK_WINDOW_TITLE	Informatii Temnite si World Boss
+UI_ACCEPT	Accepta
+UI_CANCEL	Anuleaza
+UI_CLOSE	Inchide
+UI_DEF_FONT	Tahoma:12
+UI_DEF_FONT_SLARGE	Tahoma:13
+UI_DEF_FONT_LARGE	Tahoma:14
+UI_DEF_FONT_XLARGE	Tahoma:20
+UI_DEF_FONT_XXLARGE	Tahoma:34
+UI_DEF_FONT_SMALL	Tahoma:9
+UI_DENY	Refuza
+UI_ITEM	Obiect
+UI_LEFT_TIME	Timp ramas: %d sec.
+UI_NEXT	Continua
+UI_NEXTPAGE	Urmatorul
+UI_NOCONTENTS	Niciun continut
+UI_NONAME	Niciun nume
+UI_OK	OK
+UI_POS_UNKNOWN	Locatie necunoscuta
+UI_PREVPAGE	Inapoi
+UI_UNKNOWN	Necunoscut
+UPLOAD_MARK_UPLOAD_NEED_RECONNECT	Upload-ul terbuie pornit inca odata
+USE_ITEM_FAILURE_PRIVATE_SHOP	Nu poti folosi obiectul daca ai deschis un magazin.
+WIKI_CATEGORY_BOSSES	Șefi
+WIKI_CATEGORY_CHESTS	Cufere
+WIKI_CATEGORY_COMPANION	Companioni
+WIKI_CATEGORY_COSTUMES	Costume
+WIKI_CATEGORY_EQUIPEMENT	Echipament
+WIKI_CATEGORY_GUIDES	Informatii
+WIKI_CATEGORY_METINSTONES	Pietre Metin
+WIKI_CATEGORY_MONSTERS	Monstri
+WIKI_CATEGORY_SYSTEMS	Sisteme
+WIKI_CHESTINFO_CONTENTOF	Continut %s
+WIKI_CHESTINFO_ORIGIN	Origine
+WIKI_ITEMINFO_OPTAINEDFROM	Disponibil la
+WIKI_MONSTERINFO_DEFENSE	Aparare:
+WIKI_MONSTERINFO_DROPLISTOF	Informatii drop pentru %s
+WIKI_MONSTERINFO_DMG_HP	Atac minim: %d | Atac maxim: %d | Max. HP: %d
+WIKI_MONSTERINFO_GOLD_EXP	Yang minim: %d | Yang maxim: %d | Experienta: %d
+WIKI_MONSTERINFO_LEVEL	Nivel: %d
+WIKI_MONSTERINFO_NO_RACE	Nu
+WIKI_MONSTERINFO_RACE_ANIMAL	Animale
+WIKI_MONSTERINFO_RACE_UNDEAD	Vampiri
+WIKI_MONSTERINFO_RACE_DEVIL	Diavol
+WIKI_MONSTERINFO_RACE_HUMAN	Semi-om
+WIKI_MONSTERINFO_RACE_ORC	Orci
+WIKI_MONSTERINFO_RACE_MILGYO	Esoterici
+WIKI_MONSTERINFO_RACE_ELEC	Fulger
+WIKI_MONSTERINFO_RACE_FIRE	Foc
+WIKI_MONSTERINFO_RACE_ICE	Gheata
+WIKI_MONSTERINFO_RACE_WIND	Vant
+WIKI_MONSTERINFO_RACE_EARTH	Pamant
+WIKI_MONSTERINFO_RACE_DARK	Intuneric
+WIKI_MONSTERINFO_RACE_METIN	Pietra metin
+WIKI_MONSTERINFO_RESIST_BELL	Aparare clopot %d
+WIKI_MONSTERINFO_RESIST_BOW	Rezistenta la sageti %d
+WIKI_MONSTERINFO_RESIST_DAGGER	Aparare pumnal %d
+WIKI_MONSTERINFO_RESIST_FAN	Aparare evantai %d
+WIKI_MONSTERINFO_RESIST_MAGIC	Rezistenta la magie %d
+WIKI_MONSTERINFO_RESIST_SWORD	Aparare cu sabia %d
+WIKI_MONSTERINFO_RESIST_TWOHAND	Aparare cu doua-maini %d
+WIKI_MONSTERINFO_STATISTICS	Statistici pentru %s
+WIKI_MONSTERINFO_STATISTICS_TYPE	Rasa: %s | Clasa: %s
+WIKI_REFINEINFO_ITEM_LEVEL	Nivel %d - Valoare %d~%d
+WIKI_REFINEINFO_ITEM_LEVEL_RANGE	Nivel %d~%d - Valoare %d~%d
+WIKI_REFINEINFO_NEXT_ITEM	Evolutie
+WIKI_REFINEINFO_YANG_COSTS	Cost yang
+WIKI_SEARCH_ITEM_OVERLAY_TEXT	Nume item...
+WIKI_SEARCH_MOB_OVERLAY_TEXT	Nume mob...
+WIKI_SUBCATEGORY_ARMOR	Armuri
+WIKI_SUBCATEGORY_BATTLEPASS	Battle-Pass
+WIKI_SUBCATEGORY_BELTS	Curele
+WIKI_SUBCATEGORY_BIOLOG	Biolog
+WIKI_SUBCATEGORY_BOSS_CHESTS	Cufere Șefi
+WIKI_SUBCATEGORY_BRACELET	Bratari
+WIKI_SUBCATEGORY_COMPANION	Insotitori
+WIKI_SUBCATEGORY_COSTUME_ACCE	Esarfe
+WIKI_SUBCATEGORY_DUNGEON_CHESTS	Cufere Temnite
+WIKI_SUBCATEGORY_EARRINGS	Cercei
+WIKI_SUBCATEGORY_EVENTS	Evenimente
+WIKI_SUBCATEGORY_EVENT_CHESTS	Cufere Event
+WIKI_SUBCATEGORY_GAME_RULES	Regulament
+WIKI_SUBCATEGORY_HAIRSTYLES	Frizuri
+WIKI_SUBCATEGORY_HELMET	Coifuri
+WIKI_SUBCATEGORY_LV1_99	Lv 1-99
+WIKI_SUBCATEGORY_LV99_120	Lv 99-120
+WIKI_SUBCATEGORY_LV120	Lv 120+
+WIKI_SUBCATEGORY_MOUNT	Mount
+WIKI_SUBCATEGORY_NECKLACE	Coliere
+WIKI_SUBCATEGORY_OTHER_CHESTS	Alte cufere
+WIKI_SUBCATEGORY_PET	Animalute
+WIKI_SUBCATEGORY_PENDANT	Talismane
+WIKI_SUBCATEGORY_SHIELD	Scuturi
+WIKI_SUBCATEGORY_SHOES	Papuci
+WIKI_SUBCATEGORY_SKILL_COLOR	Culori abilitati
+WIKI_SUBCATEGORY_WEAPONS	Arme
+WIKI_TITLE	Wikipedia
+WIKI_UNKOWN_ITEM	Item necunoscut: %d
+WIKI_UNKOWN_MOB	Mob necunoscut: %d
+NEW_AFFECT_AUTO_HUNT	Auto Hunt	SNA
+OTO_SATIS	|Eemoji/key_ctrl|e + |Eemoji/key_x|e + |Eemoji/key_rclick|e - Otomatik Sat.
+OTOMATIK_SAT_UYARI	<Otomatik Satma> 1 den fazla itemi ekleyemezsin, önce itemi ayır!
+OTOMATIK_SAT_UYARI_SANDIK	<Otomatik Satma> Sandıkları otomatik satmaya ekleyemezsin!
+POSSIBLE_ORE	Suitable Ore:
+BIOLOG_MANAGER_REQUIRED_LEVEL	Misiunea actuala a biologului:
+BIOLOG_MANAGER_REWARD	Recompensa
+BIOLOG_MANAGER_TIME_TEXT	Poti sa livrezi urmatorul obiect!
+BIOLOG_MANAGER_TIME_WAIT	Asteapta: 
+BIOLOG_MANAGER_TITLE	Biolog
+BONUS_BOARD_CATEGORY_1	Atac/Aparare
+BONUS_BOARD_CATEGORY_2	Bonusuri elementare
+BONUS_BOARD_CATEGORY_3	Bonusuri clase
+BONUS_BOARD_CATEGORY_4	Bonusuri arme
+BONUS_BOARD_CATEGORY_5	Alte bonusuri
+GUILD_DIAMANT_OVEN	diamond furnace
+GUILD_FOSSIL_OVEN	Fossil wood furnace
+GUILD_COPPER_OVEN	Copper furnace
+GUILD_SILVER_OVEN	Silver furnace
+GUILD_GOLD_OVEN	gold furnace
+GUILD_JADE_OVEN	Jade kiln
+GUILD_EBONY_OVEN	Ebony kiln
+GUILD_PEARL_OVEN	Pearl kiln
+GUILD_WHITEGOLD_OVEN	White gold furnace
+GUILD_KRISTALL_OVEN	crystal kiln
+GUILD_QUARZ_OVEN	quartz furnace
+GUILD_TEARS_OVEN	Heavenly tears furnace
+GUILD_SOULCRISTAL_OVEN	Soul crystal furnace
+GUILD_RUBIN_OVEN	Ruby furnace
+GUILD_GRANAT_OVEN	Garnet furnace
+GUILD_SMARAGD_OVEN	Emerald furnace
+GUILD_SAPHIR_OVEN	Sapphire furnace
+GUILD_TURMALIN_OVEN	Tourmaline furnace
+GUILD_WEAPON_BLACKSMITH	Weapons forge
+GUILD_ARMOR_BLACKSMITH	armor forge
+GUILD_JUWELER_BLACKSMITH	Jeweler

@@ -1,0 +1,61 @@
+
+[BANNER_IMG = d:/ymir work/ui/game/wiki/banner.tga]
+[COLOR=0xffd700;FONT_SIZE=15;Y_PADDING=-10]Conținut:
+
+[Y_PADDING=2;FONT_SIZE=14]*1. General
+[FONT_SIZE=14]*2. Colorează abilitățile
+
+
+[IMG=d:/ymir work/ui/game/wiki/divider_long.tga; Y=115; CENTER_ALIGN]
+
+
+[COLOR=0xffd700; Y_PADDING=15; CENTER_ALIGN; FONT_SIZE=18]1. General
+
+[Y_PADDING=10;X_PADDING = 55;FONT_SIZE=14]*Pentru a colora abilitățile, acestea trebuie să fie la gradul
+[Y_PADDING=2;X_PADDING = 55;FONT_SIZE=14]Perfect (P) iar caracterul tău să fie Premium.
+[IMG=d:/ymir work/ui/skillcolor/skill_color_button_default.tga; Y=167; X=25]
+
+[COLOR=ef4f00;FONT_SIZE=16;Y_PADDING=5;X_PADDING=10]1.1 Obiecte speciale
+[Y_PADDING=10;X_PADDING = 75;FONT_SIZE=14]*Există 3 obiecte speciale ce te pot ajuta să deblochezi culorile:
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]*Bilet Premium care are o durată de 7, 14 sau 30 de zile.
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]*Acest obiect se găsește în item shop.
+[ITEM=90013; IS_LINK=1; Y=225; X=5]
+[ITEM=90015; IS_LINK=1; Y=225; X=35]
+
+
+[IMG=d:/ymir work/ui/game/wiki/divider_long.tga; Y=285; CENTER_ALIGN]
+
+
+[COLOR=0xffd700; Y_PADDING=15; CENTER_ALIGN; FONT_SIZE=18]2. Colorează abilitățile
+
+[Y_PADDING=10;X_PADDING = 32;FONT_SIZE=14]*Folosind paleta de culori poți personaliza culoarea oricărei abilități. După ce ai deblocat
+[Y_PADDING=2;X_PADDING = 32;FONT_SIZE=14]paleta de culori, apasă pe butonul prezentat mai sus și personalizează abilitatea.
+
+[IMG=d:/ymir work/ui/game/wiki/emoji/skillcolor.tga; Y=380; CENTER_ALIGN]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Y_PADDING=10;X_PADDING = 32;FONT_SIZE=14]*Dacă schimbi doar una din cele 5 culori, nu înseamnă că aspectul va fi exact acea culoare.
+[Y_PADDING=2;X_PADDING = 32;FONT_SIZE=14]Doar o parte va fi schimbată, așa că începe să te joci cu culorile.
+
+[Y_PADDING=10;X_PADDING = 32;FONT_SIZE=14]*Ai posibilitatea de a reseta culoarea la culoarea clasică a abilității în orice moment.

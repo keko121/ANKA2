@@ -1,0 +1,34 @@
+
+[BANNER_IMG = d:/ymir work/ui/game/wiki/banner.tga]
+[COLOR=0xffd700;FONT_SIZE=15;Y_PADDING=-10]Conținut:
+
+[Y_PADDING=2;FONT_SIZE=14]*1. General
+[FONT_SIZE=14]*2. Extinde durată
+
+
+[IMG=d:/ymir work/ui/game/wiki/divider_long.tga; Y=115; CENTER_ALIGN]
+
+
+[COLOR=0xffd700; Y_PADDING=15; CENTER_ALIGN; FONT_SIZE=18]1. General
+
+[Y_PADDING=10;X_PADDING = 55;FONT_SIZE=14]*Costumele se pot obține atât în joc cât și în item shop.
+[Y_PADDING=2;X_PADDING = 55;FONT_SIZE=14]*Diferența constă numai în durata costumelor.
+[Y_PADDING=2;X_PADDING = 55;FONT_SIZE=14]*Sunt prezente costume pentru armă, armură, frizură și companioni.
+
+
+[IMG=d:/ymir work/ui/game/wiki/divider_long.tga; Y=230; CENTER_ALIGN]
+
+
+[COLOR=0xffd700; Y_PADDING=15; CENTER_ALIGN; FONT_SIZE=18]2. Extinde durată
+
+[COLOR=ef4f00;FONT_SIZE=16;Y_PADDING=5;X_PADDING=10]2.1 Obiecte speciale
+[Y_PADDING=10;X_PADDING = 75;FONT_SIZE=14]*Există 3 obiecte speciale ce te pot ajuta să extinzi durata pentru costume.
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]*Aceste pergamente se pot obține atât în joc cât și în item shop.
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]*Costumele pot fi extinse cu 7, 14 sau 30 de zile.
+[ITEM=84014; IS_LINK=1; Y=300; X=5]
+[ITEM=84016; IS_LINK=1; Y=300; X=35]
+
+[COLOR=ef4f00;FONT_SIZE=16;Y_PADDING=5;X_PADDING=10]2.2 Mod de funcționare
+[Y_PADDING=10;X_PADDING = 75;FONT_SIZE=14]*Trebuie să ai un costum și un pergament pentru extindere în inventar.
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]Se trage pergamentul de extindere peste costum și așa se extinde
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]durata costumului ales cu 7, 14 sau 30 de zile.

@@ -1,0 +1,95 @@
+
+[BANNER_IMG = d:/ymir work/ui/game/wiki/banner.tga]
+[COLOR=0xffd700;FONT_SIZE=15;Y_PADDING=-10]Content:
+
+[Y_PADDING=2;FONT_SIZE=14]*1. General
+[FONT_SIZE=14]*2. Missions and Rewards
+
+
+[IMG=d:/ymir work/ui/game/wiki/divider_long.tga; Y=115; CENTER_ALIGN]
+
+
+[COLOR=0xffd700; Y_PADDING=15; CENTER_ALIGN; FONT_SIZE=18]1. General
+
+[Y_PADDING=10;X_PADDING = 55;FONT_SIZE=14]*The Biologist panel is on the minimap.
+[Y_PADDING=2;X_PADDING = 55;FONT_SIZE=14]*The items needed for the Biologist can be found at the shop.
+[Y_PADDING=2;X_PADDING = 55;FONT_SIZE=14]*The required gems can be found at the shop.
+[IMG=d:/ymir work/ui/minimap/biolog_open_default.tga; Y=170; X=13]
+
+[COLOR=ef4f00;FONT_SIZE=16;Y_PADDING=5;X_PADDING=10]1.1 Special objects
+[Y_PADDING=10;X_PADDING = 75;FONT_SIZE=14]*There are 2 special items that can help you with missions:
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]*Researcher's Elixir increases your chance of success.
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]*Millennium Essence eliminates waiting time.
+[ITEM=71035; IS_LINK=1; Y=239; X=5]
+[ITEM=31031; IS_LINK=1; Y=239; X=35]
+
+[COLOR=ef4f00;FONT_SIZE=16;Y_PADDING=5;X_PADDING=10]1.2 Biologist Missions
+[Y_PADDING=10;X_PADDING = 75;FONT_SIZE=14]*Missions start from level 30 up to 94. All missions provide permanent bonuses
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]to the player who completes the mission. Don't forget to check
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]the shop for the items needed for each mission.
+
+
+[IMG=d:/ymir work/ui/game/wiki/divider_long.tga; Y=370; CENTER_ALIGN]
+
+
+[COLOR=0xffd700; Y_PADDING=15; CENTER_ALIGN; FONT_SIZE=18]2. Missions and Rewards
+
+[COLOR=ef4f00;FONT_SIZE=15;Y_PADDING=5;X_PADDING=10]Lv. 30 Biologist Mission
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Item: 10x Orc Tooth
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Waiting time: 0 Minutes
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Reward: +10% Movement Speed
+[ITEM=30006; IS_LINK=1; Y=442; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Lv. 40 Biologist Mission
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Item: x15 Curse Book
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Waiting time: 0 Minutes
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Reward: +5% Attack Speed
+[ITEM=30047; IS_LINK=1; Y=507; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Lv. 50 Biologist Mission
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Item: x15 Demon's Keepsake
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Waiting time: 5 Minutes
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Reward: +60 Defence
+[ITEM=30015; IS_LINK=1; Y=573; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Lv. 60 Biologist Mission
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Item: x20 Ice Marble
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Waiting time: 10 Minutes
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Reward: +50 Attack Value
+[ITEM=30050; IS_LINK=1; Y=640; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Lv. 70 Biologist Mission
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Item: x25 Zelkova Branch
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Waiting time: 15 Minutes
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Reward: +10% Movement speed | +10% Damage reduction (not defence)
+[ITEM=30165; IS_LINK=1; Y=705; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Lv. 80 Biologist Mission
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Item: x30 Tugyi's Tablet
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Waiting time: 20 Minutes
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Reward: +6% Attack speed | +10% Attack value
+[ITEM=30166; IS_LINK=1; Y=770; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Lv. 85 Biologist Mission
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Item: x40 Red Ghost Tree Branch
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Waiting time: 25 Minutes
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Reward: 10% Damage reduction from other players
+[ITEM=30167; IS_LINK=1; Y=838; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Lv. 90 Biologist Mission
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Item: x50 Leader's Notes
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Waiting time: 30 Minutes
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Reward: +8% more damage toward other players
+[ITEM=30168; IS_LINK=1; Y=902; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Lv. 92 Biologist Mission
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Item: x10 Malevolence Jewel
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Waiting time: 35 Minutes
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Reward: Max. HP +1200 | +120 Defence | +50 Attack Value
+[ITEM=30251; IS_LINK=1; Y=970; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Lv. 94 Biologist Mission
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Item: x20 Wisdom Jewel
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Waiting time: 40 Minutes
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Reward: Max. HP +1500 | +140 Defence | +60 Attack Value
+[ITEM=30252; IS_LINK=1; Y=1035; X=10]

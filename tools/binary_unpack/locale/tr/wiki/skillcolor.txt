@@ -1,0 +1,60 @@
+
+[BANNER_IMG = d:/ymir work/ui/game/wiki/banner.tga]
+[COLOR=0xffd700;FONT_SIZE=15;Y_PADDING=-10]Ýçerik:
+
+[Y_PADDING=2;FONT_SIZE=14]*1. Genel
+[FONT_SIZE=14]*2. Yetenekleri renklendirme
+
+
+[IMG=d:/ymir work/ui/game/wiki/divider_long.tga; Y=115; CENTER_ALIGN]
+
+
+[COLOR=0xffd700; Y_PADDING=15; CENTER_ALIGN; FONT_SIZE=18]1. Genel
+
+[Y_PADDING=10;X_PADDING = 55;FONT_SIZE=14]*Yetenekleri renklendirmek için, Mükemmel (P) seviyesinde olmalý ve
+[Y_PADDING=2;X_PADDING = 55;FONT_SIZE=14]karakteriniz Premium olmalýdýr.
+[IMG=d:/ymir work/ui/skillcolor/skill_color_button_default.tga; Y=167; X=25]
+
+[COLOR=ef4f00;FONT_SIZE=16;Y_PADDING=5;X_PADDING=10]1.1 Özel nesneler
+[Y_PADDING=10;X_PADDING = 75;FONT_SIZE=14]*Renk kilidini açmanýza yardýmcý olabilecek 3 özel eþya vardýr:
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]*7, 14 veya 30 gün süreli Premium bileti.
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]*Bu eþya eþya dükkanýnda bulunabilir.
+[ITEM=90013; IS_LINK=1; Y=225; X=5]
+[ITEM=90015; IS_LINK=1; Y=225; X=35]
+
+
+[IMG=d:/ymir work/ui/game/wiki/divider_long.tga; Y=285; CENTER_ALIGN]
+
+
+[COLOR=0xffd700; Y_PADDING=15; CENTER_ALIGN; FONT_SIZE=18]2. Yetenekleri renklendirme
+
+[Y_PADDING=10;X_PADDING = 32;FONT_SIZE=14]*Renk paletini kullanarak herhangi bir yeteneðin rengini özelleþtirebilirsiniz. Renk
+[Y_PADDING=2;X_PADDING = 32;FONT_SIZE=14]paletinin kilidini açtýktan sonra, yukarýda gösterilen butona basýn ve yeteneði özelleþtirin.
+
+[IMG=d:/ymir work/ui/game/wiki/emoji/skillcolor.tga; Y=380; CENTER_ALIGN]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Y_PADDING=10;X_PADDING = 32;FONT_SIZE=14]*If you change only one of the 5 colors, it does not mean that the appearance will be
+[Y_PADDING=2;X_PADDING = 32;FONT_SIZE=14]exactly that color. Only one part will be changed, so start playing with the colors.
+
+[Y_PADDING=10;X_PADDING = 32;FONT_SIZE=14]*You have the option to reset the color to the classic skill color at any time.

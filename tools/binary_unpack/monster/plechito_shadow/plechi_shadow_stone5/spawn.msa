@@ -1,0 +1,20 @@
+ScriptType               MotionData
+
+MotionFileName           "D:\ymir work\monster\plechito_shadow\plechi_shadow_stone5\spawn.GR2"
+MotionDuration           0.500000
+
+Group MotionEventData
+{
+    MotionEventDataCount     1
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         0.309487
+
+        AttachingEnable      1
+        AttachingBoneName    "ChamferCyl04"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/effect/plechito/monster/shadow/shadow_stones_spawn.mse"
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+}

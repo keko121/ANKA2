@@ -1,0 +1,34 @@
+
+[BANNER_IMG = d:/ymir work/ui/game/wiki/banner.tga]
+[COLOR=0xffd700;FONT_SIZE=15;Y_PADDING=-10]Ýçerik:
+
+[Y_PADDING=2;FONT_SIZE=14]*1. Genel Bilgiler
+[FONT_SIZE=14]*2. Süre Uzatma
+
+
+[IMG=d:/ymir work/ui/game/wiki/divider_long.tga; Y=115; CENTER_ALIGN]
+
+
+[COLOR=0xffd700; Y_PADDING=15; CENTER_ALIGN; FONT_SIZE=18]1. Genel Bilgiler
+
+[Y_PADDING=10;X_PADDING = 55;FONT_SIZE=14]*Kostümler hem oyunda hem de eþya dükkanýndan temin edilebilir.
+[Y_PADDING=2;X_PADDING = 55;FONT_SIZE=14]*Aradaki fark yalnýzca kostüm sürelerindedir.
+[Y_PADDING=2;X_PADDING = 55;FONT_SIZE=14]*Silah, zýrh, saç modeli ve eþlikçi kostümleri mevcuttur.
+
+
+[IMG=d:/ymir work/ui/game/wiki/divider_long.tga; Y=230; CENTER_ALIGN]
+
+
+[COLOR=0xffd700; Y_PADDING=15; CENTER_ALIGN; FONT_SIZE=18]2. Süre Uzatma
+
+[COLOR=ef4f00;FONT_SIZE=16;Y_PADDING=5;X_PADDING=10]2.1 Özel Nesneler
+[Y_PADDING=10;X_PADDING = 75;FONT_SIZE=14]*Kostüm sürelerinizi uzatmanýza yardýmcý olabilecek 3 özel eþya mevcuttur.
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]*Bu parþömenler hem oyunda hem de eþya dükkanýndan temin edilebilir.
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]*Kostümler 7, 14 veya 30 gün süreyle uzatýlabilir.
+[ITEM=84014; IS_LINK=1; Y=300; X=5]
+[ITEM=84016; IS_LINK=1; Y=300; X=35]
+
+[COLOR=ef4f00;FONT_SIZE=16;Y_PADDING=5;X_PADDING=10]2.2 Nasýl Kullanýlýr?
+[Y_PADDING=10;X_PADDING = 75;FONT_SIZE=14]*Envanterinizde bir kostüm ve bir uzatma parþömeni olmalýdýr.
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]Uzatma parþömeni, kostümün üzerine sürüklenerek
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]seçilen kostümün süresi 7, 14 veya 30 gün uzatýlýr.

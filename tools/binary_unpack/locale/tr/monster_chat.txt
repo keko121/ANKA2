@@ -1,0 +1,622 @@
+1	Bu gergin zamanlar beni sinirlendiriyor.
+2	Ýki gün önce bölgede genç bir kýz vahþi hayvanlar tarafýndan parçalandý.
+3	Vahþi hayvanlar giderek daha agresif oluyor. Mümkün olduðunca çoðunu öldürmeliyiz.
+4	Bugün iyi bir ruh halinde deðilim. Yabancýlar benden uzak dursun.
+5	Öldürdüðüm son savaþçý, caný için yalvardý.
+6	Birinin bu taþlar hakkýnda bir þeyler yapmasý gerekiyor.
+7	Sabahýn huzuruna güvenmiyorum.
+8	Havadaki gerginlik beni rahatsýz ediyor.
+9	Bu ok uçlarý çok iyi dövülmüþ.
+10	Yerinde olsam dikkatli olurdum. O ok doðrudan kalbine niþan alýyor.
+11	Oraya gidip o canavarlardan birini öldürmeliyim.
+12	Bu zamanlarda iyi bir dövüþ sanatlarý eðitimi þart.
+13	Askerler artýk ülkedeki kaosu kontrol edemiyor.
+14	Bana neden öyle bakýyorsun?
+15	Korkaklarýn hayatta kalma þansý küçük.
+16	Kendini abartma.
+17	Birisi seni çok iyi eðitmiþ gibi görünüyor.
+18	Atalarým bile bu topraklarda savaþta kendilerini kanýtlamayý baþardý.
+19	Burada tetikte ve yetenekli olmalýsýn.
+20	Zamanýmý boþa harcamayý düþünme bile.
+21	Peki, hayatýnýn tehlikede olduðunu bilmek nasýl bir his?
+22	Þimdiden pes etmek mi istiyorsun?
+23	Acý çekmeye hazýr ol.
+24	Vay be! O kýlýç harika görünüyor.
+25	Daha ýsrarlý ol ve gücünü artýr!
+26	Benim kadar güçlü olabileceðini mi düþünüyorsun?
+27	Tamam. Ciddi olalým.
+28	Aman Tanrým! Ben sadece zayýf bir kadýným!
+29	Yorgun görünüyorsun. Neden þimdiden pes etmiyorsun? Hehe.
+30	Serangyi bugün ne yapacak, hm?
+31	Çok sýkýldým. Benimle oyna!
+32	Sura adamýný en çok sevdiðimi söylemeliyim.
+33	Hey! Bir dövüþe ne dersin?
+34	Sadece kadýn olduðum için beni küçümseme!
+35	Acý sadece bir an sürer...
+36	Buradan çýkmak istiyorum, ne pahasýna olursa olsun.
+37	Bireysel üyelerin evleri ne kadar güvenli?
+38	Kesin kýzlar!
+39	Seni yenmeme izin ver. Tek bir darbeyle.
+40	Kaçmayý düþünme bile!
+41	Peki, neden baþlamýyoruz?
+42	Unutma: Tüm erkekler düþmandýr.
+43	Birinin güzel bir yüzü varsa, istisna yapabiliriz...
+44	Ne, dövüþmek mi istiyorsun?
+45	Uzun sürmeyecek ama acýtacak.
+46	Ah, gerçekten acý çekiyor gibi görünüyorsun...?
+47	Hoþça kal! Þimdi cehenneme git!
+48	Peki, Beyaz Yemin'de ne yapýyorsun?
+49	Nereye gidiyorsun?
+50	Hey, dövüþmek mi istiyorsun?
+51	Hehe! Vuruþlarýmý kaçýrýyorsun...?
+52	Benden kaçabileceðini mi düþünüyorsun?
+53	Ýþte vuruþum geliyor!
+54	Tanrým, çok yorgunum!
+55	Hey, güzel zýrh! Çok mu pahalýydý?
+56	Ama en azýndan güzel bir hava var.
+57	Ah, çok antrenman yapmýþsýn! Harika!
+58	Yeteneklerim hakkýnda ne düþünüyorsun? Ýyi, deðil mi? Ha ha!
+59	Ne var? Ah, inanýlmaz hýzýmdan rahatsýz oldun!
+60	Neden ava gitmiyorum?
+61	Bugün kimse köyümüze saldýrmadý.
+62	Dövüþmek istiyorsan, dövüþ o zaman, piç!
+63	Hehe, sen sadece bir acemisin!
+64	Önce neyi vurmalýyým, kolunu mu yoksa bacaðýný mý?
+65	Ýþte okum geliyor!
+66	Köye gidip antrenman yapmalýyým.
+67	Çok sert hissediyorum.
+68	Bugün akþam yemeðinde ne var?
+69	Ýzliyorum, istediðin kadar baðýr.
+70	Çok mu bekledin? O kýlýcýný sallamaya ne dersin!
+71	Bu kýlýcýn sesi harika!
+72	Bu kýlýç hazýr!
+73	Hmm, bakalým: Bu kýlýç önce kimi öldürmeli...
+74	Kes, kes... saç, boðazlar...
+75	Önce karnýn!
+76	Seni kýlýç kýný olarak kullanmak isterim.
+77	Sana bir þeyim var: ebedi uyku!
+78	Açlýktan ölüyorum.
+79	Yiyecek bir þey var mý?
+80	Neden bu kadar yemekten sonra hala açým?
+81	Aaargh, öl!
+82	Midem bu dövüþü belirleyecek!
+83	Cennet ile cehennem arasýnda bir seçim!
+84	Artýk dayanamýyorum! Vücudum her yerinde kaþýnýyor!
+85	Ah evet. Birkaç domuz görüyorum!
+86	Zaten yerde mi?
+87	Seni tek bir vuruþla bitireceðim.
+88	Bu harika bir aný olacak!
+89	Öl!
+90	Vücudum yumuþadý.
+91	Neden daha fazla antrenman yapmýyorum?
+92	Korktun, deðil mi?
+93	Ah, güçlü silahýmýn bir baþka kurbaný.
+94	Saldýrý desenimi görebiliyor musun? Hayýr mý? Senin kaybýn!
+95	Küçük kesikler bile saðlýðýný etkileyebilir. Özellikle de bir topuzdan geliyorsa!
+96	Kahretsin, bu eller gerçekten pratik deðil.
+97	Neye bakýyorsun? Demir yumruklu birini hiç görmemiþ miydin?
+98	Siz insanlar beni gerçekten sinirlendiriyorsunuz.
+99	Seni dövmemi ister misin? Ýstemiyorsan kaç. Anladýn mý?
+100	Þimdi izle, sana büyük vuruþumu göstereceðim!
+101	Elimi izlemeyi býrak!
+102	Hey sen oradaki! Dövüþmek ister misin? O zaman buraya gel!
+103	Bence oldukça nefes kesiciyim...
+104	Neden bir þey planlamýyoruz?
+105	Hayýr, henüz gitmene izin verilmiyor. Dövüþ!
+106	Ha, iþte aldýn!
+107	Ölü etsin!
+108	Hey, burada kal! Benimle oyna!
+109	Kemiklerinden güzel bir þey oyabilirim...
+110	Bugün henüz antrenman yapmadýk.
+111	Vay be, harika bir zýrh! Onu istiyorum.
+112	Bundan böyle saldýrýlarýmý görmezden gelmekte zorlanacaksýn!
+113	Ha, ha, ha! Bahse girerim bunu beklemiyordun!
+114	Güzellik her þey deðil.
+115	Bakma, dövüþ!
+116	Bana bakýþ þeklini sevmiyorum. Buraya gel!
+117	Kýlýcýmda ölmek bir onurdur!
+118	Harika
+119	Hey oradaki, dokunma!
+120	Görünüþe göre yay kiriþlerim kesilmiþ.
+121	Kahretsin, o aptallar buradaydý.
+122	Fena deðil. Ama yine de öleceksin.
+123	Bununla sorunun yok mu? Harika!
+124	Buraya gelin herkes!
+125	La, lala, bir þarký ýslýklýyorum...
+126	Ne harika bir hava!
+127	Derin bir nefes al. Merak etme, sadece zehir!
+128	Harika! Dövüþ ruhunu takdir ediyorum!
+129	Buraya gel! Herkes bana!
+130	Açlýktan ölüyorum!
+131	Biraz meyve için bir istek var.
+132	Peki, tamam balýk olur. Saldýr!
+133	Hey, kaçma! Dur!
+134	Kazandým. Açýkça belli!
+135	Görüyor musun? Kaçýrdýn, haha!
+136	Dikkatli olmalýsýn, haha!
+137	Neredeyim?
+138	Sadece yüzünü býrakacaðým! Bu güzel bir dekorasyon olacak...
+139	Beni avlamaya mý geldin? Bu saçmalýk!
+140	Sen benim bir sonraki kurbanýmsýn.
+141	Oldukça acý verici deðil mi? Peki, hýzlý yapacaðým.
+142	Ne kadar güçlü olduðuma bak: Bu kocaman sopayý sallayabiliyorum!
+143	Sýkýcý!
+144	Tüm vücudum kaþýnýyor.
+145	Bakalým kim daha hýzlý.
+146	Sen baþlattýn. O yüzden ölümünden beni sorumlu tutma!
+147	Bir kez girdin mi, artýk çýkamazsýn. Kaçýþ yok!
+148	Ýþte son vuruþ geliyor. Seni bitireceðim!
+149	Lezzetli yeni bir zehir yaptým. Bir tadýna bakmak ister misin?
+150	Nasýl çalýþtýðýný görmek istiyorum! Al, al!
+151	Hey sen oradaki! Buraya gel, test kiþim olmak ister misin?
+152	Seni zehirleyeceðim!
+153	Ah, çok iyi! Bir kobay!
+154	Bu kadar çabuk pes edersen eðlenceli olmaz! Hadi, kendini savun!
+155	Bir dakika bekle. Avlayacak bir þey arýyorum.
+156	O kadar yavaþ hareket edersen iþe yaramaz. Hareket et!
+157	Adamým, çok açým!
+158	Avlayacak bir þey bulduðum harika!
+159	Tüm hayatta kalma umudunu býrak! Benden kurtulamayacaksýn!
+160	Þimdi gerçek acýnýn nasýl bir þey olduðunu öðreneceksin!
+161	Sýýýkýcý!
+162	Yem olarak kullanabileceðimiz bir þey var mý acaba?
+163	Ýstersen gel ve dövüþ!
+164	Bir savaþçý olmak mý istiyorsun? O zaman bana ne yapabileceðini göster!
+165	Ýpekten sarýlmýþ olarak daha sonra için güzel bir meze olacaksýn...
+166	Yaþamak istiyorsan köye kaç!
+167	Açlýktan ölmek acýnasý bir ölüm.
+168	Ah, doðrudan bize doðru geliyorlar!
+169	Bir düelloya ne dersin?
+170	Beni o piçlerle karþýlaþtýrma!
+171	Ýþte gök gürültüsü vuruþum geliyor! Ha!
+172	Þimdi kaçanlar gerçek savaþçý deðildir!
+173	Bu sefer zehir daha iyi çalýþmalý!
+174	Aç olduðunda yarasalar gerçek bir inceliktir!
+175	Bir dövüþe ne dersin?
+176	Zehrim vücuduna bir kez girdi mi, artýk çaresi yok.
+177	Büyüm her þeyi yakacak, hehehe!
+178	Yan! Ha, ha!
+179	Kýlýcýný bilemeyi asla unutma! Bir sonraki dövüþ düþündüðünden daha yakýn.
+180	Baygýnlýk mý hissediyorsun?
+181	Öl ve öbür dünyada uyan!
+182	Beni yenmek mi? Emin misin?
+183	Erkek gibi dövüþ!
+184	Hadi, sadece biraz daha.
+185	Ha, güzel bir dövüþe bakýyorum.
+186	Dövüþmek eðlenceli, haha!
+187	Dövüþ! Daha fazla ve daha fazla! Evet!
+188	Ha, çok iyi! Tekrar dene!
+189	Kýlýcýmýn döndüðüne bak!
+190	Bana vurduðuna piþman olacaksýn!
+191	Çok zayýf! Ne kadar saçma!
+192	Rahatsýz edilmek istemiyorum.
+193	Uyu. Sonsuza kadar!
+194	Hala uyumak istemiyor musun?
+195	Yapacak çok þey var! Hadi devam edelim!
+196	Gücümden korkmaya izin verme, haha!
+197	Seni toz haline getireceðim!
+198	Harika, güçlü rakipler daha uzun sürer! Kendini savun!
+199	Ne? Kardeþimle bir sorunun mu var?
+200	Beni o acemiyle karþýlaþtýrma!
+201	O seni sevmiyor ve ben de seni sevmiyorum!
+202	Dövüþelim.
+203	Ölüme kadar!
+204	Bak, bir kelebek! Ne kadar güzel!
+205	Gök ve yerin gerçeðini görmüyor musun?
+206	Sonra çok geç olacak. Þimdi inanmalýsýn!
+207	Gizli öðretinin doktrinine inan!
+208	Þüphe edenler ölmeli!
+209	Ölümü kucaklayarak aydýnlan!
+210	Gizli inancýn gerçeði, göðün düzenini anlamaktýr.
+211	Gizli inancýn felsefesi göksel düzendir!
+212	Gizli gerçek; Kaplan Tanrýsý'nýn gerçeði; Sabaha Sabaha.
+213	Gök ve yerin gerçeðinden þüphe etmeye cesaret ediyor musun?
+214	Çok azýmýz kaldý.
+215	Pençelerimi hisset!
+216	Kaplan Tanrýsý'nýn gerçeði sonsuza kadar söylendiðinde, tüm acýlar sona erecek.
+217	Burada hükmetmesi gereken iki ayaklý yaratýklar onlar deðil.
+218	Sabaha Sabaha. Bize bilgi gönder!
+219	Bundan þüphe etme!
+220	Göðün gök gürültüsünü al!
+221	Yargýnýn darbesi!
+222	Hm, görünüþe göre biri örümcek aðýma takýlmýþ.
+223	Gizli gerçek; Kaplan Tanrýsý'nýn gerçeði; Sabaha Sabaha.
+224	Beni bir palyaço sanýyorsun deðil mi? Uzun süre öyle düþünmeyeceksin!
+225	Tarikatýmýzýn lideri bir azizdir ve tüm canlýlarýn üstündedir!
+226	Cehennemin alevlerinde yan!
+227	Böyle büyük bir akort çatalý daha önce hiç görmemiþsindir, deðil mi?
+228	Ben barýþçýl bir insaným. Sadece rahatsýz edilmeyi sevmiyorum.
+229	Tüm bunlar mý aklýna geliyor?
+230	Sadece kardeþimden küçük olduðum için, her þeye katlanacaðým anlamýna gelmez!
+231	Ebedi acý ve karanlýk seni bekliyor!
+232	Kimse bana denk olamaz!
+233	Bu son deðil. Aksine: Sadece daha iyi olabilir.
+234	Tek istediðimiz barýþ ve mahremiyet! Lütfen!
+235	Korku seni yenerse, Kaplan Tanrýsý'na güven.
+236	Gizli inancýn gerçeði göðün düzeni ve anlayýþýnda yatar.
+237	Hepimiz cehenneme gidelim!
+238	Gitmene izin vermeyeceðim!
+239	Sana sahip olduðum her þeyi vereceðim.
+240	Yalvarýyorum, lütfen bizi kurtar!
+241	Ýnsanlarýn içi neden bu kadar ýslak? Bu kýlýcýmý paslandýrýyor!
+242	Ýðnendeki zehir kurudu mu?
+243	Cehennemin kapýlarý ardýna kadar açýk. Gir!
+244	Seni uyarýyorum: Beni tahtayý kullanmaya zorlama!
+245	Öleceðini gördüm!
+246	Düþüneyim: Gök ve yerin düzenini sadece birkaç kelimeyle nasýl özetleyebilirim?
+247	Ýnananlarýn ilahilerini duyabiliyorum.
+248	Doðru! Piþmanlýkla dolu ol, ve kurtarýlacaksýn!
+249	Efsaneyi sorgulamaya devam ettiðin için ebedi acý çekeceksin.
+250	Sana öðreteyim.
+251	Bunu acý olarak görme - bir ders olarak gör.
+252	Güzel olmayabilirim ama çok eðleniyorum, hihihi!
+253	Bizim gibi olmalýsýn!
+254	Bize gel, hihi!
+255	Haaa, haha!
+256	Ýþte baþlýyoruz!
+257	Ahhhhh!
+258	Bunu tek baþýmýza yapamayýz! Hayýr!
+259	Sen de acýyý tatmalýsýn!
+260	Bir deðiþ tokuþa ne dersin? Sen bana ruhunu ver, ben de sana acýmý vereyim!
+261	Yakýnda ebedi huzur bulacaksýn!
+262	Ah, acý! Acý!
+263	Aargghh, kahretsin! Kolum yanýyor!
+264	Neden böyle acý çekmek zorundayýz? Bunu hak etmek için ne yaptýk?
+265	Bu gizemli hastalýktan acý çekmek o kadar da kötü deðil!
+266	Ahhhh!
+267	Seni ööööööööööldüreceðim!
+268	Sadece izleme! Katýl!
+269	Arkadaþ olalým!
+270	Zaten enfekte oldun.
+271	Þimdi sen benim arkadaþýmsýn.
+272	Hihihi!
+273	Buraya gel ve kendini oklarýma sapla.
+274	Seni gizemli hastalýkla enfekte edeceðim.
+275	Aðýz sulandýran koku!
+276	Ve eðer hastalýðýn baþka bir nedenini bulursam...
+277	Ha, ha! Bu eðlenceli olacak!
+278	Hmm, kýrbaç mý yoksa kavrayýcý mý...?
+279	Ahhhhh, evvvvet!
+280	Hastalýðý sana geçirmeme izin ver!
+281	Bu inatçý gizemli hastalýk nedeni!
+282	Herkes ölecek!
+283	Küçük, küçük, küçük parçalar...
+284	Kaçýþ yok!
+285	Zemin kanýnla ýslanacak. Öl!
+286	Yalvarabilirsin ama sana faydasý olmayacak!
+287	Korkunu benden saklayamazsýn!
+288	Ölüm! Tüm insanlara ölüm...
+289	Siz sefil domuzlar!
+290	Beni kýzdýrmaya baþlýyorsun...
+291	Kan olacak, insan.
+292	Ölüm ve Mahvoluþ...!
+293	Bir mýzraðýn derinize açabileceði yaralarý gördünüz mü?
+294	Evet, devam et, uzaklaþ! Ne kadar ileri gidebileceðini göreceðiz...
+295	Sadece titreyen ellerine bakmak bile bunu tamamen deðerli kýlýyor...
+296	Seni pislik parçasý benimle dövüþmeye cesaret ediyor mu?
+297	Ölüm gelecekte senin tek arkadaþýn olacak!
+298	Ruhun benim olacak, insan!
+299	Ah, taze kan!
+300	Görünüþe göre bir baþka kiþi burada ölümüyle karþýlaþacak!
+301	Acý çekmeli ve tüm ýstýrabýný dýþarý vurmalýsýn...
+302	Elinizdeki o saçma silahýn sizi koruyabileceðini gerçekten mi düþünüyorsunuz?
+303	Cesaretin seni bana getirdi. Ve þimdi seni terk edecek...
+304	Eðer ölürsem, intikamým seni sonsuza kadar takip edecek!
+305	Seni yavaþça, çok yavaþça öldüreceðim ve acý çektireceðim...
+306	Sana acý çektirmek benim için bir zevk olacak.
+307	Vücudun bunak bir yaþlý kadýn gibi titriyor!
+308	Korkunu koklayabiliyorum, küçük olan.
+309	Sanýrým seni birkaç vücut parçandan kurtarmanýn zamaný geldi.
+310	Seni kendi kiþisel cehennemine göndereceðim!
+311	Acýn seni ölmeden önce deli edecek...
+312	Feryat edebilirsin! Yalvarabilirsin! Ama sana faydasý olmayacak.
+313	Hayal edebileceðin en kötü ölümü yaþayacaksýn...
+314	Gücün zayýflýyor. Zaten ölümün eþiðindesin...
+315	Ebediyen ölüm salonlarýna yürümeye hazýr mýsýn?
+316	Ebedi karanlýðý selamlamak fikrine alýþmalýsýn...
+317	Cehenneme hoþ geldin!
+318	Ýstediðin kadar çýðlýk at! Kimse seni duymayacak!
+319	Beni böyle öldürebileceðini düþünüyorsan... düþündüðümden daha naifsin!
+320	Fena deðil ama yine de seni ölümünden kurtaramayacak.
+321	Etrafýna bir bak, bu cehennem!
+322	Derini kemiklerinden soyacaðým.
+323	Ölmeden önce inlemeni duymak istiyorum.
+324	Umut etmenin bir faydasý olmadýðýný biliyorsun, deðil mi?
+325	Hayýr, henüz ölmeyeceksin. Önce vücudunun kaç kýlýç darbesine dayanabileceðini bilmek istiyorum...
+326	Ah, bir gönüllü...
+327	Kaçma þansýn olduðunu gerçekten mi düþünüyorsun?
+328	Yer hareket etmiyor... dizlerin korkudan titriyor!
+329	Ölümünü arayacaðýn yere hoþ geldin!
+330	Gözlerindeki paniði görebiliyorum.
+331	Ah, çok genç ve çok çaresiz...
+332	Yaptýðýn her küçük hareketi görebiliyoruz.
+333	Acele mi ediyorsun? Gerçekten ölmek mi istiyorsun?
+334	Ölüm zaten yanýnda yerini aldý...
+335	Çanýmýn çaldýðýný duyabiliyor musun? Bu duyacaðýn son þey olacak!
+336	Kan kokusu alýyorum, çok fazla... çok uzun süre hayatta kalamayacaksýn...
+337	Dövüþebilirsin... ya da ölümün seni kucaklamasýna izin verebilirsin...
+338	Yaþamak istiyorsan neden buradasýn?
+339	Ah, yok edeceðim yeni bedenler!
+340	Buraya gelmek senin kararýndý, insan! Ve þimdi sonuçlarýyla yaþamak zorundasýn...
+341	Savaþ gücümüz bizi asla terk etmeyecek. Ölemeyiz!
+342	Bize saldýrmak anlamsýz! Mahvoldun...
+343	Belki yorgunluktan öleceksin... ya da korkudan...
+344	Buraya kadar geldin.... ve þimdi seni ölüme göndereceðim.
+345	Ruhunu feda et ve bizden biri ol!
+346	Sana bak! Zayýf ve yavaþ...
+347	Vücudun ve ruhun benim!
+348	Bacaklarýn titriyor! Sadece kabul et, buna hazýr deðilsin...
+349	Buna ne kadar süre dayanabileceksin?
+350	Ölümden daha kötü bir þey olduðunu kim tahmin edebilirdi?
+351	Hoþ geldin, ölüm açý.
+352	Saygýsýzlýðýn için ödeyeceksin. Kanýn ve ruhunla.
+353	Vücudunu yok ettikten sonra, ruhun benim olacak!
+354	Bana ne kadar süre dövüþebileceðini düþünüyorsun?
+355	Beni eðlendiriyorsun. Korkun ve aceleciðin çok eðlenceli...
+356	Geleceði hakkýnda endiþelenen herkes dinlemeli!
+357	Doða ve þimþek güçlerini kontrol etmek istiyorsan, Ýyileþtirme Gücü eðitimini öneririm!
+358	Her savaþçýnýn farklý bir dövüþ tarzý var! Kendini hazýrlamak için vücudunu sertleþtirmeye odaklan!
+359	Sura'nýn gücü büyüdür. Zekana ve hýzýna çalýþ ama fiziksel gücünü ihmal etme!
+360	Ninja yeteneklerini kullan! Hýz ve fiziksel güce odaklan!
+361	Þamanlar yenilenme, destek ve savaþ büyüleri kullanýr. Zeka hayati önem taþýr!
+362	Çýraklýktasýn, bunu unutma!
+363	Yeteneklerini eðitmek istiyorsan çýrak ol!
+364	Yetenekler mi? 17 ve 21 seviyeleri arasýnda rastgele oluþan usta seviyesine kadar yükselebilirsin!
+365	Büyük usta olmak mý istiyorsun? O durumda özel bir yetenek kitabýna ihtiyacýn var!
+366	Bir yetenek kitabýný okumayý bitirir bitirmez, kaybolur!
+367	Tüm 5. seviyeye kadar savaþçýlar, dinleyin!
+368	Baþka bir yetenek kitabý okumak mý istiyorsun? O zaman bir gün bekle.
+369	Sura yeteneklerini geliþtirmek için zekaný yükselt!
+370	Savaþta bir Sura'nýn güçlü güçlerini deneyimle!
+371	Gizli tarikatýn tapýnaðýnýn nerede olduðunu biliyor musun? Seungryong Vadisi'nin ortasýnda!
+372	Örümcek maðaralarý tekrar ortaya çýktý. Giriþleri Yongbi çölünde!
+373	Görevlerini bitir ve ödülleri yükseltmek için kullan!
+374	Balýk tutmak mý? Harika geliyor! Zaten bir olta ve biraz yem getirdin mi?
+375	Daha büyük bir av meydan okumasý mý arýyorsun? Portal seni seviyene uygun bir av yerine gönderebilir!
+376	Diðer krallýklardan düþmanlardan sakýn. Ne zaman sýrtýndan býçaklayacaklarýný asla bilemezsin!
+377	Yeteneklerini sýfýrlamak mý istiyorsun? Yaþlý kadýna git. Ama yeterince Yang getirmeyi unutma!
+378	Büyük bir saldýrgan savaþçý olarak tanýnmak istiyorsan, kýlýç dövüþü öðretmenine eðitim için git!
+379	En yüksek seviyeyi hedefle - usta seviyesi! Gerçek bir kahraman olmanýn tek yolu bu!
+380	Baþka bir savaþ alanýna veya þehre girmek istiyorsan, kýtadaki yaþlý insanlarý ara!
+381	Bir savaþçýnýn yeteneklerinde usta olmak istiyorsan, savaþ sanatý ustasýndan öðrenmeye git!
+382	Büyülü kýlýçlarý ustalaþtýrabilen bir Sura olmak istiyorsan, o zaman silah eðitimini seç!
+383	Kara büyüde usta olmak istiyorsan kara büyü eðitimini seç!
+384	Okçuluk eðitimi 5. seviyeye ulaþan ninjalar için ayrýlmýþtýr.
+385	Ninjalarýn gizli rütbelerine týrmanmak istiyorsan kýlýç dövüþü eðitimini seç!
+386	Ejderha Tanrýsý'nýn savaþçýsý olarak savaþlarý kontrol etmek istiyorsan, Ejderha Gücü eðitimini seç!
+387	Saðlýðý hakkýnda endiþelenen herkes dinlesin!
+388	Doða ve þimþek gücünü kontrol etmek istiyorsan, Ýyileþtirme Gücü eðitimine kaydol!
+389	Müþteriler sürüler halinde geliyor.
+390	Normal ninja yeteneklerini daha yüksek bir seviyeye çýkar! Hýz ve fiziksel gücüne odaklan!
+391	Þamanlar savaþ sýrasýnda yenilenme, destek ve savaþ büyüleri kullanýr. Zeka onlar için çok önemlidir!
+392	Öðrendiklerini unutma!
+393	Bir savaþçýnýn yeteneklerinde usta olmak istiyorsan, savaþ sanatý ustasýndan öðrenmeye git.
+394	Ejderha Tanrýsý'nýn savaþçýsý olarak savaþlarý kontrol etmek istiyorsan, Ejderha Gücü eðitimini seç!
+395	Doða ve þimþek gücünü kontrol etmek istiyorsan, Ýyileþtirme Gücü eðitimine katýl!
+396	Ninja yeteneklerini kullan ve dövüþ sanatý yeteneklerini geliþtir! Hýz ve fiziksel gücüne konsantre ol!
+397	Þamanlar savaþ sýrasýnda yenilenme, destek ve savaþ büyüleri kullanýr. Zeka onlar için hayati önem taþýr!
+398	Yeteneklerini eðitmek istiyorsan çýrak ol!
+399	Bir savaþçýnýn yeteneklerinde usta olmak istiyorsan, savaþ sanatý ustasýndan öðrenmeye git.
+400	Dondurulmuþ durumda olmak iyi... benim için!
+401	Mount Sohan'ýn en iyi yer olduðundan eminim!
+402	Ne güzel bir hava.
+403	Sonunda sen de benim kadar soðuk olacaksýn...
+404	Buz eriyene kadar sonsuza kadar yaþayabilirsin, en azýndan.
+405	Yavaþça bir buz parçasýna dönüþtüðünde nasýl hissedeceðini düþünüyor musun?
+406	Ýnsanlar...burada?!
+407	Yorgun...ama senin için yeterince uyanýk...
+408	Birisi var mý, tepemde?
+409	Buraya ait deðilsin!
+410	Geri çekilsen iyi edersin!
+411	Yabancý... çok yalnýz mý?
+412	Burada deneyimli bir dövüþçü görmeyeli uzun zaman oldu.
+413	Bekleyip silah cilalamaktan baþka yapacak bir þey yok...
+414	Onlarýn üzerinde çalýþmalý mýyým?
+415	Bir þey eksik. Eðlenmiyorum...
+416	Acýna hýzlý bir son vereceðim - ve bu hissedeceðin son acý olacak!
+417	Uzun boyunlu...!
+418	Soluk tenin bir dakika içinde daha da soluk olacak.
+419	Beni meydan okumak mý istiyorsun? Tamam!
+420	Bana saldýrdýn! Bundan kurtulamayacaksýn!
+421	Zayýf, zayýf insan!
+422	Bakalým ne kadar dayanabileceksin!
+423	Kaçtýn mý? Düþünme bile.
+424	Doðru... yaklaþ!
+425	Kýlýç elimde titriyor...
+426	Bu karþýlaþmadan kurtulamayacaksýn!
+427	Ýþte kýlýcým geliyor!
+428	Acý verici, deðil mi?
+429	Yürüdüðün çimen bile seni öldürebilir.
+430	Yerinde olsam dikkatli olurdum...
+431	Doðru. Yaklaþ...
+432	Yanýma yaklaþmaya cesaret ediyor musun? Peki... o zaman sonuçlarýyla yaþayabilirsin!
+433	Dünyaya veda etme zamanýn geldi!
+434	Geldiðine piþman mý oldun?
+435	Beni yenebileceðini kim düþünüyor?
+436	Sen? Benimle dövüþmek mi istiyorsun?
+437	Cesaretin varsa bana saldýr!
+438	Kaçmayý düþünmüyorsun, deðil mi?
+439	Kýlýcýmýn kapsamýný küçümsedin.
+440	Korktun mu?
+441	Sanýrým bugün ellerimde öleceksin.
+442	Ah, seni seviyorum.
+443	Ah, hayatýma biraz çeþitlilik getirmek mi istiyorsun?
+444	Hey! Korkak gibi kaçmak sana yardýmcý olmayacak.
+445	Bana bakmak zaten omurganda bir titreme yarattý mý?
+446	Biraz çýðlýk atmak istemiyor musun?
+447	Umarým her þeyi zamanýnda bitiririm.
+448	Darbe üstüne darbe ve þikayet yok...
+449	Bir çekicin böyle ses çýkarmasý gerekir!
+450	Burada oldukça sýcak.
+451	Müzik ruh halinde deðilim.
+452	Enstrümaným gerçekten kötü durumda.
+453	Belki yeni bir enstrüman almalýyým?
+454	Enstrümaným eski ve yýpranmýþ... Eski þeyleri seviyorum!
+455	Yýrtýlmýþ teller için acilen bir yedek bulmam gerekiyor.
+456	Çok meþgulüm!
+457	Her gün daha fazla yaralý insan buraya geliyor.
+458	Özel eðlence için zaman yok!
+459	Ve ilaçlarýmýz tükeniyor.
+460	Ýlaç için bazý malzemeleri bulabilecek birine ihtiyacýmýz var.
+461	30 yýldýr yayýmla daðlarda dolaþýyorum.
+462	Bununla karýmý destekledim ve üç çocuk yetiþtirdim.
+463	Zor bir hayat ama buna deðer.
+464	Ama þimdi yay kiriþi yýrtýldý ve artýk avlanamýyorum. Ailemi böyle besleyemem!
+465	Bu yayý onaramazsam, yeni bir tane almak zorunda kalacaðým. Ama bunu yapacak kadar param yok.
+466	Hey, neye bakýyorsun?
+467	Benden uzak dur!
+468	Ne kadar süre saklanmak zorunda kalacaðým?
+469	Yalnýz ölmek ve dünyanýn geri kalaný tarafýndan unutulmak gerçekten istediðim þey deðil.
+470	Birinin bana yardým etmesi gerekiyor!
+471	Bu gün her gün gibi sona erecek.
+472	Þimdi ne yapabilirim?
+473	Bunun böyle biteceðini hiç düþünmemiþtim.
+474	Artýk burada olmadýðýna hala inanamýyorum.
+475	Bunu hak etmedi.
+476	Bir baþka harika gün.
+477	Ariyoung'un kocasý kayboldu.
+478	Yardým etmek istedim ama bu inatçýlýk...
+479	Benimle evlenseydi, sýkýcý hayatýný geride býrakabilirdi.
+480	Belki ona karþý hislerimi daha iyi ifade etmeliydim.
+481	Ah hayýr! Karým öðrenirse ne yapmalýyým?
+482	Keþke sadece kitap okuyarak yaþayabilsem!
+483	Her kitap seni kendi gizemli dünyasýna götürür.
+484	Böyle sonsuza kadar yaþayamayacaðýmý biliyorum ama...
+485	Karým için deðiþtirebilseydim keþke ama...
+486	Hadi, biraz çaba göster!
+487	Ne yapýyorsun? Biraz daha hýzlý olamaz mýsýn?
+488	Sadece bir savaþçýnýn kýlýcýný kaldýrdýðýný hayal et ve aynýsýný yap!
+489	O aptal þimdi nerede?
+490	Erkek olmak mý istiyorsun?
+491	Gergin görünüyorsun... Merak etme, hiçbir þey patlamayacak.
+492	Bazen sadece gezintiye çýkmak istiyorum.
+493	Zaman çok yavaþ geçiyor... Torunlarým bile artýk beni ziyaret etmiyor.
+494	Yaþlandýðýnda genellikle çok fazla arkadaþýn olmaz.
+495	En iyi günlerim geçti.
+496	Güneþ çok sýcak.
+497	Çamaþýr kurutmak için harika bir hava, deðil mi?
+498	O tembel iþe yaramaz koca nerede?
+499	Çocuklarýnýn tembellikten haberdar olmasýndan utanmýyor bile! Ve kendine baba diyor...
+500	Kitaplar, hep kitaplar! Ýþe gitmiyor ve eve hiç Yang getirmiyor. Sadece sürekli okuyor!
+501	Merhaba küçük, iyi uyudun mu?
+502	Küçük meleðim.
+503	Sen benim güneþimsin...
+504	Ne var? Acýktýn mý?
+505	Doðru... uyu, küçük olaným.
+506	Sadece bir baþka gün...
+507	Bugün yiyeceði nereden bulacaðým?
+508	Kýlýç taþýyanlarla her zaman ayný þey.
+509	Bakalým. Belki Octavio'nun restoranýna gitmeliyim.
+510	Ah, bu arada, savaþ bitmiþ gibi görünüyor...
+511	Bir usta çömlekçinin ruhu parmak uçlarýndan akar.
+512	Ülke kaosa gömüldüðünden beri, her yerde dövüþçüler bulunabilir.
+513	Dövüþler, her yerde dövüþler.
+514	Sakin ve huzurlu bir dünya için dua ediyorum.
+515	Neden acele? Biraz rahatla ve düþün.
+516	Aman Tanrým, ne yapmalýyým?
+517	Kardeþimi hiçbir yerde bulamýyorum ama burada buluþacaðýmýza söz vermiþti.
+518	Ve þimdi burada gördüðüm tek þey silahlý savaþçýlar.
+519	Kardeþimi özlüyorum.
+520	Kardeþimi gören oldu mu?
+521	Ha, bu et gerçekten taze!
+522	Ýnsanlarýn tekrar daha fazla et yemesi iyi.
+523	Ýþ harika gidiyor ama et hala kýt.
+524	Sipariþ ettiðimiz et ne zaman gelecek?
+525	Zamanýnda gelmezse ava gitmek zorunda kalacaðýz.
+526	Hava bu kadar güzelken müþterilerin sürüler halinde geleceðini umuyorum.
+527	Tembel köpek muhtemelen yakýnda gelecek ve bir þeyler yemek isteyecek.
+528	Zavallý adam!
+529	Eskiden harika bir savaþçýydý.
+530	Neden artýk dövüþmediðini merak ediyorum?
+531	Genç adamlar... çok canlý ve enerji dolu!
+532	Savaþçýlar silah taþýrken çok daha etkileyici görünüyor.
+533	Öldürücü bir zihin bugünlerde herkesin sahip olduðu bir þey.
+534	Kalbini kontrol et, düþüncelerini odakla ve ruhunu sakinleþtir.
+535	Mutluluk için kusursuz bir tarif yok ama baðlý kalabileceðin bazý basit yönergeler var.
+536	Ýþte, bu çok kullanýþlý bir eþya!
+537	Uzak ülkelerden mallar! Güzel, olaðanüstü parçalar!
+538	Herkes yaklaþýn!
+539	Hadi insanlar, satýn alýn! Bu þansý bir daha bulamayacaksýnýz!
+540	Burada çok fazla hýrsýz var. Mallarýmdan uzak durmalýlar!
+541	Son birkaç yýlda toprak çok kuru oldu.
+542	Tahýl hasadý eskisi kadar iyi deðil.
+543	Tohumlarýn tarlalarda boþa gittiðini merak ediyorum.
+544	Tahýl kýrýlgan ve çürük tadý var.
+545	Bu kötü bir iþaret. Tarým hayatýmýzýn temelidir.
+546	Pirinç kekleri! Lezzetli pirinç kekleri!
+547	Tatlý pirinç kekleri satýyorum!
+548	Evet, iþ son zamanlarda oldukça kötü gidiyor.
+549	Belki baþka bir þehirde denemeliyim.
+550	Ama burada çok fazla vahþi yýrtýcý var...
+551	Böyle günlerde bir teknede olmak baþýna gelebilecek en iyi þey.
+552	Balýk tutmak için mükemmel hava.
+553	Þimdi bir düðüm daha... Doðru! Hiçbir balýk bu kancayý ýsýrmayacak!
+554	O lanet ayý olta direðimi mahvetti.
+555	Aðlarýmý tekrar onarmalýyým.
+556	Huh!
+557	Benim için endiþelenme; ben böyleyim.
+558	Ha!
+559	Ne yapmalýyým ki onlar ... Aman Tanrým, az önce ne dedim?
+560	Sadece yeterince cesur deðilim.
+561	Bu balta 20 yýldýr bana hizmet ediyor.
+562	Hala keskin ama belki eskisi kadar iyi deðil.
+563	Kullanmaya devam etmek istiyorum, bu yüzden bilenmesi gerekiyor.
+564	Bunun için özel mineral taþlarýna ihtiyacým var.
+565	Ama onlarý nereden bulabilirim?
+566	Peki þimdi o dövüþe ne dersin?
+567	Zaten sýcaktan bitkin mi düþtün?
+568	Ýnsanlarý çölde geride býrakmayý seviyorum.
+569	Zavallý sen, böyle hiçbir tören olmadan çölde gömülü...
+570	Sana bir sýr söyleyeceðim - kirden nefret ediyorum!
+571	Oldukça sýcak, deðil mi?
+572	Burasý tehlikeli.
+573	Seni tam gözlerinin arasýna vuracaðým.
+574	Görünüþe göre burada biçmem gereken bir þey var.
+575	Ah evet, bir sonraki avýmý görebiliyorum.
+576	Bunu seviyorum, çok seviyorum!
+577	Þuradaki güzel ve þiþman. O benim!
+578	Kan kokusunu seviyorum.
+579	Son zamanlarda öldürecek pek bir þey yok.
+580	Hey, bunlar gerçekten þiþman!
+581	Lider bunu sevecek...
+582	Dans ayakkabýlarýmýzý giyelim!
+583	Bu ok sadece senin için.
+584	Bir tane alýrsam, ben...
+585	Hey, ne var?
+586	Kolayca yenilebileceðimi mi düþünüyorsun?
+587	Çölde bana rastlamak zorunda kalman ne kadar kötü!
+588	Ah, bu his; sonsuza kadar tadýný çýkaracaðým!
+589	Teþekkürler!
+590	Ýnsan kokusu alýyorum. Ne lezzetli bir koku!
+591	Doðru, buraya gel...
+592	Kaybolup buraya geldiðin için çok þanslýyým!
+593	Dur!
+594	Parça parça etinden çýkaracaðým...
+595	Yaklaþ ki derini kavurabileyim.
+596	Bu kadar büyük bir ýsýnýn ne tür bir acýya neden olabileceðini biliyor musun?
+597	Belki alevlerimi biraz taze kanla soðutmalýyým.
+598	Kanýn... tadýna bakmama izin ver.
+599	Dövüþmek anlamsýz.
+600	Benim gibi ol! Sadece alevler ve ýsý.
+601	Ben buradayken, kimse buradan geçemez!
+602	Bir nedenden dolayý beni sinirlendirmeye baþlýyorsun.
+603	Nerede olduðunu biliyor musun?
+604	Benim için oldukça acýnasý bir rakip!
+605	Bir kýlýç sadece bir savaþçýnýn elinde kullanýþlýdýr.
+606	Kýlýcý elinde tut.
+607	Savaþ geliyor.
+608	Ve þimdi ölüme kadar dövüþüyoruz!
+609	Artýk ölüme direnemezsin!
+610	Yavaþça öleceksin.
+611	Lav hayat iksiridir.
+612	Lav beni hayatta tutuyor ve senin ölümün olacak!
+613	Bu parlayan lav dünyasý harika deðil mi?
+614	Beni rahatsýz etmeye cesaret ediyor musun?
+615	Hayatýna deðer veriyorsan gitmelisin.
+616	Burada varlýðýmý piþman olabilirsin.
+617	Güzel bir gün. Tek istediðim biraz huzur ve sessizlik.
+618	Doyyumhwan ülkesiyle hiçbir þey kýyaslanamaz.
+619	Biraz taze kan güzel bir deðiþiklik olurdu.
+620	Ölümünü arýyor gibi görünüyorsun, yoksa þimdi beni rahatsýz etmezdin.
+621	Zaten geldiðine piþman mý oldun?
+622	Kaçmak için çok geç. Kaderinle yüzleþ.

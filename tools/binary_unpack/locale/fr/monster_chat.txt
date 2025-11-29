@@ -1,0 +1,622 @@
+1	These tense times are making me nervous.
+2	Two days ago a young girl was mauled by wild animals in the area.
+3	The wild animals are getting more and more aggressive. We should try and kill as many as possible.
+4	I'm not in a good mood today. Strangers should best keep out of my way.
+5	The last warrior who I killed, begged for his life.
+6	Someone has to do something about these stones.
+7	I don't trust the peacefulness of the morning.
+8	The tension in the air is making me uncomfortable.
+9	These arrowheads have been forged very well.
+10	If I were you I'd be careful. That arrow is aiming straight for your heart.
+11	I should go there and kill one of those beasts.
+12	A good martial arts training is essential in these times.
+13	The soldiers cannot control the chaos in the country any more.
+14	Why are you looking at me like that?
+15	Cowards have a small chance of surviving.
+16	Don't overestimate yourself.
+17	Someone seems to have trained you very well.
+18	Even my ancestors managed to assert themselves in battle in these territories.
+19	You have to be alert and skilled out here.
+20	Don't even think about wasting my time.
+21	So, how does it feel to know that your life is in danger?
+22	Do you want to give up already?
+23	Get prepared to suffer.
+24	Oh man! That sword looks fantastic.
+25	Be more persistent and increase your power!
+26	Do you think you can become as strong as I am?
+27	Okay. Let's get serious.
+28	Oh my! I'm just a weak woman!
+29	You look tired. Why don't you give up already? Hehe.
+30	What is Serangyi going to do today, hm?
+31	I am so bored. Play with me!
+32	I have to say I like the Sura guy most.
+33	Hey! How about a fight?
+34	Don't underestimate me just because I'm a woman!
+35	Pain only lasts a moment...
+36	I want to get out of here, at all costs.
+37	How safe are the homes of the individual members?
+38	Shut up, girls!
+39	Let me defeat you. With a single blow.
+40	Don't even think about running away!
+41	So, why don't we get started?
+42	Don't forget: All men are enemies.
+43	If a person has a pretty face, we can make an exception...
+44	What, you want to fight?
+45	It won't take long, but it will hurt.
+46	Oh, you really seem to be in pain...?
+47	Goodbye! Now go to hell!
+48	So, what do you do in the White Oath?
+49	Where are you going?
+50	Hey, you want to fight?
+51	Hehe! You're dodging my hits...?
+52	Do you think you can run away from me?
+53	Here comes my hit!
+54	God, I am so tired!
+55	Hey, nice armour! Did it cost a lot?
+56	But at least we have nice weather.
+57	Oh, you trained a lot! Great!
+58	What do you think about my skills? Good, huh? Ha ha!
+59	What's up? Oh, you're irritated by my incredible speediness!
+60	Why don't I go hunting?
+61	Nobody has attacked our village today.
+62	If you want to fight, then fight, you bastard!
+63	Hehe, you are just a beginner!
+64	What should I shoot first, in your arm or in your leg?
+65	Here comes my arrow!
+66	I have to go to the village and train.
+67	I feel so stiff.
+68	What's for dinner today?
+69	I'm watching, so scream as much as you want.
+70	Waited too long? How about swinging that sword of yours!
+71	This sword has such a great sound!
+72	This sword is ready!
+73	Hmm, let's see: Who should this sword kill first...
+74	Cut, cut... hair, throats...
+75	First, your belly!
+76	I'd like to use you as a sheath.
+77	I have something for you: eternal sleep!
+78	I'm starving.
+79	Is there anything to eat?
+80	Why am I still hungry after all this food?
+81	Aaargh, die!
+82	My stomach will decide this fight!
+83	It's the choice between heaven and hell!
+84	I can't stand it anymore! My body is itching everywhere!
+85	Oh yeah. I can see a few pigs!
+86	On the ground already?
+87	I'll finish you with one hit.
+88	That's going to be a great memory!
+89	Die!
+90	My body has softened.
+91	Why don't I train more?
+92	Afraid, huh?
+93	Ah, another victim of my powerful weapon.
+94	Can you see my attack pattern? No? Your loss!
+95	Even small cuts can influence your health. Especially if they have come from a mace!
+96	Damn, these hands are really impractical.
+97	What are you staring at? Never seen someone with an iron fist?
+98	You people really annoy me.
+99	Do you want me to beat you up? If you don't then run away. Got it?
+100	Now watch, I'm going to show you my big hit!
+101	Stop staring at my hand!
+102	Hey you over there! Do you want to fight? Then come here!
+103	I think I'm pretty breath-taking...
+104	Why don't we plan something?
+105	No, you are not allowed to leave yet. Fight!
+106	Ha, there you have it!
+107	You're dead meat!
+108	Hey, stay here! Play with me!
+109	I could carve something nice out of your bones...
+110	We haven't trained yet today.
+111	Wow, that's great armour! I want to have it.
+112	From now on, you will find it hard to ignore my attacks!
+113	Ha, ha, ha! Bet you didn't expect that!
+114	Beauty isn't everything.
+115	Don't stare, fight!
+116	I don't like the way that you are staring at me. Come here!
+117	It's an honour to die at my sword!
+118	Great
+119	Hey there, don't touch!
+120	Seems like my bowstrings have been cut.
+121	Damn, those idiots were here.
+122	Not bad. But you are going to die anyway.
+123	You're okay with this? That's great!
+124	Come here everyone!
+125	La, lala, I'm whistling a song...
+126	What fantastic weather!
+127	Take a deep breath. Don't worry, it's only poison!
+128	Great! I appreciate your fighting spirit!
+129	Come here! Everybody to me!
+130	I'm starving!
+131	I have a craving for some fruit.
+132	Well, OK fish will do. Attack!
+133	Hey, don't run away! Stop!
+134	I won. It's obvious!
+135	You see? You missed it, haha!
+136	You should watch out, haha!
+137	Where am I?
+138	I'll only leave your face! That'll make a nice decoration...
+139	You came to hunt me down? That's ridiculous!
+140	You are my next victim.
+141	Quite painful isn't it? Well, I'll make it quick.
+142	Look at how strong I am: I can swing this huge club!
+143	Boring!
+144	My whole body is itching.
+145	Let's see who's faster.
+146	You started it. So don't make me responsible for your death!
+147	Once you're in, you won't get out any more. There's no escape!
+148	Here comes the last hit. I'll finish you!
+149	I've made a yummy new poison. Would you like a taste?
+150	I want to see how it works! Here, take it!
+151	Hey you there! Come here, do you want to be my test person?
+152	I'll poison you!
+153	Ah, very good! A guinea pig!
+154	It isn't any fun if you give up that quickly! Come on, defend yourself!
+155	Wait a moment. I'm looking for something to hunt.
+156	It's no use if you move that slowly. Move!
+157	Man, I am so hungry!
+158	It's great that I've found something to hunt!
+159	Let all hope of survival go! You won't survive me!
+160	Now you'll find out what real pain feels like!
+161	Boooring!
+162	I wonder if there's anything we can use as bait?
+163	Come and fight if you want to!
+164	You want to be a warrior? Then show me what you've got!
+165	Wrapped up in silk you'll make a nice appetiser for later...
+166	Escape to the village if you want to live!
+167	Starving is a pitiful death.
+168	Oh, they're coming straight towards us!
+169	How about a duel?
+170	Don't compare me to those bastards!
+171	Here comes my thunder-strike! Ha!
+172	Those who run away now are not a real warriors!
+173	This time, the poison should work better!
+174	When you're hungry, bats are a real delicacy!
+175	How about a fight?
+176	Once my poison enters your body, there's no cure any more.
+177	My magic will burn everything down, hehehe!
+178	Burn! Ha, ha!
+179	Never forget to sharpen your sword! The next fight is sooner than you think.
+180	Feeling faint?
+181	Die, and wake up in the afterlife!
+182	Defeat me? Are you sure?
+183	Fight like a man!
+184	Come on, just a little bit more.
+185	Ha, I'm looking forward to a nice fight.
+186	Fighting is fun, haha!
+187	Fight! More and more! Yeah!
+188	Ha, very good! Try it again!
+189	Look at my sword spinning!
+190	You'll regret hitting me!
+191	So weak! How ridiculous!
+192	I don't want to be disturbed.
+193	Go to sleep. Forever!
+194	Do you still not want to sleep?
+195	There's so much to do! Let's get on with it!
+196	Don't let yourself be intimidated by my power, haha!
+197	I'll pulverise you!
+198	Great, strong opponents last longer! Defend yourself!
+199	What? Do you have a problem with my brother?
+200	Don't compare me to that beginner!
+201	He doesn't like you and I don't like you either!
+202	Let's fight.
+203	Until death!
+204	Look, a butterfly! How pretty!
+205	Don't you see the truth of heaven and earth?
+206	Later will be too late. You have to believe it now!
+207	Believe the doctrine of the esoterics!
+208	Those who doubt must die!
+209	Get enlightenment by embracing death!
+210	The truth of the esoteric belief is understanding the order of heaven.
+211	The philosophy of the esoteric belief is the heavenly order!
+212	Esoteric truth; truth of the Tiger God; Sabaha Sabaha.
+213	You dare to doubt the truth of heaven and earth?
+214	There aren't many of us left.
+215	Feel my claws!
+216	When the truth of the Tiger God is sung for eternity, all suffering will end.
+217	They are not the two-legged creatures that are supposed to rule here.
+218	Sabaha Sabaha. Send us knowledge!
+219	Don't doubt it!
+220	Receive the thunder of heaven!
+221	Judgement's blow!
+222	Hm, it looks like someone has got caught up in my spider web.
+223	Esoteric truth; truth of the Tiger God; Sabaha Sabaha.
+224	You think I'm a clown don't you? You won't for long!
+225	The leader of our sect is a saint and is above all living beings!
+226	Burn in the flames of hell!
+227	Bet you've never seen such a large tuning fork before, eh?
+228	I am a peaceful person. I just don't like being irritated.
+229	Is that all that you can come up with?
+230	Just because I'm smaller than my brother, it doesn't mean that I'm going to put up with everything!
+231	Eternal pain and darkness await you!
+232	Nobody can measure up to me!
+233	This isn't the end. On the contrary: It can only get better.
+234	All we ask for is peace and privacy! Please!
+235	If fear overcomes you, put your trust in the Tiger God.
+236	The truth of the esoteric faith lies in the order and understanding of heaven.
+237	Let's all go to hell!
+238	I won't let you go!
+239	I'll give you everything I have.
+240	I beg you, please save us!
+241	Why are people so wet on the inside? That makes my sword go rusty!
+242	Has the poison in your sting dried up yet?
+243	The gates to hell are wide open. Get in!
+244	I'm warning you: Don't force me to use the board!
+245	I have seen that you are going to die!
+246	Let me think: How can I summarise the order of heaven and earth in just a few words?
+247	I can hear the chants of the believers.
+248	That's right! Be full of remorse, and you will be rescued!
+249	You will suffer eternal pain, because you continue to question the lore.
+250	Let me teach you.
+251	Don't regard it as pain - see it as a lesson.
+252	I might not be pretty, but I have a lot of fun, hihihi!
+253	You have to become like us!
+254	Come over to us, hihi!
+255	Haaa, haha!
+256	Here we go!
+257	Ahhhhh!
+258	We can't do this alone! No!
+259	You have to taste the pain, too!
+260	How about an exchange? You give me your soul and I'll give you my suffering!
+261	You'll find eternal peace soon!
+262	Oh, the pain! The pain!
+263	Aargghh, damn! My arm's burning!
+264	Why do we have to suffer like this? What have we done to deserve this?
+265	Suffering from this mysterious disease isn't that bad!
+266	Ahhhh!
+267	I will kiiiiiiiiiiill you!
+268	Don't just watch! Join in!
+269	Let's be friends!
+270	You are already infected.
+271	Now you are my friend.
+272	Hihihi!
+273	Come here and impale yourself on my arrows.
+274	I'm going to infect you with the mysterious disease.
+275	Mouth-watering smell!
+276	And if I find another cause of the disease...
+277	Ha, ha! This'll be fun!
+278	Hmm, whip or gripper...?
+279	Ahhhhh, yeeeees!
+280	Let me pass the disease on to you!
+281	This tenacious cause of the mysterious disease!
+282	Everyone will die!
+283	Small, small, small pieces...
+284	There is no escape!
+285	The floor will be soaked with your blood. Die!
+286	You can beg, but it won't do you any good!
+287	You can't hide your fear from me!
+288	Death! Death to all people...
+289	You miserable pigs!
+290	You're starting to make me angry...
+291	There will be blood, human.
+292	Death and Perdition...!
+293	Have you seen the wounds that a spear can rip into your skin?
+294	Yes, go on, walk away! We'll see how far you get...
+295	Just looking at your shaking hands makes this completely worth my while...
+296	You piece of scum dare to challenge me?
+297	Death will be your only companion in the future!
+298	Your soul will be mine, human!
+299	Ah, fresh blood!
+300	Looks like another person is going to meet his death here!
+301	You should suffer and let out all your anguish...
+302	Do you really think that that ridiculous weapon in your hand will be able to protect you?
+303	Your courage brought you to me. And now it's going to leave you...
+304	If I die, my revenge will follow you for eternity!
+305	I will make you die and suffer slowly, very slowly...
+306	It will be my pleasure to make you suffer.
+307	Your body is shivering like that of a senile old hag!
+308	I can smell your fear, little one.
+309	I think it is time to relieve you of a few of your body parts.
+310	I'm going to send you into your own personal hell!
+311	Your pain will drive you insane, before you die...
+312	You can wail! You can beg! But it won't do you any good.
+313	You're going to experience the worst death you can imagine...
+314	Your power is getting weaker. You are already on the brink of death...
+315	Are you ready to walk to halls of death for eternity?
+316	You should get used to the idea of greeting eternal darkness...
+317	Welcome to hell!
+318	Scream as much as you like! No one's going to hear you!
+319	If you think you can kill me like this... you're more naive than I thought!
+320	Not bad, but it still won't be able to save you from your death.
+321	Take a look around, this is hell!
+322	I'm going peel the skin from your bones.
+323	I want to hear you whimper before you die.
+324	You know that there's no use hoping, don't you?
+325	No, you're not going to die yet. First I want to know how many sword blows your body can handle...
+326	Ah, a volunteer...
+327	Do you really think that you have even got the smallest chance of escaping?
+328	It's not the ground that's moving... it's your knees that are shaking with fear!
+329	Welcome to the place in which you will seek your death!
+330	I can see the panic in your eyes.
+331	Oh, so young and so helpless...
+332	We can see every little movement you make.
+333	In a hurry? Do you really want to die?
+334	Death has already taken its place at your side...
+335	Can you hear my bell chiming? It'll be the last thing you hear!
+336	I smell blood, lots of it... you won't survive much longer...
+337	You can fight... or you can let death embrace you...
+338	Why are you here if you want to live?
+339	Ah, new bodies for me to destroy!
+340	It was your decision to come here, human! And now you'll have to live with the consequences...
+341	Our combat strength will never leave us. We cannot die!
+342	There's no point in attacking us! You're doomed...
+343	Perhaps you will die of exhaustion... or of fear...
+344	You have made it here.... and now I'm going to send you to your death.
+345	Sacrifice your soul and become one of us!
+346	Look at you! Weak and slow...
+347	Your body and your soul are mine!
+348	Your legs are shaking! Just face it, you're not up to this...
+349	How much longer will you be able to handle this?
+350	Who could have ever guessed that there is something worse than death?
+351	Welcome, death hungry one.
+352	You will pay for your indiscretion. With your blood and your soul.
+353	After I have destroyed your body, your soul will be mine!
+354	How long do you think you can fight me?
+355	You amuse me. Your fear and your haste is very entertaining...
+356	Everyone who is worried about their future should listen!
+357	If you want to control the powers of nature and lightning, I recommend the Healing Force training!
+358	Each warrior has a different way of fighting! Focus on toughening up your body to prepare yourself!
+359	The strength of the Sura is magic. Work on your intelligence and speed but don't neglect your physical strength!
+360	Use the skills of the ninja! Focus on speed and physical strength!
+361	Shamans use regeneration, support- and combat-spells. Intelligence is vital!
+362	Don't forget that you're in your apprenticeship!
+363	Become an apprentice if you want to train your skills!
+364	Skills? You can rise up to the level of a master, which occurs randomly between the levels of 17 and 21!
+365	Do you want to become a grand master? In that case, you need a special skill book!
+366	As soon as you have finished reading a skill book, it vanishes!
+367	All warriors up to level 5, listen up!
+368	Do you want to read another skill book? Then wait a day.
+369	Upgrade your intelligence to improve your Sura skills!
+370	Experience the mighty powers of a Sura in combat!
+371	Do you know where the temple of the esoteric sect is? It is in the middle of the Valley of Seungryong!
+372	The spider caves have appeared again. Their entrances are in the Yongbi desert!
+373	Finish your missions and use the rewards for upgrading!
+374	Fishing? Sounds great! Have you already got a fishing pole and some bait with you?
+375	You're looking for a bigger hunting challenge? The portal can send you to a hunting place that corresponds to your level!
+376	Beware of enemies from other kingdoms. You never know when they might stab you in your back!
+377	You want to reset your skills? Go to the old woman. But don't forget to bring enough Yang with you!
+378	See the blade-fight teacher for training if you want to become known as a great offensive warrior!
+379	Aim for the highest level - the master level! It's the only way to become a true hero!
+380	If you want to enter another battlefield or city, look for old people on the continent!
+381	If you want to be adept in the skills of a warrior, go and learn from the master of the art of war!
+382	If you want to become a Sura who can master magical swords, then choose the weaponry training!
+383	Choose the black magic training if you want to become skilled in black magic!
+384	Archery training is reserved for ninjas who have reached level 5.
+385	Choose blade-fight training if you want to climb the secret ranks of the Ninjas!
+386	If you want to control battles as a warrior of the Dragon God, choose the Dragon Force training!
+387	Listen up, all of you who worry about your health!
+388	If you want to control the power of nature and lightning, sign up for Healing Force training!
+389	The customers are coming in swarms.
+390	Get your normal ninja skills to a higher level! Focus on your speed and physical strength!
+391	Shamans use regeneration, support- and combat-spells during battle. Intelligence is essential for them!
+392	Don't forget what you've learned!
+393	If you want to be adept with the skills of a warrior, go and learn from the master of the art of war.
+394	If you want to control battles as the warrior of the Dragon God, choose the Dragon Force training!
+395	If you want to control the power of nature and lightning, take part in the Healing Force training!
+396	Use your ninja abilities and improve your martial art skills! Concentrate on your speed and physical strength!
+397	Shamans use regeneration, support- and combat-spells during battle. Intelligence is vital for them!
+398	Become an apprentice if you want to train your skills!
+399	If you want to be adept with the skills of a warrior, go and learn from the master of the art of war.
+400	Being in a frozen state is good... for me!
+401	I'm sure that Mount Sohan is the best place!
+402	What nice weather.
+403	At the end you will be just as cold as me...
+404	You can live forever, at least until the ice melts.
+405	How do you think it will feel, when you slowly turn into a piece of ice?
+406	Humans...here?!
+407	Tired...but awake enough for you...
+408	Anybody here, on my hill?
+409	You don't belong here!
+410	You'd better back off!
+411	Stranger... so lonely?
+412	It's been a long time since we've seen an experienced fighter around here.
+413	Nothing else to do but to wait and polish weapons...
+414	Should I work on them?
+415	Something is missing. I am not amused...
+416	I'm going to put quick end to your pain - and it's the last pain you'll ever feel!
+417	A longneck...!
+418	Your pale skin is going to get even paler in a minute.
+419	You want to challenge me? Fine!
+420	You attacked me! You won't survive this!
+421	Weak, weak human!
+422	Let's see how much you can bear!
+423	Got away? Don't even think about it.
+424	That's right... comes closer!
+425	The sword is shaking in my hand...
+426	You won't survive this encounter!
+427	Here comes my sword!
+428	Painful, isn't it?
+429	Even the grass that you're walking on might kill you.
+430	I would be careful if I were you...
+431	That's right. Come closer...
+432	You dare to come near me? Well... then you can live with the consequences!
+433	It's time for you say goodbye to the world!
+434	Do you regret that you came?
+435	Who thinks that they can defeat me?
+436	You? You want to fight against me?
+437	Attack me, if you dare to!
+438	You're not thinking of running away, are you?
+439	You have underestimated the coverage of my sword.
+440	Are you afraid?
+441	I think you're going to die at my hands today.
+442	Oh, I like you.
+443	Ah, so you want to bring a little bit of variety into my life?
+444	Hey! It won't help you to run away like a coward.
+445	Has the look of me already made a shiver run down your spine?
+446	Don't you want to scream a little?
+447	I hope I finish everything in time.
+448	Blow on blow and no complaining...
+449	This is what a hammer must sound like!
+450	Quite hot here.
+451	I'm not in the mood for music.
+452	My instrument is in a really bad shape.
+453	Perhaps I should get a new instrument?
+454	My instrument is old and worn... I love old things!
+455	I urgently need to find a replacement for the torn strings.
+456	I'm so busy!
+457	Every day more wounded people arrive here.
+458	There's no time for private amusement!
+459	And we're running out of medicine.
+460	We need someone who can get hold of some ingredients for the medicine.
+461	For 30 years, I have been wandering through the mountains with my bow.
+462	I supported my wife with this and have raised three children.
+463	It's a hard life but worth it.
+464	But now, the bowstring has ripped and I can't hunt any more. I can't feed my family like this!
+465	If I can't repair this bow, I'll have to buy a new one. But I don't have enough money to do that.
+466	Hey, what are you staring at?
+467	Stay away from me!
+468	How long will I have to keep hiding?
+469	Dying alone and forgotten by the rest of the world is not really what I want.
+470	Someone has to help me!
+471	This day is going to end just like any other day.
+472	What can I do now?
+473	I never thought it would end like this.
+474	I still can't believe that he's not here any more.
+475	He didn't deserve that.
+476	Another great day.
+477	Ariyoung's husband has disappeared.
+478	I wanted to help, but this stubbornness...
+479	If she had married me, she could have left her boring life behind.
+480	Maybe I should have expressed my feelings for her better.
+481	Oh no! What should I do if my wife finds out?
+482	If only I could just live from reading books!
+483	Every book leads you into its own, mysterious world.
+484	I know that I can't live like this forever, but...
+485	I wish I could change it for my wife, but...
+486	Come on, put some effort into it!
+487	What are you doing? Can't you hurry up a little more?
+488	Just picture a warrior raising his sword and do the same!
+489	Where is that fool now?
+490	You want to be a man?
+491	You seem to be nervous... Don't worry, nothing is going to explode.
+492	Sometimes, I just want to go for a stroll.
+493	Time is going by so slowly... My grandchildren don't even visit me any more.
+494	When you get old, you often don't have much company.
+495	My best days are over.
+496	The sun is so hot.
+497	Wonderful weather to dry laundry, isn't it?
+498	Where is that lazy good-for-nothing husband?
+499	He's not even ashamed that his children know about laziness! And he calls himself a father...
+500	Books, always books! He doesn't go to work and doesn't bring any Yang home. He just reads the whole time!
+501	Hello little one, did you sleep well?
+502	My little angel.
+503	You are my sunshine...
+504	What's wrong? Are you hungry?
+505	That's right... go to sleep, my little one.
+506	Just another day...
+507	Where am I going to get food today?
+508	It is always the same thing with those sword bearers.
+509	Let's see. Maybe I should go to Octavio's restaurant.
+510	Oh, by the way, the war seems to be over...
+511	The soul of a master potter runs through his fingertips.
+512	Ever since the country was submerged into chaos, fighters can be found everywhere.
+513	Fights, fights everywhere.
+514	I pray for a calm and a peaceful world.
+515	Why the hurry? Take a moment to relax and think.
+516	Oh my, what should I do?
+517	I can't find my brother anywhere, but he did promise to meet me here.
+518	And now, all I see here are armed warriors.
+519	I miss my brother.
+520	Has anyone seen my brother?
+521	Ha, this meat is really fresh!
+522	It's good that people are eating more meat again now.
+523	Business is doing great, but meat is still scarce.
+524	When is the meat we ordered going to arrive?
+525	If it doesn't arrive on time, we'll have to go hunting.
+526	I hope the customers will come in swarms when the weather is this nice.
+527	The lazy dog will probably come around soon and he'll want something to eat.
+528	Poor guy!
+529	He used to be a great warrior.
+530	I wonder why he doesn't fight any more?
+531	The young guys... so lively and full of beans!
+532	Warriors look much more impressive when they are carrying weapons.
+533	A murderous mind is something everyone has nowadays.
+534	Control your heart, focus your thoughts, and calm your soul.
+535	There is no infallible recipe for bliss but some simple guidelines you can stick to.
+536	Here, this is a very useful item!
+537	Goods from distant countries! Beautiful, extraordinary pieces!
+538	Come closer everyone!
+539	Come on, people, buy! You won't have this chance again!
+540	There are too many thieves around here. They should keep away from my goods!
+541	The land has been very dry in the last few years.
+542	The grain harvest isn't as good as it used to be.
+543	I wonder why the seeds are wasting away on the fields.
+544	The grain is brittle and tastes rotten.
+545	That's a bad sign. Farming is the foundation of our lives.
+546	Rice cakes! Delicious rice cakes!
+547	I sell sweet rice cakes!
+548	Yeah, business has been pretty bad lately.
+549	Maybe I should try it in another city.
+550	But there are so many wild predators around here...
+551	On days like these, being in a boat is the best thing that can happen to you.
+552	Perfect weather for fishing.
+553	Now another knot... Right! No fish is going to bite off this hook!
+554	That damn bear ruined my fishing pole.
+555	I should mend my nets again.
+556	Huh!
+557	Don't worry about me; that's just how I am.
+558	Ha!
+559	What should I do so they ... Oh my, what did I say just now?
+560	I'm just not brave enough.
+561	This axe has served me well for 20 years.
+562	Still sharp, though maybe not as good as it used to be.
+563	I want to carry on using it, so it needs to be sharpened.
+564	I need special mineral stones for that.
+565	But where can I get them from?
+566	So how about that fighting now?
+567	Already exhausted by the heat?
+568	I like leaving people behind in the desert.
+569	Poor you, buried in the desert like this without any kind of ceremony...
+570	I'm going to tell you a secret - I hate dirt!
+571	It's quite hot, isn't it?
+572	This place is dangerous.
+573	I'm going to hit you right between the eyes.
+574	It seems like there's something around here for me to mow down.
+575	Ah yes, I can see my next prey.
+576	I like that, I like that a lot!
+577	That one there is nice and fat. That's mine!
+578	I love the smell of blood.
+579	Not much to kill recently.
+580	Hey, these are really fat!
+581	The leader will love that...
+582	Let's put on our dancing shoes!
+583	This arrow is just for you.
+584	If I get one, I'll...
+585	Hey, what's wrong?
+586	Do you think I am easily defeated?
+587	Too bad you had to run into me in the desert!
+588	Ah, this feeling; I will enjoy it forever!
+589	Thanks!
+590	I smell humans. What a delicious smell!
+591	That's right, come here...
+592	I'm so lucky that you got lost and found your way here!
+593	Stop!
+594	Bit by bit I'm going to rip it out of your flesh...
+595	Come closer so that I can scorch your skin.
+596	Do you know what kind of pain such a large amount of heat can cause?
+597	Perhaps I should cool down my flames with some fresh blood.
+598	Your blood... let me taste it.
+599	There's no point in putting up a fight.
+600	Become like me! Only flames and heat.
+601	As long as I'm here, no one will get through here!
+602	For some reason, you're starting to annoy me.
+603	Do you know where you are?
+604	You are quite a pathetic opponent for me!
+605	A sword is only useful in the hands of a warrior.
+606	Keep the sword in your hand.
+607	War is coming.
+608	And now we fight until the death!
+609	You cannot resist death any more!
+610	You will die slowly.
+611	Lava is the elixir of life.
+612	Lava keeps me alive and will be your death!
+613	Isn't it wonderful, this world of glowing lava?
+614	You dare to disturb me?
+615	You should leave if you value your life.
+616	You might regret my presence here.
+617	It's a nice day. All I want to do is have some peace and quiet.
+618	Nothing compares to the country of Doyyumhwan.
+619	A bit of fresh blood would be a nice change.
+620	You seem to be seeking your death, otherwise you wouldn't be disturbing me now.
+621	Are you already regretting that you turned up?
+622	It's too late to run away. Face your fate.

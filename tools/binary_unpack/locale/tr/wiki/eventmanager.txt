@@ -1,0 +1,100 @@
+
+[BANNER_IMG = d:/ymir work/ui/game/wiki/banner.tga]
+[COLOR=0xffd700;FONT_SIZE=15;Y_PADDING=-10]Ýçerik:
+
+[Y_PADDING=2;FONT_SIZE=14]*1. Etkinlik Takvimi
+[FONT_SIZE=14]*2. Etkinlik Türleri
+
+
+[IMG=d:/ymir work/ui/game/wiki/divider_long.tga; Y=115; CENTER_ALIGN]
+
+
+[COLOR=0xffd700; Y_PADDING=15; CENTER_ALIGN; FONT_SIZE=18]1. Etkinlik Takvimi
+
+[Y_PADDING=10;X_PADDING = 115;FONT_SIZE=14]*Etkinlik takvimi mini haritanýn üzerindedir.
+[Y_PADDING=2;X_PADDING = 115;FONT_SIZE=14]*Takvimde etkinlik türü, ne zaman baþladýðý
+[Y_PADDING=2;X_PADDING = 115;FONT_SIZE=14]ve ne zaman biteceði gibi bilgilere ulaþabilirsiniz.
+[IMG=d:/ymir work/ui/minimap/event_open_default.tga; Y=170; X=5]
+
+[IMG=d:/ymir work/ui/game/wiki/emoji/eventmanager_main.tga; Y=220; X=125]
+
+
+
+
+
+[IMG=d:/ymir work/ui/game/wiki/divider_long.tga; Y=310; CENTER_ALIGN]
+
+
+
+
+
+[COLOR=0xffd700; Y_PADDING=15; CENTER_ALIGN; FONT_SIZE=18]2. Types of Events
+
+[COLOR=ef4f00;FONT_SIZE=15;Y_PADDING=5;X_PADDING=10]Moonlight Treasure Event
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Item: Moonlight Treasure Chest
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Description: When the event is active, it can be dropped.
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Reward: Drop items
+[ITEM=50011; IS_LINK=1; Y=383; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Hexegonal Chest Event
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Item: Hexegonal Treasure Chest
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Description: When the event is active, it can be dropped.
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Reward: Drop items
+[ITEM=50037; IS_LINK=1; Y=450; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Fishing Event
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Item: Minnow
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Description: When the event is active, fish 3x Minnow.
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Reward: Mysterious Chest
+[ITEM=27802; IS_LINK=1; Y=516; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Okey Cards Event
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Item: Okey Collectable Card
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Description: When the event is active, it can be dropped.
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Reward: Bronze Okey Box | Silver Okey Box | Golden Okey Box
+[ITEM=79505; IS_LINK=1; Y=582; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Metin Shower
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Mob: Metin Stone
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Description: When the event is active, shower of Metin Stones.
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Reward: Drop items
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Mining Event
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Mob: Ore
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Description: When the event is active, shower of ores.
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Reward: Drop items
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Gold Frog Event
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Mob: Gold Frog
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Description: When the event is active, break Gold Frog.
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Reward: Drop items
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Tanaka Event
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Mob: Tanaka
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Description: When the event is active, catch Tanaka.
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Reward: Drop items
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Hide & Seek
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Item: -
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Description: When the event is active, hide & seek.
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Reward: Drop items
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]OX Event
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Item: -
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Description: When the event is active, answer the questions correctly.
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Reward: Drop items
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Experience Event
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Item: -
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Description: When the event is active, you get more experience.
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Reward: Drop experience
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Loot Event
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Item: -
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Description: When the event is active, you get more loot.
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Reward: Drop items
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Yang Event
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Item: -
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Description: When the event is active, you get more Yang.
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Reward: Drop Yang

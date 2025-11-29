@@ -1,0 +1,100 @@
+
+[BANNER_IMG = d:/ymir work/ui/game/wiki/banner.tga]
+[COLOR=0xffd700;FONT_SIZE=15;Y_PADDING=-10]Conținut:
+
+[Y_PADDING=2;FONT_SIZE=14]*1. Calendar
+[FONT_SIZE=14]*2. Tipuri de Evenimente
+
+
+[IMG=d:/ymir work/ui/game/wiki/divider_long.tga; Y=115; CENTER_ALIGN]
+
+
+[COLOR=0xffd700; Y_PADDING=15; CENTER_ALIGN; FONT_SIZE=18]1. Calendar
+
+[Y_PADDING=10;X_PADDING = 115;FONT_SIZE=14]*Calendarul pentru evenimente se află pe harta mică.
+[Y_PADDING=2;X_PADDING = 115;FONT_SIZE=14]*În calendar se găsesc informații despre evenimente precum, ce
+[Y_PADDING=2;X_PADDING = 115;FONT_SIZE=14]eveniment este, când a început și când se termină.
+[IMG=d:/ymir work/ui/minimap/event_open_default.tga; Y=170; X=5]
+
+[IMG=d:/ymir work/ui/game/wiki/emoji/eventmanager_main.tga; Y=220; X=125]
+
+
+
+
+
+[IMG=d:/ymir work/ui/game/wiki/divider_long.tga; Y=310; CENTER_ALIGN]
+
+
+
+
+
+[COLOR=0xffd700; Y_PADDING=15; CENTER_ALIGN; FONT_SIZE=18]2. Tipuri de Evenimente
+
+[COLOR=ef4f00;FONT_SIZE=15;Y_PADDING=5;X_PADDING=10]Eveniment Clar de Lună
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Obiect: Cufăr clar de lună
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Descriere: Când evenimentul este activ, poate fi dropat.
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Recompensă: Drop obiecte
+[ITEM=50011; IS_LINK=1; Y=383; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Eveniment Cufăr Hexagonal
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Obiect: Cufăr hexagonal p.comori
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Descriere: Când evenimentul este activ, poate fi dropat.
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Recompensă: Drop obiecte
+[ITEM=50037; IS_LINK=1; Y=450; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Eveniment Pescuit
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Obiect: Pește mic
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Descriere: Când evenimentul este activ, trebuie să prinzi 3x Pește mic.
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Recompensă: Ladă misterioasă
+[ITEM=27802; IS_LINK=1; Y=516; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Eveniment Carduri Okey
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Obiect: Card Colecție Okey
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Descriere: Când evenimentul este activ, poate fi dropat.
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Recompensă: Cutie Bronz Okey | Cutie Argintie Okey | Cutie Aurie Okey
+[ITEM=79505; IS_LINK=1; Y=582; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Ploaie de Metine
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Monstru: Piatră Metin
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Descriere: Când evenimentul este activ, plouă cu metine.
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Recompensă: Drop obiecte
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Eveniment Minerit
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Monstru: Minereu
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Descriere: Când evenimentul este activ, plouă cu minereuri.
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Recompensă: Drop obiecte
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Eveniment Broasca de Aur
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Monstru: Broască de Aur
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Descriere: Când evenimentul este activ, distruge Broasca de Aur.
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Recompensă: Drop obiecte
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Eveniment Tanaka
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Monstru: Pirat Tanaka
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Descriere: Când evenimentul este activ, prinde-l pe Tanaka.
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Recompensă: Drop obiecte
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Eveniment Hide & Seek
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Obiect: -
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Descriere: Când evenimentul este activ, caută și găsește.
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Recompensă: Drop obiecte
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Eveniment OX
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Obiect: -
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Descriere: Când evenimentul este activ, răspunde corect la întrebări.
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Recompensă: Drop obiecte
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Eveniment Experiență
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Obiect: -
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Descriere: Când evenimentul este activ, primești mai multă experiență.
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Recompensă: Drop experiență
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Eveniment Drop
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Obiect: -
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Descriere: Când evenimentul este activ, primești mai multe obiecte.
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Recompensă: Drop obiecte
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]Eveniment Yang
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Obiect: -
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Descriere: Când evenimentul este activ, primești mai mult Yang.
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Recompensă: Drop Yang

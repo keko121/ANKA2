@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\CMakeFiles\dcae02fcbfe25b552dc417ee8d27d900\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{48441BB9-FF32-3160-AE82-27F22F4E16F3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

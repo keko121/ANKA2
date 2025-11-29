@@ -1,0 +1,44 @@
+ScriptType               MotionData
+
+MotionFileName           "D:/Ymir Work/pc2/sura/action/snowball.gr2"
+MotionDuration           3.833333
+Accumulation           0.00	0.00	0.00
+
+Group MotionEventData
+{
+    MotionEventDataCount     3
+    Group Event00
+    {
+        MotionEventType      1
+        StartingTime         1.008351
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    ""
+        FollowingEnable      15
+        EffectFileName       ""
+        EffectPosition       0.000000 0.000000 0.000000
+    }
+    Group Event01
+    {
+        MotionEventType      1
+        StartingTime         1.024356
+        
+        IndependentFlag      0
+        AttachingEnable      1
+        AttachingBoneName    "Bip01 R Hand"
+        FollowingEnable      1
+        EffectFileName       "d:/ymir work/action_effect/shoot_making.mse"
+        EffectPosition       0.000000 -10.000000 10.000000
+    }
+    Group Event02
+    {
+        MotionEventType      6
+        StartingTime         1.600557
+        
+        AttachingEnable      1
+        AttachingBoneName    "Bip01 R Hand"
+        FlyFileName       "d:/ymir work/action_effect/ice_throw.msf"
+        FlyPosition       0.000000 0.000000 0.000000
+    }
+}

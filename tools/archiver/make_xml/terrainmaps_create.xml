@@ -1,0 +1,5 @@
+<ScriptFile>
+	<CreateEterPackXml Input="../binary_unpack/terrainmaps:d:/ymir work/terrainmaps" ArchivePath="../../Client/pack/terrainmaps" XmlPath="xml/terrainmaps_create.xml">
+		<Ignore Pattern="[a-zA-z0-9]+.xml" />
+	</CreateEterPackXml>
+</ScriptFile>

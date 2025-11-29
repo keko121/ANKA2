@@ -1,0 +1,622 @@
+1	Aceste vremuri tensionate ma fac sa-mi pierd rabdarea.
+2	Acum doua zile o fata tanara a fost mutilata de animalele din aceasta zona.
+3	Animalele salbatice devin din ce in ce mai agresive. Trebuie sa omoram cat de multe putem.
+4	Azi nu sunt intr-o dispozitie buna. Strainii ar trebui sa stea departe de mine.
+5	Ultimul războinic pe care l-am omorât mă implora pentru viața lui.
+6	Cineva trebuie sa faca ceva cu aceste pietre.
+7	Nu am incredere in dimineata asta linistita.
+8	Presiunea atmosferica imi da o stare de inconfort.
+9	Aceste sageti au fost ascutite foarte bine.
+10	Daca as fi in locul tau as avea grija. Sageata se indreapta chiar spre inima ta.
+11	Ar trebui sa merg acolo si sa ucid cateva dintre acele bestii.
+12	Învățătura artelor marțiale este esențială în aceste vremuri.
+13	Ce se întâmplă dacă deodată dau buzna soldați ai guvernului?
+14	De ce te uiți așa la mine?
+15	Lasii au o sansa mica de supravietuire.
+16	Nu te supraestima.
+17	Se pare ca cineva te-a antrenat foarte bine.
+18	Chiar si stramosii mei au reusit sa se afirme in lupta pe aceste teritorii.
+19	Trebuie sa stai in alerta si bine pregatit pe aici.
+20	Nici sa nu te gandesti sa ma faci sa-mi pierd timpul.
+21	Deci, cum te simți când viața ta este în pericol?
+22	Oh nu! Renunți deja?
+23	Durerea vine foarte repede.
+24	Oh doamne! Sabia arată grozav!
+25	Mărește-ți încăpățânarea, puterea ta!
+26	Crezi că poți deveni așa puternic ca mine?
+27	Bine. De ce să nu jucăm serios atunci?
+28	Vai de mine! Eu sunt doar o femeie slabă!
+29	Pari obosit. De ce nu renunți? Ho, ho, ho!
+30	Oare ce va face Serangyi astăzi?
+31	Mă plictisesc. Joacă-te cu mine!
+32	Eu îl prefer pe tipul Sura.
+33	He! Cum ar fi o luptă?
+34	Nu mă subestima doar pentru că sunt femeie!
+35	Durerea durează doar un moment.
+36	Vreau cu orice preț să scap de aici.
+37	Cât de sigure sunt coifurile membrilor? Bine?
+38	Voi fetelor, tăceți din gură!
+39	Lasă-mă să te lichidez dintr-o lovitură.
+40	Nici să nu te gândești să fugi.
+41	Deci, de ce nu începem?
+42	Nu uita: Toți bărbații sunt inamici.
+43	Dacă o persoană are o față drăguță, putem fi mai blânzi.
+44	Ce, vrei să lupți?
+45	Nu va dura mult, dar va durea.
+46	Ah, pare că ai cu adevărat dureri.
+47	Adio, mergeți în iad!
+48	Și, ce fac ei în armata albă?
+49	Unde mergi?
+50	Hei! Vrei să lupți?
+51	Ha, ha, ha! Eviți loviturile mele.
+52	Crezi că poți să scapi?
+53	Vine lovitura mea!
+54	Doamne, sunt atat de obosit!
+55	Hei! Frumoasă armură. Te-a costat mult?
+56	Dar este vreme bună.
+57	Oh! Se pare că te-ai antrenat mult. Grozav!
+58	Cum ți se par capacitățile mele? Bune, nu? Ha, ha, ha!
+59	Ce se întâmplă? Normal! E viteza asta nebună!
+60	De ce nu merg oare la vânătoare?
+61	Astăzi nu ne atacă nimeni satul.
+62	Luptă, dacă vrei să lupți! Bastardule!
+63	Ha, ha, ha! Ești totuși doar un amator!
+64	Să te nimeresc întâi în picior sau în braț?
+65	Uite săgeata mea!
+66	În curând trebuie să merg în sat să mă antrenez.
+67	Mă simt înțepenit.
+68	Ce avem astăzi de mâncare?
+69	Mă uit, așa că strigă cât poftești.
+70	Prea mult așteptat? Să vânturăm odată sabia!
+71	Sabia sună așa provocator!
+72	Sabia aceasta e pregătită să înceapă!
+73	Să vedem pe cine va ucide sabia primul!
+74	Taie, taie... parul, gatul...
+75	Întâi burta!
+76	Teaca nu este standard pentru un luptător cu sabia?
+77	Am ceva pentru tine: somnul de veci!
+78	Flămânzesc!
+79	Avem ceva de mâncare?
+80	De ce oare mi-e încă foame, după ce am mâncat atâta?
+81	Waaah, mori!
+82	Stomacul meu va decide această luptă!
+83	Este alegerea între cer și iad!
+84	Nu mai suport! Mă furnică în tot corpul.
+85	Oh da. Văd acolo câțiva porci.
+86	La pământ?
+87	Te lichidez dintr-o lovitură.
+88	Aceasta va fi o amintire memorabila!
+89	Mori!
+90	Corpul meu este slăbit.
+91	Oare de ce nu mai exersez?
+92	Frică? Hm?
+93	Ah, doar o nouă victimă a armei mele vâjâitoare!
+94	Poti vedea stilul meu de atac? Nu? Pierderea ta!
+95	Chiar și o tăietură mică dăunează sănătății, știai?
+96	La naiba, e așa de incomod să ai așa o mână.
+97	La ce te uiți? Nu ai mai văzut pe cineva cu așa o mână?
+98	Voi chiar mă călcați pe nervi.
+99	Să te bat măr? Dacă nu vrei asta, atunci pleacă acum, bine?
+100	Acum vă arăt lovitura mea mare!
+101	Știu că te holbezi la mâna mea!
+102	Hei, tu acolo! Dacă vrei să lupți, vino încoace!
+103	Mă cred destul de interesant.
+104	De ce nu intreprindem ceva?
+105	Nu, să ieșim nu avem încă voie. Luptă!
+106	Bine, uite!
+107	Ești aproape mort.
+108	Joacă-te cu mine! Rămâi aici!
+109	As putea sculpta ceva frumos din oasele tale...
+110	Nu am exersat încă.
+111	Oh, ce armură frumoasă! Pe aia o vreau.
+112	De acum îți va fi greu să îmi ignori atacul!
+113	Ha, ha, ha! Surprins, nu?
+114	Frumusetea nu e totul.
+115	Nu te holba, luptă!
+116	Nu îmi place cum te holbezi la mine. Vino încoace!
+117	Este o onoare să mori din sabia mea!!
+118	Grozav!
+119	Hei! Nu atinge!
+120	Se pare că mi s-a rupt coarda arcului.
+121	La naiba! Au venit idioții ăștia.
+122	Nu-i rău. Dar totuși ai să mori!
+123	Ești de acord cu asta? E divin!
+124	Veniți toți încoace!
+125	La, lala, fredonez un cantec...
+126	Ce vreme frumoasă.
+127	Trage aer in piept. Nu te ingrijora, este doar otrava!
+128	Bine! Îți apreciez dorința de luptă!
+129	Veniti aici! Toata lumea la mine!
+130	Sunt așa flămând!
+131	Aș vrea să mănânc fructe.
+132	Ei bine, saramura facem. La atac!
+133	Nu fugi! Stai pe loc!
+134	Am câștigat! Este evident!
+135	Vezi? Ai ratat!
+136	Trebuie sa ai grija, haha!
+137	Unde sunt?
+138	Iti voi lasa doar fata! Vei arata ca un ornament dragut...
+139	Vii să mă vânezi? Ridicol!
+140	Tu ești prada mea.
+141	Ce teroare, hm? Bine, lasă-mă să te lichidez!
+142	Uite cat de tare sunt: pot invarti acest ciomag gigant!
+143	Plictisitor!
+144	Mă furnică în tot corpul.
+145	Cine reușește primul.
+146	Tu m-ai nimerit primul? Am să te alung.
+147	Odată ce ai intrat, nu mai poți ieși. Fuga este de prisos acum!
+148	Aceasta va fi ultima lovitură. Te lichidez!
+149	Am facut o noua otrava . Doresti sa gusti?
+150	Vreau sa vad cum merge! Poftim, ia-o!
+151	Hei, tu de acolo! Vino aici, vrei sa te fac cobaiul meu?
+152	Te otrăvesc!
+153	Oh, ce bine! Un șoarece de laborator!
+154	Nu e distractiv daca renunti asa repede! Haide, apara-te!
+155	Asteapta un moment. Caut ceva sa vanez.
+156	Nu ajuta cu nimic daca te misti atat de incet Misca!
+157	Mi-e așa de foame!
+158	Este nemaipomenit ca am gasit ce sa vanez!
+159	Toti speram sa supravietuim! Tu nu vei supravietui!
+160	Acum vei afla ce inseamna cu adevarat durerea!
+161	Plictisitoooor!
+162	Există vreo momeală bună?
+163	Vino și luptă dacă vrei!
+164	Te crezi războinic? Atunci arată ce poți!
+165	Infasurat in matase vei arata ca un aperitiv elegant mai tarziu...
+166	Fugi în sat dacă vrei să rămâi în viață!
+167	Doare să flămânzești.
+168	Oh, vin spre noi.
+169	Cum ar fi cu un duel?
+170	Nu mă compara cu acești bastarzi!
+171	Acum vine lovitura mea de tunet!
+172	Cei care fug nu sunt războinici adevărați!
+173	De data aceasta otrava trebuie să fie cu adevărat bună!
+174	Când ți-e foame, liliecii sunt o delicatesă!
+175	Cum ar fi cu o luptă?
+176	După ce otrava mea a ajuns în corp, nu mai există vindecare.
+177	Magia mea va arde totul imprejur, hehehe!
+178	Arzi! Ha, ha!
+179	Nu uita niciodata sa-ti ascuti sabia. Urmatoarea lupta e mai devreme decat crezi.
+180	Leșin?
+181	Mori și reînvie în altă viață!
+182	Pe mine să mă înfrângi? Serios?
+183	Luptă ca un războinic!
+184	Haide, inca putin de tot.
+185	Ha, caut o lupta frumoasa.
+186	Lupta e distractivă. (Râs)
+187	Aș dori să lupt în continuu!
+188	Foarte bine! Incearca din nou!
+189	Uita-te cum imi vantur sabia!
+190	O să îți pară rău că m-ai nimerit!
+191	Asa de slab! Cat de ridicol!
+192	Nu vreau să fiu deranjat.
+193	Mergi la culcare. Pentru totdeauna!
+194	Nu ai adormit încă?
+195	Sunt atat de multe de facut! Sa terminam cu ele!
+196	Nu te mira de puterea mea!
+197	Te pulverizez!
+198	Grozav, oponentii puternici rezista mai mult! Apara-te!
+199	Ce? Cum arăt?
+200	Nu mă compara cu acest neputiincios.
+201	Nici el nu te place iar eu nici atat!
+202	Sa luptam.
+203	Pana la moarte!
+204	Uite, un fluturas! Cat de frumos!
+205	Nu vezi adevărul cerululi și al pământului?
+206	Mai încolo va fi prea târziu. Crezi deja de pe acum!
+207	Crezi în învățătura esotericilor!
+208	Scepticii vor fi uciși!
+209	Iluminează-te prin îmbrățișarea morții!
+210	Adevarul despre credinta esoterica este doar ascultarea ordinelor cerului.
+211	Filosofia credinței esoterice este ordinea cerului.
+212	Adevărul esoteric, adevărul zeului tigru, Sabaha, Sabaha.
+213	Îndrăznești să pui sub semnul întrebării adevărul cerului și al pământului?
+214	Nu au mai ramas multi dintre noi.
+215	Simte-mi clestii!
+216	Când va fi cântat adevărul zeului tigru, atunci va sfârși suferința.
+217	Ei nu sunt creaturile cu doua picioare care se presupune ca ar conduce aici.
+218	Sabaha Sabaha. Trimite-ne înțelegere.
+219	Nu șovăi!
+220	Primește tunetul cerurilor!
+221	Cicatricea tribunalului!
+222	Oh!? Se pare că s-a prins cineva în pânza de păianjen.
+223	Adevărul esoteric, adevărul zeului tigru, Sabaha Sabah.
+224	Crezi ca sunt clovn, nu-i asa? Nu pentru mult timp!
+225	Conducătorul sectei este un sfânt și se află deasupra tuturor creaturilor!
+226	Ia flacăra iadului!
+227	Pariez ca nu ai mai vazut niciodata o furca atat de mare, nu-i asa?
+228	Sunt o persoana pasnica. Doar ca nu-mi place sa fiu iritat.
+229	Asta este tot ce poti face?
+230	Doar pentru ca sunt mai mic decat fratele meu nu inseamna ca trebuie sa am grija de toate!
+231	Te asteapta suferinta eterna si intunericul!
+232	Nimeni nu se poate pune cu mine!
+233	Acesta nu este sfârșitul. Va veni drumul mai bun.
+234	Ne rugăm pentru pace și liniște! Te rog!
+235	Când domnește frica, ne ajută adevărul zeului tigru.
+236	Adevărul credinței esoterice este ordinea și înțelegerea cerului.
+237	Să mergem toți în iad!
+238	Nu te las să pleci!
+239	Am să îți dau tot ce am!
+240	Te implor. Salvează-ne!
+241	De ce oamenii sunt asa aposi pe dinauntru? Imi rugineste sabia!
+242	Inca nu si-a facut efectul otrava?
+243	(Râs tare) Poarta iadului este deschisă. Mori!
+244	Te avertizez: Nu ma forta sa folosesc scandura!
+245	Îți văd deja moartea!
+246	Cum să îți povestesc pe scurt adevărul despre ordinea cerului și a universului?
+247	Aud cântecele credincioșilor.
+248	Este adevărat! Căiește-te. Vei fi salvat.
+249	Suferi de durere eternă pentru că pui sub semnul întrebării adevărata învățătură.
+250	Lasă-mă să te intruiesc mai departe.
+251	Nu ai voie să o vezi ca pe o suferință. Este o indicație.
+252	Poate ca nu sunt asa dragut dar sunt extraordinar de amuzant, hihihi!
+253	Trebuie să devii ca noi!
+254	Vino la noi, hihi!
+255	Haaa, haha!
+256	Începe!
+257	Ahhhhh!
+258	Nu putem rezista singuri! Nu!
+259	Și tu trebuie să guști această suferință!
+260	Ce spui de un schimb? Imi dai sufletul tau pe suferinta mea!
+261	Vei afla în curând pacea eternă!
+262	Doare! Doare!
+263	Ahhh, la naiba! Mana mea arde!
+264	De ce trebuie să suferim? De ce?
+265	Nu este așa de rău să suferi de misterioasa boală!
+266	Ahhhh!
+267	Te omooooooooor.
+268	Nu te uita doar. Participă!
+269	Hai să fim prieteni!
+270	Te-ai molipsit deja.
+271	Acum ești prietenul meu.
+272	Hihihi!
+273	Vine și înfige-te în săgeata mea.
+274	Am să te molipsesc de boala misterioasă.
+275	Delicios miros!
+276	Și când găsesc altă cauză...
+277	(Râs) Va fi o distracție.
+278	Hmm, biciuit sau sfartecat...?
+279	Ahhhhh, daaaaaa!
+280	Lasă-mă să îți transmit cauza!
+281	Această cauză încăpățânată a misterioasei boli!
+282	Ha, ha. Toți ar trebui să moară. Kyaaa!
+283	Bucățică, bucățică, bucățică, bucățică!
+284	Nu exista scapare!
+285	Podeaua va fi inundata cu sangele tau. Mori!
+286	Te poti ruga dar nu te va ajuta cu nimic!
+287	Nu-ti poti ascunde frica!
+288	Moarte! Moarte tuturor...
+289	Porci mizerabili!
+290	Incepi sa ma enervezi...
+291	Acolo va fi sange, omule!
+292	Moarte si Pierzanie...!
+293	Ai vazut cum arata ranile de la o sulita ce-ti strapunge pielea?
+294	Da, continua, fugi! Sa vedem cat de departe poti ajunge...
+295	Numai uitandu-ma cum iti tremura mainile constat ca-mi pierd timpul...
+296	Tu, gunioule, indraznesti sa ma provoci?
+297	Moartea va fi singurul tau prieten pe viitor!
+298	Sufletul tau va fi al meu, omule!
+299	Ahh, sange proaspat!
+300	Aarati ca o alta persoana care isi va gasi moartea pe aici!
+301	Ar trebui sa suferi si sa lasi la o parte toate angoasele...
+302	Chiar crezi ca arma aia ridicola din mana ta te va proteja?
+303	Curajul tau te-a adus la mine. Dar acum nu o sa-ti mai fie de folos...
+304	Daca mor, razbunarea mea te va urmari o eternitate!
+305	O sa te fac sa suferi si sa mori incet, foarte incet...
+306	Aceasta va fi placerea mea de-a te face sa suferi.
+307	Corpul tau tremura ca o zgripturoica batrana si senila!
+308	Iti pot simti frica micutule.
+309	Cred ca a sosit timpul sa-ti smulg cateva parti ale corpului.
+310	O sa te trimit in propriul tau iad!
+311	Durerea o sa te faca sa innebunesti inainte sa mori..
+312	Poti sa plangi! Poti sa te rogi! Dar asta nu te va ajuta cu nimic.
+313	O sa experimentezi cea mai rea moarte posibila pe care ti-o poti imagina...
+314	Puterea ta e tot mai slaba. Esti la un pas de moarte...
+315	Esti pregatit sa pasesti in camera mortii pentru vesnicie?
+316	Trebuie sa te obisnuiesti cu ideea de a intampina intunericul vesnic...
+317	Bunv-venit în iad. (Râs)
+318	Poti tipa cat de mult vrei! Nimeni nu o sa auda nimic!
+319	Daca tu crezi ca asa ma poti omora... esti mai naiv decat credeam!
+320	Nu e rau, totusi asta nu o sa te salveze de la moarte.
+321	Acesta este iadul.
+322	O sa-ti jupoi pielea de pe oasele tale.
+323	Vreau să te aud cum te smiorcăi înainte să mori.
+324	Stii ca nu are niciun rost sa speri, nu-i asa?
+325	Nu, nu o sa mori inca. Mai intai vreau sa vad cate lovituri de sabie poate corpul tau suporta...
+326	Până vine cineva nou ...
+327	Tu chiar crezi ca ai si cea mai mica sansa sa scapi?
+328	Nu e pamantul cel care se misca... sunt genunchii tai care tremura de frica!
+329	Bine ai venit la locul unde iti vei gasi moartea!
+330	Pot sa vad teama in ochii tai.
+331	Oh, atat de tanar si atat de neajutorat...
+332	Îți vedem fiecare mișcare.
+333	Esti grabit? Chiar vrei sa mori?
+334	Moartea deja ti s-a alaturat...
+335	Auzi clopotul meu zornaind? E ultimul lucru pe care o sa-l mai auzi!
+336	Dacă această rană nu încetează să sângereze, devine periculos.
+337	Poti lupta... sau lasa moartea sa te imbratiseze...
+338	De ce esti aici daca vrei sa traiesti?
+339	Oh, noi corpuri pentru mine sa le distrug!
+340	A fost decizia ta sa vii aici, omule! Acum va trebui sa suporti consecintele...
+341	Înviem mereu, pentru că nu putem muri.
+342	Este de prisos să ne ataci. (Râs)
+343	Ce te va răpune: oboseala sau moartea?
+344	Ai reusit sa ajungi aici... si acum am de gand sa te trimit direct la moarte.
+345	Sacrifica-ti sufletul si devino unul dintre noi!
+346	Uita-te la tine! Slab si incet...
+347	Corpul și sufletul tău sunt ale mele! (Râs)
+348	Ai obosit deja? Picioarele îți tremură!
+349	Cât mai reziști? (Râs)
+350	Cine ar fi crezut că există ceva mai rău decât moartea?
+351	Bine ai venit, doritorule de moarte.
+352	O sa platesti pentru nechibzuinta ta. Cu sangele si sufletul tau.
+353	Dupa ce o sa-ti distrug corpul, sufletul tau o sa fie al meu!
+354	Cât poți să ții piept? Hm?
+355	Ma distrezi. Teama si graba ta este foarte distractiva...
+356	Ascultați toți, cei care vă faceți griji de dezvoltarea voastră!
+357	Daca vrei sa ai control asupta fortei naturii si a fulgerelor, iti recomand sa inveti Vindecare!
+358	La războinic este deosebit, cum abordează luptele. Concentrați-vă asupra întăririi corpului!
+359	Puterea Sura este magia. Lucrați la inteligența voastră, la viteză și la puterea corpului!
+360	Folosește însușirile ninja! Concentrează-te asupra vitezei și a puterii corpului!
+361	Șamanii folosesc regenerarea și vrăjile de susținere sau atac. Inteligența este foarte importantă!
+362	Nu uita învățătura!
+363	Fă o calificare dacă vrei să-ți exersezi abilitățile!
+364	Competențe? Poți avansa până la nivelul de maestru, împărțit aleatoriu între nivelul 17 și 21!
+365	Doresti sa devi maestru profesionist? In acest caz ai nevoie de o carte speciala a skillurilor!
+366	Dupa ce termini de citit o carte a comepetentelor, aceasta dispare!
+367	Toți războinicii până la nivelul 5 să fie atenți la mine!
+368	Dorești să citești incă o carte a abilității? Așteaptă o zi.
+369	Îmbunătățește-ți inteligența pentru a putea îmbunătăți abilitățile de Sura!
+370	Trăiește mare putere Sura în luptă!
+371	Știi unde este templul sectei esoterice? Se află în mijlocul Văii Seungryong!
+372	Peșterile păianjenilor au apărut dinnou. Se află în deșertul Yongbi!
+373	Termina misiunea si foloseste recompensa pentru upgrade!
+374	Pescuit? Sună bine! Ai deja undiță și momeală de la un pescar, nu?
+375	Vrei să găsești ceva mai puternic de vânat? Caută un portal! Mergi la un loc de vânătoare care corespunde nivelului tău!
+376	Ai grijă la dușmani din alte țări. Nu poți ști niciodată când te atacă pe la spate!
+377	Vrei să îți înnoiești abilitățile? Mergi la femeia bătrână! Vezi să ai destul Yang la tine.
+378	Dacă vrei să devii un războinic de temut mergi și învață lupta cu sabia!
+379	Aspiră la nivelul de maestru perfect. Doar așa vei ajunge mare!
+380	Dacă vrei să intri într-un alt oraș sau pe un câmp de luptă, caută oameni bătrâni pe continent!
+381	Dacă vrei să dobândești abilitatea războinicului, mergi și învață de la maestrul în arta războiului!
+382	Dacă vrei să devii un Sura maestru în folosirea armelor, atunci alege Învățătură Arme Magice!
+383	Dacă vrei să fii bun în folosirea farmecelor întunecate, atunci alege învățătura magiei negre!
+384	Lupta cu Arcul este doar pentru Ninja ce au trecut de levelul 5.
+385	Alege Lupta cu Sabia daca vrei sa experimentezi secretele unui Ninja!
+386	Dacă vrei să ai control asupra luptelor ca și un războinic al Zeului Dragon, alege Puterea Dragonului!
+387	Ascultați la mine, toți cei care vă faceți griji pentru sănătatea voastră!
+388	Daca vrei sa ai control asupra puterii naturii si a fulgerelor, alege Vindecarea!
+389	Clienții îmi năvălesc pe ușă.
+390	Creste abilitățile obisnuite de ninja! Concentreaza-te pe viteza si putere fizica!
+391	Șamanii folosesc în timpul bătăliilor regenerarea și vrăjile de susținere sau atac. Inteligența este punctul lor forte!
+392	Nu uita învățătura!
+393	Dacă vrei să dobândești abilitățile războinicului, mergi și învață de la maestrul în arta războiului!
+394	Dacă vrei, ca războinic al zeului zmeu, să stăpânești luptele, alege învățătura puterii zmeului!
+395	Dacă vrei să stăpânești puterea naturii, mai ales fulgerele, îți recomand învățătura vindecării!
+396	Du-ți abilitățile ninja la un nivel superior! Concentrează-te asupra vitezei și a puterii corporale!
+397	Șamanii folosesc în timpul bătăliilor regenerarea și vrăjile de susținere sau atac. Inteligența este vitală pentru ei!
+398	Aderă la o învățătură pentru a-ți exersa abilitățile!
+399	Dacă vrei să dobândești abilitățile războinicului, mergi și învață de la maestrul în arta războiului!
+400	Starea de înghețare este bună.
+401	Muntele Sohan este cu siguranță cel mai bun.
+402	Ce vreme frumoasă.
+403	Am să te fac identic cu mine.
+404	Poți trăi la nesfârșit, înainte ca gheața să se topească.
+405	Cum crezi că o să te simți atunci când te voi transforma într-o bucată de gheață?
+406	Oameni...aici?!
+407	Obosit...dar destul de treaz pentru tine...
+408	Cineva pe meleagurile mele?
+409	Nu aparti acestui loc!
+410	Mai bine te-ai retrage!
+411	Ciudat...atat de singur?
+412	A trecut ceva timp de când nu am mai văzut un luptător experimentat pe aici.
+413	Nimic altceva de facut decat sa-ti ascuti armele...
+414	Oare ar trebui să lucrez la ele?
+415	Ceva lipsește. Nu sunt mulțumit.
+416	Am să pun repede capăt suferinței tale. Acesta ar fi ultimul.
+417	Gat alungit...!
+418	Culoare pielii iti va palii si mai mult intr-un minut.
+419	Vrei sa ma provoci? OK!
+420	M-ai atacat! Pweck! Nu poți supraviețui.
+421	Oameni slabi, slabi!
+422	Sa vedem cat poti rezista!
+423	Vrei sa scapi? Nici sa nu te gandesti.
+424	Așa. Vino mai aproape. Pwiehk!
+425	Sabia tremură în mâna mea. Pwiehk!
+426	Nu vei supravietui acestei incercari!
+427	Aici vine sabia mea!
+428	Dureros, nu? (Râs)
+429	Chiar și iarba călcată din greșeală poate ucide.
+430	Atenție la iarbă.
+431	Așa. Vino frumos la mine. (Râs)
+432	Indraznesti sa te apropii de mine? Bine... atunci trebuie sa suporti consecintele!
+433	Mori! Mori!
+434	Regreți că ai venit?
+435	Tu? Vrei să lupți?
+436	Tu? Vrei să lupți?
+437	Vino dacă vrei!
+438	Te gandeai sa fugi, nu-i asa?
+439	Ai subestimat valoarea sabiei mele.
+440	Ți-e frică? (Râs)
+441	Cred ca o sa mori in mainile mele azi.
+442	Oh, îmi place de tine.
+443	Cum arată? Schimbarea mea dragă.
+444	Hei! Sa fugi ca un las nu te va ajuta cu nimic.
+445	Aspectul meu ti-a provocat fiori pe sira spinarii?
+446	Nu vrei să mai strigi ceva? (Râs)
+447	Sper sa termin totul la timp.
+448	Lovitura dupa lovitura si nicio plangere...
+449	Asa trebuie sa sune lovitura de ciocan!
+450	Cam cald aici.
+451	Nu îmi vine să cânt la un instrument.
+452	Instrumentul meu se află într-o stare îngrozitoare.
+453	Poate ca ar trebui sa-mi cumpar un instrument nou?
+454	Instrumentul meu este vechi si uzat... iubesc lucrurile vechi!
+455	Îmi trebuie urgent ceva să înlocuiesc corzile.
+456	Sunt așa de ocupat!
+457	În fiecare zi vin alți răniți.
+458	Nu avem timp de distractie!
+459	Iar medicamentele se termină.
+460	Ar fi bine dacă cineva ar putea procura ingredientele pentru medicamente.
+461	De 30 de ani străbat munții cu arcul.
+462	Astfel mi-am hrănit soția și am plătit pentru educația celor 3 copii.
+463	A fost greu, dar a meritat.
+464	Dar acum s-a rupt coarda arcului. Înseamnă că acum sunt și eu bătrân?
+465	Daca nu-mi pot repara arcul trebuie sa cumpar unul nou, dar nu am suficienti bani pentru asta.
+466	Hei! La ce te uiți?
+467	Nu te apropia!
+468	Oh, cât va trebui să mă mai ascund în acest hal?
+469	Voi muri uitat într-un colț?
+470	Ahhhhh, sper să mă ajute cineva!
+471	Această zi se va sfârși ca oricare alta.
+472	Ce pot să fac? Hm?
+473	Nu am crezut niciodată că voi sfârși așa.
+474	Nu-mi vine sa cred ca el nu mai este aici.
+475	El nu merita asta.
+476	Și dinnou o zi bună.
+477	Sotul lui Ariyoung a disparut.
+478	Am vrut să ajut, dar această încăpățânare...
+479	Dacă s-ar fi căsătorit cu mine, ar fi putut renunța la viața ei plictisitoare.
+480	Poate ar fi trebuit să îi arăt mai bine sentimentele mele.
+481	Oh nu! Ce mă fac dacă află soția mea?
+482	Dacă aș putea trăi din cititul cărților!
+483	Cărțile sunt atât de misterioase!
+484	Nu pot trăi așa la nesfârșit, dar...
+485	Sper că pot face ceva pentru soția mea, dar...
+486	Haide, pune mai mult efort!
+487	Ce faci acolo, băiete? Nu merge mai repede?
+488	Doar imaginează-ți un războinic mânuind o sabie și fă la fel!
+489	Unde e prostul ăsta? Unde e?
+490	Acest fiu de cățea! Tu nu ești bărbat. Ha!
+491	Pari nervos... Nu te ingrijora, nu va exploda nimic.
+492	Din când în când aș vrea să merg la plimbare.
+493	E așa de plictisitor. Nici măcare nepoții mei nu mă mai vizitează.
+494	Când ești bătrân ai nevoie de companie.
+495	Zilele mele de glorie au apus.
+496	Soarele este așa de cald.
+497	Minunată vreme pentru a usca o pânză udă, nu-i așa?
+498	Unde mi-o fi neisprăvitul de bărbat?
+499	Își spune tată, și nici măcar nu se rușinează în fața copiilor din cauza marionetei sale!
+500	Cărțile sunt cărți. Nu lucrează și nu aduce acasă niciun Yang. Citește tot timpul!
+501	Oh, dududu, dragă. Ai dormit bine?
+502	Zâmbești ca un îngeraș.
+503	Mama ta se bucură că ești așa sănătos.
+504	Iară vrei atenție? ți-e foame?
+505	Copil cuminte, copilul nostru. Dormi, copilule, dormi.
+506	Pur și simplu o nouă zi.
+507	Unde pot mânca astăzi ceva?
+508	Intotdeauna este la fel cu spadasinii astia.
+509	Ia sa vedem...Poate ar trebui sa merg la Octavio la restaurant.
+510	Ah da, se spune că nu va mai fi război...
+511	Sufletul unui maestru in olarit se afla in varful degetelor sale.
+512	De când țara a fost cuprinsă de haos, vezi peste tot numai luptători.
+513	Toți vor să se lutpe mereu.
+514	Eu mă rog pentru o lume liniștită și împăcată.
+515	Hei, tu acolo! Ia-ți măcar puțin timp să te relaxezi și să cugeți.
+516	Ahhh, ce fac oare?
+517	Nu dau de urma fratelui meu. Zicea că vrea să vină.
+518	Iar acum nu văd decât acești luptători cu săbiile lor.
+519	Mi-e dor de fratele meu.
+520	L-a văzut cineva pe fratele meu?
+521	Mmmmmh, carnea aceasta este proaspătă!
+522	Ce bine că oamenii mănâncă din nou mai multă carne.
+523	Afacerea înflorește, dar carnea e cam puțină.
+524	Când ajunge carnea pe care am comandat-o?
+525	Dacă nu vine la timp trebuie să mergem la vânătoare.
+526	Sper că pe așa o vreme, clienții ne vor năvăli în casă.
+527	Oh! Câinele leneș va veni sigur în curând și va vrea să mănânce ceva.
+528	Na, ce amărât!
+529	Mai demult era un războinic foarte bun.
+530	Mă întreb, de ce nu mai luptă?
+531	Tinerii ăștia...atât de plini de viață și imaturi!
+532	Luptătorii arată mult mai bine când poartă arme.
+533	Acest spirit criminal împlinește pe fiecare.
+534	Asculta-ti inima, concentreaza-te si elibereaza-ti sufletul.
+535	Nu exista reteta pentru fericire insa, iti pot da cateva sfaturi pe cate te poti axa.
+536	Am adus un obiect bun!
+537	Bunuri din tinuturi indepartate! Nemaipomenit, lucruri pretioase!
+538	Veniți încoace, veniți cu toții încoace!
+539	Cumpărați, cumpărați atâta timp cât mai este. Așa ceva nu se găsește peste tot și oricând!
+540	Sunt prea mulți tâlhari pe aici. Ar trebui să stea departe de bunurile mele!
+541	Acum este foarte uscat aici.
+542	Recolta de grâne nu este așa de bună ca mai demult.
+543	Ce împiedică dezvoltarea pe câmpii?
+544	Cerealele sunt sfaramicioase si au gust de putred.
+545	Semn rău. Agricultura este baza tuturor lucrurilor.
+546	Placinta cu orez! Delicioasa placinta cu orez!
+547	Vand prajituri de orez dulce!
+548	Oh! Afacerea merge prost.
+549	Ar trebui să încerc în alt oraș.
+550	Dar exista asa multe animale salbatice de prada pe aici...
+551	Într-o astfel de zi, cel mai bine este în barcă.
+552	Vreme perfectă de pescuit.
+553	Acum un al nod...Perfect! Nici un peste nu o sa scape din acest carlig!
+554	Acest urs blestemat mi-a distrus undița.
+555	Ar trebui sa repar din nou plasele.
+556	Hu!
+557	Nu îți face griji din cauza mea. Așa sunt eu.
+558	Haaaaa!
+559	Ce ar trebui sa fac ca sa... Offf, ce am mai spus acum?
+560	Nu pot fi curajos. Hu!
+561	De 20 de ani această secure îmi servește cu încredere.
+562	Este încă ascuțită, dar nu așa ca mai demult.
+563	Aș vrea să o întăresc, prin folosirea ei și prin faptul că lovesc cu ea.
+564	Dar pentru asta am nevoie de niște pietre bogate în minerale.
+565	Dar cum să mi le procur?
+566	Cum stă treaba cu luptatul?
+567	Deja obosit de la arșiță?
+568	Las cu plăcere pe cineva în urmă în deșert.
+569	Săracul, pur și simplu îngropat în deșert.
+570	Îți spun un secret. Urăsc mizeria.
+571	Este foarte cald, nu?
+572	Acest loc este periculos.
+573	Te nimeresc între sprâncene.
+574	Se pare ca acolo este cineva pe care am sa-l pun la pamant.
+575	Oh da, imi vad urmatoarea osanda.
+576	(Râs) Îmi place, îmi place foarte mult!
+577	Acela de acolo gras si frumos. E al meu!
+578	Iubesc mirosul de sânge.
+579	(Vântură) În ziua de azi e puțin de lucru. (Vântură)
+580	Hei! Sunt chiar grase!
+581	Coducatorul va fi incantat...
+582	Să mai vânturăm odată piciorul!
+583	Aceasta sageata este numai pentru tine.
+584	Dacă îl nimeresc pe vreunul, atunci...
+585	Hei, de ce te uiți?
+586	Crezi că sunt ușor de învins? Hm?
+587	Așa un ghinion, să mă prindă aici în deșert!
+588	Ah, sentimentul ăsta!! O să mă bucur de el la nesfârșit!
+589	Mulțumesc!
+590	Simt miros de oameni. Ce miros delicios!
+591	Bine. Veniți la mine.
+592	Ce ma bucur ca te-ai ratacit si ai ajuns pe aici!
+593	Rămâi pe loc! Kkkkkkk!
+594	Muscatura cu muscatura o sa te las fara carne...
+595	Apropie-te ca sa-ti smulg pielea.
+596	Stii cate dureri ti-ar putea provoca o temperatura atat de ridicata?
+597	Poate ar trebui sa-mi sting arsurile cu niste sange proaspat.
+598	Sangele tau...lasa-ma sa-l gust.
+599	Nu exista niciun motiv pentru a incepe o lupta.
+600	Poti deveni ca mine! Numai flacari si groaza.
+601	Atâta timp cât sunt eu aici, nu intră nimeni!
+602	Dintr-un oarecare motiv îmi devii o povară.
+603	Kwuuh, știi unde ești?
+604	Esti cel mai patetic oponent al meu!
+605	O sabie își îndeplinește rolul doar în mâna unui războinic.
+606	Ține sabia tot timpul în mână.
+607	Războiul bate la ușă.
+608	Și acum luptăm până la moarte!
+609	Vrei să reziști mai departe atacurilor?
+610	Da, nu ar trebui să mori așa repede.
+611	Lava este elixirul vieții.
+612	Lava mă ține în viață iar pe tine te va ucide!
+613	Nu este minunata aceasta lume care clocoteste in lava?
+614	Indraznesti sa ma deranjezi?
+615	Ar trebui să pleci dacă îți pasă de viața ta.
+616	Vei regreta prezenta mea aici.
+617	Este o zi frumoasa. Tot ce as vrea ar fi sa am putina liniste.
+618	Nimic nu se poate măsura cu țara lui Doyyumhwan.
+619	Putin sange proaspat ar fi o schimbare placuta.
+620	Se pare ca-ti cauti moartea, altfel nu m-ai fi deranjat.
+621	Deja regreti ca ai ajuns aici?
+622	Prea tarziu sa mai fugi. Infrunta-ti temerile.

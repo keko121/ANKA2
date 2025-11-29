@@ -1,0 +1,5 @@
+<ScriptFile>
+	<CreateEterPackXml Input="../binary_unpack/pc2/:d:/ymir work/pc2/" ArchivePath="../../Client/pack/pc2" XmlPath="xml/pc2_create.xml">
+		<Ignore Pattern="[a-zA-z0-9]+.xml" />
+	</CreateEterPackXml>
+</ScriptFile>

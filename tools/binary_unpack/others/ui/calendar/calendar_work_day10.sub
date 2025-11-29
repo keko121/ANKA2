@@ -1,0 +1,7 @@
+title subImage
+version 1.0
+image "calendar.dds"
+left 144
+top 360
+right 216
+bottom 420

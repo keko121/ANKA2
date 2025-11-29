@@ -1,20 +1,16 @@
 // ============================================================================
-// GrannyReader.h - Granny2 SDK ile .gr2 dosya okuyucu
+// GrannyReader.h - Granny2 SDK ile .gr2 dosya okuyucu (Simplified)
 // ============================================================================
 #pragma once
 
 #include "Types.h"
 #include <string>
-#include <memory>
+#include <vector>
 
 // Granny SDK forward declarations
 struct granny_file;
 struct granny_file_info;
-struct granny_model;
 struct granny_mesh;
-struct granny_skeleton;
-struct granny_animation;
-struct granny_material;
 
 namespace gr2togltf {
 
@@ -23,41 +19,38 @@ public:
     GrannyReader();
     ~GrannyReader();
 
-    // .gr2 dosyasını yükle
-    bool Load(const std::string& filePath);
+    // .gr2 dosyasını aç
+    bool Open(const std::string& filePath);
+    void Close();
     
-    // Yüklenmiş verileri al
-    bool ExtractModelData(ModelData& outData, const ConvertOptions& options);
+    // Model verilerini oku
+    bool ReadModel();
     
-    // Dosya bilgisi
+    // Okunan verilere erişim
+    const std::vector<Mesh>& GetMeshes() const { return m_meshes; }
+    const std::vector<Bone>& GetBones() const { return m_bones; }
+    const std::vector<Animation>& GetAnimations() const { return m_animations; }
+    
+    // Durum
+    bool IsOpen() const { return m_file != nullptr; }
+    const std::string& GetLastError() const { return m_lastError; }
     const std::string& GetFilePath() const { return m_filePath; }
-    bool IsLoaded() const { return m_file != nullptr; }
-    
-    // Sayılar
-    int GetMeshCount() const;
-    int GetModelCount() const;
-    int GetSkeletonCount() const;
-    int GetAnimationCount() const;
-    int GetMaterialCount() const;
-    int GetTextureCount() const;
 
 private:
-    // İç yardımcı fonksiyonlar
-    bool ExtractMesh(granny_mesh* grnMesh, MeshData& outMesh, const ConvertOptions& options);
-    bool ExtractSkeleton(granny_skeleton* grnSkeleton, SkeletonData& outSkeleton);
-    bool ExtractAnimation(granny_animation* grnAnim, AnimationData& outAnim, const SkeletonData& skeleton);
-    bool ExtractMaterial(granny_material* grnMaterial, MaterialData& outMaterial);
+    void ReadSkeleton();
+    void ReadMeshes();
+    void ReadSingleMesh(granny_mesh* srcMesh);
+    void ReadAnimations();
+
+    granny_file* m_file;
+    granny_file_info* m_fileInfo;
     
-    // Vertex okuma
-    void ReadVertexPositions(granny_mesh* mesh, std::vector<Vertex>& vertices);
-    void ReadVertexNormals(granny_mesh* mesh, std::vector<Vertex>& vertices);
-    void ReadVertexTexCoords(granny_mesh* mesh, std::vector<Vertex>& vertices, int channel);
-    void ReadVertexWeights(granny_mesh* mesh, std::vector<Vertex>& vertices);
-    
-    // Granny handles
-    granny_file* m_file = nullptr;
-    granny_file_info* m_fileInfo = nullptr;
     std::string m_filePath;
+    std::string m_lastError;
+    
+    std::vector<Mesh> m_meshes;
+    std::vector<Bone> m_bones;
+    std::vector<Animation> m_animations;
 };
 
 } // namespace gr2togltf

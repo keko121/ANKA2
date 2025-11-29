@@ -1,0 +1,773 @@
+1	Duelul a fost încheiat deoarece inamicul tău a dispărut.
+2	Nu există limită pentru licori.
+3	Poți folosi până la %s licori.
+4	Lupta începe în 10 secunde.
+5	Duelul a început.
+6	Duelul va fi încheiat deoarece a apărut o problema cu arena de duel.
+7	Duelul va fi încheiat deoarece limita de timp a fost depășită.
+8	În 10 secunde vei fi teleportat în oraș.
+9	Duelul va fi oprit deoarece a apărut o problema cu arena de duel.
+10	Inamicul de duel are probleme. Duelul va fi încheiat.
+11	Duelul a luat sfârșit deoarece a apărut o problemă cu participantul la duel.
+12	%s a câștigat duelul.
+13	%s a câștigat.
+14	În 10 secunde începe runda următoare.
+15	Inamicul de duel a fost deconectat. Duelul este întrerupt.
+16	Acțiune întreruptă. Bătălie în desfășurare.
+17	Poți deschide magazinul dacă dai jos armura.
+18	Nu poți negocia deoarece ai mai mult de 2 miliarde yang.
+19	Nu poți da magazinului tău un nume care nu este valabil.
+20	Nu poți vinde un obiect din Item-Shop într-un magazin privat.
+21	Nu poți vinde acest item.
+22	Ai primit %s experiență.
+23	Exploatarea a luat sfârșit.
+24	Ai nevoie de tîrnăcop pentru a extrage minereu!
+25	Nu poți să pescuiești aici.
+26	Alege o undiță.
+27	Fixează întâi momeala în cârlig.
+28	Nu poți pescui fără undiță!
+29	[Grupă] Nu poți face nicio cerere, deoarece conducătorul grupei nu este online.
+30	[Grupă] Serverul nu poate prelucra sarcina grupei.
+31	[Grupă] Nu poți forma o grupă cu jucători ai altui regat.
+32	[Grupă] Nu poți face o invitație într-o temniță.
+33	[Grupă] Nu poți face o invitație în modul spectator.
+34	[Grupă] Pot fi invitați doar jucători cu diferența de nivel -30-30
+35	[Grupă] Nu poți invita jucătorul deoarece nivelul său este prea mic.
+36	[Grupă] Nu poți invita jucătorul deoarece nivelul său este prea mare.
+37	[Grupă] Nu mai poți invita alți jucători în grupă.
+38	Dorești să te alături grupei lui %s.
+39	Jucătorul nu se află în grupă.
+40	[Grupă] Nu te poți alătura grupei deoarece este plină.
+41	[Grupă] Nu ai dreptul să faci o invitație.
+42	[Grupă] %s a refuzat invitația.
+43	[Grupă] %s este deja în grupă.
+44	[Grupă] Nu ești în măsură să accepți invitația.
+45	[Grupă] %s s-a alăturat grupei tale.
+46	Nu poți folosi acum niciun magazin privat.
+47	Jucătorul negociază cu cineva.
+48	[Depozit] Ai introdus o parolă greșită.
+49	[Depozit] Depozitul este deschis deja.
+50	[Depozit] Trebuie să aștepți 10 secunde pentru a deschide depozitul.
+51	Nu poți deschide depozitul aici.
+52	Fereastra este deja deschisă.
+53	Nu poți deschide item shop aici.
+54	Nu te poți teleporta la jucător.
+55	Jucătorul nu este online.
+56	Jucătorul este pe canalul %s. (Tu ești pe canalul %s).
+57	Nu poți merge nicăieri timp de %s secunde de la folosirea depozitului.
+58	După negoț nu poți pleca nicăieri pentru un anumit timp.
+59	După negoț nu poți pleca nicăieri timp de %s secunde.
+60	După negoț nu poți să folosești orice pergament timp de %s secunde.
+61	Nu poți schimba canalul.
+62	Nu poți sta pe mount cât timp ești transformat.
+63	Nu te poți teleporta la acest jucător deoarece se află într-un dungeon.
+64	Închide fereastra pentru absorție.
+65	Închide fereastra pentru combinare.
+66	Nu poți adăuga iteme blocate.
+67	Poți combina doar eșarfe de același grad.
+68	Această eșarfă are rata maximă de absorție.
+69	Poți să absorbi doar bonusurile de pe arme și armuri.
+70	Nu ai suficient Yang.
+71	Noua rată de absorție: %s%
+72	Succes.
+73	Eșuat.
+74	Închide celelalte ferestre.
+75	Poate fi folosit doar pe eșarfă.
+76	Eșarfa nu are absorție.
+77	Trebuie să aștepți %s secunde.
+78	Nu poți face asta.
+79	Ai nevoie de %s Yang.
+80	Ai deja un magazin deschis.
+81	Nu poți să decorezi magazinul.
+82	Chat-ul tău a fost blocat de un GM.
+83	Abilitate (%s) blocată pentru că valoarea este (%ld%) mai mică decât cea curentă (%ld%).
+84	Blocarea chat-ului tău a fost anulată.
+85	Prin binecuvântarea zeului zmeu nu ai pierdut experiență.
+86	Prin binecuvântarea zeului zmeu nu ai pierdut niciun obiect.
+87	[Breaslă] În timpul unui război nu există puncte de experiență pentru vânătoare.
+88	Nu ai niciun Set Carduri Okey.
+89	Nu ai suficient spațiu în mână.
+90	Nu ai carduri.
+91	Nu ai suficient spațiu pe masă.
+92	Nu ești calificat pentru așa ceva.
+93	Nu poți să călărești un cal mort.
+94	Nu poți sta pe cal cât timp ești transformat.
+95	Nu poți să călărești cât timp porți o rochie de mireasă sau un smoking.
+96	Nu ai cal.
+97	Calul tău este mort.
+98	Rezistența calului tău este prea scăzută.
+99	Strigarea calului eșuată.
+100	Caracterul tău nu mai este premium.
+101	Caracterul tău este deja premium.
+102	Caracterul tău este premium acum.
+103	Cineva a intrat cu contul tău. Vei fi deconectat.
+104	[Depozit] Parola depozitului a fost modificată.
+105	[Depozit] Ai introdus parola greșită.
+106	Șansa de drop Obiecte actuală: %s%.
+107	Șansa de drop Yang actuală: %s%.
+108	Șansa de drop x10 Yang actuală: %s%.
+109	Șansa de drop Experiență actuală: %s%.
+110	Au rămas %s secunde.
+111	O piatră prețioasă din %s a dispărut.
+112	Ai nevoie de %s Extindere inventar.
+113	Poți participa la luptă în modul spectator.
+114	La alegerea caracterului apare o icoană.
+115	Ești prea departe de magazin pentru a cumpăra.
+116	Ești prea departe de magazin pentru a vinde.
+117	Ți-ai primit deja recompensa.
+118	Cererea este în curs de încărcare. Ai răbdare.
+119	Te poți teleporta în 1 minut.
+120	Ai primit %s Yang.
+121	O lumină mistică apare din copac.
+122	Lupta cu %s a început!
+123	L-ai provocat pe %s la luptă.
+124	%s te-a provocat la luptă!
+125	Eroare la transformare.
+126	Ai învățat transformarea.
+127	[Grupă] Grupa s-a desfințat.
+128	[Grupă] Ținta nu a fost găsită.
+129	[Grupă] Nu pot teleporta jucătorul dacă este mort.
+130	Grupul tău coopereaza bine împreună, membrii grupului din apropierea liderului vor primi un bonus de experiență.
+131	Numărul total de întrebări: %s.
+132	Corect!
+133	Switchbot oprit. Nu mai ai schimbătoare.
+134	Switchbot oprit. Nu ai suficient Yang.
+135	Punctele de exploatare au ajuns la maxim. (%s)
+136	Punctele de exploatare au ajuns la un nivel maxim.
+137	Poți merge la Deokbae pentru a-ți upgrada târnăcopul.
+138	Punctele tale de exploatare au crescut! (%s/%s)
+139	Nu poți exploata nimic fără târnăcop.
+140	Nimic de exploatat aici.
+141	Exploatarea a reușit.
+142	Exploatarea a eșuat.
+143	%s este blocat.
+144	%s este deblocat.
+145	Jucătorul nu poate să primească cereri de prietenie.
+146	[Prieteni] L-ai adăugat pe %s ca prieten.
+147	[Prieteni] L-ai șters pe %s din listă.
+148	Războiul s-a terminat.
+149	[Breaslă] Breasla a atins %s puncte.
+150	[Breaslă] Numele breslei nu este valabil.
+151	[Breaslă] Acest nume de breaslă este deja folosit.
+152	[Breaslă] Nu poți forma o breaslă.
+153	[Breaslă] %s a refuzat războiul breslei.
+154	[Breaslă] Războiul breslei a fost întrerupt.
+155	Războiul de breaslă dintre %s și %s începe în câteva secunde!
+156	Războiul între breslele %s și %s a început!
+157	Războiul dintre breslele %s și %s s-a terminat la egalitate.
+158	Breasla %s a câștigat războiul împotriva breslei %s.
+159	Războiul întrebreslele %s și %s a fost întrerupt.
+160	Breasla %s a declarat război breslei %s!
+161	OX Ceilalți participanți la eveniment sunt notați.
+162	OX Ceilalți participanți la eveniment nu au fost notați.
+163	Numărul celorlalți participanți : %s
+164	Chat-ul tău este blocat.
+165	%s ore %s minute %s secunde rămase până la deblocarea chat-ului.
+166	%s ore %s secunde rămase până la deblocarea chat-ului.
+167	%s minute %s secunde rămase până la deblocarea chat-ului.
+168	%s secunde rămase până la deblocarea chat-ului.
+169	Nu-i poți scrie lui %s, acest jucător este blocat.
+170	%s te-a blocat.
+171	Ai nevoie de %s.
+172	Ai nevoie de un nivel minim de %s pentru a putea striga.
+173	Nu ești în grupă.
+174	Nu te-ai alăturat breslei.
+175	Jucătorul a refuzat cererea ta de a fi adăugat la lista de prieteni.
+176	[Prieteni] Nu poți adăuga un GM în lista ta.
+177	Deblochează-l pe %s pentru a continua.
+178	Jucătorul %s nu este conectat.
+179	Nu-ți poți bloca partenerul.
+180	Șterge-l pe %s din lista de prieteni pentru a continua.
+181	%s este deja blocat.
+182	Nu poți bloca acest jucător.
+183	Jucătorul %s a blocat cererea de teleport.
+184	Te poți teleporta în %s secunde.
+185	După un negoț, trebuie să aștepți %s secunde înainte de a deschide un magazin.
+186	Poți negocia peste %s sec.
+187	Nu poți negocia deoarece celălalt jucător are mai mult de 2 miliarde yang.
+188	Ai schimbat culoarea abilităților.
+189	[Depozit] Nicio mișcare posibilă.
+190	[Depozit] Obiectul nu poate fi depozitat.
+191	Nu ai suficient spațiu în inventar.
+192	Nu poți face asta în arena de duel.
+193	[Grupă] Doar conducătorul grupei poate schimba asta.
+194	[Grupă] Cât timp ești în temniță, nu poți exclude niciun jucător.
+195	[Grupă] Ai fost exclus din grupă.
+196	[Grupă] Nu poți să părăsești grupa într-o temniță.
+197	[Grupă] Ai părăsit grupa.
+198	[Grupă] Nu poți exclude membrii grupei.
+199	Trebuie să termini misiunea.
+200	Mai este o misiune de vânătoare de făcut.
+201	Ai primit %s Yang de la misiune.
+202	 
+203	[Grupă] Competențele grupei stau doar conducătorului ei la dispoziție.
+204	<Teleportare> Trebuie să mărești abilitatea de conducere pentru această opțiune.
+205	[Breaslă] Nu aparține breslei.
+206	[Breaslă] Suma de Yang nu e corectă.
+207	[Breaslă] Persoana căutată nu poate fi găsită.
+208	[Breaslă] În timpul unui război nu poți exclude membrii din breaslă.
+209	[Breaslă] Persoana nu aparține aceleiași bresle.
+210	[Breaslă] Ai exclus un membru din breaslă.
+211	[Breaslă] Nu ai dreptul să îți schimbi numele gradului.
+212	[Breaslă] Drepturile liderului breslei nu pot fi schimbate.
+213	[Breaslă] Numele gradului nu este valabil.
+214	[Breaslă] Nu ai dreptul să îți schimbi poziția de putere.
+215	[Breaslă] Breasla a atins deja nivelul maxim.
+216	[Breaslă] %s experiență primită.
+217	[Breaslă] Punerea în practică a experienței eșuată.
+218	[Breaslă] Nu ai Yang suficient în depozitul breslei!
+219	[Breaslă] Spiritul Dragonului nu a fost refăcut.
+220	[Breaslă] Nu ai dreptul să faci un anunț.
+221	[Breaslă] Nu ai dreptul sa alegi liderul breslei.
+222	[Breaslă] Nu mai poți alege alți lideri pentru breaslă.
+223	Nu poți renunța la acest obiect.
+224	Trebuie să deschizi fereastra de rafinament.
+225	Nu ai suficient Yang sau spațiu în inventar.
+226	Nu ai materialul potrivit.
+227	Nu poți antrena această abilitate.
+228	Nu poți antrena această abilitate până la Mare Maestru.
+229	Nu mai poți antrena această abilitate.
+230	Abilitatea ta este insuficientă pentru antrenamentul de Mare Maestru.
+231	Of, nu a reușit. La naiba!
+232	Antrenament eșuat. Încearcă mai târziu.
+233	Corpul meu este plin de putere.
+234	Antrenamentul pare să funcționeze deja...
+235	Ai încheiat cu succes antrenamentul cu cartea.
+236	Ai activat colectarea automată pentru %s de zile.
+237	Nu o poți citi din cauza lipsei de experiență.
+238	Nu mai poți antrena această abilitate cu o carte.
+239	Această abilitate nu este destul de înaltă pentru a o antrena cu o carte.
+240	Cu ajutorul unui Pergament de Exorcizare ai scăpat de blestemul spiritelor rele.
+241	Fac progrese, dar încă nu am înțeles tot.
+242	Aceste instrucțiuni sunt greu de înțeles. Am să studiez în continuare.
+243	Am înțeles acest capitol. Dar trebuie să muncesc din greu în continuare.
+244	Trebuie să citești încă %s pentru a avea succes.
+245	Nu îți poți schimba statusul atâta timp cât ești transformat.
+246	Teleportare eșuată.
+247	Nu poți să folosești abilitățile pe parcursul evenimentului.
+248	Niciun cal. Întreabă grăjdarul.
+249	Folosește un obiect pentru a chema un cal.
+250	Fără efect.
+251	Ard în interior, dar îmi liniștește corpul. Chi-ul meu trebuie să se stabilizeze.
+252	Cam încet... dar continuu... fără oprire!
+253	Se simte bine. Corpul meu e plin de Chi.
+254	Am citit-o! Acum trebuie să se împrăștie Chi-ul în corpul meu.
+255	Antrenamentul s-a terminat.
+256	Am ajuns la ultima pagină a cărții! Antrenamentul e aproape gata!
+257	Aproape am reușit! Încă puțin!
+258	Aproape am terminat de citit!
+259	Au rămas doar câteva pagini, apoi voi termina de citit.
+260	Mă simt reîmprospătat.
+261	Acum o înțeleg!
+262	Bine, trebuie să rămân concentrat în continuare!
+263	Citesc în continuu același rând.
+264	Nu vreau să învăț mai departe.
+265	E mai complicat și mai greu de înțeles decât am crezut.
+266	E greu să mă concentrez. Ar trebui sa iau o pauză.
+267	Introdu comanda întreagă.
+268	Nu poți face asta în timp ce stai pe cal.
+269	Nu poți face asta cât timp ești întins pe jos.
+270	În visele mele? Cum?
+271	Ridică-te întâi.
+272	Această comandă nu există.
+273	Nu poți să folosești emoție în timp ce ești pe cal.
+274	Poți face asta dacă porți masca emoției.
+275	Doar femeile pot face asta.
+276	Această persoană nu există.
+277	Nu poți să folosești emoție pe un jucător care se află pe cal.
+278	Ești prea aproape.
+279	Ești prea departe.
+280	Această acțiune poate fi realizată doar cu sexul opus.
+281	Pentru această acțiune ai nevoie de acordul partenerului tău de joc.
+282	Deja călarești. Da-te jos prima dată.
+283	Strigă-ți întâi calul.
+284	Ți-ai trimis calul departe.
+285	Trebuie să te dai jos de pe cal.
+286	Nu poți hrăni calul în timp ce călărești.
+287	Ai hrănit un cal cu %s%s.
+288	%s secunde până la final.
+289	Vei schimba canalul în %s secunde.
+290	Logout-ul a fost întrerupt.
+291	Înapoi la fereastra de login. Așteaptă.
+292	Vei fi deconectat de la server. Așteaptă.
+293	Schimbi caracterul. Așteaptă.
+294	Un nou start nu e posibil în acest moment.Te rugăm așteaptă %s secunde.
+295	Perioada de așteptare a expirat. Vei re-învia în oraș.
+296	Jucătorul tocmai se duelează.
+297	[Breaslă] Breasla ta participă deja la alt război.
+298	[Breaslă] Nu există dreptul la un război al breslelor.
+299	[Breaslă] Nu există nicio breaslă cu acest nume.
+300	[Breaslă] Breasla se află deja într-un război.
+301	[Breaslă] Breasla este rezervată pentru alt război.
+302	[Breaslă] Nivelul breslei este prea mic.
+303	[Breaslă] E nevoie de minim %s jucători pentru a participa la un război al breslei.
+304	[Breaslă] Breasla nu are destule puncte pentru a participa la un război al breslelor.
+305	[Breaslă] Breasla nu are destui membri pentru a participa la un război al breslelor.
+306	[Breaslă] Liderul breslei inamice nu este conectat.
+307	%s a refuzat invitația.
+308	Nu poți accepta invitația deoarece ești deja în grupă.
+309	%s a aruncat zarurile și a primit %s. (%s-%s)
+310	Ai aruncat zarurile și a primit %s. (%s-%s)
+311	Nu poți deschide depozitul în temniță sau război.
+312	Ești deja pe acest canal.
+313	Trebuie să aștepți 10 secunde.
+314	Acest canal nu este valid.
+315	Ai anulat schimbarea canalului.
+316	Itemele pot fi sortate în %s secunde.
+317	Trebuie să nu te miști pentru a ascunde costumul.
+318	Trebuie să aștepți 3 secunde înainte de a ascunde costumul.
+319	Această opțiune te costă 500.000 Yang.
+320	Ai folosit opțiunea de restart instant pentru 500.000 Yang.
+321	Nu mai primești experiență.
+322	Acum primești experiență.
+323	Înainte de a deschide Cor Draconis, trebuie să termini misiunea Pietrelor Dragon și să activezi Alchimia Piatră Dragon.
+324	Această breaslă se află în război.
+325	%s: Această breaslă nu există.
+326	O breaslă cu acest nume sau număr nu există.
+327	Clădirea nu există.
+328	Acest tip de clădire poate fi construit doar o dată.
+329	Clădirea principală trebuie construită întâi.
+330	Construcția eșuată datorită unui preț de construcție greșit.
+331	Breasla ta nu are suficient Yang pentru a construi clădirea.
+332	Nu ai destul material pentru a construi.
+333	Duelul a fost întrerupt fără succes.
+334	Deul întrerupt cu succes.
+335	Început de duel reușit.
+336	Există o problemă pentru a începe duelul.
+337	Nu există participanți la duel.
+338	Nu au mai rămas puncte de status.
+339	Au mai rămas prea puține puncte de status.
+340	Ai introdus o valoare greșită.
+341	Înțelegere încălcată între jucătorul %s și jucătorul %s.
+342	Jocul se închide în %s secunde.
+343	Ai completat cu succes o misiune pentru acest Battle Pass!
+344	Nu ai completat toate misiunile pentru acest Battle Pass!
+345	Ai acces la sezonul curent pentru Battle Pass Premium!
+346	Ai activat Battle Pass Premium pentru %s.
+347	Battle Pass Premium a fost dezactivat.
+348	Ai dezactivat Battle Pass Premium pentru %s.
+349	Ai dezactivat accesul la Battle Pass Premium.
+350	Breasla %s a fost creată temporar.
+351	Această Piatră Dragon nu poate fi înlăturată.
+352	Extragerea timpului a eșuat.
+353	Timpul rămas din Piatra Dragon a fost extras.
+354	Piatra Dragon a fost înlocuită.
+355	Înlocuirea Pietrei Dragon a eșuat. Dar ai primit următoarele: %s
+356	Înlocuirea Pietrei Dragon a eșuat.
+357	Acest obiect nu este necesar pentru îmbunătățirea nivelului de claritate.
+358	Acest obiect nu poate fi îmbunătățit în acest fel.
+359	Rafinarea la nivelul următor efectuat cu succes.
+360	Rafinarea la nivelul următor a eșuat.
+361	Nu ai materialele necesare pentru întărirea Pietrei Dragon.
+362	Acest obiect nu este necesar pentru rafinare.
+363	Îmbunătățirea nivelului de claritate efectuat cu succes.
+364	Îmbunătățirea nivelului de claritate a eșuat.
+365	Această Piatră Dragon nu poate fi folosită pentru întărire.
+366	Întărirea a fost efectuată cu succes.
+367	Întărirea a eșuat.
+368	Nu poți negocia în modul spectator.
+369	Celălalt jucător este ocupat momentan.
+370	Celălalt jucător a întrerupt negoțul.
+371	Celălalt jucător nu are suficient spațiu în inventar.
+372	Celălalt jucător nu are suficient Yang sau spațiu în inventar.
+373	Negoțul cu %s a reușit.
+374	Punctele tale de pescuit au crescut! (%s/%s)
+375	Ai atins numărul maxim de puncte de pescuit.
+376	Mergi la Pescar și îmbunătățește-ți Undița!
+377	Ai prins %s de %s.
+378	Peștele a dispărut în adâncurile apei.
+379	În pește se află o scoică.
+380	În pește se află o râmă.
+381	Prăjești %s deasupra focului.
+382	[Breaslă] Experiența oferită este mai mare decât experiența rămasă.
+383	[Breaslă] Mesajul nu poate fi șters.
+384	[Breaslă] Spiritul Dragonului insuficient. (%s, %s)
+385	[Breaslă] Nu poți folosi încă competența breslei.
+386	[Breaslă] Competența de breaslă poate fi folosită doar în război.
+387	[Breaslă] %s Spiritul Dragonului refăcute.
+388	[Breaslă] Încearcă mai târziu.
+389	[Breaslă] Doar liderul breslei poate retrage Yang.
+390	[Breaslă] Jucătorul nu poate să fie invitat în breaslă.
+391	[Breaslă] Jucătorul a refuzat invitația breslei.
+392	[Breaslă] Nu ai dreptul să inviți pe cineva în breaslă.
+393	[Breaslă] Jucători din alt regat nu pot fi invitați în breaslă.
+394	[Breaslă] Acest jucător poate fi invitat peste %s zile.
+395	[Breaslă] Poți invita noi membri doar peste %s zile de la reformare.
+396	[Breaslă] Jucătorul aparține deja unei alte bresle.
+397	[Breaslă] S-a atins capacitatea maximă a breslei.
+398	[Breaslă] S-a atins limita maximă de invitații.
+399	Își face deja efectul.
+400	Nu poți folosi acest obiect în duel.
+401	Din cutie iese o lumină misterioasă.
+402	Privește ce a ieșit din cutie!
+403	Dacă inhalezi fumul roșu din cutie îți crește repeziciunea.
+404	Cutia a explodat deodată! PV ți-au scăzut.
+405	Dacă inhalezi fumul verde care iese din cutie, corpul tău se va umple cu otravă.
+406	Nu ai primit nimic.
+407	Îmbunătățirea gratuită a obiectelor poate fi folosită pe arme pentru nivel maxim 20.
+408	Nicio altă îmbunătățire posibilă.
+409	Acest obiect nu poate fi îmbunătățit.
+410	Nu poți îmbunătăți cu acest pergament.
+411	Acest obiect nu poate fi absorbit.
+412	Poți combina Pergamentul Binecuvântat cu Minereul de Fier Magic.
+413	Nu există piatră de scos.
+414	Nu poți stoca această locație.
+415	Nivelul tău este prea scăzut pentru a folosi acest obiect.
+416	Nu te poți teleporta într-un punct sigur într-un regat străin.
+417	Nu ai destule PV.
+418	Nu ai destulă mana pentru a folosi asta.
+419	Poți să folosești %s în %s secunde.
+420	Nu poți face un foc de tabără aici.
+421	Acest obiect este deja activ!
+422	Ai mărit numărul conturilor cu succes!
+423	Acum poți să farmezi cu mai mult de 2 conturi. Trebuie doar să activezi dropul.
+424	Trebuie să ai status Premium.
+425	Acest obiect nu poate fi deschis cu o cheie.
+426	Se pare că această cheie nu funcționează.
+427	Primit: %s - %s
+428	În cutie este %s.
+429	Ți-a scăzut nivelul abilității.
+430	Nu îți poți scădea nivelul abilității.
+431	Nu poți să citești atâta timp cât ești transformat.
+432	Aceasta depășește limita.
+433	Încărcat pentru %s secunde.
+434	Nu poți purta un inel de cununie dacă nu ești căsătorit.
+435	Detectorul de evenimente nu poate fi operat de aici.
+436	Detectorul de evenimente a dispărut cu lumina misterioasă.
+437	Detectorul de evenimente a dispărut.
+438	Nu a fost detectat nimic.
+439	În scoică vei găsi o simplă Bucată de Piatră.
+440	Scoica a dispărut.
+441	În scoică se află o perlă albă.
+442	În scoică se află o perlă albastră.
+443	În scoică se află o perlă vișinie.
+444	Această carte este prea greu de înțeles.
+445	Această carte nu te ajută mai departe.
+446	Trebuie să ai minim nivelul 30 pentru a înțelege cartea asta.
+447	Trebuie să ai minim nivelul 50 pentru a înțelege cartea asta.
+448	Nu poți antrena mai multe combo.
+449	Înțelegi deja această limbă.
+450	Trebuie să avansezi nivelul pentru a putea citi această carte.
+451	Cu această carte nu te poți antrena mai departe.
+452	Trebuie să ai minim nivelul 50 pentru a învăța să călărești.
+453	Nu poți citi mai multe indicații de călărie.
+454	Ai citit Manualul de Călărie și ai primit un Punct de Călărie.
+455	Poți folosi acest punct pentru a perfecționa abilitatea de călărie.
+456	Nu ai înțeles indicațiile de călărie.
+457	Spiritul îți este limpede. Acum te poți concentra.
+458	Rangul tău a crescut cu %s puncte.
+459	Nu îți poți vopsi sau înălbi frizura actuală.
+460	Trebuie să atingi nivelul %s pentru a-ți putea vopsi părul iar.
+461	Obiectul poate fi deschis doar de către celălalt sex.
+462	Nu poți schimba upgradeul acestui obiect.
+463	Ai primit %s Monede Dragon.
+464	Nu poți adăuga mai mult timp pe acest obiect.
+465	Timpul a fost prelungit cu succes.
+466	%s%s nu poate fi folosit într-o temniță.
+467	Nu e nicio bucată din Piatra Spartă disponibilă pentru înlăturare.
+468	Acest obiect poate fi folosit doar pe arme sau armuri până la nivelul 40.
+469	Acest obiect nu poate fi folosit pe accesorii.
+470	Ai schimbat îmbunătățirea.
+471	Nu poți adăuga mai mult pe talisman.
+472	Upgrade adăugat cu succes.
+473	Niciun upgrade adăugat.
+474	Trebuie să folosești Marmură Binecuvântată ca să poți adăuga încă un bonus acestui obiect.
+475	Acest obiect nu mai poate fi îmbunătățit. Numărul maxim de bonusuri a fost atins.
+476	Poți folosi Marmură Binecuvântată pe un obiect care are deja 4 bonusuri.
+477	Suportul a fost adăugat cu succes.
+478	Niciun suport adăugat.
+479	Acestui obiect nu îi pot fi adăugate suporturi noi.
+480	Acestui obiect nu îi poate fi adăugat un suport.
+481	Echipare reușită.
+482	Echipare eșuată.
+483	Trebuie să adaugi un suport înainte. Folosește diamantul pentru a face asta.
+484	În aceste accesorii nu există suport de echipat cu pietre prețioase.
+485	Trebuie să adaugi un suport dacă vrei să folosești un diamant.
+486	Pe acest obiect nu mai poți adăuga pietre prețioase.
+487	Aceste obiecte nu pot fi folosite împreună.
+488	Nu poți schimba momeala în timpul pescuitului.
+489	Schimbi momeala actuală cu %s.
+490	Ai agățat %s în cârlig ca momeală.
+491	Lipsesc materiale pentru amestecul licorii.
+492	Nu ai destul material (%s).
+493	Nu ai destule sticle goale.
+494	Producerea licorii a eșuat.
+495	Ai primit %s.
+496	Trebuie să aștepți înainte să faci asta.
+497	Nu poți folosi acest obiect dacă nu ești căsătorit.
+498	Nu poți atașa mai multe pietre de același fel.
+499	Piatra Spiritului nu poate fi atașată la acest tip de obiect.
+500	Nu poți pune această piatră în armă.
+501	Nu este niciun slot liber.
+502	Ai pus piatra cu succes.
+503	Piatra s-a spart în timp ce încercai s-o atașezi.
+504	După deschiderea Depozitului nu poți folosi Pergamentul Orașului timp de %s secunde.
+505	Nu poți arunca acest obiect.
+506	Obiectul căzut va dispărea în 30 de secunde.
+507	Nu poți distruge acest obiect.
+508	Ai distrus %s.
+509	Ai atins limita maximă de Yang.
+510	Ai vândut %s.
+511	Obiectul dispare în %s minute.
+512	Nu poți pune acest item în switchbot.
+513	Ai deja echipat acest tip de Piatră Dragon.
+514	Nu poți hrăni un cal viu cu Iarba Maimuței. E folosită pentru a re-învia caii morți.
+515	Nu poți hrăni un cal mort.
+516	Ai hrănit calul cu ierburi.
+517	Ai hrănit calul.
+518	Nivelul tău este prea scăzut pentru a echipa acest obiect.
+519	Nu ești destul de puternic pentru a echipa acest obiect.
+520	Inteligența ta este prea scăzută pentru a echipa acest obiect.
+521	Dexteritatea ta este prea scăzută pentru a echipa acest obiect.
+522	Vitalitatea ta este prea scăzută pentru a echipa acest obiect.
+523	%s primește %s.
+524	Negoț cu obiecte: %s, %s
+525	Nu poți schimba obiectul echipat în timp ce ești transformat.
+526	Nu poți folosi acest obiect deoarece sexul tău nu corespunde.
+527	Trebuie să stai pe loc pentru a echipa obiectul.
+528	Nu poți echipa costumul pe armă pentru tipul ăsta de armă.
+529	Nivelul tău este prea scăzut pentru a purta această frizură.
+530	Porți deja această frizură.
+531	Ești deja transformat.
+532	Acesta este obiectul nepotrivit pentru transformare.
+533	Nu te poți transforma într-un monstru cu un nivel mai mare ca al tău.
+534	Magazinul tău nu a fost găsit.
+535	Nu poți închide magazinul dacă ai obiecte în magazin.
+536	Nu poți adăuga %s în magazin.
+537	Nu poți deschide magazinul aici.
+538	Nu poți deschide această poziție pentru că îți lipsește cheia.
+539	Nunta se va termina în curând.
+540	Vei fi teleportat automat.
+541	%s: %s a crescut cu %s%!
+542	%s al lui %s s-a normalizat.
+543	%s al breslei %s a crescut cu %s%!
+544	%s al breslei %s s-a normalizat.
+545	O eroare critică de server a intervenit. Serverul va fi restartat automat.
+546	În 10 secunde vei fi deconectat automat.
+547	Te poți conecta după 5 minute.
+548	Toți vor fi teleportați în oraș.
+549	Nu există inamici.
+550	Dacă nu se găsește un inamic războiul breslei va fi încheiat automat.
+551	Deoarece războiul s-a terminat mai devreme, s-a terminat cu o remiză.
+552	Se aruncă zarurile pentru: %s
+553	Rezultat pentru %s: %s
+554	*** -> Scor zaruri - %s: %s ***
+555	Întrebarea %s a fost adevărată.
+556	Întrebarea %s a fost falsă .
+557	În 10 secunde veți primi răspunsul.
+558	Răspunsul corect a fost: O.
+559	Răspunsul corect a fost: X.
+560	Cine a răspuns greșit va fi teleportat afară în 15 secunde.
+561	Pregătește-te pentru următoarea întrebare!
+562	Întrebare: 
+563	Mergi pe O dacă e adevărat(ă) sau pe X dacă e fals(ă).
+564	S-ar putea să fie lupte în desfășurare.
+565	Dacă te răzgândești întoarce-te la gardian.
+566	Nu există nimeni cu chat-ul blocat.
+567	%s (%s) : %s (%s)
+568	Breasla %s a luat steag-ul breslei %s.
+569	Drop-ul de %s actual al regatului este de %s.
+570	Drop-ul de %s actual al breslelor este de %s.
+571	Drop-ul de %s actual al jucătorilor este de %s
+572	Evenimentul de Experiență a început. Spor la nivele.
+573	Evenimentul de Experiență s-a încheiat.
+574	Evenimentul de Drop Obiecte a început. Spor la farmat.
+575	Evenimentul de Drop Obiecte s-a încheiat.
+576	Evenimentul Vânătoarea de Șefi a început. Deschide misiunea pentru a participa.
+577	Evenimentul Vânătoarea de Șefi s-a încheiat. Mulțumim pentru participare.
+578	Evenimentul Ploaie de Metine a început. Deschide misiunea pentru a participa.
+579	Evenimentul Ploaie de Metine s-a încheiat. Mulțumim pentru participare.
+580	Evenimentul de Minerit a început. Deschide misiunea pentru a participa.
+581	Evenimentul de Minerit s-a încheiat. Mulțumim pentru participare.
+582	Evenimentul Broasca Aurie a început. Deschide misiunea pentru a participa.
+583	Evenimentul Broasca Aurie s-a încheiat. Mulțumim pentru participare.
+584	Evenimentul Cufăr Clar de Lună a început.
+585	Evenimentul Cufăr Clar de Lună s-a încheiat.
+586	Evenimentul Cufăr Hexegonal a început.
+587	Evenimentul Cufăr Hexegonal s-a încheiat.
+588	Evenimentul de Pescuit a început. Colectează Oase de pește pentru Pescar.
+589	Evenimentul de Pescuit s-a încheiat.
+590	Evenimentul Hide and Seek a început. Găsește GM-ul urmând indiciile lui.
+591	Evenimentul Hide and Seek s-a încheiat. Mulțumim pentru participare.
+592	Evenimenul OX va începe curând, pregătește-te.
+593	Evenimenul OX s-a încheiat. Mulțumim pentru participare.
+594	Evenimentul Tanaka a început. Tanaka au preluat conducerea în Deșert, timpul pentru vânătoare!
+595	Evenimentul Tanaka s-a încheiat. Mulțumim pentru participare.
+596	Evenimentul de Yang a început.
+597	Evenimentul de Yang s-a încheiat.
+598	Evenimentul Carduri Okey a început.
+599	Evenimentul Carduri Okey s-a încheiat.
+600	Dragonul va murii în %s secunde.
+601	Poți să decorezi magazinul pentru %s zile.
+602	Ai completat toate misiunile!
+603	Ai nevoie de nivel %s!
+604	Nu ai obiectul necesar pentru a dezactiva timpul.
+605	Mai încearcă pe %s!
+606	Nu ai obiectul necesar pentru a crește șansa.
+607	Obiect livrat cu succes!
+608	Acest obiect nu este bun, mai încearcă!
+609	Nu ai obiectul necesar pentru misiune.
+610	Timpul de așteptare s-a terminat.
+611	Mesajul a fost trimis cu succes.
+612	Schimbarea bonusurilor pentru %s (Slot: %s) s-a terminat.
+613	|cFF93c47d|h[Metin2] >|h|r |cFFf7eccc|h %s |h|r |cFFf7eccc|heste nou pe server!
+614	|cFF93c47d|h[Metin2] >|h|r |cFFf7eccc|h %s a atins nivelul |cFF41afe1|h%s |cFFf7eccc|h. Felicitări!
+615	|cFF93c47d|h[Metin2] >|h|r |cFFf7eccc|h %s a atins nivelul maxim. Felicitări!
+616	Breasla %s a cumpărat un teren.
+617	%s a omorât Orc șef.
+618	%s a omorât Conducător întunecat.
+619	%s a omorât Conducător spirit negru.
+620	%s a omorât Fantoma Tigrului Galben.
+621	%s a omorât Demon rege.
+622	%s a omorât Demon rege mândru.
+623	%s a omorât Îngerul cu coasă.
+624	%s a omorât Nouă cozi.
+625	%s a omorât Regina Păianjenilor.
+626	%s a omorât Regele Păianjenilor.
+627	%s a omorât Țestoasa gigant.
+628	%s a omorât Căpitanul Yonghan.
+629	%s a omorât Generaul Yonghan.
+630	%s a omorât Hae-Tae.
+631	%s a omorât Regele focului.
+632	%s a omorât Copac fantomă uriaș.
+633	%s a omorât Copac fantomă nobil.
+634	%s a omorât Vrăjitoare de gheață.
+635	Competiția OX a început! Pentru a intra în concurs, mergeți la Uriel.
+636	Porțile competiției OX au fost închise. Mult noroc participanților.
+637	Participanții competiței OX au primit x%s %s.
+638	Competiția OX a luat sfârșit.
+639	Eveniment Șefi: Nu ai voie să ataci ceilalți jucători.
+640	Eveniment Șefi: Nu ai voie să furi dropul celorlați jucători.
+641	Eveniment Șefi: Nu ai voie să dai în Șefi de nivel mai mare.
+642	Eveniment Șefi: Nu ai voie să dai în Șefii celorlalți jucători
+643	Eveniment Șefi: excepție - numai dacă ți se permite.
+644	Eveniment Broasca Aurie: Nu ai voie să ataci ceilalți jucători.
+645	Eveniment Broasca Aurie: Nu ai voie să furi dropul celorlați jucători.
+646	Eveniment Broasca Aurie: Nu ai voie să dai în Broasca celorlalți jucători
+647	Eveniment Broasca Aurie: excepție - numai dacă ți se permite.
+648	Ploaie de Metine: Nu ai voie să ataci ceilalți jucători.
+649	Ploaie de Metine: Nu ai voie să furi dropul celorlați jucători.
+650	Ploaie de Metine: Nu ai voie să dai în Metine de nivel mai mare.
+651	Ploaie de Metine: Nu ai voie să dai în Metinele celorlalți jucători
+652	Ploaie de Metine: excepție - numai dacă ți se permite.
+653	Eveniment Minerit: Nu ai voie să ataci ceilalți jucători.
+654	Eveniment Minerit: Nu ai voie să furi dropul celorlați jucători.
+655	Eveniment Minerit: Nu ai voie să minezi minereurile celorlalți jucători
+656	Eveniment Minerit: excepție - numai dacă ți se permite.
+657	Învinge toți monștrii.
+658	Misiune completă!
+659	Distruge Piatra Metin.
+660	Distruge Piatra Metin corectă.
+661	Obține cheia pentru a debloca pilonii.
+662	Învinge-l pe Demon rege mândru!
+663	Distruge toate Metinul Morții (%s)
+664	Găsește Cheie Zin-Bong-In și pune-o pe monument.
+665	Învinge-l pe Îngerul cu coasă!
+666	Ai distrus piatra corectă.
+667	Piatra falsă a dispărut.
+668	Vei fi teleportat la etajul următor.
+669	Ai distrus o Piatră Metin (%s)
+670	Distruge Metinul Crimelor până obții Hartă pentru peștera Zin. (%s)
+671	Ai găsit pergamentul corect. Vei fi teleportat.
+672	Eroare de sistem.
+673	Ai terminat temnița cu succes. Vei fi teleportat afară.
+674	Reduce efectele Baronesei distrugând ouăle!
+675	Ai supărat Baronesa.
+676	Daunele tale cresc, dar apărarea ta scade.
+677	Distruge toate Pietrele Metin.
+678	Învinge-l pe Beran-Setaou!
+679	Găsește statuia Țestoasei.
+680	Învinge toți monștrii Tartarus*.
+681	Deblochează toate timbrele.
+682	Învinge-l pe Azrael!
+683	Ruleta se învârte!
+684	Nu ai suficiente bilete pentru ruletă.
+685	Nu ai suficiente monede pentru ruletă.
+686	|cff00A8EB[ItemShop]|r |cffFFFFFFItemshop a fost actualizat!|r
+687	|cff00A8EB[ItemShop]|r |cffFFFFFFNu ai suficiente monede!|r
+688	|cff00A8EB[ItemShop]|r |cffFFFFFFAcest obiect nu se mai poate cumpăra!|r
+689	|cff00A8EB[ItemShop]|r |cffFFFFFFNu poți depăși limita săptămânală. Limita săptămânală: %s|r
+690	|cff00A8EB[ItemShop]|r |cffFFFFFFNu poți depăși limita lunară. Limita lunară: %s|r
+691	|cff00A8EB[ItemShop]|r |cffFFFFFFAi cumpărat|r |cffF7BD48%sx%s|r |cffFFFFFFpentru|r |Eishop/mini_coin|e |cffF7BD48%s|r |cffFFFFFFMonede.|r
+692	|cff00A8EB[ItemShop]|r |cffFFFFFFAi cumpărat|r |cffF7BD48%s|r |cffFFFFFFpentru|r |Eishop/mini_coin|e |cffF7BD48%s|r |cffFFFFFFMonede.|r
+693	Nu sunt pietre în Costum Aură.
+694	Poți deschide doar o fereastră de rafinare pentru Costum Aură.
+695	Trebuie să deschizi fereastra specifică de rafinare pentru Costum Aură.
+696	Procesul de rafinare pentru Costum Aură nu poate fi continuat.
+697	Eroare necunoscută.
+698	În acest slot poți atașa numai Costum Aură.
+699	Acest Costum Aură are valori de absorție.
+700	În acest slot poți atașa doar scuturi, brățări, coliere și cercei.
+701	Nu poți să îmbunătățești acest Costum Aură.
+702	Acest Costum Aură a atins nivelul și gradul maxim.
+703	Folosește fereastra de rafinament.
+704	Trebuie să atașezi un Costum Aură.
+705	În acest slot poți atașa numai materiale.
+706	Nu poți rafina acest Costum Aură momentan.
+707	Trebuie să fie nivel %s cu %s experiență.
+708	În acest slot poți atașa numai x%s %s.
+709	Atașează acest item în fereastră.
+710	Absorția a fost finalizată.
+711	Îmbunătățirea a fost finalizată.
+712	Nu ai materialele necesare pentru a continua.
+713	Mergi la Marele Am-heh din centrul hărții.
+714	Învinge toți demonii din cameră!
+715	Găsește Roată zimțată de aur.
+716	Învinge-l pe Ignitor!
+717	Deblochează timbrele în ordinea corectă.
+718	Distruge Metinul Focul Iadului.
+719	Învinge-l pe Razador!
+720	Obiectiv atins. Întoarce-te la Am-heh!
+721	Găsește cheia bună.
+722	Această cheie nu este bună.
+723	Rezolvă ordinea corectă a cuburilor.
+724	Învinge-l pe Szel!
+725	Distruge Pilonul Dragon din Nord.
+726	Învinge-l pe Nemere!
+727	Ești pe nava ocupată de Hydra și acoliții săi!
+728	Pregătește-te pentru bătălie!
+729	Apără nava!
+730	Ai apărat cu succes catargul. Pregătește-te pentru următorul val!
+731	Ai apărat cu succes catargul. Dar nu s-a terminat!
+732	Ai apărat cu succes catargul. Adună-ți recompensa!
+733	Hydra și acoliții săi au ajuns. Apără nava!
+734	Trebuie să continui să aperi nava!
+735	Nivelul tău este prea mic!
+736	Îți lipsește obiectul necesar pentru a te teleporta!
+737	Nu poți face asta cât timp însoțitorul este activ.
+738	Nu poți face asta cât timp fereastra pentru însoțitor este deschisă.
+739	Nu poți face asta cât timp incubatorul este deschis.
+740	Nu poți negocia cât timp însoțitorul celuilalt jucător este activ.
+741	Nu poți negocia cât timp fereastra însoțitorului este deschisă la celălalt jucător.
+742	Trebuie să activezi însoțitorul.
+743	%s doarme în acest moment.
+744	Nivelul tău este prea mic pentru a chema însoțitorul.
+745	Nu poți chema însoțitorul când negociezi.
+746	L-ai chemat pe %s.
+747	L-ai trimis înapoi pe %s.
+748	%s a atins nivelul %s!
+749	Acest nume este prea scurt.
+750	Introdu un alt nume.
+751	Experiența a crescut cu %s puncte.
+752	Însoțitorul are suficientă experiență. Acum ai nevoie de iteme pentru următorul stadiu.
+753	Nivelul însoțitorului nu poate să fie mai mare decât al tău.
+754	%s refuză să mănânce!
+755	Însoțitorul este entuziasmat să guște Biscuit cu Proteine.
+756	Însoțitorul este pregătit să evolueze. Folosește cărți pentru însoțitor.
+757	Achiziționează Carte Însoțitor Curajos pentru ca însoțitorul să devină erou.
+758	Însoțitorul a atins deja cel mai înalt grad al evoluției.
+759	Însoțitorul trebuie să aibă nivelul %s pentru a-l antrena și promova la următorul stadiu de evoluție.
+760	Însoțitorul trebuie să aibă 100% experiență pentru a-l antrena și promova la următorul stadiu de evoluție.
+761	Însoțitorul trebuie să aibă %s zile pentru a-l antrena și promova la următorul stadiu de evoluție.
+762	%s nu este suficient. Ai nevoie de %s pentru următorul stadiu de evoluție.
+763	%s a evoluat la %s. Excelent!
+764	Statisticile însoțitorului au fost modificate.
+765	Însoțitorul cunoaște deja această abilitate.
+766	Însoțitorul învață repede noua abilitate!
+767	%s abilitate activată. PV refăcut de %s.
+768	%s abilitate activată. Nu mai primești daune.
+769	%s abilitate activată. Efectele negative au fost înlăturate.
+770	%s abilitate activată. %s folosește Mers de Fulg.
+771	%s a eclozat!
+772	Mergi la Bătrână pentru a te alătura.
+773	%s și %s vă invită la nunta lor!

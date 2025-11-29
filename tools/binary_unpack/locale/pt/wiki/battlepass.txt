@@ -1,0 +1,18 @@
+
+[BANNER_IMG = d:/ymir work/ui/game/wiki/banner.tga]
+
+[Y_PADDING=10;X_PADDING = 105;FONT_SIZE=14]*The Battle-Pass panel is below the minimap.
+[Y_PADDING=2;X_PADDING = 105;FONT_SIZE=14]*There are 2 types of Battle-Pass: Normal and Premium.
+[Y_PADDING=2;X_PADDING = 105;FONT_SIZE=14]*Each mission has different rewards.
+[IMG=d:/ymir work/ui/battle_pass_normal.tga; Y=50; X=13]
+
+[COLOR=ef4f00;FONT_SIZE=16;Y_PADDING=5;X_PADDING=10]1. Normal Battle-Pass
+[Y_PADDING=10;X_PADDING = 75;FONT_SIZE=14]*To activate Normal Battle-Pass, you do not need a pass.
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]*Normal Battle-Pass is active every month.
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]*The final reward changes every month.
+
+[COLOR=ef4f00;FONT_SIZE=16;Y_PADDING=5;X_PADDING=10]2. Premium Battle-Pass
+[Y_PADDING=10;X_PADDING = 75;FONT_SIZE=14]*To activate the Premium Battle-Pass, you need a pass.
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]*This pass is obtained from the game or item shop.
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]*The final reward is completely different from the Normal Battle-Pass.
+[ITEM=93100; IS_LINK=1; Y=185; X=25]

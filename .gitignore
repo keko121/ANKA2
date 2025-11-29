@@ -1,0 +1,47 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+# Exception: FoxFS_Src library files (tracked with Git LFS)
+!FoxFS_Src/**/*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+# Client folder is now tracked (large files use Git LFS)
+
+# Visual Studio cache files
+.vs/
+*.ipch
+*.db
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.db-shm
+*.db-wal
+*.db-wal

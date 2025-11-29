@@ -1,0 +1,16 @@
+ScriptType            RaceDataScript
+
+BaseModelFileName     "D:\Ymir Work\npc_pet\summer_2024_crab\summer_2024_crab.GR2"
+
+Group ShapeData
+{
+    PathName 		 ""
+    ShapeDataCount 		 1
+    Group ShapeData00
+    {
+        ShapeIndex 		 0
+        Model 		 "D:\Ymir Work\npc_pet\summer_2024_crab\summer_2024_crab.GR2"
+        SourceSkin 		 "D:\Ymir Work\npc_pet\summer_2024_crab\summer_2024_crab_1.dds"
+        TargetSkin 		 "D:\Ymir Work\npc_pet\summer_2024_crab\summer_2024_crab_2.dds"
+    }
+}

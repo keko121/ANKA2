@@ -47,15 +47,58 @@ struct Mat4x4 {
 // ============================================================================
 // Vertex Tipleri
 // ============================================================================
+struct TexCoord {
+    float u, v;
+    TexCoord() : u(0), v(0) {}
+    TexCoord(float u_, float v_) : u(u_), v(v_) {}
+};
+
 struct Vertex {
     Vec3 position;
     Vec3 normal;
-    Vec2 texCoord0;
+    TexCoord texCoord;
+    Vec2 texCoord0;  // Alias for GLTFWriter compatibility
     Vec2 texCoord1;
     
     // Skinning için
     std::array<int, 4> joints = {0, 0, 0, 0};
     std::array<float, 4> weights = {0.0f, 0.0f, 0.0f, 0.0f};
+};
+
+// ============================================================================
+// Simplified Structures (for GrannyReader)
+// ============================================================================
+struct Bone {
+    std::string name;
+    int parentIndex = -1;
+    float localPosition[3] = {0, 0, 0};
+    float localRotation[4] = {0, 0, 0, 1};  // quaternion
+    float localScale[3] = {1, 1, 1};
+    float inverseBindMatrix[16];
+};
+
+struct Mesh {
+    std::string name;
+    std::string materialName;
+    std::vector<Vertex> vertices;
+    std::vector<uint16_t> indices;
+    std::vector<std::array<float, 4>> boneWeights;
+    std::vector<std::array<uint8_t, 4>> boneIndices;
+};
+
+struct AnimationTrackSimple {
+    std::string boneName;
+    int boneIndex = -1;
+    std::vector<float> positionKeys;
+    std::vector<float> rotationKeys;
+    std::vector<float> scaleKeys;
+};
+
+struct Animation {
+    std::string name;
+    float duration = 0.0f;
+    float timeStep = 1.0f / 30.0f;
+    std::vector<AnimationTrackSimple> tracks;
 };
 
 // ============================================================================

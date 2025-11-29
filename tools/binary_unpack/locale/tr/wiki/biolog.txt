@@ -1,0 +1,95 @@
+
+[BANNER_IMG = d:/ymir work/ui/game/wiki/banner.tga]
+[COLOR=0xffd700;FONT_SIZE=15;Y_PADDING=-10]Ýçerik:
+
+[Y_PADDING=2;FONT_SIZE=14]*1. Genel Bilgiler
+[FONT_SIZE=14]*2. Görevler ve Ödüller
+
+
+[IMG=d:/ymir work/ui/game/wiki/divider_long.tga; Y=115; CENTER_ALIGN]
+
+
+[COLOR=0xffd700; Y_PADDING=15; CENTER_ALIGN; FONT_SIZE=18]1. Genel Bilgiler
+
+[Y_PADDING=10;X_PADDING = 55;FONT_SIZE=14]*Biyolog paneli mini haritanýn üzerindedir.
+[Y_PADDING=2;X_PADDING = 55;FONT_SIZE=14]*Biyolog için gerekli eþyalarý maðazadan temin edebilirsiniz.
+[Y_PADDING=2;X_PADDING = 55;FONT_SIZE=14]*Gerekli olan gizemli taþlarý (cüce taþlarýný) maðazadan bulabilirsiniz.
+[IMG=d:/ymir work/ui/minimap/biolog_open_default.tga; Y=170; X=13]
+
+[COLOR=ef4f00;FONT_SIZE=16;Y_PADDING=5;X_PADDING=10]1.1 Özel Nesneler
+[Y_PADDING=10;X_PADDING = 75;FONT_SIZE=14]*Görevlerinizde size yardýmcý olabilecek 2 özel eþya vardýr:
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]*Araþtýrmacýnýn Ýksiri, baþarý þansýnýzý artýrýr.
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]*Milenyum Esansý, bekleme süresini ortadan kaldýrýr.
+[ITEM=71035; IS_LINK=1; Y=239; X=5]
+[ITEM=31031; IS_LINK=1; Y=239; X=35]
+
+[COLOR=ef4f00;FONT_SIZE=16;Y_PADDING=5;X_PADDING=10]1.2 Biyolog Görevleri
+[Y_PADDING=10;X_PADDING = 75;FONT_SIZE=14]*Görevler 30. seviyeden 94. seviyeye kadar devam eder. Tüm görevler,
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]görevi tamamlayan oyuncuya kalýcý bonuslar saðlar. Her görev için
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]gerekli eþyalarý maðazadan kontrol etmeyi unutmayýn.
+
+
+[IMG=d:/ymir work/ui/game/wiki/divider_long.tga; Y=370; CENTER_ALIGN]
+
+
+[COLOR=0xffd700; Y_PADDING=15; CENTER_ALIGN; FONT_SIZE=18]2. Görevler ve Ödüller
+
+[COLOR=ef4f00;FONT_SIZE=15;Y_PADDING=5;X_PADDING=10]30. Seviye Biyolog Görevi
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Eþya: 10x Ork Diþi
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Bekleme süresi: 0 Dakika
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Ödül: %10 Hareket Hýzý Artýþý
+[ITEM=30006; IS_LINK=1; Y=442; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]40. Seviye Biyolog Görevi
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Eþya: 15x Lanet Kitabý
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Bekleme süresi: 0 Dakika
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Ödül: %5 Saldýrý Hýzý Artýþý
+[ITEM=30047; IS_LINK=1; Y=507; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]50. Seviye Biyolog Görevi
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Eþya: 15x Þeytanýn Hatýrasý
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Bekleme süresi: 5 Dakika
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Ödül: +60 Savunma
+[ITEM=30015; IS_LINK=1; Y=573; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]60. Seviye Biyolog Görevi
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Eþya: 20x Buz Mermeri
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Bekleme süresi: 10 Dakika
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Ödül: +50 Saldýrý Gücü
+[ITEM=30050; IS_LINK=1; Y=640; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]70. Seviye Biyolog Görevi
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Eþya: 25x Zelkova Dalý
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Bekleme süresi: 15 Dakika
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Ödül: %10 Hareket Hýzý Artýþý | %10 Hasar Azaltma (savunma deðil)
+[ITEM=30165; IS_LINK=1; Y=705; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]80. Seviye Biyolog Görevi
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Eþya: 30x Tugyi'nin Tablet'i
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Bekleme süresi: 20 Dakika
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Ödül: %6 Saldýrý Hýzý Artýþý | %10 Saldýrý Gücü Artýþý
+[ITEM=30166; IS_LINK=1; Y=770; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]85. Seviye Biyolog Görevi
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Eþya: 40x Kýrmýzý Hayalet Aðacý Dalý
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Bekleme süresi: 25 Dakika
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Ödül: Diðer oyunculardan gelen hasarda %10 azalma
+[ITEM=30167; IS_LINK=1; Y=838; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]90. Seviye Biyolog Görevi
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Eþya: 50x Liderin Notlarý
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Bekleme süresi: 30 Dakika
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Ödül: Diðer oyunculara karþý %8 daha fazla hasar
+[ITEM=30168; IS_LINK=1; Y=902; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]92. Seviye Biyolog Görevi
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Eþya: 10x Kem Göz Mücevheri
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Bekleme süresi: 35 Dakika
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Ödül: Maks. HP +1200 | +120 Savunma | +50 Saldýrý Gücü
+[ITEM=30251; IS_LINK=1; Y=970; X=10]
+
+[COLOR=ef4f00;FONT_SIZE=15;;X_PADDING=10]94. Seviye Biyolog Görevi
+[Y_PADDING=8;X_PADDING = 55;FONT_SIZE=13]*Eþya: 20x Bilgelik Mücevheri
+[Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Bekleme süresi: 40 Dakika
+[COLOR=0x83E889;Y_PADDING=1;X_PADDING = 55;FONT_SIZE=13]*Ödül: Maks. HP +1500 | +140 Savunma | +60 Saldýrý Gücü
+[ITEM=30252; IS_LINK=1; Y=1035; X=10]

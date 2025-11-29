@@ -1,0 +1,18 @@
+
+[BANNER_IMG = d:/ymir work/ui/game/wiki/banner.tga]
+
+[Y_PADDING=10;X_PADDING = 105;FONT_SIZE=14]*Savaþ Bileti paneli mini haritanýn altýndadýr.
+[Y_PADDING=2;X_PADDING = 105;FONT_SIZE=14]*2 tür Savaþ Bileti mevcuttur: Normal ve Premium.
+[Y_PADDING=2;X_PADDING = 105;FONT_SIZE=14]*Her görevin farklý ödülleri vardýr.
+[IMG=d:/ymir work/ui/battle_pass_normal.tga; Y=50; X=13]
+
+[COLOR=ef4f00;FONT_SIZE=16;Y_PADDING=5;X_PADDING=10]1. Normal Savaþ Bileti
+[Y_PADDING=10;X_PADDING = 75;FONT_SIZE=14]*Normal Savaþ Bileti'ý etkinleþtirmek için bir bilete ihtiyacýnýz yoktur.
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]*Normal Savaþ Bileti her ay aktiftir.
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]*Son ödül her ay deðiþir.
+
+[COLOR=ef4f00;FONT_SIZE=16;Y_PADDING=5;X_PADDING=10]2. Premium Savaþ Bileti
+[Y_PADDING=10;X_PADDING = 75;FONT_SIZE=14]*Premium Savaþ Bileti'ý etkinleþtirmek için bir bilete ihtiyacýnýz vardýr.
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]*Bu bilet oyun içinden veya eþya dükkanýndan temin edilir.
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]*Son ödül, Normal Savaþ Bileti'den tamamen farklýdýr.
+[ITEM=93100; IS_LINK=1; Y=185; X=25]

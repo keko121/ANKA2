@@ -1,0 +1,60 @@
+
+[BANNER_IMG = d:/ymir work/ui/game/wiki/banner.tga]
+[COLOR=0xffd700;FONT_SIZE=15;Y_PADDING=-10]Content:
+
+[Y_PADDING=2;FONT_SIZE=14]*1. General
+[FONT_SIZE=14]*2. Color the skills
+
+
+[IMG=d:/ymir work/ui/game/wiki/divider_long.tga; Y=115; CENTER_ALIGN]
+
+
+[COLOR=0xffd700; Y_PADDING=15; CENTER_ALIGN; FONT_SIZE=18]1. General
+
+[Y_PADDING=10;X_PADDING = 55;FONT_SIZE=14]*To color skills, they must be at Perfect (P) rank and your
+[Y_PADDING=2;X_PADDING = 55;FONT_SIZE=14]character must be Premium.
+[IMG=d:/ymir work/ui/skillcolor/skill_color_button_default.tga; Y=167; X=25]
+
+[COLOR=ef4f00;FONT_SIZE=16;Y_PADDING=5;X_PADDING=10]1.1 Special objects
+[Y_PADDING=10;X_PADDING = 75;FONT_SIZE=14]*There are 3 special items that can help you unlock colors:
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]*Premium ticket that has a duration of 7, 14 or 30 days.
+[Y_PADDING=2;X_PADDING = 75;FONT_SIZE=14]*This item can be found in the item shop.
+[ITEM=90013; IS_LINK=1; Y=225; X=5]
+[ITEM=90015; IS_LINK=1; Y=225; X=35]
+
+
+[IMG=d:/ymir work/ui/game/wiki/divider_long.tga; Y=285; CENTER_ALIGN]
+
+
+[COLOR=0xffd700; Y_PADDING=15; CENTER_ALIGN; FONT_SIZE=18]2. Color the skills
+
+[Y_PADDING=10;X_PADDING = 32;FONT_SIZE=14]*Using the color palette you can customize the color of any skill. After unlocking the
+[Y_PADDING=2;X_PADDING = 32;FONT_SIZE=14]color palette, press the button shown above and customize the skill.
+
+[IMG=d:/ymir work/ui/game/wiki/emoji/skillcolor.tga; Y=380; CENTER_ALIGN]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Y_PADDING=10;X_PADDING = 32;FONT_SIZE=14]*If you change only one of the 5 colors, it does not mean that the appearance will be
+[Y_PADDING=2;X_PADDING = 32;FONT_SIZE=14]exactly that color. Only one part will be changed, so start playing with the colors.
+
+[Y_PADDING=10;X_PADDING = 32;FONT_SIZE=14]*You have the option to reset the color to the classic skill color at any time.

@@ -172,11 +172,8 @@ int main(int argc, char* argv[]) {
     Converter converter;
     
     if (args.batch) {
-        // Batch mod
-        if (args.output.empty()) {
-            args.output = "./output";
-        }
-        int count = converter.ConvertDirectory(args.input, args.output, args.options);
+        // Batch mod: output parametresi YOK SAYILIR, her dosya kendi dizinine yazılır
+        int count = converter.ConvertDirectory(args.input, "", args.options);
         return (count > 0) ? 0 : 1;
     } else {
         // Tek dosya

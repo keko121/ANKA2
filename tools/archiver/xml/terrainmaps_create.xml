@@ -1,0 +1,4 @@
+<ScriptFile>
+	<CreateEterPack ArchivePath="../../Client/pack/terrainmaps" BuildKeyfile="false" >
+	</CreateEterPack>
+</ScriptFile>

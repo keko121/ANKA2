@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BD38266E-CAB6-3B6D-8CE0-8176E3FA7338}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>tinygltf-populate</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\CMakeFiles\dffebd550f32b474b4a5297872c777ba\tinygltf-populate-mkdir.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Creating directories for 'tinygltf-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/tmp/tinygltf-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/src/tinygltf-populate-stamp/Debug/tinygltf-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\tinygltf-populate-prefix\src\tinygltf-populate-stamp\Debug\tinygltf-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\CMakeFiles\dffebd550f32b474b4a5297872c777ba\tinygltf-populate-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing download step (git clone) for 'tinygltf-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/tmp/tinygltf-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/src/tinygltf-populate-stamp/Debug/tinygltf-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\tinygltf-populate-prefix\src\tinygltf-populate-stamp\tinygltf-populate-gitinfo.txt;D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\tinygltf-populate-prefix\src\tinygltf-populate-stamp\Debug\tinygltf-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\tinygltf-populate-prefix\src\tinygltf-populate-stamp\Debug\tinygltf-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\CMakeFiles\dffebd550f32b474b4a5297872c777ba\tinygltf-populate-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing update step for 'tinygltf-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-src
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/tmp/tinygltf-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\tinygltf-populate-prefix\tmp\tinygltf-populate-gitupdate.cmake;D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\tinygltf-populate-prefix\src\tinygltf-populate-stamp\tinygltf-populate-update-info.txt;D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\tinygltf-populate-prefix\src\tinygltf-populate-stamp\Debug\tinygltf-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\tinygltf-populate-prefix\src\tinygltf-populate-stamp\Debug\tinygltf-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\CMakeFiles\dffebd550f32b474b4a5297872c777ba\tinygltf-populate-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No patch step for 'tinygltf-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/src/tinygltf-populate-stamp/Debug/tinygltf-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\tinygltf-populate-prefix\src\tinygltf-populate-stamp\tinygltf-populate-patch-info.txt;D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\tinygltf-populate-prefix\src\tinygltf-populate-stamp\Debug\tinygltf-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\tinygltf-populate-prefix\src\tinygltf-populate-stamp\Debug\tinygltf-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\CMakeFiles\dffebd550f32b474b4a5297872c777ba\tinygltf-populate-configure.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No configure step for 'tinygltf-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/src/tinygltf-populate-stamp/Debug/tinygltf-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\tinygltf-populate-prefix\tmp\tinygltf-populate-cfgcmd.txt;D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\tinygltf-populate-prefix\src\tinygltf-populate-stamp\Debug\tinygltf-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\tinygltf-populate-prefix\src\tinygltf-populate-stamp\Debug\tinygltf-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\CMakeFiles\dffebd550f32b474b4a5297872c777ba\tinygltf-populate-build.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No build step for 'tinygltf-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/src/tinygltf-populate-stamp/Debug/tinygltf-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\tinygltf-populate-prefix\src\tinygltf-populate-stamp\Debug\tinygltf-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\tinygltf-populate-prefix\src\tinygltf-populate-stamp\Debug\tinygltf-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\CMakeFiles\dffebd550f32b474b4a5297872c777ba\tinygltf-populate-install.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No install step for 'tinygltf-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/src/tinygltf-populate-stamp/Debug/tinygltf-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\tinygltf-populate-prefix\src\tinygltf-populate-stamp\Debug\tinygltf-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\tinygltf-populate-prefix\src\tinygltf-populate-stamp\Debug\tinygltf-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\CMakeFiles\dffebd550f32b474b4a5297872c777ba\tinygltf-populate-test.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No test step for 'tinygltf-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/src/tinygltf-populate-stamp/Debug/tinygltf-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\tinygltf-populate-prefix\src\tinygltf-populate-stamp\Debug\tinygltf-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\tinygltf-populate-prefix\src\tinygltf-populate-stamp\Debug\tinygltf-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\CMakeFiles\414bf09ec7b497871bc924e42a5b556c\tinygltf-populate-complete.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Completed 'tinygltf-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-subbuild/CMakeFiles/Debug/tinygltf-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-subbuild/tinygltf-populate-prefix/src/tinygltf-populate-stamp/Debug/tinygltf-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\tinygltf-populate-prefix\src\tinygltf-populate-stamp\Debug\tinygltf-populate-install;D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\tinygltf-populate-prefix\src\tinygltf-populate-stamp\Debug\tinygltf-populate-mkdir;D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\tinygltf-populate-prefix\src\tinygltf-populate-stamp\Debug\tinygltf-populate-download;D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\tinygltf-populate-prefix\src\tinygltf-populate-stamp\Debug\tinygltf-populate-update;D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\tinygltf-populate-prefix\src\tinygltf-populate-stamp\Debug\tinygltf-populate-patch;D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\tinygltf-populate-prefix\src\tinygltf-populate-stamp\Debug\tinygltf-populate-configure;D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\tinygltf-populate-prefix\src\tinygltf-populate-stamp\Debug\tinygltf-populate-build;D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\tinygltf-populate-prefix\src\tinygltf-populate-stamp\Debug\tinygltf-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\CMakeFiles\Debug\tinygltf-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\CMakeFiles\dcae02fcbfe25b552dc417ee8d27d900\tinygltf-populate.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\CMakeFiles\Debug\tinygltf-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\CMakeFiles\tinygltf-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-subbuild -BD:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-subbuild --check-stamp-file D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-4.0\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\CMakeFiles\4.0.3\CMakeSystem.cmake;D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\tinygltf-populate-prefix\tmp\tinygltf-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\CMakeFiles\tinygltf-populate">
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\ANKA2\Anka2Project-main\Tools\gr2togltf\build\_deps\tinygltf-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{F83AD145-DC4E-3246-852B-693997BA1796}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
