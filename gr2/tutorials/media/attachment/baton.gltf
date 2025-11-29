@@ -1,0 +1,165 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 84,
+      "max": [
+        0.6007280349731445,
+        6.462622165679932,
+        0.6007280945777893
+      ],
+      "min": [
+        -0.6007281541824341,
+        -6.462622165679932,
+        -0.6007282733917236
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 84,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 84,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 240,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 1,
+      "type": "MAT4"
+    }
+  ],
+  "asset": {
+    "generator": "gr2togltf (ANKA2 Project)",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1008,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1008,
+      "byteOffset": 1008,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 672,
+      "byteOffset": 2016,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 480,
+      "byteOffset": 2688,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 64,
+      "byteOffset": 3168
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 3232,
+      "uri": "data:application/octet-stream;base64,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UQBSACkAUABRACkATwBQACkATgBPACkATQBOACkATABNACkASwBMACkASgBLACkASQBKACkASABJACkARwBIACkARgBHACkARQBGACkARABFACkAQwBEACkAQgBDACkAQQBCACkAQABBACkALQA/ACgAPwA+ACgAPgA9ACgAPQA8ACgAPAA7ACgAOwA6ACgAOgA5ACgAOQA4ACgAOAA3ACgANwA2ACgANgA1ACgANQA0ACgANAAzACgAMwAyACgAMgAxACgAMQAwACgAMAAvACgALwAuACgALgAsACgALAAtACgAJwAqACsAEwAqACcAJgATACcAEgATACYAJQASACYAEQASACUAJAARACUAEAARACQAIwAQACQADwAQACMAIgAPACMADgAPACIAIQAOACIADQAOACEAIAANACEADAANACAAHwAMACAACwAMAB8AHgALAB8ACgALAB4AHQAKAB4ACQAKAB0AHAAJAB0ACAAJABwAGwAIABwABwAIABsAGgAHABsABgAHABoAGQAGABoABQAGABkAGAAFABkABAAFABgAFwAEABgAAwAEABcAFgADABcAAgADABYAFQACABYAAQACABUAFAABABUAAAABABQAAACAPwAAAAAAAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAAAAAACAPw=="
+    }
+  ],
+  "materials": [
+    {
+      "name": "default",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8,
+          0.8,
+          0.8,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "pCylinderShape1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2
+      ]
+    },
+    {
+      "mesh": 0,
+      "name": "pCylinderShape1",
+      "skin": 0
+    },
+    {
+      "name": "pCylinder1",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "skins": [
+    {
+      "inverseBindMatrices": 4,
+      "joints": [
+        2
+      ],
+      "skeleton": 2
+    }
+  ]
+}
