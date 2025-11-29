@@ -1,0 +1,240 @@
+# ============================================================================
+# ANKA2 - Production Deploy Workflow
+# ============================================================================
+# main branch'e push yapıldığında VPS'e otomatik deploy yapar
+# ============================================================================
+
+name: Deploy to Production
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:  # Manuel tetikleme
+
+env:
+  DEPLOY_PATH: /home/mt2/game
+  BACKUP_PATH: /home/mt2/backups
+
+jobs:
+  # ==========================================================================
+  # Build Job (mevcut build.yml'den devralır)
+  # ==========================================================================
+  build:
+    uses: ./.github/workflows/build.yml
+    secrets: inherit
+
+  # ==========================================================================
+  # Deploy Job
+  # ==========================================================================
+  deploy:
+    name: Deploy to VPS
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # ----------------------------------------------------------------------
+      # Artifacts'ları indir
+      # ----------------------------------------------------------------------
+      - name: Download server artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: server-binaries
+          path: ./artifacts/server
+
+      # ----------------------------------------------------------------------
+      # SSH Key kurulumu
+      # ----------------------------------------------------------------------
+      - name: Setup SSH
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.VPS_SSH_KEY }}
+
+      - name: Add VPS to known hosts
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan -H ${{ secrets.VPS_HOST }} >> ~/.ssh/known_hosts
+
+      # ----------------------------------------------------------------------
+      # Pre-deploy: Sunucuyu durdur ve backup al
+      # ----------------------------------------------------------------------
+      - name: Stop server and create backup
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          script: |
+            echo "=== Stopping game server ==="
+            cd ${{ env.DEPLOY_PATH }}
+            ./stop.sh || true
+            sleep 5
+            
+            echo "=== Creating backup ==="
+            BACKUP_NAME="backup_$(date +%Y%m%d_%H%M%S)"
+            mkdir -p ${{ env.BACKUP_PATH }}
+            tar -czf "${{ env.BACKUP_PATH }}/${BACKUP_NAME}.tar.gz" \
+              --exclude='*.log' \
+              --exclude='log/*' \
+              ./game ./db
+            
+            echo "=== Backup created: ${BACKUP_NAME} ==="
+            
+            # Eski backup'ları temizle (7 günden eski)
+            find ${{ env.BACKUP_PATH }} -name "backup_*.tar.gz" -mtime +7 -delete
+
+      # ----------------------------------------------------------------------
+      # Deploy: Dosyaları kopyala
+      # ----------------------------------------------------------------------
+      - name: Deploy files
+        run: |
+          rsync -avz --progress \
+            --exclude='*.log' \
+            --exclude='log/' \
+            --exclude='*.pid' \
+            ./artifacts/server/ \
+            ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}:${{ env.DEPLOY_PATH }}/
+
+      # ----------------------------------------------------------------------
+      # Post-deploy: İzinleri ayarla ve sunucuyu başlat
+      # ----------------------------------------------------------------------
+      - name: Start server
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          script: |
+            echo "=== Setting permissions ==="
+            cd ${{ env.DEPLOY_PATH }}
+            chmod +x game db *.sh
+            
+            echo "=== Starting game server ==="
+            ./start.sh
+            sleep 10
+            
+            echo "=== Checking server status ==="
+            if pgrep -f "game" > /dev/null; then
+              echo "✅ Game server is running"
+            else
+              echo "❌ Game server failed to start"
+              exit 1
+            fi
+            
+            if pgrep -f "db" > /dev/null; then
+              echo "✅ DB server is running"
+            else
+              echo "❌ DB server failed to start"
+              exit 1
+            fi
+
+      # ----------------------------------------------------------------------
+      # Health Check
+      # ----------------------------------------------------------------------
+      - name: Health check
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          script: |
+            echo "=== Running health check ==="
+            
+            # Port kontrolleri
+            for port in 13000 13001 13002 13099; do
+              if netstat -tuln | grep -q ":${port}"; then
+                echo "✅ Port ${port} is listening"
+              else
+                echo "⚠️ Port ${port} is NOT listening"
+              fi
+            done
+            
+            # Process kontrolleri
+            echo ""
+            echo "=== Process list ==="
+            ps aux | grep -E "(game|db)" | grep -v grep
+
+  # ==========================================================================
+  # Rollback Job (manual trigger)
+  # ==========================================================================
+  rollback:
+    name: Rollback to Previous Version
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch'
+    
+    steps:
+      - name: Setup SSH
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.VPS_SSH_KEY }}
+
+      - name: Add VPS to known hosts
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan -H ${{ secrets.VPS_HOST }} >> ~/.ssh/known_hosts
+
+      - name: Rollback
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          script: |
+            echo "=== Finding latest backup ==="
+            LATEST_BACKUP=$(ls -t ${{ env.BACKUP_PATH }}/backup_*.tar.gz | head -1)
+            
+            if [ -z "$LATEST_BACKUP" ]; then
+              echo "❌ No backup found!"
+              exit 1
+            fi
+            
+            echo "Rolling back to: $LATEST_BACKUP"
+            
+            echo "=== Stopping server ==="
+            cd ${{ env.DEPLOY_PATH }}
+            ./stop.sh || true
+            sleep 5
+            
+            echo "=== Restoring backup ==="
+            tar -xzf "$LATEST_BACKUP" -C ${{ env.DEPLOY_PATH }}
+            
+            echo "=== Starting server ==="
+            ./start.sh
+            sleep 10
+            
+            if pgrep -f "game" > /dev/null; then
+              echo "✅ Rollback completed successfully"
+            else
+              echo "❌ Rollback failed - server not running"
+              exit 1
+            fi
+
+  # ==========================================================================
+  # Notification
+  # ==========================================================================
+  notify:
+    name: Send Notification
+    needs: [deploy]
+    runs-on: ubuntu-latest
+    if: always()
+    
+    steps:
+      - name: Notify on success
+        if: needs.deploy.result == 'success'
+        run: |
+          echo "✅ Deploy başarılı!"
+          # Discord/Slack webhook burada eklenebilir
+          # curl -X POST -H "Content-Type: application/json" \
+          #   -d '{"content": "✅ ANKA2 deploy başarılı!"}' \
+          #   ${{ secrets.DISCORD_WEBHOOK }}
+
+      - name: Notify on failure
+        if: needs.deploy.result == 'failure'
+        run: |
+          echo "❌ Deploy başarısız!"
+          # curl -X POST -H "Content-Type: application/json" \
+          #   -d '{"content": "❌ ANKA2 deploy başarısız!"}' \
+          #   ${{ secrets.DISCORD_WEBHOOK }}
