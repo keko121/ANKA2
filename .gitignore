@@ -45,3 +45,7 @@
 *.db-shm
 *.db-wal
 *.db-wal
+home/main/auth/auth
+home/main/channels/*/game
+*.pdb
+*.ilk
