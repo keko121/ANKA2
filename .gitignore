@@ -49,3 +49,5 @@ home/main/auth/auth
 home/main/channels/*/game
 *.pdb
 *.ilk
+Anka2Project-main.rar
+Source/Binary/extern/include/cryptopp/Win32/Output/Debug/cryptest.ilk
