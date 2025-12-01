@@ -8,6 +8,7 @@
 
 #ifdef ENABLE_EXTEND_ITEM_AWARD
 #include <cfloat>
+#include <cmath>
 #include <algorithm>
 inline double uniform_random(const double a, const double b)
 {
