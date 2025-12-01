@@ -1,6 +1,7 @@
 #include "../../common/service.h"
 #include "stdafx.h"
 #include <fstream>
+#include <iterator>
 #include "constants.h"
 #include "buffer_manager.h"
 #include "packet.h"
