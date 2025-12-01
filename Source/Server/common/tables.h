@@ -3,6 +3,15 @@
 
 #include "length.h"
 #include "service.h"
+#include <cstring>
+
+// Linux compatibility: strlcpy is BSD-specific
+#if defined(__linux__) && !defined(strlcpy)
+#define strlcpy(dst, src, size) do { \
+    strncpy(dst, src, (size) - 1); \
+    (dst)[(size) - 1] = '\0'; \
+} while(0)
+#endif
 
 typedef DWORD IDENT;
 

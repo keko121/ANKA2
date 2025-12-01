@@ -141,19 +141,24 @@ jobs:
     - name: 🔧 Setup MSBuild
       uses: microsoft/setup-msbuild@v2
 
-    - name: 🔨 Build FoxFS Dependencies (lz4, xxhash)
-      working-directory: Source/FoxFS_Src
+    - name: 🔧 Setup Visual Studio Environment
+      uses: ilammy/msvc-dev-cmd@v1
+      with:
+        arch: x86
+
+    - name: 🔨 Compile lz4 and xxhash as .obj files
       run: |
-        msbuild lz4/lz4.vcxproj /p:Configuration=Release /p:Platform=Win32 /v:minimal
-        msbuild xxhash/xxhash.vcxproj /p:Configuration=Release /p:Platform=Win32 /v:minimal
+        # Create extern/library directory if not exists
+        New-Item -ItemType Directory -Path "Source/Binary/extern/library" -Force
         
-    - name: 📦 Copy FoxFS Libraries to Client
-      run: |
-        # Copy lz4 and xxhash obj files to Binary/extern/library
-        Copy-Item -Path "Source/FoxFS_Src/Extern/library/lz4.obj" -Destination "Source/Binary/extern/library/" -Force -ErrorAction SilentlyContinue
-        Copy-Item -Path "Source/FoxFS_Src/Extern/library/xxhash.obj" -Destination "Source/Binary/extern/library/" -Force -ErrorAction SilentlyContinue
-        # List what we have
-        Get-ChildItem -Path "Source/Binary/extern/library/" -ErrorAction SilentlyContinue
+        # Compile lz4.c to lz4.obj
+        cl.exe /c /O2 /MT /W3 /DWIN32 /D_LIB "Source/FoxFS_Src/lz4/lz4.c" /Fo"Source/Binary/extern/library/lz4.obj"
+        
+        # Compile xxhash.c to xxhash.obj
+        cl.exe /c /O2 /MT /W3 /DWIN32 /D_LIB "Source/FoxFS_Src/xxhash/xxhash.c" /Fo"Source/Binary/extern/library/xxhash.obj"
+        
+        # Verify files exist
+        Get-ChildItem -Path "Source/Binary/extern/library/*.obj"
 
     - name: 🔨 Build Client (Release)
       working-directory: Source/Binary

@@ -4,6 +4,7 @@
 #include <unordered_map>
 #include <unordered_set>
 #include <chrono>
+#include <memory>
 
 #include "../../common/stl.h"
 #include "../../common/tables.h"
