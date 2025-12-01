@@ -45,35 +45,7 @@
 #define IN
 #define OUT
 
-// Linux compatibility: strlcpy and strlcat are BSD-specific
-#if defined(__linux__)
-#include <cstring>
-#ifndef strlcpy
-inline size_t strlcpy(char *dst, const char *src, size_t size) {
-    size_t srclen = strlen(src);
-    if (size > 0) {
-        size_t copylen = (srclen >= size) ? size - 1 : srclen;
-        memcpy(dst, src, copylen);
-        dst[copylen] = '\0';
-    }
-    return srclen;
-}
-#endif
-#ifndef strlcat
-inline size_t strlcat(char *dst, const char *src, size_t size) {
-    size_t srclen = strlen(src);
-    size_t dstlen = strlen(dst);
-    if (dstlen >= size) return size + srclen;
-    if (srclen < size - dstlen) {
-        memcpy(dst + dstlen, src, srclen + 1);
-    } else {
-        memcpy(dst + dstlen, src, size - dstlen - 1);
-        dst[size - 1] = '\0';
-    }
-    return dstlen + srclen;
-}
-#endif
-#endif
+
 
 #ifdef ENABLE_TELEPORT_TO_A_FRIEND
 	#include <chrono>
