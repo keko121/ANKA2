@@ -46,19 +46,6 @@ jobs:
           path: ./artifacts/server
 
       # ----------------------------------------------------------------------
-      # SSH Key kurulumu
-      # ----------------------------------------------------------------------
-      - name: Setup SSH
-        uses: webfactory/ssh-agent@v0.9.0
-        with:
-          ssh-private-key: ${{ secrets.VPS_SSH_KEY }}
-
-      - name: Add VPS to known hosts
-        run: |
-          mkdir -p ~/.ssh
-          ssh-keyscan -H ${{ secrets.VPS_HOST }} >> ~/.ssh/known_hosts
-
-      # ----------------------------------------------------------------------
       # Pre-deploy: Sunucuyu durdur ve backup al
       # ----------------------------------------------------------------------
       - name: Stop server and create backup
@@ -66,7 +53,7 @@ jobs:
         with:
           host: ${{ secrets.VPS_HOST }}
           username: ${{ secrets.VPS_USER }}
-          key: ${{ secrets.VPS_SSH_KEY }}
+          password: ${{ secrets.VPS_PASSWORD }}
           script: |
             echo "=== Stopping game server ==="
             cd ${{ env.DEPLOY_PATH }}
@@ -91,7 +78,9 @@ jobs:
       # ----------------------------------------------------------------------
       - name: Deploy files
         run: |
-          rsync -avz --progress \
+          sudo apt-get update && sudo apt-get install -y sshpass
+          sshpass -p '${{ secrets.VPS_PASSWORD }}' rsync -avz --progress \
+            -e 'ssh -o StrictHostKeyChecking=no' \
             --exclude='*.log' \
             --exclude='log/' \
             --exclude='*.pid' \
@@ -106,7 +95,7 @@ jobs:
         with:
           host: ${{ secrets.VPS_HOST }}
           username: ${{ secrets.VPS_USER }}
-          key: ${{ secrets.VPS_SSH_KEY }}
+          password: ${{ secrets.VPS_PASSWORD }}
           script: |
             echo "=== Setting permissions ==="
             cd ${{ env.DEPLOY_PATH }}
@@ -139,7 +128,7 @@ jobs:
         with:
           host: ${{ secrets.VPS_HOST }}
           username: ${{ secrets.VPS_USER }}
-          key: ${{ secrets.VPS_SSH_KEY }}
+          password: ${{ secrets.VPS_PASSWORD }}
           script: |
             echo "=== Running health check ==="
             
