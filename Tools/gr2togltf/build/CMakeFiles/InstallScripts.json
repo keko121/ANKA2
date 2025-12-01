@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/cmake_install.cmake",
-		"D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-build/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

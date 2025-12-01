@@ -1,3 +1,0 @@
-D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-subbuild/CMakeFiles/tinygltf-populate.dir
-D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-subbuild/CMakeFiles/ALL_BUILD.dir
-D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-subbuild/CMakeFiles/ZERO_CHECK.dir

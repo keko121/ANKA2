@@ -51,3 +51,5 @@ home/main/channels/*/game
 *.ilk
 Anka2Project-main.rar
 Source/Binary/extern/include/cryptopp/Win32/Output/Debug/cryptest.ilk
+
+Tools/gr2togltf/build/

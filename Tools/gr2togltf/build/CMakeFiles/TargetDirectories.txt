@@ -1,9 +1,0 @@
-D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/CMakeFiles/gr2togltf.dir
-D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/CMakeFiles/test_convert.dir
-D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/CMakeFiles/INSTALL.dir
-D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/CMakeFiles/ALL_BUILD.dir
-D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/CMakeFiles/ZERO_CHECK.dir
-D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-build/CMakeFiles/loader_example.dir
-D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-build/CMakeFiles/tinygltf.dir
-D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-build/CMakeFiles/INSTALL.dir
-D:/ANKA2/Anka2Project-main/Tools/gr2togltf/build/_deps/tinygltf-build/CMakeFiles/ALL_BUILD.dir
