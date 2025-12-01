@@ -47,36 +47,54 @@ jobs:
       working-directory: Source/Server/library/libthecore/src
       run: |
         make clean || true
+        rm -f Depend
+        touch Depend
+        make dep || true
         make -j$(nproc)
 
     - name: 🔨 Build libsql
       working-directory: Source/Server/library/libsql
       run: |
         make clean || true
+        rm -f Depend
+        touch Depend
+        make dep || true
         make -j$(nproc)
 
     - name: 🔨 Build libgame
       working-directory: Source/Server/library/libgame/src
       run: |
         make clean || true
+        rm -f Depend
+        touch Depend
+        make dep || true
         make -j$(nproc)
 
     - name: 🔨 Build libpoly
       working-directory: Source/Server/library/libpoly
       run: |
         make clean || true
+        rm -f Depend
+        touch Depend
+        make dep || true
         make -j$(nproc)
 
     - name: 🔨 Build DB Server
       working-directory: Source/Server/db/src
       run: |
         make clean || true
+        rm -f Depend
+        touch Depend
+        make dep || true
         make -j$(nproc)
 
     - name: 🔨 Build Game Server
       working-directory: Source/Server/game/src
       run: |
         make clean || true
+        rm -f Depend
+        touch Depend
+        make dep || true
         make -j$(nproc)
 
     - name: 🧪 Run Smoke Tests

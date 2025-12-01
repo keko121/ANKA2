@@ -25,15 +25,13 @@
 #include <vector>
 #include <memory>
 
-#ifdef USE_ASSIMP_LOADER
-// Forward declarations for Assimp types
+// Forward declarations for Assimp types (always needed for class definition)
 struct aiScene;
 struct aiNode;
 struct aiMesh;
 struct aiMaterial;
 struct aiBone;
 struct aiAnimation;
-#endif
 
 class CGrannyModel;
 class CGrannyMesh;
