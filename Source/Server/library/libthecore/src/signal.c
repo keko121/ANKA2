@@ -4,15 +4,17 @@
  *
  *      Author: �� aka. Cronan
  */
-#define __LIBTHECORE__
-#include "stdafx.h"
 
-// Ensure signal definitions are available on Linux
+// Ensure signal definitions are available on Linux BEFORE any other includes
 #if defined(__linux__)
 #include <signal.h>
 #include <sys/wait.h>
 #include <sys/time.h>
+#include <unistd.h>
 #endif
+
+#define __LIBTHECORE__
+#include "stdafx.h"
 
 #ifdef __WIN32__
 void signal_setup() {}
