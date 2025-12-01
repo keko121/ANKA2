@@ -1,8 +1,8 @@
 /*
  *    Filename: socket.c
- * Description: ¼ÒÄÏ °ü·Ã ¼Ò½º.
+ * Description: ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ò½ï¿½.
  *
- *      Author: ºñ¿± aka. Cronan
+ *      Author: ï¿½ï¿½ aka. Cronan
  */
 #define __LIBTHECORE__
 #include "stdafx.h"
@@ -33,7 +33,7 @@ int socket_read(socket_t desc, char* read_point, size_t space_left)
     if (ret > 0)
 	return ret;
 
-    if (ret == 0)	// Á¤»óÀûÀ¸·Î Á¢¼Ó ²÷±è
+    if (ret == 0)	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 	return -1;
 
 #ifdef EINTR            /* Interrupted system call - various platforms */
@@ -73,7 +73,7 @@ int socket_write_tcp(socket_t desc, const char *txt, int length)
 {
     int bytes_written = send(desc, txt, length, 0);
 
-    // ¼º°ø
+    // ï¿½ï¿½ï¿½ï¿½
     if (bytes_written > 0)
 	return (bytes_written);
 
@@ -126,7 +126,7 @@ int socket_write(socket_t desc, const char *data, size_t length)
 	    if (errno == EAGAIN)
 		sys_err("socket write would block, about to close!");
 	    else
-		sys_err("write to desc error");   // 'º¸Åë' »ó´ëÆíÀ¸·Î ºÎÅÍ Á¢¼ÓÀÌ ²÷±ä °ÍÀÌ´Ù.
+		sys_err("write to desc error");   // 'ï¿½ï¿½ï¿½ï¿½' ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ì´ï¿½.
 
 	    return -1;
 	}
@@ -169,8 +169,8 @@ int socket_bind(const char * ip, int port, int protocol)
 
     memset(&sa, 0, sizeof(sa));
     sa.sin_family	= AF_INET;
-//À©µµ¿ì ¼­¹ö´Â °³¹ß¿ëÀ¸·Î¸¸ ¾²±â ¶§¹®¿¡ BIND ip¸¦ INADDR_ANY·Î °íÁ¤
-//(Å×½ºÆ®ÀÇ ÆíÀÇ¼ºÀ» À§ÇØ)
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ß¿ï¿½ï¿½ï¿½ï¿½Î¸ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ BIND ipï¿½ï¿½ INADDR_ANYï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+//(ï¿½×½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½Ç¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½)
 #ifndef __WIN32__
     sa.sin_addr.s_addr	= inet_addr(ip);
 #else
@@ -247,7 +247,7 @@ socket_t socket_connect(const char* host, WORD port)
     struct sockaddr_in  server_addr;
     int                 rslt;
 
-    /* ¼ÒÄÏÁÖ¼Ò ±¸Á¶Ã¼ ÃÊ±âÈ­ */
+    /* ï¿½ï¿½ï¿½ï¿½ï¿½Ö¼ï¿½ ï¿½ï¿½ï¿½ï¿½Ã¼ ï¿½Ê±ï¿½È­ */
     memset(&server_addr, 0, sizeof(server_addr));
 
     if (isdigit(*host))
@@ -262,7 +262,7 @@ socket_t socket_connect(const char* host, WORD port)
 	    return -1;
 	}
 
-	thecore_memcpy((char* ) &server_addr.sin_addr, hp->h_addr, sizeof(server_addr.sin_addr));
+	thecore_memcpy((char* ) &server_addr.sin_addr, hp->h_addr_list[0], sizeof(server_addr.sin_addr));
     }
 
     server_addr.sin_family = AF_INET;
@@ -280,7 +280,7 @@ socket_t socket_connect(const char* host, WORD port)
     socket_timeout(s, 10, 0);
     socket_lingeron(s);
 
-    /*  ¿¬°á¿äÃ» */
+    /*  ï¿½ï¿½ï¿½ï¿½ï¿½Ã» */
     if ((rslt = connect(s, (struct sockaddr *) &server_addr, sizeof(server_addr))) < 0)
     {
 	socket_close(s);

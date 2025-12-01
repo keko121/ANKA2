@@ -5,6 +5,11 @@
  *      Author: Cronan
  */
 
+// _GNU_SOURCE must be defined before any includes for signal constants
+#ifndef _GNU_SOURCE
+#define _GNU_SOURCE
+#endif
+
 // Include signal headers unconditionally for Unix builds
 // These are needed for SIGCHLD, SIGPIPE, SIGTERM, etc.
 #include <signal.h>
