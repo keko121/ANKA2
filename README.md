@@ -1,5 +1,7 @@
 # Anka2 Game Server & Client Projesi
 
+> Last updated: December 1, 2025
+
 ## 📋 Proje Hakkında
 
 Bu proje, Anka2 MMORPG oyunu için geliştirilmiş sunucu ve istemci kaynak kodlarını içermektedir. Proje, modern C++ standartları kullanılarak geliştirilmiş ve optimize edilmiştir.
