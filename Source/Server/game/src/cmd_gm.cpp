@@ -2,6 +2,8 @@
 #include "utils.h"
 #include "config.h"
 #include "desc_client.h"
+#include <memory>
+#include <cstring>
 #include "desc_manager.h"
 #include "char.h"
 #include "char_manager.h"
@@ -1728,7 +1730,7 @@ ACMD(do_set)
 				int amount = 0;
 				str_to_number(amount, arg3);
 				//tch->UpdateAlignment(amount - ch->GetRealAlignment());
-				tch->UpdateAlignment(amount - tch->GetRealAlignment());	//GM'lerin /set karakteradý alignment ile derece verdikleri komutun hata düzeltmesidir.
+				tch->UpdateAlignment(amount - tch->GetRealAlignment());	//GM'lerin /set karakteradï¿½ alignment ile derece verdikleri komutun hata dï¿½zeltmesidir.
 			}
 			break;
 
@@ -4891,8 +4893,8 @@ ACMD(do_BotCharacter)
 	CBotCharacterManager::instance().BotSpawn(ch, spawn_count);
 }
 
-// Empire bazlý bot spawn komutlarý
-ACMD(do_BotSpawnA)  // Kýrmýzý Krallýk (Shinsoo)
+// Empire bazlï¿½ bot spawn komutlarï¿½
+ACMD(do_BotSpawnA)  // Kï¿½rmï¿½zï¿½ Krallï¿½k (Shinsoo)
 {
 	if (!ch)
 		return;
@@ -4908,11 +4910,11 @@ ACMD(do_BotSpawnA)  // Kýrmýzý Krallýk (Shinsoo)
 		return;
 	}
 
-	ch->ChatPacket(CHAT_TYPE_INFO, "Kýrmýzý Krallýk (Shinsoo) botlarý oluþturuluyor...");
+	ch->ChatPacket(CHAT_TYPE_INFO, "Kï¿½rmï¿½zï¿½ Krallï¿½k (Shinsoo) botlarï¿½ oluï¿½turuluyor...");
 	CBotCharacterManager::instance().BotSpawnShinsoo(ch, spawn_count);
 }
 
-ACMD(do_BotSpawnB)  // Sarý Krallýk (Chunjo)
+ACMD(do_BotSpawnB)  // Sarï¿½ Krallï¿½k (Chunjo)
 {
 	if (!ch)
 		return;
@@ -4928,11 +4930,11 @@ ACMD(do_BotSpawnB)  // Sarý Krallýk (Chunjo)
 		return;
 	}
 
-	ch->ChatPacket(CHAT_TYPE_INFO, "Sarý Krallýk (Chunjo) botlarý oluþturuluyor...");
+	ch->ChatPacket(CHAT_TYPE_INFO, "Sarï¿½ Krallï¿½k (Chunjo) botlarï¿½ oluï¿½turuluyor...");
 	CBotCharacterManager::instance().BotSpawnChunjo(ch, spawn_count);
 }
 
-ACMD(do_BotSpawnC)  // Mavi Krallýk (Jinno)
+ACMD(do_BotSpawnC)  // Mavi Krallï¿½k (Jinno)
 {
 	if (!ch)
 		return;
@@ -4948,7 +4950,7 @@ ACMD(do_BotSpawnC)  // Mavi Krallýk (Jinno)
 		return;
 	}
 
-	ch->ChatPacket(CHAT_TYPE_INFO, "Mavi Krallýk (Jinno) botlarý oluþturuluyor...");
+	ch->ChatPacket(CHAT_TYPE_INFO, "Mavi Krallï¿½k (Jinno) botlarï¿½ oluï¿½turuluyor...");
 	CBotCharacterManager::instance().BotSpawnJinno(ch, spawn_count);
 }
 
@@ -4986,15 +4988,15 @@ ACMD(do_BotCharacterTotal)
 	}
 }
 
-// Bot dosyalarýný yeniden yükle
+// Bot dosyalarï¿½nï¿½ yeniden yï¿½kle
 ACMD(do_BotReload)
 {
 	if (!ch)
 		return;
 
-	ch->ChatPacket(CHAT_TYPE_INFO, "Bot dosyalarý yeniden yükleniyor...");
+	ch->ChatPacket(CHAT_TYPE_INFO, "Bot dosyalarï¿½ yeniden yï¿½kleniyor...");
 	CBotCharacterManager::instance().Reload();
-	ch->ChatPacket(CHAT_TYPE_INFO, "Bot dosyalarý baþarýyla yeniden yüklendi!");
-	ch->ChatPacket(CHAT_TYPE_INFO, "Yeni botlar oluþturduðunuzda güncel ayarlar kullanýlacak.");
+	ch->ChatPacket(CHAT_TYPE_INFO, "Bot dosyalarï¿½ baï¿½arï¿½yla yeniden yï¿½klendi!");
+	ch->ChatPacket(CHAT_TYPE_INFO, "Yeni botlar oluï¿½turduï¿½unuzda gï¿½ncel ayarlar kullanï¿½lacak.");
 }
 #endif

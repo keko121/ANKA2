@@ -45,6 +45,23 @@
 #define IN
 #define OUT
 
+// Linux compatibility: strlcat is BSD-specific
+#if defined(__linux__) && !defined(strlcat)
+#include <cstring>
+inline size_t strlcat(char *dst, const char *src, size_t size) {
+    size_t srclen = strlen(src);
+    size_t dstlen = strlen(dst);
+    if (dstlen >= size) return size + srclen;
+    if (srclen < size - dstlen) {
+        memcpy(dst + dstlen, src, srclen + 1);
+    } else {
+        memcpy(dst + dstlen, src, size - dstlen - 1);
+        dst[size - 1] = '\0';
+    }
+    return dstlen + srclen;
+}
+#endif
+
 #ifdef ENABLE_TELEPORT_TO_A_FRIEND
 	#include <chrono>
 	#define CHRONO_steady_clock_point std::chrono::steady_clock::time_point

@@ -3,6 +3,7 @@
 #include "../../common/service.h"
 
 #include <sstream>
+#include <memory>
 #include <ifaddrs.h>
 #include "constants.h"
 #include "utils.h"

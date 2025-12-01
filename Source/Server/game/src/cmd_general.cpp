@@ -78,7 +78,7 @@ ACMD(do_user_horse_ride)
 		// Performans optimizasyonu: GetQuestFlag yerine direkt member variable
 		if (ch->GetHorseCheckerFlag() > 0 && get_global_time() < ch->GetHorseCheckerFlag())
 		{
-			ch->ChatPacket(CHAT_TYPE_INFO, "<Sistem> Lütfen %d saniye bekleyin.", (ch->GetHorseCheckerFlag() - get_global_time()) % 180);
+			ch->ChatPacket(CHAT_TYPE_INFO, "<Sistem> Lï¿½tfen %d saniye bekleyin.", (ch->GetHorseCheckerFlag() - get_global_time()) % 180);
 			return;
 		}
 
@@ -104,7 +104,7 @@ ACMD(do_user_horse_back)
 		// Performans optimizasyonu: GetQuestFlag yerine direkt member variable
 		if (ch->GetHorseCheckerFlag() > 0 && get_global_time() < ch->GetHorseCheckerFlag())
 		{
-			ch->ChatPacket(CHAT_TYPE_INFO, "<Sistem> Lütfen %d saniye bekleyin.", (ch->GetHorseCheckerFlag() - get_global_time()) % 180);
+			ch->ChatPacket(CHAT_TYPE_INFO, "<Sistem> Lï¿½tfen %d saniye bekleyin.", (ch->GetHorseCheckerFlag() - get_global_time()) % 180);
 			return;
 		}
 		ch->SetHorseCheckerFlag(get_global_time() + 3);
@@ -3643,7 +3643,7 @@ ACMD(do_ruhoku)
 #endif
 		)
 	{
-		ch->ChatPacket(CHAT_TYPE_INFO, LC_TEXT("´Ù¸¥ °Å·¡Áß(Ã¢°í,±³È¯,»óÁ¡)¿¡´Â °³ÀÎ»óÁ¡À» »ç¿ëÇÒ ¼ö ¾ø½À´Ï´Ù."));
+		ch->ChatPacket(CHAT_TYPE_INFO, LC_TEXT("ï¿½Ù¸ï¿½ ï¿½Å·ï¿½ï¿½ï¿½(Ã¢ï¿½ï¿½,ï¿½ï¿½È¯,ï¿½ï¿½ï¿½ï¿½)ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½."));
 		return;
 	}
 
@@ -3938,7 +3938,7 @@ ACMD(do_bkoku)
 #endif
 		)
 	{
-		ch->ChatPacket(CHAT_TYPE_INFO, LC_TEXT("´Ù¸¥ °Å·¡Áß(Ã¢°í,±³È¯,»óÁ¡)¿¡´Â °³ÀÎ»óÁ¡À» »ç¿ëÇÒ ¼ö ¾ø½À´Ï´Ù."));
+		ch->ChatPacket(CHAT_TYPE_INFO, LC_TEXT("ï¿½Ù¸ï¿½ ï¿½Å·ï¿½ï¿½ï¿½(Ã¢ï¿½ï¿½,ï¿½ï¿½È¯,ï¿½ï¿½ï¿½ï¿½)ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½."));
 		return;
 	}
 
@@ -4010,7 +4010,7 @@ ACMD(do_bkoku)
 
 		if (item->GetVnum() == 50300)
 		{
-			if (ch->FindAffect(AFFECT_SKILL_NO_BOOK_DELAY) == false && ch->CountSpecifyItem(71001) < 1)
+			if (ch->FindAffect(AFFECT_SKILL_NO_BOOK_DELAY) == nullptr && ch->CountSpecifyItem(71001) < 1)
 			{
 				ch->SkillLearnWaitMoreTimeMessage(ch->GetSkillNextReadTime(skillindex) - get_global_time());
 				return;
@@ -4123,7 +4123,7 @@ ACMD(do_auto_sell)
 
 	if (!*arg1)
 	{
-		ch->ChatPacket(CHAT_TYPE_INFO, "Kullan©¥m: /autosell <0|1>");
+		ch->ChatPacket(CHAT_TYPE_INFO, "Kullanï¿½ï¿½m: /autosell <0|1>");
 		return;
 	}
 
@@ -4132,7 +4132,7 @@ ACMD(do_auto_sell)
 	else if (!strcmp(arg1, "1"))
 		ch->SetAutoSellStatus(false);
 	else
-		ch->ChatPacket(CHAT_TYPE_INFO, "Kullan©¥m: /autosell <0|1>");
+		ch->ChatPacket(CHAT_TYPE_INFO, "Kullanï¿½ï¿½m: /autosell <0|1>");
 }
 #endif
 
