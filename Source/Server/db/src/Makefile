@@ -123,9 +123,7 @@ default: $(TARGET)
 $(TARGET): $(OBJS)
 	@echo -e "${MAGENTA}[BIRLESTIRME]${RESET} ${WHITE}$(TARGET)${RESET} olusturuluyor..."
 	@$(CC) $(CFLAGS) $(LIBDIR) $(OBJS) $(LIBS) -o $(TARGET)
-	@echo -e "${CYAN}[DOSYA TASI]${RESET} ${WHITE}$(DBDIR)${RESET} dizinine tasiniyor..."
-	@mv $(TARGET) $(DBDIR)
-	@echo -e "${GREEN}[TAMAMLANDI]${RESET} DB dosyasi ${WHITE}$(DBDIR)${RESET} dizininde hazir!"
+	@echo -e "${GREEN}[TAMAMLANDI]${RESET} DB dosyasi ${WHITE}$(TARGET)${RESET} hazir!"
 	@echo -e "${BOLD}${CYAN}=== DB SUNUCUSU BASARIYLA DERLENDI ===${RESET}"
 
 $(OBJDIR)/%.o: %.cpp

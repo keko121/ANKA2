@@ -201,9 +201,7 @@ endif
 $(TARGET): $(CPPOBJS) $(COBJS) $(MAINOBJ)
 	@echo -e "${MAGENTA}[BIRLESTIRME]${RESET} ${WHITE}$(TARGET)${RESET} olusturuluyor..."
 	@$(CC) $(CFLAGS) $(LIBDIR) $(COBJS) $(CPPOBJS) $(MAINOBJ) $(LIBS) -o $(TARGET)
-	@echo -e "${CYAN}[DOSYA TASI]${RESET} ${WHITE}$(GAMEDIR)${RESET} dizinine tasiniyor..."
-	@mv $(TARGET) $(GAMEDIR)
-	@echo -e "${GREEN}[TAMAMLANDI]${RESET} Game dosyasi ${WHITE}$(GAMEDIR)${RESET} dizininde hazir!"
+	@echo -e "${GREEN}[TAMAMLANDI]${RESET} Game dosyasi ${WHITE}$(TARGET)${RESET} hazir!"
 
 dump:
 	@$(CC) -dM -E - < /dev/null > .nope.nope
