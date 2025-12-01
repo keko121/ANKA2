@@ -67,7 +67,15 @@ apt-get install -y \
 apt-get install -y \
     libssl-dev:i386 \
     zlib1g-dev:i386 \
+    libmariadb-dev:i386 \
+    libmariadb-dev-compat:i386 \
     || echo -e "${YELLOW}[UYARI]${NC} Bazı 32-bit paketler kurulamadı, devam ediliyor..."
+
+# 32-bit MySQL/MariaDB sembolik linkler
+if [ -f /usr/lib/i386-linux-gnu/libmariadb.so ]; then
+    ln -sf /usr/lib/i386-linux-gnu/libmariadb.so /usr/lib/i386-linux-gnu/libmysqlclient.so 2>/dev/null || true
+    echo "  Created 32-bit libmysqlclient.so symlink"
+fi
 
 echo -e "${YELLOW}[5/5]${NC} Sembolik linkler oluşturuluyor..."
 # clang++ için sembolik link

@@ -83,7 +83,8 @@ LIBS += -lIL -lpng -ltiff -lmng -llcms -ljpeg
 
 # MySQL Veritabani
 ifeq ($(UNAME_S),Linux)
-    INCDIR += -I/usr/include/mysql
+    INCDIR += -I/usr/include/mysql -I/usr/include/mariadb
+    LIBDIR += -L/usr/lib/i386-linux-gnu -L/usr/lib32
     LIBS += -lmysqlclient -lz
 else
     INCDIR += -I/usr/local/include/mysql
@@ -93,7 +94,7 @@ endif
 # >> PROJE KUTUPHANELERI <<
 ifeq ($(UNAME_S),Linux)
     INCDIR += -I/usr/include
-    LIBDIR += -L/usr/lib
+    LIBDIR += -L/usr/lib/i386-linux-gnu -L/usr/lib32
 else
     INCDIR += -I/usr/local/include
     LIBDIR += -L/usr/local/lib
