@@ -63,19 +63,42 @@ apt-get install -y \
     libpng-dev \
     libtiff-dev
 
-# 32-bit kütüphaneler
+# 32-bit kütüphaneler - Tüm gerekli paketler
+echo -e "${YELLOW}[4.5/5]${NC} 32-bit kütüphaneler kuruluyor..."
 apt-get install -y \
     libssl-dev:i386 \
+    libssl3:i386 \
     zlib1g-dev:i386 \
+    zlib1g:i386 \
     libmariadb-dev:i386 \
     libmariadb-dev-compat:i386 \
-    || echo -e "${YELLOW}[UYARI]${NC} Bazı 32-bit paketler kurulamadı, devam ediliyor..."
+    libmariadb3:i386 \
+    2>/dev/null || echo -e "${YELLOW}[UYARI]${NC} Bazı 32-bit paketler kurulamadı"
 
 # 32-bit MySQL/MariaDB sembolik linkler
-if [ -f /usr/lib/i386-linux-gnu/libmariadb.so ]; then
-    ln -sf /usr/lib/i386-linux-gnu/libmariadb.so /usr/lib/i386-linux-gnu/libmysqlclient.so 2>/dev/null || true
-    echo "  Created 32-bit libmysqlclient.so symlink"
+echo "  Creating 32-bit library symlinks..."
+mkdir -p /usr/lib/i386-linux-gnu
+
+# MariaDB -> MySQL symlink
+if [ -f /usr/lib/i386-linux-gnu/libmariadb.so.3 ]; then
+    ln -sf /usr/lib/i386-linux-gnu/libmariadb.so.3 /usr/lib/i386-linux-gnu/libmysqlclient.so 2>/dev/null || true
+    echo "  Created libmysqlclient.so -> libmariadb.so.3"
 fi
+
+# SSL symlinks (if needed)
+if [ -f /usr/lib/i386-linux-gnu/libssl.so.3 ]; then
+    ln -sf /usr/lib/i386-linux-gnu/libssl.so.3 /usr/lib/i386-linux-gnu/libssl.so 2>/dev/null || true
+    echo "  Created libssl.so symlink"
+fi
+
+if [ -f /usr/lib/i386-linux-gnu/libcrypto.so.3 ]; then
+    ln -sf /usr/lib/i386-linux-gnu/libcrypto.so.3 /usr/lib/i386-linux-gnu/libcrypto.so 2>/dev/null || true
+    echo "  Created libcrypto.so symlink"
+fi
+
+# List available 32-bit libraries
+echo "  32-bit libraries available:"
+ls -la /usr/lib/i386-linux-gnu/lib{ssl,crypto,mariadb,z}* 2>/dev/null || echo "  (none found)"
 
 echo -e "${YELLOW}[5/5]${NC} Sembolik linkler oluşturuluyor..."
 # clang++ için sembolik link
