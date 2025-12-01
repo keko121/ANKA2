@@ -1,6 +1,7 @@
 #include "stdafx.h"
 
 #ifdef ENABLE_RENEWAL_BATTLE_PASS
+#include <memory>
 #include "battlepass_manager.h"
 
 #include "p2p.h"

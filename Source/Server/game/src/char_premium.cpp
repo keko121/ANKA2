@@ -1,6 +1,7 @@
 #include "stdafx.h"
 
 #ifdef ENABLE_RENEWAL_PREMIUM_SYSTEM
+#include <memory>
 #include "constants.h"
 #include "utils.h"
 #include "config.h"

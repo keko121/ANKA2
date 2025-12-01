@@ -1,6 +1,7 @@
 #include "stdafx.h"
 
 #include <boost/algorithm/string/predicate.hpp>
+#include <memory>
 
 #include "char.h"
 #include "utils.h"
@@ -369,7 +370,7 @@ void CHARACTER::GetGlobalRank(char * buffer, size_t buflen)
 		else
 			len += len2;
 
-		len2 = snprintf(buffer + len, buflen - len, "%d. Sýra - %s - %d puan.", 
+		len2 = snprintf(buffer + len, buflen - len, "%d. Sï¿½ra - %s - %d puan.", 
 				pos,
 				row[0],
 				points);
