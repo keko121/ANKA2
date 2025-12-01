@@ -8,7 +8,7 @@ name: Deploy to Production
 
 on:
   push:
-    branches: [main]
+    branches: [main, clean-master]
   workflow_dispatch:  # Manuel tetikleme
 
 env:
@@ -30,7 +30,7 @@ jobs:
     name: Deploy to VPS
     needs: build
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/clean-master'
     
     steps:
       - name: Checkout repository
@@ -42,7 +42,7 @@ jobs:
       - name: Download server artifacts
         uses: actions/download-artifact@v4
         with:
-          name: server-binaries
+          name: server-linux-${{ github.sha }}
           path: ./artifacts/server
 
       # ----------------------------------------------------------------------

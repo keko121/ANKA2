@@ -10,9 +10,9 @@ name: Build
 
 on:
   push:
-    branches: [ main, develop ]
+    branches: [ main, develop, clean-master ]
   pull_request:
-    branches: [ main, develop ]
+    branches: [ main, develop, clean-master ]
 
 env:
   BUILD_TYPE: Release
@@ -137,7 +137,7 @@ jobs:
     name: 🚀 Deploy to VPS
     needs: [build-server-linux]
     runs-on: ubuntu-22.04
-    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    if: (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/clean-master') && github.event_name == 'push'
     
     steps:
     - name: 📥 Download Server Artifacts
