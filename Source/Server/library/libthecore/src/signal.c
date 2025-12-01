@@ -5,12 +5,14 @@
  *      Author: �� aka. Cronan
  */
 
-// Ensure signal definitions are available on Linux BEFORE any other includes
-#if defined(__linux__)
+// Ensure signal definitions are available on Unix-like systems
+#ifndef _WIN32
+#ifndef __WIN32__
 #include <signal.h>
 #include <sys/wait.h>
 #include <sys/time.h>
 #include <unistd.h>
+#endif
 #endif
 
 #define __LIBTHECORE__
