@@ -7,6 +7,21 @@
 
 #include "AsyncSQL.h"
 
+// MySQL 8.0+ compatibility: my_bool was removed
+#ifndef my_bool
+#define my_bool bool
+#endif
+
+// Linux compatibility: strlcpy is BSD-specific
+#ifdef __linux__
+#ifndef strlcpy
+#define strlcpy(dst, src, size) do { \
+    strncpy(dst, src, size - 1); \
+    dst[size - 1] = '\0'; \
+} while(0)
+#endif
+#endif
+
 #ifndef __WIN32__
 #define MUTEX_LOCK(mtx) pthread_mutex_lock(mtx)
 #define MUTEX_UNLOCK(mtx) pthread_mutex_unlock(mtx)
