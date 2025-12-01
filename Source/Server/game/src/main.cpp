@@ -56,7 +56,7 @@
 
 // Linux compatibility: optreset is BSD-specific
 #if defined(__linux__) && !defined(optreset)
-#define optreset 0
+static int optreset;
 #endif
 
 #ifdef ENABLE_RENEWAL_SWITCHBOT
