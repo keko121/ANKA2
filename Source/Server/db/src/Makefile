@@ -125,8 +125,9 @@ $(OBJDIR)/%.o: %.cpp
 	@echo -e "[CPP]  ${YELLOW}$<${RESET} -> ${RED}$@${RESET}"
 	@$(CC) $(CFLAGS) $(INCDIR) -c $< -o $@
 ifeq ($(ENABLE_GCC_AUTODEPEND), 1)
-	@$(CC) -MM -MG -MP $(CFLAGS) $(INCDIR) -c $< -o $(OBJDIR)/$*.d
-	@sed -i '' -e's/$*.o:/$(OBJDIR)\/$*.o:/g' $(OBJDIR)/$*.d
+	@$(CC) -MM $(CFLAGS) $(INCDIR) $< > $(OBJDIR)/$*.d.tmp
+	@sed 's|$*.o:|$(OBJDIR)/$*.o:|g' $(OBJDIR)/$*.d.tmp > $(OBJDIR)/$*.d
+	@rm -f $(OBJDIR)/$*.d.tmp
 endif
 
 $(OBJDIR):
