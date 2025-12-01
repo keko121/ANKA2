@@ -120,8 +120,8 @@ jobs:
       with:
         name: server-linux-${{ github.sha }}
         path: |
-          Source/Server/game/src/../game
-          Source/Server/db/src/../db
+          Source/Server/game
+          Source/Server/db
         retention-days: 30
 
   # ===========================================================================
