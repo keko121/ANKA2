@@ -125,53 +125,63 @@ jobs:
         retention-days: 30
 
   # ===========================================================================
-  # CLIENT BUILD (Windows)
+  # CLIENT BUILD (Windows) - DISABLED
   # ===========================================================================
-  build-client-windows:
-    name: 🪟 Client (Windows)
-    runs-on: windows-latest
-    
-    steps:
-    - name: 📥 Checkout
-      uses: actions/checkout@v4
-      with:
-        fetch-depth: 1
-        lfs: false
-
-    - name: 🔧 Setup MSBuild
-      uses: microsoft/setup-msbuild@v2
-
-    - name: 🔧 Setup Visual Studio Environment
-      uses: ilammy/msvc-dev-cmd@v1
-      with:
-        arch: x86
-
-    - name: 🔨 Compile lz4 and xxhash as .obj files
-      run: |
-        # Create extern/library directory if not exists
-        New-Item -ItemType Directory -Path "Source/Binary/extern/library" -Force
-        
-        # Compile lz4.c to lz4.obj
-        cl.exe /c /O2 /MT /W3 /DWIN32 /D_LIB "Source/FoxFS_Src/lz4/lz4.c" /Fo"Source/Binary/extern/library/lz4.obj"
-        
-        # Compile xxhash.c to xxhash.obj
-        cl.exe /c /O2 /MT /W3 /DWIN32 /D_LIB "Source/FoxFS_Src/xxhash/xxhash.c" /Fo"Source/Binary/extern/library/xxhash.obj"
-        
-        # Verify files exist
-        Get-ChildItem -Path "Source/Binary/extern/library/*.obj"
-
-    - name: 🔨 Build Client (Release)
-      working-directory: Source/Binary
-      run: |
-        msbuild client.sln /p:Configuration=Release /p:Platform=Win32 /m /v:minimal
-
-    - name: 📤 Upload Client Artifacts
-      uses: actions/upload-artifact@v4
-      with:
-        name: client-windows-${{ github.sha }}
-        path: |
-          Source/Binary/binary/
-        retention-days: 30
+  # NOTE: Windows client build requires DirectX 8 SDK (legacy) which is not
+  # available on GitHub Actions runners. The d3d8.lib and d3dx8.lib files
+  # must be manually installed from the June 2010 DirectX SDK.
+  # 
+  # To enable this build:
+  # 1. Download DirectX SDK (June 2010) from Microsoft
+  # 2. Add d3d8.lib, d3dx8.lib to Source/Binary/extern/library/
+  # 3. Uncomment the build-client-windows job below
+  # ===========================================================================
+  
+  # build-client-windows:
+  #   name: 🪟 Client (Windows)
+  #   runs-on: windows-latest
+  #   
+  #   steps:
+  #   - name: 📥 Checkout
+  #     uses: actions/checkout@v4
+  #     with:
+  #       fetch-depth: 1
+  #       lfs: false
+  #
+  #   - name: 🔧 Setup MSBuild
+  #     uses: microsoft/setup-msbuild@v2
+  #
+  #   - name: 🔧 Setup Visual Studio Environment
+  #     uses: ilammy/msvc-dev-cmd@v1
+  #     with:
+  #       arch: x86
+  #
+  #   - name: 🔨 Compile lz4 and xxhash as .obj files
+  #     run: |
+  #       # Create extern/library directory if not exists
+  #       New-Item -ItemType Directory -Path "Source/Binary/extern/library" -Force
+  #       
+  #       # Compile lz4.c to lz4.obj
+  #       cl.exe /c /O2 /MT /W3 /DWIN32 /D_LIB "Source/FoxFS_Src/lz4/lz4.c" /Fo"Source/Binary/extern/library/lz4.obj"
+  #       
+  #       # Compile xxhash.c to xxhash.obj
+  #       cl.exe /c /O2 /MT /W3 /DWIN32 /D_LIB "Source/FoxFS_Src/xxhash/xxhash.c" /Fo"Source/Binary/extern/library/xxhash.obj"
+  #       
+  #       # Verify files exist
+  #       Get-ChildItem -Path "Source/Binary/extern/library/*.obj"
+  #
+  #   - name: 🔨 Build Client (Release)
+  #     working-directory: Source/Binary
+  #     run: |
+  #       msbuild client.sln /p:Configuration=Release /p:Platform=Win32 /m /v:minimal
+  #
+  #   - name: 📤 Upload Client Artifacts
+  #     uses: actions/upload-artifact@v4
+  #     with:
+  #       name: client-windows-${{ github.sha }}
+  #       path: |
+  #         Source/Binary/binary/
+  #       retention-days: 30
 
   # ===========================================================================
   # DEPLOY (Sadece main branch)
