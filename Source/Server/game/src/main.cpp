@@ -54,6 +54,11 @@
 #include "skill_power.h"
 #include "DragonSoul.h"
 
+// Linux compatibility: optreset is BSD-specific
+#if defined(__linux__) && !defined(optreset)
+#define optreset 0
+#endif
+
 #ifdef ENABLE_RENEWAL_SWITCHBOT
 	#include "switchbot_manager.h"
 #endif
