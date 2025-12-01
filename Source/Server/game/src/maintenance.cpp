@@ -3,6 +3,7 @@
 #include "../../common/VnumHelper.h"
 
 #include <string>
+#include <memory>
 
 #include "constants.h"
 #include "desc.h"
