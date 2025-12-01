@@ -1,5 +1,6 @@
 #include "stdafx.h"
 #include <sstream>
+#include <memory>
 
 #include "../../common/length.h"
 #include "../../common/service.h"
