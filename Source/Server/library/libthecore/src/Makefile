@@ -6,15 +6,16 @@
 UNAME_S := $(shell uname -s)
 
 # Compiler selection based on platform
+# Use C compiler (clang) for .c files, not C++ compiler
 ifeq ($(UNAME_S),Linux)
-    CC = clang++-14
-    # Fallback to clang++ if clang++-14 not found
-    ifeq ($(shell which clang++-14 2>/dev/null),)
-        CC = clang++
+    CC = clang-14
+    # Fallback to clang if clang-14 not found
+    ifeq ($(shell which clang-14 2>/dev/null),)
+        CC = clang
     endif
 else
     # FreeBSD
-    CC = clang++-devel
+    CC = clang-devel
 endif
 
 BIN_DIR = ../lib
@@ -27,7 +28,8 @@ ifeq ($(UNAME_S),Linux)
 else
     CFLAGS  = -m32 -Wall -w -O2 -pipe -g -I$(INCLUDE)
 endif
-CFLAGS += -std=c++2a
+# Use C standard, not C++
+CFLAGS += -std=c11
 
 # Platform-specific flags
 ifeq ($(UNAME_S),Linux)
