@@ -7,6 +7,13 @@
 #define __LIBTHECORE__
 #include "stdafx.h"
 
+// Ensure signal definitions are available on Linux
+#if defined(__linux__)
+#include <signal.h>
+#include <sys/wait.h>
+#include <sys/time.h>
+#endif
+
 #ifdef __WIN32__
 void signal_setup() {}
 void signal_timer_disable() {}
