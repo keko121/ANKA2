@@ -85,7 +85,12 @@ endif
 # DevIL Grafik Kutuphanesi
 INCDIR += -I../../library/libdevil
 LIBDIR += -L../../library/libdevil
-LIBS += -lIL -lpng -ltiff -lmng -llcms -ljpeg
+ifeq ($(UNAME_S),Linux)
+    # Linux: mng and lcms may not be available, use minimal DevIL libs
+    LIBS += -lIL -lpng -ljpeg
+else
+    LIBS += -lIL -lpng -ltiff -lmng -llcms -ljpeg
+endif
 
 # MySQL Veritabani
 ifeq ($(UNAME_S),Linux)
