@@ -1,4 +1,6 @@
 #include "stdafx.h"
+#include <memory>
+#include <algorithm>
 #include "utils.h"
 #include "config.h"
 #include "char.h"
@@ -1318,7 +1320,7 @@ void CGuild::SkillLevelUp(DWORD dwVnum)
 	SaveSkill();
 	SendDBSkillUpdate();
 
-    for_each(m_memberOnline.begin(), m_memberOnline.end(), [this](LPCHARACTER ch) { SendSkillInfoPacket(ch);  });
+    std::for_each(m_memberOnline.begin(), m_memberOnline.end(), [this](LPCHARACTER ch) { SendSkillInfoPacket(ch);  });
 
 	sys_log(0, "Guild SkillUp: %s %d level %d type %u", GetName(), pkSk->dwVnum, m_data.abySkill[dwRealVnum], pkSk->dwType);
 }
@@ -1513,7 +1515,7 @@ void CGuild::GuildPointChange(BYTE type, int amount, bool save)
 				SaveSkill();
 			}
 
-            for_each(m_memberOnline.begin(), m_memberOnline.end(), [this](LPCHARACTER ch) { SendSkillInfoPacket(ch); });
+            std::for_each(m_memberOnline.begin(), m_memberOnline.end(), [this](LPCHARACTER ch) { SendSkillInfoPacket(ch); });
 			break;
 
 		case POINT_EXP:
@@ -1544,7 +1546,7 @@ void CGuild::GuildPointChange(BYTE type, int amount, bool save)
 							ChangeLadderPoint(GUILD_LADDER_POINT_PER_LEVEL);
 
 						// NOTIFY_GUILD_EXP_CHANGE
-                        for_each(m_memberOnline.begin(), m_memberOnline.end(), [this](LPCHARACTER ch) { SendGuildInfoPacket(ch); });
+                        std::for_each(m_memberOnline.begin(), m_memberOnline.end(), [this](LPCHARACTER ch) { SendGuildInfoPacket(ch); });
 						// END_OF_NOTIFY_GUILD_EXP_CHANGE
 					}
 
@@ -2006,7 +2008,7 @@ void CGuild::Invite( LPCHARACTER pchInviter, LPCHARACTER pchInvitee )
 #ifdef ENABLE_BOT_PLAYER
 	if (pchInvitee && pchInvitee->IsBotCharacter())
 	{
-		pchInviter->ChatPacket(CHAT_TYPE_INFO, LC_TEXT("<±æµå> »ó´ë¹æÀÌ ±æµå ÃÊ´ë °ÅºÎ »óÅÂÀÔ´Ï´Ù."));
+		pchInviter->ChatPacket(CHAT_TYPE_INFO, LC_TEXT("<ï¿½ï¿½ï¿½> ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Ê´ï¿½ ï¿½Åºï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½."));
 		return;
 	}
 #endif

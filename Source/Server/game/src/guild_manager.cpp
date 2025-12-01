@@ -1,4 +1,5 @@
 #include "stdafx.h"
+#include <memory>
 
 #include "../../common/service.h"
 
