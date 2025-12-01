@@ -46,9 +46,12 @@ int thecore_init(int fps, HEARTFUNC heartbeat_func)
 {
 #ifdef __WIN32__
 	srand(time(0));
-#else
+#elif defined(__FreeBSD__)
 	srandom(time(0) + getpid() + getuid());
 	srandomdev();
+#else
+	// Linux - srandomdev() doesn't exist
+	srandom(time(0) + getpid() + getuid());
 #endif
 	signal_setup();
 
