@@ -7,6 +7,7 @@
 #include "desc.h"
 #include "guild_manager.h"
 #include "marriage.h"
+#include <memory>
 
 int CHARACTER::ChangeEmpire(BYTE empire)
 {
