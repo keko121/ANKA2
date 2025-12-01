@@ -1,8 +1,8 @@
 /*
  *    Filename: signal.c
- * Description: ½Ã±×³Î °ü·Ã ÇÔ¼ö.
+ * Description: ï¿½Ã±×³ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ô¼ï¿½.
  *
- *      Author: ºñ¿± aka. Cronan
+ *      Author: ï¿½ï¿½ aka. Cronan
  */
 #define __LIBTHECORE__
 #include "stdafx.h"
@@ -11,7 +11,7 @@
 void signal_setup() {}
 void signal_timer_disable() {}
 void signal_timer_enable(int timeout_seconds) {}
-#elif __FreeBSD__
+#elif defined(__FreeBSD__) || defined(__linux__)
 #define RETSIGTYPE void
 
 RETSIGTYPE reap(int sig)
