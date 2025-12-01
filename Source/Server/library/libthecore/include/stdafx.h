@@ -121,7 +121,7 @@ inline double rint(double x)
 #include <netdb.h>
 #include <sys/socket.h>
 
-#include <sys/signal.h>
+#include <signal.h>
 #include <sys/wait.h>
 
 #include <pthread.h>
