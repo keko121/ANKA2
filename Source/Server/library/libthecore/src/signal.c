@@ -1,19 +1,17 @@
 /*
  *    Filename: signal.c
- * Description: �ñ׳� ���� �Լ�.
+ * Description: Signal handling functions
  *
- *      Author: �� aka. Cronan
+ *      Author: Cronan
  */
 
-// Ensure signal definitions are available on Unix-like systems
-#ifndef _WIN32
-#ifndef __WIN32__
+// Include signal headers unconditionally for Unix builds
+// These are needed for SIGCHLD, SIGPIPE, SIGTERM, etc.
 #include <signal.h>
 #include <sys/wait.h>
 #include <sys/time.h>
 #include <unistd.h>
-#endif
-#endif
+#include <stdlib.h>
 
 #define __LIBTHECORE__
 #include "stdafx.h"
