@@ -21,7 +21,12 @@ BIN_DIR = ../lib
 BIN     = $(BIN_DIR)/libthecore.a
 INCLUDE = ../include
 
-CFLAGS  = -m32 -Wall -w -O2 -pipe -g -I$(INCLUDE)
+# Linux: 64-bit, FreeBSD: 32-bit
+ifeq ($(UNAME_S),Linux)
+    CFLAGS  = -Wall -w -O2 -pipe -g -I$(INCLUDE)
+else
+    CFLAGS  = -m32 -Wall -w -O2 -pipe -g -I$(INCLUDE)
+endif
 CFLAGS += -std=c++2a
 
 # Platform-specific flags

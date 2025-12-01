@@ -45,7 +45,13 @@ DEPFILE = Depend
 endif
 
 # >> DERLEYICI BAYRAKLARI <<
-CFLAGS = -m32 -g -w -Ofast -pipe -fno-rtti -fno-exceptions -std=c++2a -static-libstdc++ -Wno-long-long -pthread -D_THREAD_SAFE
+# Linux: 64-bit derleme (Ubuntu 22.04 uyumu)
+# FreeBSD: 32-bit derleme (mevcut uyumluluk)
+ifeq ($(UNAME_S),Linux)
+    CFLAGS = -g -w -Ofast -pipe -fno-rtti -fno-exceptions -std=c++2a -static-libstdc++ -Wno-long-long -pthread -D_THREAD_SAFE
+else
+    CFLAGS = -m32 -g -w -Ofast -pipe -fno-rtti -fno-exceptions -std=c++2a -static-libstdc++ -Wno-long-long -pthread -D_THREAD_SAFE
+endif
 
 # >> PLATFORM OZELLIKLERI <<
 ifeq ($(UNAME_S),Linux)
@@ -64,7 +70,7 @@ LIBS += -lssl -lcrypto
 # MySQL Veritabani
 ifeq ($(UNAME_S),Linux)
     INCDIR += -I/usr/include/mysql -I/usr/include/mariadb
-    LIBDIR += -L/usr/lib/i386-linux-gnu -L/usr/lib32
+    LIBDIR += -L/usr/lib/x86_64-linux-gnu
     LIBS += -lmysqlclient -lz
 else
     INCDIR += -I/usr/local/include/mysql

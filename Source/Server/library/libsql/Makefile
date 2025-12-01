@@ -24,7 +24,12 @@ else
     IFLAGS = -I/usr/local/include/ -I/usr/local/include/mysql
 endif
 
-CFLAGS = $(IFLAGS) -m32 -Wall -w -O2 -pipe -D_THREAD_SAFE -fno-exceptions
+# Linux: 64-bit, FreeBSD: 32-bit
+ifeq ($(UNAME_S),Linux)
+    CFLAGS = $(IFLAGS) -Wall -w -O2 -pipe -D_THREAD_SAFE -fno-exceptions
+else
+    CFLAGS = $(IFLAGS) -m32 -Wall -w -O2 -pipe -D_THREAD_SAFE -fno-exceptions
+endif
 CFLAGS += -std=c++2a
 
 # Platform flag

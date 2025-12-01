@@ -18,7 +18,12 @@ endif
 BIN_DIR = ../lib
 BIN = $(BIN_DIR)/libgame.a
 
-CFLAGS = -m32 -Wall -w -O2 -pipe -fno-exceptions -I../include
+# Linux: 64-bit, FreeBSD: 32-bit
+ifeq ($(UNAME_S),Linux)
+    CFLAGS = -Wall -w -O2 -pipe -fno-exceptions -I../include
+else
+    CFLAGS = -m32 -Wall -w -O2 -pipe -fno-exceptions -I../include
+endif
 CFLAGS += -std=c++2a
 
 # Platform flag

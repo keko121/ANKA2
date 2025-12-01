@@ -52,7 +52,13 @@ else
 endif
 
 # >> DERLEYICI BAYRAKLARI <<
-CFLAGS = -m32 -g -w -Ofast -pipe -fexceptions -Wno-enum-constexpr-conversion -std=c++2a -static-libstdc++ -pthread -D_THREAD_SAFE -DNDEBUG
+# Linux: 64-bit derleme (Ubuntu 22.04 uyumu)
+# FreeBSD: 32-bit derleme (mevcut uyumluluk)
+ifeq ($(UNAME_S),Linux)
+    CFLAGS = -g -w -Ofast -pipe -fexceptions -Wno-enum-constexpr-conversion -std=c++2a -static-libstdc++ -pthread -D_THREAD_SAFE -DNDEBUG
+else
+    CFLAGS = -m32 -g -w -Ofast -pipe -fexceptions -Wno-enum-constexpr-conversion -std=c++2a -static-libstdc++ -pthread -D_THREAD_SAFE -DNDEBUG
+endif
 
 # >> PLATFORM OZELLIKLERI <<
 ifeq ($(UNAME_S),Linux)
@@ -84,7 +90,7 @@ LIBS += -lIL -lpng -ltiff -lmng -llcms -ljpeg
 # MySQL Veritabani
 ifeq ($(UNAME_S),Linux)
     INCDIR += -I/usr/include/mysql -I/usr/include/mariadb
-    LIBDIR += -L/usr/lib/i386-linux-gnu -L/usr/lib32
+    LIBDIR += -L/usr/lib/x86_64-linux-gnu
     LIBS += -lmysqlclient -lz
 else
     INCDIR += -I/usr/local/include/mysql
@@ -94,9 +100,9 @@ endif
 # >> PROJE KUTUPHANELERI <<
 ifeq ($(UNAME_S),Linux)
     INCDIR += -I/usr/include
-    LIBDIR += -L/usr/lib/i386-linux-gnu -L/usr/lib32
+    LIBDIR += -L/usr/lib/x86_64-linux-gnu
 else
-    INCDIR += -I/usr/local/include
+    INCDIR += -I/usr/include
     LIBDIR += -L/usr/local/lib
 endif
 

@@ -40,17 +40,7 @@ apt-get install -y \
     wget \
     curl
 
-echo -e "${YELLOW}[3/5]${NC} 32-bit destek paketleri kuruluyor..."
-dpkg --add-architecture i386
-apt-get update -qq
-apt-get install -y \
-    gcc-multilib \
-    g++-multilib \
-    lib32gcc-s1 \
-    lib32stdc++6 \
-    libc6-dev-i386
-
-echo -e "${YELLOW}[4/5]${NC} Kütüphaneler kuruluyor..."
+echo -e "${YELLOW}[3/5]${NC} Kütüphaneler kuruluyor..."
 apt-get install -y \
     libmysqlclient-dev \
     libssl-dev \
@@ -63,44 +53,7 @@ apt-get install -y \
     libpng-dev \
     libtiff-dev
 
-# 32-bit kütüphaneler - Tüm gerekli paketler
-echo -e "${YELLOW}[4.5/5]${NC} 32-bit kütüphaneler kuruluyor..."
-apt-get install -y \
-    libssl-dev:i386 \
-    libssl3:i386 \
-    zlib1g-dev:i386 \
-    zlib1g:i386 \
-    libmariadb-dev:i386 \
-    libmariadb-dev-compat:i386 \
-    libmariadb3:i386 \
-    2>/dev/null || echo -e "${YELLOW}[UYARI]${NC} Bazı 32-bit paketler kurulamadı"
-
-# 32-bit MySQL/MariaDB sembolik linkler
-echo "  Creating 32-bit library symlinks..."
-mkdir -p /usr/lib/i386-linux-gnu
-
-# MariaDB -> MySQL symlink
-if [ -f /usr/lib/i386-linux-gnu/libmariadb.so.3 ]; then
-    ln -sf /usr/lib/i386-linux-gnu/libmariadb.so.3 /usr/lib/i386-linux-gnu/libmysqlclient.so 2>/dev/null || true
-    echo "  Created libmysqlclient.so -> libmariadb.so.3"
-fi
-
-# SSL symlinks (if needed)
-if [ -f /usr/lib/i386-linux-gnu/libssl.so.3 ]; then
-    ln -sf /usr/lib/i386-linux-gnu/libssl.so.3 /usr/lib/i386-linux-gnu/libssl.so 2>/dev/null || true
-    echo "  Created libssl.so symlink"
-fi
-
-if [ -f /usr/lib/i386-linux-gnu/libcrypto.so.3 ]; then
-    ln -sf /usr/lib/i386-linux-gnu/libcrypto.so.3 /usr/lib/i386-linux-gnu/libcrypto.so 2>/dev/null || true
-    echo "  Created libcrypto.so symlink"
-fi
-
-# List available 32-bit libraries
-echo "  32-bit libraries available:"
-ls -la /usr/lib/i386-linux-gnu/lib{ssl,crypto,mariadb,z}* 2>/dev/null || echo "  (none found)"
-
-echo -e "${YELLOW}[5/5]${NC} Sembolik linkler oluşturuluyor..."
+echo -e "${YELLOW}[4/5]${NC} Sembolik linkler oluşturuluyor..."
 # clang++ için sembolik link
 if [ ! -f /usr/bin/clang++-devel ]; then
     ln -sf /usr/bin/clang++-14 /usr/bin/clang++-devel
@@ -118,12 +71,12 @@ echo "==============================================${NC}"
 echo ""
 echo "Kurulu paketler:"
 echo "  - clang++-14 (clang++-devel olarak linkli)"
-echo "  - MySQL client library"
-echo "  - OpenSSL"
+echo "  - MySQL client library (64-bit)"
+echo "  - OpenSSL (64-bit)"
 echo "  - Crypto++"
 echo "  - DevIL"
 echo "  - LZO2"
 echo "  - Boost"
-echo "  - 32-bit destek"
 echo ""
+echo "NOT: Ubuntu'da 64-bit derleme yapılmaktadır."
 echo "Derleme için: cd Source/Server/game/src && make"

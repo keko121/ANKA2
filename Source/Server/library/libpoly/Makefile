@@ -17,7 +17,12 @@ endif
 
 BIN = ./libpoly.a
 
-CFLAGS = -m32 -Wall -w -O2 -pipe -fno-exceptions -fno-rtti
+# Linux: 64-bit, FreeBSD: 32-bit
+ifeq ($(UNAME_S),Linux)
+    CFLAGS = -Wall -w -O2 -pipe -fno-exceptions -fno-rtti
+else
+    CFLAGS = -m32 -Wall -w -O2 -pipe -fno-exceptions -fno-rtti
+endif
 CFLAGS += -std=c++2a
 
 # Platform flag
