@@ -10,13 +10,48 @@
 #define _GNU_SOURCE
 #endif
 
-// Include signal headers unconditionally for Unix builds
-// These are needed for SIGCHLD, SIGPIPE, SIGTERM, etc.
+// For C++ compilation, use csignal
+#ifdef __cplusplus
+#include <csignal>
+#include <cstdlib>
+using std::signal;
+#else
 #include <signal.h>
+#include <stdlib.h>
+#endif
+
 #include <sys/wait.h>
 #include <sys/time.h>
 #include <unistd.h>
-#include <stdlib.h>
+
+// Define signal constants if not defined (Linux C++ compatibility)
+#ifndef SIGCHLD
+#define SIGCHLD 17
+#endif
+#ifndef SIGHUP
+#define SIGHUP 1
+#endif
+#ifndef SIGINT
+#define SIGINT 2
+#endif
+#ifndef SIGTERM
+#define SIGTERM 15
+#endif
+#ifndef SIGPIPE
+#define SIGPIPE 13
+#endif
+#ifndef SIGALRM
+#define SIGALRM 14
+#endif
+#ifndef SIGUSR1
+#define SIGUSR1 10
+#endif
+#ifndef SIGVTALRM
+#define SIGVTALRM 26
+#endif
+#ifndef SIG_IGN
+#define SIG_IGN ((void(*)(int))1)
+#endif
 
 #define __LIBTHECORE__
 #include "stdafx.h"
