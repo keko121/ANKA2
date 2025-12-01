@@ -6,6 +6,7 @@
 #include "guild.h"
 #include "db.h"
 #include "building.h"
+#include <memory>
 
 namespace quest
 {
