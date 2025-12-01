@@ -1,4 +1,5 @@
 #include "stdafx.h"
+#include <memory>
 #include "constants.h"
 #include "config.h"
 #include "utils.h"
@@ -380,7 +381,7 @@ void CInputLogin::CharacterCreate(LPDESC d, const char * data)
 		return;
 	}
 
-	// Ýsim kullanýlamazsa veya yanlýþ gündelik giyim ise, yaratým baþarýsýz olur.
+	// ï¿½sim kullanï¿½lamazsa veya yanlï¿½ï¿½ gï¿½ndelik giyim ise, yaratï¿½m baï¿½arï¿½sï¿½z olur.
 	if (!check_name(pinfo->name) || pinfo->shape > 1)
 	{
 		d->Packet(&packFailure, sizeof(packFailure));

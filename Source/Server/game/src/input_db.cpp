@@ -2400,7 +2400,7 @@ int CInputDB::Analyze(LPDESC d, BYTE bHeader, const char * c_pData)
 
 #ifdef ENABLE_EVENT_MANAGER
 		case HEADER_DG_UPDATE_EVENT_STATUS:
-			CEventManager::Instance().UpdateEventStatus((DWORD)c_pData);
+			CEventManager::Instance().UpdateEventStatus((uintptr_t)c_pData);
 
 		case HEADER_DG_EVENT_NOTIFICATION:
 			EventNotification(c_pData);

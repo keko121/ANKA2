@@ -7,10 +7,14 @@
 
 // Linux compatibility: strlcpy is BSD-specific
 #if defined(__linux__) && !defined(strlcpy)
-#define strlcpy(dst, src, size) do { \
-    strncpy(dst, src, (size) - 1); \
-    (dst)[(size) - 1] = '\0'; \
-} while(0)
+inline size_t strlcpy(char *dst, const char *src, size_t size) {
+    if (size == 0) return strlen(src);
+    size_t srclen = strlen(src);
+    size_t copylen = (srclen >= size) ? size - 1 : srclen;
+    memcpy(dst, src, copylen);
+    dst[copylen] = '\0';
+    return srclen;
+}
 #endif
 
 typedef DWORD IDENT;
