@@ -137,14 +137,17 @@ inline double rint(double x)
 
 #endif
 
+// C++ has built-in bool, true, false - only define for pure C
+#ifndef __cplusplus
 #ifndef false
 #define false	0
 #define true	(!false)
 #endif
+#endif
 
 #ifndef FALSE
-#define FALSE	false
-#define TRUE	(!FALSE)
+#define FALSE	0
+#define TRUE	1
 #endif
 
 #include "typedef.h"
