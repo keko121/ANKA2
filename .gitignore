@@ -27,6 +27,8 @@
 *.lib
 # Exception: FoxFS_Src library files (tracked with Git LFS)
 !FoxFS_Src/**/*.lib
+# Exception: DirectX and extern library files needed for client build
+!Source/Binary/extern/library/*.lib
 
 # Executables
 *.exe
