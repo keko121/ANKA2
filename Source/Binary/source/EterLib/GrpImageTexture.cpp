@@ -44,7 +44,7 @@ bool CGraphicImageTexture::CreateDeviceObjects()
 
 	if (m_stFileName.empty())
 	{
-		// ÆùÆ® ÅØ½ºÃÄ
+		// ï¿½ï¿½Æ® ï¿½Ø½ï¿½ï¿½ï¿½
 		if (FAILED(ms_lpd3dDevice->CreateTexture(m_width, m_height, 1, 0, m_d3dFmt, D3DPOOL_MANAGED, &m_lpd3dTexture)))
 			return false;
 	}
@@ -102,7 +102,7 @@ bool CGraphicImageTexture::CreateDDSTexture(CDXTCImage & image, const BYTE * /*c
 
 	D3DFORMAT format;
 	LPDIRECT3DTEXTURE8 lpd3dTexture;
-	D3DPOOL pool = ms_bSupportDXT ? D3DPOOL_MANAGED : D3DPOOL_SCRATCH;;
+	D3DPOOL pool = ms_bSupportDXT ? D3DPOOL_MANAGED : D3DPOOL_SYSTEMMEM; // D3DPOOL_SCRATCH not available in D3D8
 
 	if(image.m_CompFormat == PF_DXT5)
 		format = D3DFMT_DXT5;
@@ -214,7 +214,7 @@ bool CGraphicImageTexture::CreateFromMemoryFile(UINT bufSize, const void * c_pvB
 
 	static CDXTCImage image;
 
-	if (image.LoadHeaderFromMemory((const BYTE *) c_pvBuf))	// DDSÀÎ°¡ È®ÀÎ
+	if (image.LoadHeaderFromMemory((const BYTE *) c_pvBuf))	// DDSï¿½Î°ï¿½ È®ï¿½ï¿½
 	{
 		return (CreateDDSTexture(image, (const BYTE *) c_pvBuf));
 	}

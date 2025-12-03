@@ -203,7 +203,7 @@ bool CPythonGraphic::SaveScreenShot(const char *c_pszFileName)
 	case D3DFMT_R3G3B2 :
 	case D3DFMT_A8R3G3B2 :
 	case D3DFMT_X4R4G4B4 :
-	case D3DFMT_A2B10G10R10 :
+	//case D3DFMT_A2B10G10R10 : // Not available in DirectX 8
 		TraceError("Unsupported BackBuffer Format(%d). Please contact Metin 2 Administrator.", stSurfaceDesc.Format);
 		SAFE_RELEASE(lpSurface);
 		return false;
