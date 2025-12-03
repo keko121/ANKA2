@@ -30,10 +30,11 @@
 
 #endif
 
-#if defined(_DEBUG) || defined(DEBUG)
-	#pragma comment(lib,"libjpeg-9e_d.lib")
-#else
-	#pragma comment(lib,"libjpeg-9e.lib")
-#endif
+// libjpeg is already included in d3dx8.lib, so we don't need to link it separately
+// #if defined(_DEBUG) || defined(DEBUG)
+// 	#pragma comment(lib,"libjpeg-9e_d.lib")
+// #else
+// 	#pragma comment(lib,"libjpeg-9e.lib")
+// #endif
 
 #endif /* !_JPEGLIBLINK_H_ */
